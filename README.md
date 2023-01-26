@@ -1,1 +1,1 @@
-# ehs_capstone_nycdoh
+# EHS Capstone Spring 2023
