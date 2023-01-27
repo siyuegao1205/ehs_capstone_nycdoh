@@ -86,7 +86,8 @@ df = df %>%
   slice(-c(1:2)) %>% 
   mutate(
     client_sample_id = str_sub(client_sample_id, start = 3)
-  )
+  ) %>% 
+  select(street_address, everything())
 ```
 
 **Problems:**
@@ -141,7 +142,8 @@ phoenix = function(x){
         slice(-c(1:2)) %>% 
         mutate(
           client_sample_id = str_sub(client_sample_id, start = 3)
-          )
+          ) %>% 
+        select(street_address, everything())
         
     }
     
