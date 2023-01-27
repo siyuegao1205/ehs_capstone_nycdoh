@@ -1,0 +1,44 @@
+---
+title: "Phoenix Format Lab Report"
+author: "Siyue Gao"
+output: github_document
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE,
+                      message = FALSE)
+```
+
+
+```{r}
+library(rJava)
+library(tabulizer)
+library(tidyverse)
+```
+
+
+```{r}
+phoenix = extract_tables(
+    file   = "data/2019-01-17.19TMP0033K.RIR Phase II Report.Revised 19TMP0033K.RIR Phase II Report - EBC V2.pdf.1.pdf", 
+    method = "decide", 
+    output = "data.frame")
+
+p = phoenix[[210]]
+```
+
+Tried to read the whole pdf in - the results seemed to be too chaotic for any further extracting and cleaning.
+
+
+```{r}
+soil_vapor = extract_tables(
+    file   = "data/Soil_Vapor_Table.pdf", 
+    method = "decide", 
+    output = "data.frame")
+
+title = soil_vapor[[1]]
+continue = soil_vapor[[2]]
+```
+
+If we manually split the pdf before reading in, the results seemed to be more promising.
+
