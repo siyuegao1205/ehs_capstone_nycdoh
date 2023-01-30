@@ -30,7 +30,7 @@ more promising.
 
 There are two types of tables (with/without text on top).
 
-## First type - With Text on Top
+## First Type - With Text on Top
 
 ``` r
 df = soil_vapor[[1]] %>%
@@ -87,7 +87,12 @@ df = df %>%
   mutate(
     client_sample_id = str_sub(client_sample_id, start = 3)
   ) %>% 
-  select(street_address, everything())
+  select(street_address, client_sample_id, everything()) %>% 
+  separate(street_address, into = c("street_address", "borough"), sep = ", ") %>% 
+  rename(
+    by = na_by,
+    dilution = na_dilution
+  )
 ```
 
 **Problems:**
@@ -96,7 +101,51 @@ df = df %>%
 2.  Some col names need to be fixed.
 3.  If we want to pivot_wider…
 
-## Second type - Without Text on Top
+## Second Type - Without Text on Top
+
+``` r
+df_body = soil_vapor[[2]] %>%
+  as_tibble() %>% 
+  select(-X.4)
+
+df_body = setNames(rbind(names(df_body), df_body), names(df_body))
+
+df_body[1,c(2:10)] <- as.list(paste(df_body[1,c(2:10)], df_body[2,c(2:10)]))
+df_body[-2,]
+```
+
+    ## # A tibble: 43 × 10
+    ##    X                   ppbv  ppbv.1 LOD.  ug.m3 ug.m3.1 LOD..1 X.1   X.2   X.3  
+    ##    <chr>               <chr> <chr>  <chr> <chr> <chr>   <chr>  <chr> <chr> <chr>
+    ##  1 X                   ppbv… ppbv.… LOD.… ug.m… ug.m3.… LOD..… X.1 … X.2 … X.3 …
+    ##  2 Bromodichlorometha… ND    0.149  0.149 ND    1.00    1.00   11/0… KCA   1    
+    ##  3 Bromoform           ND    0.097  0.097 ND    1.00    1.00   11/0… KCA   1    
+    ##  4 Bromomethane        ND    0.258  0.258 ND    1.00    1.00   11/0… KCA   1    
+    ##  5 Carbon Disulfide    0.492 0.321  0.321 1.53  1.00    1.00   11/0… KCA   1    
+    ##  6 Carbon Tetrachlori… 0.038 0.032  0.032 0.24  0.20    0.20   11/0… KCA   1    
+    ##  7 Chlorobenzene       ND    0.217  0.217 ND    1.00    1.00   11/0… KCA   1    
+    ##  8 Chloroethane        ND    0.379  0.379 ND    1.00    1.00   11/0… KCA   1    
+    ##  9 Chloroform          9.99  0.205  0.205 48.7  1.00    1.00   11/0… KCA   1    
+    ## 10 Chloromethane       ND    0.485  0.485 ND    1.00    1.00   11/0… KCA   1    
+    ## # … with 33 more rows
+
+``` r
+df_body = df_body %>% 
+  mutate(
+    X = str_replace(X, "X", "chemical"),
+    ppbv.1 = str_replace(ppbv.1, ".1", ""),
+    ug.m3.1 = str_replace(ug.m3.1, ".1", ""),
+    LOD..1 = str_replace(LOD..1, ".1", ""),
+    X.1 = str_replace(X.1, "X.1 ", ""),
+    X.2 = str_replace(X.2, "X.2 ", ""),
+    X.3 = str_replace(X.3, "X.3 ", ""),
+  ) %>% 
+  slice(-2) %>% 
+  janitor::row_to_names(1) %>% 
+  janitor::clean_names()
+```
+
+## Binding the separated parts of reports together
 
 ## Function (Not Finished)
 
@@ -143,7 +192,8 @@ phoenix = function(x){
         mutate(
           client_sample_id = str_sub(client_sample_id, start = 3)
           ) %>% 
-        select(street_address, everything())
+        select(street_address, client_sample_id, everything()) %>% 
+        
         
     }
     

@@ -45,7 +45,7 @@ If we manually split the pdf before reading in, the results seemed to be more pr
 
 There are two types of tables (with/without text on top). 
 
-## First type - With Text on Top
+## First Type - With Text on Top
 
 ```{r}
 df = soil_vapor[[1]] %>%
@@ -84,7 +84,12 @@ df = df %>%
   mutate(
     client_sample_id = str_sub(client_sample_id, start = 3)
   ) %>% 
-  select(street_address, client_sample_id, everything())
+  select(street_address, client_sample_id, everything()) %>% 
+  separate(street_address, into = c("street_address", "borough"), sep = ", ") %>% 
+  rename(
+    by = na_by,
+    dilution = na_dilution
+  )
 ```
 
 **Problems:**    
@@ -94,7 +99,35 @@ df = df %>%
 3.    If we want to pivot_wider...
 
 
-## Second type - Without Text on Top
+## Second Type - Without Text on Top
+
+```{r}
+df_body = soil_vapor[[2]] %>%
+  as_tibble() %>% 
+  select(-X.4)
+
+df_body = setNames(rbind(names(df_body), df_body), names(df_body))
+
+df_body[1,c(2:10)] <- as.list(paste(df_body[1,c(2:10)], df_body[2,c(2:10)]))
+df_body[-2,]
+
+df_body = df_body %>% 
+  mutate(
+    X = str_replace(X, "X", "chemical"),
+    ppbv.1 = str_replace(ppbv.1, ".1", ""),
+    ug.m3.1 = str_replace(ug.m3.1, ".1", ""),
+    LOD..1 = str_replace(LOD..1, ".1", ""),
+    X.1 = str_replace(X.1, "X.1 ", ""),
+    X.2 = str_replace(X.2, "X.2 ", ""),
+    X.3 = str_replace(X.3, "X.3 ", ""),
+  ) %>% 
+  slice(-2) %>% 
+  janitor::row_to_names(1) %>% 
+  janitor::clean_names()
+```
+
+
+## Binding the separated parts of reports together
 
 ```{r}
 
@@ -146,7 +179,8 @@ phoenix = function(x){
         mutate(
           client_sample_id = str_sub(client_sample_id, start = 3)
           ) %>% 
-        select(street_address, client_sample_id, everything())
+        select(street_address, client_sample_id, everything()) %>% 
+        
         
     }
     
