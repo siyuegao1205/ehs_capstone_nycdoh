@@ -104,14 +104,14 @@ df = df %>%
 ## Second Type - Without Text on Top
 
 ``` r
-df_body = soil_vapor[[2]] %>%
+df_cont = soil_vapor[[2]] %>%
   as_tibble() %>% 
   select(-X.4)
 
-df_body = setNames(rbind(names(df_body), df_body), names(df_body))
+df_cont = setNames(rbind(names(df_cont), df_cont), names(df_cont))
 
-df_body[1,c(2:10)] <- as.list(paste(df_body[1,c(2:10)], df_body[2,c(2:10)]))
-df_body[-2,]
+df_cont[1,c(2:10)] <- as.list(paste(df_cont[1,c(2:10)], df_cont[2,c(2:10)]))
+df_cont[-2,]
 ```
 
     ## # A tibble: 43 × 10
@@ -130,7 +130,7 @@ df_body[-2,]
     ## # … with 33 more rows
 
 ``` r
-df_body = df_body %>% 
+df_cont = df_cont %>% 
   mutate(
     X = str_replace(X, "X", "chemical"),
     ppbv.1 = str_replace(ppbv.1, ".1", ""),
@@ -142,10 +142,40 @@ df_body = df_body %>%
   ) %>% 
   slice(-2) %>% 
   janitor::row_to_names(1) %>% 
-  janitor::clean_names()
+  janitor::clean_names() %>% 
+  mutate(
+    street_address = NA_character_,
+    borough = NA_character_,
+    client_sample_id = NA_character_
+  ) %>% 
+  select(street_address, borough, client_sample_id, everything())
 ```
 
 ## Binding the separated parts of reports together
+
+``` r
+df_full = rbind(df, df_cont)
+
+df_full = df_full %>% 
+  mutate(
+    street_address = ifelse(is.na(street_address), street_address[1], street_address),
+    borough = ifelse(is.na(borough), borough[1], borough),
+    client_sample_id = ifelse(is.na(client_sample_id), client_sample_id[1], client_sample_id)
+  )
+
+df_full %>% 
+  head() %>% 
+  knitr::kable()
+```
+
+| street_address        | borough  | client_sample_id | chemical                  | ppbv_result | ppbv_rl | lod_mdl | ug_m3_result | ug_m3_rl | lod_mdl_2 | date_time | by  | dilution |
+|:----------------------|:---------|:-----------------|:--------------------------|:------------|:--------|:--------|:-------------|:---------|:----------|:----------|:----|:---------|
+| 742-848 FLUSHING AVE. | BROOKLYN | SV2              | 1,1,1,2-Tetrachloroethane | ND          | 0.146   | 0.146   | ND           | 1.00     | 1.00      | 11/07/18  | KCA | 1        |
+| 742-848 FLUSHING AVE. | BROOKLYN | SV2              | 1,1,1-Trichloroethane     | ND          | 0.183   | 0.183   | ND           | 1.00     | 1.00      | 11/07/18  | KCA | 1        |
+| 742-848 FLUSHING AVE. | BROOKLYN | SV2              | 1,1,2,2-Tetrachloroethane | ND          | 0.146   | 0.146   | ND           | 1.00     | 1.00      | 11/07/18  | KCA | 1        |
+| 742-848 FLUSHING AVE. | BROOKLYN | SV2              | 1,1,2-Trichloroethane     | ND          | 0.183   | 0.183   | ND           | 1.00     | 1.00      | 11/07/18  | KCA | 1        |
+| 742-848 FLUSHING AVE. | BROOKLYN | SV2              | 1,1-Dichloroethane        | ND          | 0.247   | 0.247   | ND           | 1.00     | 1.00      | 11/07/18  | KCA | 1        |
+| 742-848 FLUSHING AVE. | BROOKLYN | SV2              | 1,1-Dichloroethene        | ND          | 0.051   | 0.051   | ND           | 0.20     | 0.20      | 11/07/18  | KCA | 1        |
 
 ## Function (Not Finished)
 
