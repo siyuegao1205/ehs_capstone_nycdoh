@@ -72,10 +72,10 @@ head(results)
 # Use splited pdf
 
 ```{r}
-
-f <- system.file("examples", "data.pdf", package = "tabulizer")
-out1 <- extract_tables(f)
-str(out1)
-
+# PDF Scrape Tables
+phoenix <- extract_tables(
+    file   = "data/Soil_Vapor_Table.pdf", 
+    method = "decide", 
+    output = "data.frame")
 ```
 

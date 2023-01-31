@@ -97,13 +97,9 @@ head(results)
 # Use splited pdf
 
 ``` r
-f <- system.file("examples", "data.pdf", package = "tabulizer")
-out1 <- extract_tables(f)
-str(out1)
+# PDF Scrape Tables
+phoenix <- extract_tables(
+    file   = "data/Soil_Vapor_Table.pdf", 
+    method = "decide", 
+    output = "data.frame")
 ```
-
-    ## List of 4
-    ##  $ : chr [1:32, 1:10] "mpg" "21.0" "21.0" "22.8" ...
-    ##  $ : chr [1:7, 1:5] "Sepal.Length" "5.1" "4.9" "4.7" ...
-    ##  $ : chr [1:7, 1:6] "" "145" "146" "147" ...
-    ##  $ : chr [1:15, 1] "supp" "VC" "VC" "VC" ...
