@@ -1,0 +1,48 @@
+---
+title: "Phoenix_Sissi"
+output: github_document
+date: "2023-1-31"
+
+---
+
+install new package
+```{r}
+install.packages("tabulizer")
+if (!require("remotes")) {
+    install.packages("remotes")
+}
+# on 64-bit Windows
+remotes::install_github(c("ropensci/tabulizerjars", "ropensci/tabulizer"), INSTALL_opts = "--no-multiarch")
+# elsewhere
+remotes::install_github(c("ropensci/tabulizerjars", "ropensci/tabulizer"))
+
+
+```
+load library
+```{r}
+
+
+library(tidyverse)
+library(rJava)
+library(tabulizer)
+
+
+knitr::opts_chunk$set(
+	echo = TRUE,
+	warning = FALSE,
+  fig.width = 6,
+  fig.asp = .6,
+  out.width = "90%"
+)
+
+```
+
+
+```{r}
+
+f <- system.file("examples", "data.pdf", package = "tabulizer")
+out1 <- extract_tables(f)
+str(out1)
+
+```
+
