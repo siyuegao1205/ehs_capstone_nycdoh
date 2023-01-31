@@ -177,6 +177,15 @@ df_full %>%
 | 742-848 FLUSHING AVE. | BROOKLYN | SV2              | 1,1-Dichloroethane        | ND          | 0.247   | 0.247   | ND           | 1.00     | 1.00      | 11/07/18  | KCA | 1        |
 | 742-848 FLUSHING AVE. | BROOKLYN | SV2              | 1,1-Dichloroethene        | ND          | 0.051   | 0.051   | ND           | 0.20     | 0.20      | 11/07/18  | KCA | 1        |
 
+Some mistakes induced during extracting process were inspected, probably
+due to the italic in the original source - need to check!
+
+**Things need to figure out:**  
+1. How to iterate on downloading and slicing the pdfs … and also for
+different samples  
+2. Other information related to the site, such as project ID, collection
+date, is still hard to extract
+
 ## Function (Not Finished)
 
 ``` r

@@ -150,6 +150,12 @@ df_full %>%
   knitr::kable()
 ```
 
+Some mistakes induced during extracting process were inspected, probably due to the italic in the original source - need to check!
+
+**Things need to figure out:**    
+1.    How to iterate on downloading and slicing the pdfs ... and also for different samples   
+2.    Other information related to the site, such as project ID, collection date, is still hard to extract
+
 
 ## Function (Not Finished)
 
