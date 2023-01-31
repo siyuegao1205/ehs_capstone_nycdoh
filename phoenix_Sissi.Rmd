@@ -7,25 +7,25 @@ date: "2023-1-31"
 
 install new package
 ```{r}
-install.packages("tabulizer")
-if (!require("remotes")) {
-    install.packages("remotes")
-}
+#install.packages("tabulizer")
+#if (!require("remotes")) {
+#    install.packages("remotes")}
 # on 64-bit Windows
-remotes::install_github(c("ropensci/tabulizerjars", "ropensci/tabulizer"), INSTALL_opts = "--no-multiarch")
+#remotes::install_github(c("ropensci/tabulizerjars", "ropensci/tabulizer"), INSTALL_opts = "--no-multiarch")
 # elsewhere
-remotes::install_github(c("ropensci/tabulizerjars", "ropensci/tabulizer"))
+#remotes::install_github(c("ropensci/tabulizerjars", "ropensci/tabulizer"))
 
-
+#install.packages("pdftools")
 ```
 load library
 ```{r}
 
 
-library(tidyverse)
-library(rJava)
-library(tabulizer)
-
+library(rJava)      # Needed for tabulizer
+library(tabulizer)  # Handy tool for PDF Scraping
+library(tidyverse)  # Core data manipulation and visualization libraries
+library(pdftools)
+library(stringr)
 
 knitr::opts_chunk$set(
 	echo = TRUE,
@@ -36,7 +36,40 @@ knitr::opts_chunk$set(
 )
 
 ```
+# Try to use the whole pdf --> failed
 
+## Download pdf and load file
+```{r}
+url <- c("https://a002-epic.nyc.gov/api/files/6dd90109-dc57-e911-8161-005056b05749/download")
+raw_text <- map(url, pdf_text)
+```
+
+## function to scrape data and clean
+```{r}
+clean_table1 <- function(raw) {
+
+  # split the single pages
+  raw <- map(raw, ~ str_split(.x, "\\n") %>% 
+    unlist())
+  # Concatenate the split pages
+  raw <- reduce(raw, c)
+  
+  #specify the start and end of the table data
+  table_start <- stringr::str_which(tolower(raw), "parameter")
+  table_end <- stringr::str_which(tolower(raw), "% bromofluorobenzene")
+  table_end <- table_end[min(which(table_end > table_start))]
+  
+  #Build the table and remove special characters
+  table <- raw[(table_start):(table_end)]
+  text_con <- textConnection(table)
+  data_table <- read.csv(text_con, sep = "|")
+}
+
+results <- map_df(raw_text, clean_table1)
+head(results)
+```
+
+# Use splited pdf
 
 ```{r}
 
