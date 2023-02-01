@@ -1,0 +1,19 @@
+---
+title: "phoenix_test_ltc"
+output: github_document
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.width = 6,
+  fig.asp = .6,
+  out.width = "90%"
+)
+
+library(rJava)
+library(tabulizer)
+library(tidyverse)
+```
+
+
