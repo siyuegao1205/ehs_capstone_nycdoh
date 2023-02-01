@@ -52,7 +52,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Try to use the whole pdf –\> failed
+# Try scrape from the webpage and `pdftools` package –\> failed
 
 ## Download pdf and load file
 
@@ -95,7 +95,7 @@ head(results)
     ## 5 EBC                                                       1808 Middle Country Road       Phone 631.504.6000
     ## 6 Environmental Business Consultants                 13     Ridge, NY 11961                Fax   631.924.2870
 
-# Use tabulizer package
+# Use Download pdf file and `tabulizer` package
 
 ## Scrape whole dataset from 5 tables
 
@@ -194,4 +194,53 @@ sv_table_4 <- rbind(df4a, df4b)
 sv_table_5 <- rbind(df5a, df5b)
 ```
 
-## Add more information
+## Add street address, borough and client ID
+
+``` r
+#Extracting data from page 1185,188,191,194,197
+information <- extract_tables("data/2019-01-17.19TMP0033K.RIR Phase II Report.Revised 19TMP0033K.RIR Phase II Report - EBC V2.pdf.1.pdf",
+             output = "data.frame",
+             pages = c(185,188,191,194,197), 
+             area = list(
+                       c(288.1, 35, 337.6, 292.9), 
+                       c(288.1, 35, 337.6, 292.9),
+                       c(288.1, 35, 337.6, 292.9), 
+                       c(288.1, 35, 337.6, 292.9),
+                       c(288.1, 35, 337.6, 292.9)                      
+             ), 
+#             columns = list(c(35, 177, 220, 260, 298, 342, 377, 407, 458, 506, 550, 581.7)),
+             guess = FALSE
+            )
+```
+
+``` r
+sv_1 <- sv_table_1 %>% 
+  mutate(project_id = information[[1]][1,2],
+         client_id = information[[1]][2,2]) %>% 
+  separate(`project_id`, into = c("street_address", "borough"), sep = ", ") %>% 
+  select(street_address, borough, client_id, everything())
+
+sv_2 <- sv_table_2 %>% 
+  mutate(project_id = information[[2]][1,2],
+         client_id = information[[2]][2,2]) %>% 
+  separate(`project_id`, into = c("street_address", "borough"), sep = ", ") %>% 
+  select(street_address, borough, client_id, everything())
+
+sv_3 <- sv_table_3 %>% 
+  mutate(project_id = information[[3]][1,2],
+         client_id = information[[3]][2,2]) %>% 
+  separate(`project_id`, into = c("street_address", "borough"), sep = ", ") %>% 
+  select(street_address, borough, client_id, everything())
+
+sv_4 <- sv_table_4 %>% 
+  mutate(project_id = information[[4]][1,2],
+         client_id = information[[4]][2,2]) %>% 
+  separate(`project_id`, into = c("street_address", "borough"), sep = ", ") %>% 
+  select(street_address, borough, client_id, everything())
+
+sv_5 <- sv_table_5 %>% 
+  mutate(project_id = information[[5]][1,2],
+         client_id = information[[5]][2,2]) %>% 
+  separate(`project_id`, into = c("street_address", "borough"), sep = ", ") %>% 
+  select(street_address, borough, client_id, everything())
+```
