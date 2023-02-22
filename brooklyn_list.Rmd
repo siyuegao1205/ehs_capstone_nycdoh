@@ -1,0 +1,27 @@
+---
+title: "Brooklyn Sites Processing"
+output: github_document
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE,
+                      warning = FALSE,
+                      message = FALSE)
+```
+
+
+```{r, echo = FALSE}
+library(tidyverse)
+```
+
+
+```{r}
+brooklyn = read_csv("data/brooklyn_list.csv") %>% 
+  janitor::clean_names()
+
+brooklyn = brooklyn %>% 
+  filter(grepl("CVCP", project_id))
+
+write_csv(brooklyn, "data/brooklyn_brownfield_list.csv")
+```
+
