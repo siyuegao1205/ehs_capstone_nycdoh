@@ -1506,8 +1506,12 @@ full_alpha = full_alpha %>%
     ppbv_results = replace_na(ppbv_results, "ND"),
     ug_m3_results = as.character(as.numeric(ug_m3_results)),
     ug_m3_results = replace_na(ug_m3_results, "ND")
-  )
+  ) %>% 
+  select(street_address, laboratory, lab_data_availability, everything())
 
+full_alpha %>% 
+  head() %>% 
+  knitr::kable()
 # test = left_join(select(project_id_list, project_id, street_address = name), full_alpha,
 #                  by = "street_address") %>% 
 #   select(project_id, street_address, laboratory, lab_data_availability, everything())
