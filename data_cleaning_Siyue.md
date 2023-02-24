@@ -14,11 +14,12 @@ Data Cleaning for Alpha Labs
 - Have to manually re-position the respective range for each sub-form
   before binding them together
 
-## Current Progress: 6 out of 16 Finished
+## Current Progress: 8 out of 16 Finished
 
 (codes are hidden)
 
-Some `mutate` on `full_alpha` and merging `project_id`.
+Some `mutate` on `full_alpha` and merging `project_id`, with some sample
+data shown below.
 
 | street_address      | laboratory       | lab_data_availability | sample_id | collection_date | analysis_date | parameter                              | ppbv_results | ppbv_rl | ppbv_mdl | ug_m3_results | ug_m3_rl | ug_m3_mdl | dilution |
 |:--------------------|:-----------------|:----------------------|:----------|:----------------|:--------------|:---------------------------------------|:-------------|--------:|:---------|:--------------|---------:|:----------|---------:|
