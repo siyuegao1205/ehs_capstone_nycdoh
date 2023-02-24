@@ -12,6 +12,8 @@ Data Cleaning for Alpha Labs
 - Have to manually re-position the respective range for each sub-form
   before binding them together
 
-## Current Progress: 2 out of 16 Finished
+## Current Progress: 3 out of 16 Finished
 
 (codes are hidden)
+
+Some `mutate` on `full_alpha` and merging `project_id`.
