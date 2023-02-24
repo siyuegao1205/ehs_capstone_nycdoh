@@ -33,7 +33,20 @@ project_id_list = read_csv("data/brooklyn_cvcp_list.csv")
 
 *   Method Blank Analysis for Batch Quality Control is **NOT** extracted
 
+    *   63-71 Bridge Street
+
 *   Air Canister Certification Results are **NOT** extracted
+
+    *   174 Kings Highway
+
+*   Blank is **NOT** extracted
+
+    *   820 Glenmore Avenue
+    
+*   Sample IDs are **NOT** consecutive numbers
+
+    *   **315 Linwood Street**: B1 - B7 with B5 missing
+    *   **540 Fulton Street**: SV01 - SV06 with SV02 and SV03 missing
 
 *   Some manual edits are made before reading in
 
@@ -41,7 +54,7 @@ project_id_list = read_csv("data/brooklyn_cvcp_list.csv")
 
 *   Have to manually re-position the respective range for each sub-form before binding them together
 
-## Current Progress: 8 out of 16 Finished
+## Current Progress: 12 out of 15 Finished
 
 (codes are hidden)
 
@@ -1771,24 +1784,90 @@ rm(sv1, sv2, sv3)
 ```
 
 
-```{r, eval = FALSE}
-sv2_1 = read_excel("data/data_from_M/alpha/SV 526 Union Avenue.xlsx",
-                range = "A9:AG31",
+```{r}
+sv1_1 = read_excel("data/data_from_M/alpha/SV 526 Union Avenue.xlsx",
+                range = "A10:AB33",
                 col_names = FALSE) %>% 
   janitor::clean_names() %>% 
-  select(c("x1", "x13", "x15", "x18", "x21", "x24", "x28", "x33"))
+  select(c("x1", "x10", "x12", "x16", "x19", "x22", "x26", "x28"))
+
+sv1_2 = read_excel("data/data_from_M/alpha/SV 526 Union Avenue.xlsx",
+                range = "A41:Z68",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x8", "x10", "x14", "x16", "x21", "x23", "x26"))
+
+sv1_3 = read_excel("data/data_from_M/alpha/SV 526 Union Avenue.xlsx",
+                range = "A76:Z86",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x8", "x10", "x14", "x16", "x21", "x23", "x26"))
+
+names(sv1_1) = alpha_names
+names(sv1_2) = alpha_names
+names(sv1_3) = alpha_names
+
+sv1 = bind_rows(sv1_1, sv1_2, sv1_3) %>% 
+  mutate(
+    street_address = "526 Union Avenue",
+    sample_id = "SV-1",
+    collection_date = as.Date("11/12/15", "%m/%d/%y"),
+    analysis_date = as.Date("11/19/15", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv1_1, sv1_2, sv1_3)
+
+sv3_1 = read_excel("data/data_from_M/alpha/SV 526 Union Avenue.xlsx",
+                range = "A102:AB125",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x10", "x12", "x16", "x19", "x22", "x26", "x28"))
+
+sv3_2 = read_excel("data/data_from_M/alpha/SV 526 Union Avenue.xlsx",
+                range = "A133:Z160",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x8", "x10", "x14", "x16", "x21", "x23", "x26"))
+
+sv3_3 = read_excel("data/data_from_M/alpha/SV 526 Union Avenue.xlsx",
+                range = "A168:Z178",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x8", "x10", "x14", "x16", "x21", "x23", "x26"))
+
+names(sv3_1) = alpha_names
+names(sv3_2) = alpha_names
+names(sv3_3) = alpha_names
+
+sv3 = bind_rows(sv3_1, sv3_2, sv3_3) %>% 
+  mutate(
+    street_address = "526 Union Avenue",
+    sample_id = "SV-3",
+    collection_date = as.Date("11/12/15", "%m/%d/%y"),
+    analysis_date = as.Date("11/19/15", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv3_1, sv3_2, sv3_3)
+
+sv2_1 = read_excel("data/data_from_M/alpha/SV 526 Union Avenue.xlsx",
+                range = "A194:AB217",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x10", "x12", "x16", "x19", "x22", "x26", "x28"))
 
 sv2_2 = read_excel("data/data_from_M/alpha/SV 526 Union Avenue.xlsx",
-                range = "A39:AD64",
+                range = "A225:Z252",
                 col_names = FALSE) %>% 
   janitor::clean_names() %>% 
-  select(c("x1", "x10", "x14", "x16", "x18", "x23", "x25", "x30"))
+  select(c("x1", "x8", "x10", "x14", "x16", "x21", "x23", "x26"))
 
 sv2_3 = read_excel("data/data_from_M/alpha/SV 526 Union Avenue.xlsx",
-                range = "A72:AD85",
+                range = "A260:Z270",
                 col_names = FALSE) %>% 
   janitor::clean_names() %>% 
-  select(c("x1", "x10", "x14", "x16", "x18", "x23", "x25", "x30"))
+  select(c("x1", "x8", "x10", "x14", "x16", "x21", "x23", "x26"))
 
 names(sv2_1) = alpha_names
 names(sv2_2) = alpha_names
@@ -1798,17 +1877,591 @@ sv2 = bind_rows(sv2_1, sv2_2, sv2_3) %>%
   mutate(
     street_address = "526 Union Avenue",
     sample_id = "SV-2",
-    collection_date = as.Date("11/28/18", "%m/%d/%y"),
-    analysis_date = as.Date("12/05/18", "%m/%d/%y")
+    collection_date = as.Date("11/12/15", "%m/%d/%y"),
+    analysis_date = as.Date("11/19/15", "%m/%d/%y")
   ) %>% 
   select(street_address, sample_id, collection_date, analysis_date, everything())
 
 rm(sv2_1, sv2_2, sv2_3)
+
+sv4_1 = read_excel("data/data_from_M/alpha/SV 526 Union Avenue.xlsx",
+                range = "A286:AB309",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x10", "x12", "x16", "x19", "x22", "x26", "x28"))
+
+sv4_2 = read_excel("data/data_from_M/alpha/SV 526 Union Avenue.xlsx",
+                range = "A317:Z344",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x8", "x10", "x14", "x16", "x21", "x23", "x26"))
+
+sv4_3 = read_excel("data/data_from_M/alpha/SV 526 Union Avenue.xlsx",
+                range = "A352:Z362",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x8", "x10", "x14", "x16", "x21", "x23", "x26"))
+
+names(sv4_1) = alpha_names
+names(sv4_2) = alpha_names
+names(sv4_3) = alpha_names
+
+sv4 = bind_rows(sv4_1, sv4_2, sv4_3) %>% 
+  mutate(
+    street_address = "526 Union Avenue",
+    sample_id = "SV-4",
+    collection_date = as.Date("11/12/15", "%m/%d/%y"),
+    analysis_date = as.Date("11/19/15", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv4_1, sv4_2, sv4_3)
+
+full_alpha = bind_rows(full_alpha, sv1, sv2, sv3, sv4)
+
+rm(sv1, sv2, sv3, sv4)
+```
+
+
+```{r}
+sv4_1 = read_excel("data/data_from_M/alpha/SV 540 Fulton Street.xlsx",
+                range = "A11:AC34",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x10", "x12", "x15", "x18", "x22", "x27", "x29"))
+
+sv4_2 = read_excel("data/data_from_M/alpha/SV 540 Fulton Street.xlsx",
+                range = "A42:AA69",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x7", "x10", "x13", "x15", "x20", "x24", "x27"))
+
+sv4_3 = read_excel("data/data_from_M/alpha/SV 540 Fulton Street.xlsx",
+                range = "A77:AA87",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x7", "x10", "x13", "x15", "x20", "x24", "x27"))
+
+names(sv4_1) = alpha_names
+names(sv4_2) = alpha_names
+names(sv4_3) = alpha_names
+
+sv4 = bind_rows(sv4_1, sv4_2, sv4_3) %>% 
+  mutate(
+    street_address = "540 Fulton Street",
+    sample_id = "SV04",
+    collection_date = as.Date("05/11/16", "%m/%d/%y"),
+    analysis_date = as.Date("05/16/16", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv4_1, sv4_2, sv4_3)
+
+sv5_1 = read_excel("data/data_from_M/alpha/SV 540 Fulton Street.xlsx",
+                range = "A104:AC127",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x10", "x12", "x15", "x18", "x22", "x27", "x29"))
+
+sv5_2 = read_excel("data/data_from_M/alpha/SV 540 Fulton Street.xlsx",
+                range = "A135:AA162",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x7", "x10", "x13", "x15", "x20", "x24", "x27"))
+
+sv5_3 = read_excel("data/data_from_M/alpha/SV 540 Fulton Street.xlsx",
+                range = "A170:AA180",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x7", "x10", "x13", "x15", "x20", "x24", "x27"))
+
+names(sv5_1) = alpha_names
+names(sv5_2) = alpha_names
+names(sv5_3) = alpha_names
+
+sv5 = bind_rows(sv5_1, sv5_2, sv5_3) %>% 
+  mutate(
+    street_address = "540 Fulton Street",
+    sample_id = "SV05",
+    collection_date = as.Date("05/11/16", "%m/%d/%y"),
+    analysis_date = as.Date("05/16/16", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv5_1, sv5_2, sv5_3)
+
+sv6_1 = read_excel("data/data_from_M/alpha/SV 540 Fulton Street.xlsx",
+                range = "A197:AC220",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x10", "x12", "x15", "x18", "x22", "x27", "x29"))
+
+sv6_2 = read_excel("data/data_from_M/alpha/SV 540 Fulton Street.xlsx",
+                range = "A228:AA255",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x7", "x10", "x13", "x15", "x20", "x24", "x27"))
+
+sv6_3 = read_excel("data/data_from_M/alpha/SV 540 Fulton Street.xlsx",
+                range = "A263:AA273",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x7", "x10", "x13", "x15", "x20", "x24", "x27"))
+
+names(sv6_1) = alpha_names
+names(sv6_2) = alpha_names
+names(sv6_3) = alpha_names
+
+sv6 = bind_rows(sv6_1, sv6_2, sv6_3) %>% 
+  mutate(
+    street_address = "540 Fulton Street",
+    sample_id = "SV06",
+    collection_date = as.Date("05/11/16", "%m/%d/%y"),
+    analysis_date = as.Date("05/16/16", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv6_1, sv6_2, sv6_3)
+
+sv1_1 = read_excel("data/data_from_M/alpha/SV 540 Fulton Street.xlsx",
+                range = "A290:AC313",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x10", "x12", "x15", "x18", "x22", "x27", "x29"))
+
+sv1_2 = read_excel("data/data_from_M/alpha/SV 540 Fulton Street.xlsx",
+                range = "A321:AA348",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x7", "x10", "x13", "x15", "x20", "x24", "x27"))
+
+sv1_3 = read_excel("data/data_from_M/alpha/SV 540 Fulton Street.xlsx",
+                range = "A356:AA366",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x7", "x10", "x13", "x15", "x20", "x24", "x27"))
+
+names(sv1_1) = alpha_names
+names(sv1_2) = alpha_names
+names(sv1_3) = alpha_names
+
+sv1 = bind_rows(sv1_1, sv1_2, sv1_3) %>% 
+  mutate(
+    street_address = "540 Fulton Street",
+    sample_id = "SV01",
+    collection_date = as.Date("05/12/16", "%m/%d/%y"),
+    analysis_date = as.Date("05/18/16", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv1_1, sv1_2, sv1_3)
+
+full_alpha = bind_rows(full_alpha, sv1, sv4, sv5, sv6)
+
+rm(sv1, sv4, sv5, sv6)
+```
+
+
+```{r}
+a_1 = read_excel("data/data_from_M/alpha/SV 777 Glenmore Avenue.xlsx",
+                range = "A9:AH31",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x13", "x16", "x19", "x22", "x25", "x29", "x34"))
+
+a_2 = read_excel("data/data_from_M/alpha/SV 777 Glenmore Avenue.xlsx",
+                range = "A39:AE64",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x10", "x14", "x17", "x19", "x24", "x26", "x31"))
+
+a_3 = read_excel("data/data_from_M/alpha/SV 777 Glenmore Avenue.xlsx",
+                range = "A72:AE85",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x10", "x14", "x17", "x19", "x24", "x26", "x31"))
+
+names(a_1) = alpha_names
+names(a_2) = alpha_names
+names(a_3) = alpha_names
+
+a = bind_rows(a_1, a_2, a_3) %>% 
+  mutate(
+    street_address = "777 Glenmore Avenue",
+    sample_id = "AMBIENT",
+    collection_date = as.Date("05/31/18", "%m/%d/%y"),
+    analysis_date = as.Date("06/06/18", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(a_1, a_2, a_3)
+
+sv3_1 = read_excel("data/data_from_M/alpha/SV 777 Glenmore Avenue.xlsx",
+                range = "A101:AH123",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x13", "x16", "x19", "x22", "x25", "x29", "x34"))
+
+sv3_2 = read_excel("data/data_from_M/alpha/SV 777 Glenmore Avenue.xlsx",
+                range = "A131:AE156",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x10", "x14", "x17", "x19", "x24", "x26", "x31"))
+
+sv3_3 = read_excel("data/data_from_M/alpha/SV 777 Glenmore Avenue.xlsx",
+                range = "A164:AE177",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x10", "x14", "x17", "x19", "x24", "x26", "x31"))
+
+names(sv3_1) = alpha_names
+names(sv3_2) = alpha_names
+names(sv3_3) = alpha_names
+
+sv3 = bind_rows(sv3_1, sv3_2, sv3_3) %>% 
+  mutate(
+    street_address = "777 Glenmore Avenue",
+    sample_id = "SV-3",
+    collection_date = as.Date("05/31/18", "%m/%d/%y"),
+    analysis_date = as.Date("06/06/18", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv3_1, sv3_2, sv3_3)
+
+sv2_1 = read_excel("data/data_from_M/alpha/SV 777 Glenmore Avenue.xlsx",
+                range = "A193:AH215",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x13", "x16", "x19", "x22", "x25", "x29", "x34"))
+
+sv2_2 = read_excel("data/data_from_M/alpha/SV 777 Glenmore Avenue.xlsx",
+                range = "A223:AE248",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x10", "x14", "x17", "x19", "x24", "x26", "x31"))
+
+sv2_3 = read_excel("data/data_from_M/alpha/SV 777 Glenmore Avenue.xlsx",
+                range = "A256:AE269",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x10", "x14", "x17", "x19", "x24", "x26", "x31"))
+
+names(sv2_1) = alpha_names
+names(sv2_2) = alpha_names
+names(sv2_3) = alpha_names
+
+sv2 = bind_rows(sv2_1, sv2_2, sv2_3) %>% 
+  mutate(
+    street_address = "777 Glenmore Avenue",
+    sample_id = "SV-2",
+    collection_date = as.Date("05/31/18", "%m/%d/%y"),
+    analysis_date = as.Date("06/06/18", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv2_1, sv2_2, sv2_3)
+
+sv1_1 = read_excel("data/data_from_M/alpha/SV 777 Glenmore Avenue.xlsx",
+                range = "A285:AH307",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x13", "x16", "x19", "x22", "x25", "x29", "x34"))
+
+sv1_2 = read_excel("data/data_from_M/alpha/SV 777 Glenmore Avenue.xlsx",
+                range = "A315:AE340",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x10", "x14", "x17", "x19", "x24", "x26", "x31"))
+
+sv1_3 = read_excel("data/data_from_M/alpha/SV 777 Glenmore Avenue.xlsx",
+                range = "A348:AE361",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x10", "x14", "x17", "x19", "x24", "x26", "x31"))
+
+names(sv1_1) = alpha_names
+names(sv1_2) = alpha_names
+names(sv1_3) = alpha_names
+
+sv1 = bind_rows(sv1_1, sv1_2, sv1_3) %>% 
+  mutate(
+    street_address = "777 Glenmore Avenue",
+    sample_id = "SV-1",
+    collection_date = as.Date("05/31/18", "%m/%d/%y"),
+    analysis_date = as.Date("06/06/18", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv1_1, sv1_2, sv1_3)
+
+full_alpha = bind_rows(full_alpha, a, sv1, sv2, sv3)
+
+rm(a, sv1, sv2, sv3)
+```
+
+
+```{r}
+sv1_1 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B12:K39",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x3", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 1)
+
+sv1_2 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B50:K77",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x3", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 1)
+
+sv1_3 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B88:K94",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x4", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 1)
+
+names(sv1_1) = alpha_names
+names(sv1_2) = alpha_names
+names(sv1_3) = alpha_names
+
+sv1 = bind_rows(sv1_1, sv1_2, sv1_3) %>% 
+  mutate(
+    street_address = "820 Glenmore Avenue",
+    sample_id = "SV-1",
+    collection_date = as.Date("05/26/17", "%m/%d/%y"),
+    analysis_date = as.Date("06/02/17", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv1_1, sv1_2, sv1_3)
+
+sv2_1 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B105:K132",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x3", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 1.25)
+
+sv2_2 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B143:K170",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x3", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 1.25)
+
+sv2_3 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B181:K187",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x3", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 1.25)
+
+names(sv2_1) = alpha_names
+names(sv2_2) = alpha_names
+names(sv2_3) = alpha_names
+
+sv2 = bind_rows(sv2_1, sv2_2, sv2_3) %>% 
+  mutate(
+    street_address = "820 Glenmore Avenue",
+    sample_id = "SV-2",
+    collection_date = as.Date("05/26/17", "%m/%d/%y"),
+    analysis_date = as.Date("06/02/17", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv2_1, sv2_2, sv2_3)
+
+sv3_1 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B198:K225",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x3", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 1)
+
+sv3_2 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B236:K263",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x3", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 1)
+
+sv3_3 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B274:K280",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x4", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 1)
+
+names(sv3_1) = alpha_names
+names(sv3_2) = alpha_names
+names(sv3_3) = alpha_names
+
+sv3 = bind_rows(sv3_1, sv3_2, sv3_3) %>% 
+  mutate(
+    street_address = "820 Glenmore Avenue",
+    sample_id = "SV-3",
+    collection_date = as.Date("05/26/17", "%m/%d/%y"),
+    analysis_date = as.Date("06/02/17", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv3_1, sv3_2, sv3_3)
+
+sv4_1 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B291:K318",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x4", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 5)
+
+sv4_2 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B329:K356",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x4", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 5)
+
+sv4_3 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B367:K373",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x4", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 5)
+
+names(sv4_1) = alpha_names
+names(sv4_2) = alpha_names
+names(sv4_3) = alpha_names
+
+sv4 = bind_rows(sv4_1, sv4_2, sv4_3) %>% 
+  mutate(
+    street_address = "820 Glenmore Avenue",
+    sample_id = "SV-4",
+    collection_date = as.Date("05/26/17", "%m/%d/%y"),
+    analysis_date = as.Date("06/02/17", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv4_1, sv4_2, sv4_3)
+
+ss1_1 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B384:K411",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x3", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 1.25)
+
+ss1_2 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B422:K449",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x3", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 1.25)
+
+ss1_3 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B460:K466",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x3", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 1.25)
+
+names(ss1_1) = alpha_names
+names(ss1_2) = alpha_names
+names(ss1_3) = alpha_names
+
+ss1 = bind_rows(ss1_1, ss1_2, ss1_3) %>% 
+  mutate(
+    street_address = "820 Glenmore Avenue",
+    sample_id = "SS-1",
+    collection_date = as.Date("05/26/17", "%m/%d/%y"),
+    analysis_date = as.Date("06/02/17", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(ss1_1, ss1_2, ss1_3)
+
+aa_1 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B477:K504",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x3", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 1)
+
+aa_2 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B515:K542",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x3", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 1)
+
+aa_3 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B553:K559",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x4", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 1)
+
+names(aa_1) = alpha_names
+names(aa_2) = alpha_names
+names(aa_3) = alpha_names
+
+aa = bind_rows(aa_1, aa_2, aa_3) %>% 
+  mutate(
+    street_address = "820 Glenmore Avenue",
+    sample_id = "AA",
+    collection_date = as.Date("05/26/17", "%m/%d/%y"),
+    analysis_date = as.Date("06/02/17", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(aa_1, aa_2, aa_3)
+
+sv2dup_1 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B665:K692",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x3", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 1.25)
+
+sv2dup_2 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B703:K730",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x3", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 1.25)
+
+sv2dup_3 = read_excel("data/data_from_M/alpha/SV 820 Glenmore Avenue.xlsx",
+                range = "B741:K747",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x3", "x5", "x6", "x8", "x9", "x10")) %>% 
+  mutate(dilution = 1.25)
+
+names(sv2dup_1) = alpha_names
+names(sv2dup_2) = alpha_names
+names(sv2dup_3) = alpha_names
+
+sv2dup = bind_rows(sv2dup_1, sv2dup_2, sv2dup_3) %>% 
+  mutate(
+    street_address = "820 Glenmore Avenue",
+    sample_id = "SV-2DUP",
+    collection_date = as.Date("05/26/17", "%m/%d/%y"),
+    analysis_date = as.Date("06/02/17", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv2dup_1, sv2dup_2, sv2dup_3)
+
+full_alpha = bind_rows(full_alpha, aa, ss1, sv1, sv2, sv3, sv4, sv2dup)
+
+rm(aa, ss1, sv1, sv2, sv3, sv4, sv2dup)
 ```
 
 Some `mutate` on `full_alpha` and merging `project_id`, with some sample data shown below.
 
-```{r}
+```{r, eval = FALSE}
 full_alpha = full_alpha %>% 
   mutate(
     laboratory = "Alpha Analytical",
