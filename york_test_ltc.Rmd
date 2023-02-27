@@ -1,5 +1,6 @@
 ---
 title: "york_test_ltc"
+author: "Lindsey Covell"
 output: github_document
 ---
 
@@ -11,16 +12,14 @@ knitr::opts_chunk$set(
   out.width = "90%"
 )
 
-#library(rJava)
-#library(tabulizer)
 library(tidyverse)
 library(readxl)
 ```
 
-## First Chunck 
+## First Sample SV_1
 
 ```{r}
-1SV_153_Green_Street = read_excel("data/data_from_M/york/SV 153 Green Street.xlsx", 
+SV_Green_1 = read_excel("data/data_from_M/york/SV 153 Green Street.xlsx", 
                         range = "A6:Y110", col_names = FALSE) %>% 
   rename("CAS.No" = ...1, 
          "Parameter" = ...2,
@@ -35,16 +34,16 @@ library(readxl)
          Lab = "York",
          Street = "153 Green Street",
          Client_ID = "18E1222-01",
-         Collection_date = "03/24/2018")
-
-View(1SV_153_Green_Street)
+         Collection_date = "03/24/2018", 
+         Analysis_date = "06/06/2018")
 
 ```
 
-## TEST FIRST 
+## Second Sample SV_2
+
 ```{r}
-1SV_153_Green_Street <- read_excel("data/data_from_M/york/SV 153 Green Street.xlsx", 
-                                    range = "A55:Y89", col_names = FALSE) %>% 
+SV_Green_2 <- read_excel("data/data_from_M/york/SV 153 Green Street.xlsx", 
+                                    range = "A131:Y235", col_names = FALSE) %>% 
   rename("CAS.No" = ...1, 
          "Parameter" = ...2,
          "Results" = ...11, 
@@ -57,17 +56,16 @@ View(1SV_153_Green_Street)
   mutate(Matrix = "SV", 
          Lab = "York",
          Street = "153 Green Street",
-         Client_ID = "18E1222-01",
-         Collection_date = "03/24/2018")
+         Client_ID = "18E1222-02",
+         Collection_date = "03/24/2018",
+         Analysis_date = "06/06/2018")
 ```
 
-
-
-## Second Chunck 
+## Third Sample SV_3
 
 ```{r}
-SV_153_Green_Street_2 <- read_excel("data/data_from_M/york/SV 153 Green Street.xlsx", 
-                                    range = "A55:Y89", col_names = FALSE) %>% 
+SV_Green_3 <- read_excel("data/data_from_M/york/SV 153 Green Street.xlsx", 
+                                    range = "A245:Y348", col_names = FALSE) %>% 
   rename("CAS.No" = ...1, 
          "Parameter" = ...2,
          "Results" = ...11, 
@@ -80,14 +78,16 @@ SV_153_Green_Street_2 <- read_excel("data/data_from_M/york/SV 153 Green Street.x
   mutate(Matrix = "SV", 
          Lab = "York",
          Street = "153 Green Street",
-         Client_ID = "18E1222-01",
-         Collection_date = "03/24/2018")
+         Client_ID = "18E1222-03",
+         Collection_date = "03/24/2018",
+         Analysis_date = "06/06/2018")
 ```
 
-## Third Chunck 
+## Fourth Sample SV_4
 
 ```{r}
-SV_153_Green_Street_3 <- read_excel("data/data_from_M/york/SV 153 Green Street.xlsx", range = "A101:Y131", col_names = FALSE) %>% 
+SV_Green_4 <- read_excel("data/data_from_M/york/SV 153 Green Street.xlsx", 
+                                    range = "A363:Y468", col_names = FALSE) %>% 
   rename("CAS.No" = ...1, 
          "Parameter" = ...2,
          "Results" = ...11, 
@@ -100,14 +100,16 @@ SV_153_Green_Street_3 <- read_excel("data/data_from_M/york/SV 153 Green Street.x
   mutate(Matrix = "SV", 
          Lab = "York",
          Street = "153 Green Street",
-         Client_ID = "18E1222-01",
-         Collection_date = "03/24/2018")
+         Client_ID = "18E1222-04",
+         Collection_date = "03/24/2018",
+         Analysis_date = "06/06/2018")
 ```
 
-## Fourth Chunck 
+## Fifth Sample SV_5
 
 ```{r}
-SV_153_Green_Street_4 <- read_excel("data/data_from_M/york/SV 153 Green Street.xlsx", range = "A153:Y173", col_names = FALSE) %>% 
+SV_Green_5 <- read_excel("data/data_from_M/york/SV 153 Green Street.xlsx", 
+                                    range = "A489:Y598", col_names = FALSE) %>% 
   rename("CAS.No" = ...1, 
          "Parameter" = ...2,
          "Results" = ...11, 
@@ -120,26 +122,7 @@ SV_153_Green_Street_4 <- read_excel("data/data_from_M/york/SV 153 Green Street.x
   mutate(Matrix = "SV", 
          Lab = "York",
          Street = "153 Green Street",
-         Client_ID = "18E1222-01",
-         Collection_date = "03/24/2018")
-```
-
-## Fifth Chunck 
-
-```{r}
-SV_153_Green_Street_4 <- read_excel("data/data_from_M/york/SV 153 Green Street.xlsx", range = "A153:Y173", col_names = FALSE) %>% 
-  rename("CAS.No" = ...1, 
-         "Parameter" = ...2,
-         "Results" = ...11, 
-         "Flag" = ...13, 
-         "Units" = ...16,
-         "LOQ" = ...19,
-         "Dilution" = ...25) %>% 
-  filter(!is.na(CAS.No)) %>% 
-  select(c(CAS.No, Parameter, Results, Flag, Units, LOQ, Dilution)) %>% 
-  mutate(Matrix = "SV", 
-         Lab = "York",
-         Street = "153 Green Street",
-         Client_ID = "18E1222-01",
-         Collection_date = "03/24/2018")
+         Client_ID = "18E1222-05",
+         Collection_date = "03/24/2018",
+         Analysis_date = "06/06/2018")
 ```
