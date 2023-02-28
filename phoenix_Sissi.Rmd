@@ -181,6 +181,10 @@ information <- extract_tables("data/2019-01-17.19TMP0033K.RIR Phase II Report.Re
             )
 ```
 
+```{r}
+# Locate the position
+# area <- locate_areas("data/2019-01-17.19TMP0033K.RIR Phase II Report.Revised 19TMP0033K.RIR Phase II Report - EBC V2.pdf.1.pdf", pages = 186)
+```
 
 ```{r}
 sv_1 <- sv_table_1 %>% 
