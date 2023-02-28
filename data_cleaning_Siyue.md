@@ -27,7 +27,7 @@ Data Cleaning for Alpha Labs
 - Have to manually re-position the respective range for each sub-form
   before binding them together
 
-## Current Progress: 15 out of 15 Finished
+## Current Progress: 15 out of 18 Finished
 
 (codes are hidden)
 
