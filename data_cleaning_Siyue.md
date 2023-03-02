@@ -15,7 +15,7 @@ Data Cleaning for Alpha Labs
 
   - 820 Glenmore Avenue
 
-- Sample IDs are **NOT** consecutive numbers
+- Sample IDs are **NOT** consecutive numbers - Treat as sample names
 
   - **315 Linwood Street**: B1 - B7 with B5 missing
   - **540 Fulton Street**: SV01 - SV06 with SV02 and SV03 missing
@@ -27,7 +27,7 @@ Data Cleaning for Alpha Labs
 - Have to manually re-position the respective range for each sub-form
   before binding them together
 
-## Current Progress: 15 out of 18 Finished
+## Current Progress: 17 out of 17 Finished
 
 (codes are hidden)
 
