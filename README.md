@@ -29,14 +29,14 @@ As of 03/02/2023, we have **130** reports extracted from various labs via Adobe.
 
 Note that RfCs are for non-cancer effects. The health-based guidance for TCE (trichloroethene) and PCE (tetrachloroethene) are based on **cancer effects**. There is not really a health-based value for BTEX, because some of the components (e.g., benzene) are much more toxic than others. BTEX concentrations mainly indicate the amount of petroleum-related contamination.The vapor barrier will attenuate the concentration by roughly 10%, so the aim is to have an indoor air concentration less than the guidance value or RfC.
 
-Compound  | Concentration ($\mu$g/`r expression("m"^3)`) | 
-------------- | ------------- | ------------- 
-Benzene  | 30 | Reference Concentration (RfC) (from US EPA)
-Toluene  | 5000 | RfC (from US EPA)
-Ethylbenzene  | 1000 | RfC (from US EPA)
-Xylenes  | 100 | RfC (from US EPA)
-TCE  | 2 | NYS DOH and NYC guidance value
-PCE  | 30 | NYS DOH and NYC guidance value
+| Compound     | Concentration (μg/m3) |                                             |
+|--------------|-----------------------|---------------------------------------------|
+| Benzene      | 30                    | Reference Concentration (RfC) (from US EPA) |
+| Toluene      | 5000                  | RfC (from US EPA)                           |
+| Ethylbenzene | 1000                  | RfC (from US EPA)                           |
+| Xylenes      | 100                   | RfC (from US EPA)                           |
+| TCE          | 2                     | NYS DOH and NYC guidance value              |
+| PCE          | 30                    | NYS DOH and NYC guidance value              |
 
 
 
