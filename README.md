@@ -2,9 +2,9 @@
 
 ## Current Progress
 
-As of 03/02/2023, we have **130** reports extracted from various labs via Adobe.  
+As of 03/07/2023, we have **137** reports extracted from various labs via Adobe.  
 *123 reports were obtained from Maureen.*  
-*7 reports (as of 02/28/2023) were from Raphaela.*  
+*14 reports (as of 03/06/2023) were from Raphaela.*  
 
 *   Alpha Analytical: 20 
 *   ALS Environmental (Lab): 1
@@ -20,7 +20,7 @@ As of 03/02/2023, we have **130** reports extracted from various labs via Adobe.
     *   209-227 McGuinness Boulevard: Alpha Analytical + CENTEK Laboratories  
     *   Greenpoint Landing G1: Alpha Analytical + con-TEST Analytical Laboratory  
 *   Pace Analytical Services: 2  
-*   Phoenix Environmental Laboratories Inc: 47  
+*   Phoenix Environmental Laboratories Inc: 54  
 *   SGS Accutest Lab: 4  
 *   TestAmerica: 1  
 *   York Analytical Laboratories Inc: 40
