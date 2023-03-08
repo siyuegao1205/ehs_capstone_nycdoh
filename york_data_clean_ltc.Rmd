@@ -2084,15 +2084,1502 @@ SV_North_4 = read_excel("data/data_from_M/york/SV 66 North 8th Street.xlsx",
 SV_66_North_8th_Street = rbind(SV_North_1, SV_North_2, SV_North_3, SV_North_4)
 ```
 
+## 531 Waverly Avenue
+
+```{r}
+SV_Waverly_1 = read_excel("data/data_from_M/york/SV 531 Waverly Avenue.xlsx", 
+                        range = "A11:AB71", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...6,
+         "Results" = ...14, 
+         "Units" = ...18,
+         "LOQ" = ...25,
+         "Dilution" = ...28) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "531 Waverly Avenue",
+         Client_ID = "SV-1",
+         Collection_date = "09/12/2014", 
+         Analysis_date = "09/16/2014",
+         Project_ID = "15CVCP033K")
+
+SV_Waverly_2 = read_excel("data/data_from_M/york/SV 531 Waverly Avenue.xlsx", 
+                        range = "A86:AB146", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...6,
+         "Results" = ...14, 
+         "Units" = ...18,
+         "LOQ" = ...25,
+         "Dilution" = ...28) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "531 Waverly Avenue",
+         Client_ID = "SV-2",
+         Collection_date = "09/12/2014", 
+         Analysis_date = "09/16/2014",
+         Project_ID = "15CVCP033K")
+
+SV_Waverly_3 = read_excel("data/data_from_M/york/SV 531 Waverly Avenue.xlsx", 
+                        range = "A172:AB232", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...6,
+         "Results" = ...14, 
+         "Units" = ...18,
+         "LOQ" = ...20,
+         "Dilution" = ...28) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "531 Waverly Avenue",
+         Client_ID = "SV-3",
+         Collection_date = "09/12/2014", 
+         Analysis_date = "09/16/2014",
+         Project_ID = "15CVCP033K")
+
+SV_Waverly_4 = read_excel("data/data_from_M/york/SV 531 Waverly Avenue.xlsx", 
+                        range = "A253:AB313", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...6,
+         "Results" = ...14, 
+         "Units" = ...18,
+         "LOQ" = ...25,
+         "Dilution" = ...28) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "531 Waverly Avenue",
+         Client_ID = "SV-4",
+         Collection_date = "09/12/2014", 
+         Analysis_date = "09/16/2014",
+         Project_ID = "15CVCP033K")
+
+SV_531_Waverly_Avenue = rbind(SV_Waverly_1, SV_Waverly_2, SV_Waverly_3, SV_Waverly_4)
+```
+
+## 415 Manhattan Avenue
+
+```{r}
+SV_Manhattan_1 = read_excel("data/data_from_M/york/SV 415 Manhattan Avenue.xlsx", 
+                        range = "A6:O66", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...3,
+         "Results" = ...8, 
+         "Units" = ...11,
+         "LOQ" = ...14,
+         "Dilution" = ...15) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "415 Manhattan Avenue",
+         Client_ID = "SV-1",
+         Collection_date = "06/25/2013", 
+         Analysis_date = "06/28/2013",
+         Project_ID = "14CVCP252K")
+
+SV_Manhattan_2 = read_excel("data/data_from_M/york/SV 415 Manhattan Avenue.xlsx", 
+                        range = "A71:O131", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...3,
+         "Results" = ...8, 
+         "Units" = ...11,
+         "LOQ" = ...14,
+         "Dilution" = ...15) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "415 Manhattan Avenue",
+         Client_ID = "SV-2",
+         Collection_date = "06/25/2013", 
+         Analysis_date = "06/28/2013",
+         Project_ID = "14CVCP252K")
+
+SV_Manhattan_3 = read_excel("data/data_from_M/york/SV 415 Manhattan Avenue.xlsx", 
+                        range = "A145:O205", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...3,
+         "Results" = ...8, 
+         "Units" = ...11,
+         "LOQ" = ...14,
+         "Dilution" = ...15) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "415 Manhattan Avenue",
+         Client_ID = "SV-3",
+         Collection_date = "06/25/2013", 
+         Analysis_date = "06/28/2013",
+         Project_ID = "14CVCP252K")
+
+SV_415_Manhattan_Avenue = rbind(SV_Manhattan_1, SV_Manhattan_2, SV_Manhattan_3)
+```
+
+## 28-46 Roebling Street
+
+```{r}
+SV_Roebling_1 = read_excel("data/data_from_M/york/SV 28-46 Roebling Street.xlsx", 
+                        range = "A4:R64", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...10, 
+         "Units" = ...13,
+         "LOQ" = ...17,
+         "Dilution" = ...18) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "28-46 Roebling Street",
+         Client_ID = "SV-1",
+         Collection_date = "08/28/2013", 
+         Analysis_date = "09/03/2013",
+         Project_ID = "14CVCP214K")
+
+SV_Roebling_2 = read_excel("data/data_from_M/york/SV 28-46 Roebling Street.xlsx", 
+                        range = "A68:R128", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...10, 
+         "Units" = ...13,
+         "LOQ" = ...17,
+         "Dilution" = ...18) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "28-46 Roebling Street",
+         Client_ID = "SV-2",
+         Collection_date = "08/28/2013", 
+         Analysis_date = "09/03/2013",
+         Project_ID = "14CVCP214K")
+
+SV_Roebling_3 = read_excel("data/data_from_M/york/SV 28-46 Roebling Street.xlsx", 
+                        range = "A138:R198", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...10, 
+         "Units" = ...13,
+         "LOQ" = ...17,
+         "Dilution" = ...18) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "28-46 Roebling Street",
+         Client_ID = "SV-3",
+         Collection_date = "08/28/2013", 
+         Analysis_date = "09/03/2013",
+         Project_ID = "14CVCP214K")
+
+SV_Roebling_4 = read_excel("data/data_from_M/york/SV 28-46 Roebling Street.xlsx", 
+                        range = "A207:R267", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...10, 
+         "Units" = ...13,
+         "LOQ" = ...17,
+         "Dilution" = ...18) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "28-46 Roebling Street",
+         Client_ID = "SV-4",
+         Collection_date = "08/28/2013", 
+         Analysis_date = "09/03/2013",
+         Project_ID = "14CVCP214K")
+
+SV_Roebling_5 = read_excel("data/data_from_M/york/SV 28-46 Roebling Street.xlsx", 
+                        range = "A271:R331", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...10, 
+         "Units" = ...13,
+         "LOQ" = ...17,
+         "Dilution" = ...18) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "Indoor Ambient Air", 
+         Lab = "York",
+         Street = "28-46 Roebling Street",
+         Client_ID = "IA-1",
+         Collection_date = "08/28/2013", 
+         Analysis_date = "09/03/2013",
+         Project_ID = "14CVCP214K")
+
+SV_Roebling_6 = read_excel("data/data_from_M/york/SV 28-46 Roebling Street.xlsx", 
+                        range = "A342:R402", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...10, 
+         "Units" = ...13,
+         "LOQ" = ...17,
+         "Dilution" = ...18) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "Outdoor Ambient Air", 
+         Lab = "York",
+         Street = "28-46 Roebling Street",
+         Client_ID = "OA-1",
+         Collection_date = "08/28/2013", 
+         Analysis_date = "09/03/2013",
+         Project_ID = "14CVCP214K")
+
+SV_28_46_Roebling_Street = rbind(SV_Roebling_1, SV_Roebling_2, SV_Roebling_3, SV_Roebling_4, SV_Roebling_5, SV_Roebling_6)
+```
+
+## 2633 Ocean Avenue
+
+```{r}
+SV_Ocean_1 = read_excel("data/data_from_M/york/SV 2633 Ocean Avenue.xlsx", 
+                        range = "A6:R66", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...5,
+         "Results" = ...10, 
+         "Units" = ...13,
+         "LOQ" = ...17,
+         "Dilution" = ...18) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "2633 Ocean Avenue",
+         Client_ID = "SV-1",
+         Collection_date = "02/07/2014", 
+         Analysis_date = "02/13/2014",
+         Project_ID = "15CVCP164K")
+
+SV_Ocean_2 = read_excel("data/data_from_M/york/SV 2633 Ocean Avenue.xlsx", 
+                        range = "A77:R137", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...5,
+         "Results" = ...10, 
+         "Units" = ...13,
+         "LOQ" = ...15,
+         "Dilution" = ...18) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "2633 Ocean Avenue",
+         Client_ID = "SV-2",
+         Collection_date = "02/07/2014", 
+         Analysis_date = "02/13/2014",
+         Project_ID = "15CVCP164K")
+
+SV_Ocean_3 = read_excel("data/data_from_M/york/SV 2633 Ocean Avenue.xlsx", 
+                        range = "A145:R205", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...5,
+         "Results" = ...10, 
+         "Units" = ...13,
+         "LOQ" = ...15,
+         "Dilution" = ...18) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "2633 Ocean Avenue",
+         Client_ID = "SV-3",
+         Collection_date = "02/07/2014", 
+         Analysis_date = "02/13/2014",
+         Project_ID = "15CVCP164K")
+
+SV_Ocean_4 = read_excel("data/data_from_M/york/SV 2633 Ocean Avenue.xlsx", 
+                        range = "A213:R273", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...5,
+         "Results" = ...10, 
+         "Units" = ...13,
+         "LOQ" = ...15,
+         "Dilution" = ...18) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "2633 Ocean Avenue",
+         Client_ID = "SV-4",
+         Collection_date = "02/07/2014", 
+         Analysis_date = "02/13/2014",
+         Project_ID = "15CVCP164K")
+
+SV_2633_Ocean_Avenue = rbind(SV_Ocean_1, SV_Ocean_2, SV_Ocean_3, SV_Ocean_4)
+```
+
+## 245-247 Driggs Avenue
+
+```{r}
+SV_Driggs3_1 = read_excel("data/data_from_M/york/SV 245-247 Driggs Avenue.xlsx", 
+                        range = "A4:S64", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...8, 
+         "Units" = ...12,
+         "LOQ" = ...17,
+         "Dilution" = ...19) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "245-247 Driggs Avenue",
+         Client_ID = "SV-1",
+         Collection_date = "06/20/2012", 
+         Analysis_date = "06/25/2012",
+         Project_ID = "14CVCP159K")
+
+SV_Driggs3_2 = read_excel("data/data_from_M/york/SV 245-247 Driggs Avenue.xlsx", 
+                        range = "A74:S134", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...8, 
+         "Units_1" = ...10,
+         "Units_2" = ...12,
+         "LOQ" = ...17,
+         "Dilution" = ...19) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units_1, Units_2, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "245-247 Driggs Avenue",
+         Client_ID = "SV-2",
+         Collection_date = "06/20/2012", 
+         Analysis_date = "06/25/2012",
+         Project_ID = "14CVCP159K",
+         Units_1 = str_replace_na(Units_1, replacement = ""),
+         Units_2 = str_replace_na(Units_2, replacement = "")) %>% 
+  unite(Units, c(Units_1, Units_2), remove = TRUE) %>% 
+  mutate(Units = str_remove(Units, "_"))
+
+SV_Driggs3_3 = read_excel("data/data_from_M/york/SV 245-247 Driggs Avenue.xlsx", 
+                        range = "A141:S201", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...8, 
+         "Units_1" = ...10,
+         "Units_2" = ...12,
+         "LOQ" = ...17,
+         "Dilution" = ...19) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units_1, Units_2, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "245-247 Driggs Avenue",
+         Client_ID = "SV-3",
+         Collection_date = "06/20/2012", 
+         Analysis_date = "06/25/2012",
+         Project_ID = "14CVCP159K",
+         Units_1 = str_replace_na(Units_1, replacement = ""),
+         Units_2 = str_replace_na(Units_2, replacement = "")) %>% 
+  unite(Units, c(Units_1, Units_2), remove = TRUE) %>% 
+  mutate(Units = str_remove(Units, "_"))
+
+SV_Driggs3_4 = read_excel("data/data_from_M/york/SV 245-247 Driggs Avenue.xlsx", 
+                        range = "A211:S271", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...8, 
+         "Units_1" = ...10,
+         "Units_2" = ...12,
+         "LOQ" = ...17,
+         "Dilution" = ...19) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units_1, Units_2, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "245-247 Driggs Avenue",
+         Client_ID = "SV-4",
+         Collection_date = "06/20/2012", 
+         Analysis_date = "06/25/2012",
+         Project_ID = "14CVCP159K",
+         Units_1 = str_replace_na(Units_1, replacement = ""),
+         Units_2 = str_replace_na(Units_2, replacement = "")) %>% 
+  unite(Units, c(Units_1, Units_2), remove = TRUE) %>% 
+  mutate(Units = str_remove(Units, "_"))
+
+SV_245_247_Driggs_Avenue = rbind(SV_Driggs3_1, SV_Driggs3_2, SV_Driggs3_3, SV_Driggs3_4)
+```
+
+## 242-246 Wallabout Street
+
+```{r}
+#Centek
+SV_Wallabout_1 = read_excel("data/data_from_M/york/SV 242-246 Wallabout Street.xlsx", 
+                        range = "A4:V43", col_names = FALSE) %>% 
+  rename("Parameter" = ...1,
+         "Results" = ...9, 
+         "Units" = ...19,
+         "LOQ" = ...13,
+         "Dilution" = ...22) %>% 
+  select(c(Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(CAS.No = "NA",
+        Matrix = "Air", 
+         Lab = "Centek",
+         Street = "242-246 Wallabout Street",
+         Client_ID = "SG1",
+         Collection_date = "08/19/2011", 
+         Analysis_date = "09/06/2011",
+         Project_ID = "12CBCP030K")
+
+SV_Wallabout_2 = read_excel("data/data_from_M/york/SV 242-246 Wallabout Street.xlsx", 
+                        range = "A50:X72", col_names = FALSE) %>% 
+  rename("Parameter" = ...1,
+         "Results" = ...11, 
+         "Units" = ...22,
+         "LOQ" = ...15,
+         "Dilution" = ...24) %>% 
+  select(c(Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(CAS.No = "NA",
+        Matrix = "Air", 
+         Lab = "Centek",
+         Street = "242-246 Wallabout Street",
+         Client_ID = "SG1",
+         Collection_date = "08/19/2011", 
+         Analysis_date = "09/06/2011",
+         Project_ID = "12CBCP030K")
+
+SV_Wallabout_3 = read_excel("data/data_from_M/york/SV 242-246 Wallabout Street.xlsx", 
+                        range = "A79:X141", col_names = FALSE) %>% 
+  rename("Parameter" = ...1,
+         "Results" = ...11, 
+         "Units" = ...21,
+         "LOQ" = ...15,
+         "Dilution" = ...24) %>% 
+  select(c(Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(CAS.No = "NA",
+        Matrix = "Air", 
+         Lab = "Centek",
+         Street = "242-246 Wallabout Street",
+         Client_ID = "SG2",
+         Collection_date = "08/19/2011", 
+         Analysis_date = "09/06/2011",
+         Project_ID = "12CBCP030K")
+
+SV_Wallabout_4 = read_excel("data/data_from_M/york/SV 242-246 Wallabout Street.xlsx", 
+                        range = "A148:V187", col_names = FALSE) %>% 
+  rename("Parameter" = ...1,
+         "Results" = ...9, 
+         "Units" = ...19,
+         "LOQ" = ...13,
+         "Dilution" = ...22) %>% 
+  select(c(Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(CAS.No = "NA",
+        Matrix = "Air", 
+         Lab = "Centek",
+         Street = "242-246 Wallabout Street",
+         Client_ID = "SG3",
+         Collection_date = "08/19/2011", 
+         Analysis_date = "09/06/2011",
+         Project_ID = "12CBCP030K")
+
+SV_Wallabout_5 = read_excel("data/data_from_M/york/SV 242-246 Wallabout Street.xlsx", 
+                        range = "A194:X216", col_names = FALSE) %>% 
+  rename("Parameter" = ...1,
+         "Results" = ...11, 
+         "Units" = ...22,
+         "LOQ" = ...15,
+         "Dilution" = ...24) %>% 
+  select(c(Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(CAS.No = "NA",
+        Matrix = "Air", 
+         Lab = "Centek",
+         Street = "242-246 Wallabout Street",
+         Client_ID = "SG3",
+         Collection_date = "08/19/2011", 
+         Analysis_date = "09/06/2011",
+         Project_ID = "12CBCP030K")
+
+SV_Wallabout_6 = read_excel("data/data_from_M/york/SV 242-246 Wallabout Street.xlsx", 
+                        range = "A223:V262", col_names = FALSE) %>% 
+  rename("Parameter" = ...1,
+         "Results" = ...9, 
+         "Units" = ...19,
+         "LOQ" = ...13,
+         "Dilution" = ...22) %>% 
+  select(c(Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(CAS.No = "NA",
+        Matrix = "Air", 
+         Lab = "Centek",
+         Street = "242-246 Wallabout Street",
+         Client_ID = "SG4",
+         Collection_date = "08/19/2011", 
+         Analysis_date = "09/06/2011",
+         Project_ID = "12CBCP030K")
+
+SV_Wallabout_7 = read_excel("data/data_from_M/york/SV 242-246 Wallabout Street.xlsx", 
+                        range = "A269:X291", col_names = FALSE) %>% 
+  rename("Parameter" = ...1,
+         "Results" = ...11, 
+         "Units" = ...22,
+         "LOQ" = ...15,
+         "Dilution" = ...24) %>% 
+  select(c(Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(CAS.No = "NA",
+        Matrix = "Air", 
+         Lab = "Centek",
+         Street = "242-246 Wallabout Street",
+         Client_ID = "SG4",
+         Collection_date = "08/19/2011", 
+         Analysis_date = "09/06/2011",
+         Project_ID = "12CBCP030K")
+
+centek_reports = rbind(SV_Wallabout_1, SV_Wallabout_2, SV_Wallabout_3, SV_Wallabout_4, SV_Wallabout_5, SV_Wallabout_6, SV_Wallabout_7)
+
+#York
+SV_Wallabout_8 = read_excel("data/data_from_M/york/SV 242-246 Wallabout Street.xlsx", 
+                        range = "A298:V358", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...11, 
+         "Units" = ...15,
+         "LOQ" = ...20,
+         "Dilution" = ...22) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "242-246 Wallabout Street",
+         Client_ID = "SG5",
+         Collection_date = "10/24/2011", 
+         Analysis_date = "10/28/2011",
+         Project_ID = "12CBCP030K")
+
+SV_Wallabout_9 = read_excel("data/data_from_M/york/SV 242-246 Wallabout Street.xlsx", 
+                        range = "A369:V429", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...11, 
+         "Units" = ...15,
+         "LOQ" = ...20,
+         "Dilution" = ...22) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "242-246 Wallabout Street",
+         Client_ID = "SG6",
+         Collection_date = "10/24/2011", 
+         Analysis_date = "10/28/2011",
+         Project_ID = "12CBCP030K")
+
+SV_242_246_Wallabout_Sreet = rbind(SV_Wallabout_8, SV_Wallabout_9)
+```
+
+## 2396 Dean Street
+
+```{r}
+SV_Dean_1 = read_excel("data/data_from_M/york/SV 2396 Dean Street.xlsx", 
+                        range = "A5:L65", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...6, 
+         "Units" = ...8,
+         "LOQ" = ...11,
+         "Dilution" = ...12) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "2396 Dean Street",
+         Client_ID = "SG-1",
+         Collection_date = "04/23/2013", 
+         Analysis_date = "04/26/2013",
+         Project_ID = "13CVCP135K")
+
+SV_Dean_2 = read_excel("data/data_from_M/york/SV 2396 Dean Street.xlsx", 
+                        range = "A69:L129", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...6, 
+         "Units" = ...8,
+         "LOQ" = ...11,
+         "Dilution" = ...12) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "2396 Dean Street",
+         Client_ID = "SG-2",
+         Collection_date = "04/23/2013", 
+         Analysis_date = "04/26/2013",
+         Project_ID = "13CVCP135K")
+
+SV_Dean_3 = read_excel("data/data_from_M/york/SV 2396 Dean Street.xlsx", 
+                        range = "A133:L193", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...6, 
+         "Units" = ...8,
+         "LOQ" = ...11,
+         "Dilution" = ...12) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "2396 Dean Street",
+         Client_ID = "SG-3",
+         Collection_date = "04/24/2013", 
+         Analysis_date = "04/26/2013",
+         Project_ID = "13CVCP135K")
+
+SV_2396_Dean_Street = rbind(SV_Dean_1, SV_Dean_2, SV_Dean_3)
+```
+
+## 2166 Nostrand Avenue
+
+```{r}
+SV_Nostrand_1 = read_excel("data/data_from_M/york/SV 2166 Nostrand Avenue.xlsx", 
+                        range = "A6:AJ67", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...7,
+         "Results" = ...17, 
+         "Units" = ...24,
+         "LOQ" = ...33,
+         "Dilution" = ...36) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "Air", 
+         Lab = "York",
+         Street = "2166 Nostrand Avenue",
+         Client_ID = "SV-1",
+         Collection_date = "05/03/2011", 
+         Analysis_date = "05/06/2011",
+         Project_ID = "11CBCP015K")
+
+SV_Nostrand_2 = read_excel("data/data_from_M/york/SV 2166 Nostrand Avenue.xlsx", 
+                        range = "A75:AJ136", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...7,
+         "Results" = ...17, 
+         "Units" = ...24,
+         "LOQ" = ...33,
+         "Dilution" = ...36) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "Air", 
+         Lab = "York",
+         Street = "2166 Nostrand Avenue",
+         Client_ID = "SV-2",
+         Collection_date = "05/03/2011", 
+         Analysis_date = "05/06/2011",
+         Project_ID = "11CBCP015K")
+
+SV_Nostrand_3 = read_excel("data/data_from_M/york/SV 2166 Nostrand Avenue.xlsx", 
+                        range = "A144:AJ207", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...7,
+         "Results" = ...17, 
+         "Units_1" = ...21,
+         "Units_2" = ...24,
+         "LOQ" = ...33,
+         "Dilution" = ...36) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units_1, Units_2, LOQ, Dilution)) %>% 
+  mutate(Matrix = "Air", 
+         Lab = "York",
+         Street = "2166 Nostrand Avenue",
+         Client_ID = "SV-3",
+         Collection_date = "05/03/2011", 
+         Analysis_date = "05/06/2011",
+         Project_ID = "11CBCP015K",
+         Units_1 = str_replace_na(Units_1, replacement = ""),
+         Units_2 = str_replace_na(Units_2, replacement = "")) %>% 
+  unite(Units, c(Units_1, Units_2), remove = TRUE) %>% 
+  mutate(Units = str_remove(Units, "_"))
+
+SV_Nostrand_4 = read_excel("data/data_from_M/york/SV 2166 Nostrand Avenue.xlsx", 
+                        range = "A215:AJ276", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...7,
+         "Results" = ...17, 
+         "Units_1" = ...21,
+         "Units_2" = ...24,
+         "LOQ" = ...33,
+         "Dilution" = ...36) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units_1, Units_2, LOQ, Dilution)) %>% 
+  mutate(Matrix = "Air", 
+         Lab = "York",
+         Street = "2166 Nostrand Avenue",
+         Client_ID = "SV-4",
+         Collection_date = "05/03/2011", 
+         Analysis_date = "05/06/2011",
+         Project_ID = "11CBCP015K",
+         Units_1 = str_replace_na(Units_1, replacement = ""),
+         Units_2 = str_replace_na(Units_2, replacement = "")) %>% 
+  unite(Units, c(Units_1, Units_2), remove = TRUE) %>% 
+  mutate(Units = str_remove(Units, "_"))
+
+SV_Nostrand_5 = read_excel("data/data_from_M/york/SV 2166 Nostrand Avenue.xlsx", 
+                        range = "A285:AJ345", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...7,
+         "Results" = ...17, 
+         "Units_1" = ...21,
+         "Units_2" = ...24,
+         "LOQ" = ...33,
+         "Dilution" = ...36) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units_1, Units_2, LOQ, Dilution)) %>% 
+  mutate(Matrix = "Air", 
+         Lab = "York",
+         Street = "2166 Nostrand Avenue",
+         Client_ID = "SV-5",
+         Collection_date = "05/03/2011", 
+         Analysis_date = "05/06/2011",
+         Project_ID = "11CBCP015K",
+         Units_1 = str_replace_na(Units_1, replacement = ""),
+         Units_2 = str_replace_na(Units_2, replacement = "")) %>% 
+  unite(Units, c(Units_1, Units_2), remove = TRUE) %>% 
+  mutate(Units = str_remove(Units, "_"))
+
+SV_Nostrand_6 = read_excel("data/data_from_M/york/SV 2166 Nostrand Avenue.xlsx", 
+                        range = "A352:AJ413", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...7,
+         "Results" = ...17, 
+         "Units_1" = ...21,
+         "Units_2" = ...24,
+         "LOQ" = ...33,
+         "Dilution" = ...36) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units_1, Units_2, LOQ, Dilution)) %>% 
+  mutate(Matrix = "Air", 
+         Lab = "York",
+         Street = "2166 Nostrand Avenue",
+         Client_ID = "SV-6",
+         Collection_date = "05/03/2011", 
+         Analysis_date = "05/06/2011",
+         Project_ID = "11CBCP015K",
+         Units_1 = str_replace_na(Units_1, replacement = ""),
+         Units_2 = str_replace_na(Units_2, replacement = "")) %>% 
+  unite(Units, c(Units_1, Units_2), remove = TRUE) %>% 
+  mutate(Units = str_remove(Units, "_"))
+
+SV_Nostrand_7 = read_excel("data/data_from_M/york/SV 2166 Nostrand Avenue.xlsx", 
+                        range = "A421:AJ481", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...7,
+         "Results" = ...17, 
+         "Units_1" = ...21,
+         "Units_2" = ...24,
+         "LOQ" = ...33,
+         "Dilution" = ...36) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units_1, Units_2, LOQ, Dilution)) %>% 
+  mutate(Matrix = "Air", 
+         Lab = "York",
+         Street = "2166 Nostrand Avenue",
+         Client_ID = "SV-7",
+         Collection_date = "05/03/2011", 
+         Analysis_date = "05/06/2011",
+         Project_ID = "11CBCP015K",
+         Units_1 = str_replace_na(Units_1, replacement = ""),
+         Units_2 = str_replace_na(Units_2, replacement = "")) %>% 
+  unite(Units, c(Units_1, Units_2), remove = TRUE) %>% 
+  mutate(Units = str_remove(Units, "_"))
+
+SV_2166_Nostrand_Avenue = rbind(SV_Nostrand_7, SV_Nostrand_6, SV_Nostrand_5, SV_Nostrand_4, SV_Nostrand_3, SV_Nostrand_2, SV_Nostrand_1)
+```
+
+## 210 North 12th Street
+
+```{r}
+SV_North2_1 = read_excel("data/data_from_M/york/SV 210 North 12th Street.xlsx", 
+                        range = "A4:O64", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...3,
+         "Results" = ...8, 
+         "Units" = ...10,
+         "LOQ" = ...14,
+         "Dilution" = ...15) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "Air", 
+         Lab = "York",
+         Street = "210 North 12th Street",
+         Client_ID = "SG-1",
+         Collection_date = "09/12/2011", 
+         Analysis_date = "09/20/2011",
+         Project_ID = "12CBCP024K")
+
+SV_North2_2 = read_excel("data/data_from_M/york/SV 210 North 12th Street.xlsx", 
+                        range = "A72:O132", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...3,
+         "Results" = ...8, 
+         "Units" = ...10,
+         "LOQ" = ...14,
+         "Dilution" = ...15) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "Air", 
+         Lab = "York",
+         Street = "210 North 12th Street",
+         Client_ID = "SG-2",
+         Collection_date = "09/12/2011", 
+         Analysis_date = "09/16/2011",
+         Project_ID = "12CBCP024K")
+
+SV_North2_3 = read_excel("data/data_from_M/york/SV 210 North 12th Street.xlsx", 
+                        range = "A135:O195", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...3,
+         "Results" = ...8, 
+         "Units" = ...10,
+         "LOQ" = ...14,
+         "Dilution" = ...15) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "Air", 
+         Lab = "York",
+         Street = "210 North 12th Street",
+         Client_ID = "SG-5",
+         Collection_date = "09/12/2011", 
+         Analysis_date = "09/16/2011",
+         Project_ID = "12CBCP024K")
+
+SV_210_North_12th_Street = rbind(SV_North2_1, SV_North2_2, SV_North2_3)
+```
+
+## 1941 Coney Island Avenue
+
+```{r}
+SV_Coney_1 = read_excel("data/data_from_M/york/SV 1941 Coney Island Avenue.xlsx", 
+                        range = "A6:W125", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...11, 
+         "Units" = ...13,
+         "LOQ" = ...20,
+         "Dilution" = ...23) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "1941 Coney Island Avenue",
+         Client_ID = "VP-1",
+         Collection_date = "08/01/2019", 
+         Analysis_date = "08/07/2019",
+         Project_ID = "20CVCP002K")
+
+SV_Coney_2 = read_excel("data/data_from_M/york/SV 1941 Coney Island Avenue.xlsx", 
+                        range = "A132:W246", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...11, 
+         "Units" = ...13,
+         "LOQ" = ...20,
+         "Dilution" = ...23) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "1941 Coney Island Avenue",
+         Client_ID = "VP-2",
+         Collection_date = "08/01/2019", 
+         Analysis_date = "08/07/2019",
+         Project_ID = "20CVCP002K")
+
+SV_Coney_3 = read_excel("data/data_from_M/york/SV 1941 Coney Island Avenue.xlsx", 
+                        range = "A254:W370", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...11, 
+         "Units" = ...13,
+         "LOQ" = ...20,
+         "Dilution" = ...23) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "1941 Coney Island Avenue",
+         Client_ID = "VP-3",
+         Collection_date = "08/01/2019", 
+         Analysis_date = "08/07/2019",
+         Project_ID = "20CVCP002K")
+
+SV_Coney_4 = read_excel("data/data_from_M/york/SV 1941 Coney Island Avenue.xlsx", 
+                        range = "A381:W499", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...11, 
+         "Units" = ...13,
+         "LOQ" = ...20,
+         "Dilution" = ...23) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "1941 Coney Island Avenue",
+         Client_ID = "VP-4",
+         Collection_date = "07/31/2019", 
+         Analysis_date = "08/07/2019",
+         Project_ID = "20CVCP002K")
+
+SV_Coney_5 = read_excel("data/data_from_M/york/SV 1941 Coney Island Avenue.xlsx", 
+                        range = "A507:W621", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...11, 
+         "Units" = ...13,
+         "LOQ" = ...20,
+         "Dilution" = ...23) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "1941 Coney Island Avenue",
+         Client_ID = "VP-5",
+         Collection_date = "07/31/2019", 
+         Analysis_date = "08/08/2019",
+         Project_ID = "20CVCP002K")
+
+SV_Coney_6 = read_excel("data/data_from_M/york/SV 1941 Coney Island Avenue.xlsx", 
+                        range = "A630:W743", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...11, 
+         "Units" = ...13,
+         "LOQ" = ...20,
+         "Dilution" = ...23) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "1941 Coney Island Avenue",
+         Client_ID = "VP-6",
+         Collection_date = "07/31/2019", 
+         Analysis_date = "08/08/2019",
+         Project_ID = "20CVCP002K")
+
+SV_1941_Coney_Island_Avenue = rbind(SV_Coney_6, SV_Coney_5, SV_Coney_4, SV_Coney_3, SV_Coney_2, SV_Coney_1)
+```
+
+## 186 Greenpoint Avenue
+
+```{r}
+SV_Greenpoint_1 = read_excel("data/data_from_M/york/SV 186 Greenpoint Avenue.xlsx", 
+                        range = "A5:X65", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...6,
+         "Results" = ...12, 
+         "Units" = ...16,
+         "LOQ" = ...22,
+         "Dilution" = ...24) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "186 Greenpoint Avenue",
+         Client_ID = "SV-2",
+         Collection_date = "07/24/2012", 
+         Analysis_date = "08/01/2012",
+         Project_ID = "13CVCP113K")
+
+SV_Greenpoint_2 = read_excel("data/data_from_M/york/SV 186 Greenpoint Avenue.xlsx", 
+                        range = "A75:X135", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...6,
+         "Results" = ...12, 
+         "Units" = ...16,
+         "LOQ" = ...22,
+         "Dilution" = ...24) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "186 Greenpoint Avenue",
+         Client_ID = "SV-3",
+         Collection_date = "07/24/2012", 
+         Analysis_date = "08/01/2012",
+         Project_ID = "13CVCP113K")
+
+SV_Greenpoint_3 = read_excel("data/data_from_M/york/SV 186 Greenpoint Avenue.xlsx", 
+                        range = "A153:X213", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...6,
+         "Results" = ...12, 
+         "Units" = ...16,
+         "LOQ" = ...22,
+         "Dilution" = ...24) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "Outdoor Ambient Air", 
+         Lab = "York",
+         Street = "186 Greenpoint Avenue",
+         Client_ID = "AO-1",
+         Collection_date = "07/24/2012", 
+         Analysis_date = "08/01/2012",
+         Project_ID = "13CVCP113K")
+
+SV_186_Greenpoint_Avenue = rbind(SV_Greenpoint_1, SV_Greenpoint_2, SV_Greenpoint_3)
+```
+
+## 150 Union Avenue 
+** incorrect address 120 **
+
+```{r}
+SV_Union2_1 = read_excel("data/data_from_M/york/SV 150 Union Avenue.xlsx", 
+                        range = "A11:Z71", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...6,
+         "Results" = ...13, 
+         "Units" = ...17,
+         "LOQ" = ...24,
+         "Dilution" = ...26) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "120 Union Avenue",
+         Client_ID = "SV-1",
+         Collection_date = "04/21/2014", 
+         Analysis_date = "04/24/2014",
+         Project_ID = "15CVCP058K")
+
+SV_Union2_2 = read_excel("data/data_from_M/york/SV 150 Union Avenue.xlsx", 
+                        range = "A86:Z146", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...6,
+         "Results" = ...13, 
+         "Units" = ...17,
+         "LOQ" = ...19,
+         "Dilution" = ...26) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "120 Union Avenue",
+         Client_ID = "SV-2",
+         Collection_date = "04/21/2014", 
+         Analysis_date = "04/24/2014",
+         Project_ID = "15CVCP058K")
+
+SV_Union2_3 = read_excel("data/data_from_M/york/SV 150 Union Avenue.xlsx", 
+                        range = "A154:Z214", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...6,
+         "Results" = ...13, 
+         "Units" = ...17,
+         "LOQ" = ...19,
+         "Dilution" = ...26) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "120 Union Avenue",
+         Client_ID = "SV-3",
+         Collection_date = "04/21/2014", 
+         Analysis_date = "04/24/2014",
+         Project_ID = "15CVCP058K")
+
+SV_Union2_4 = read_excel("data/data_from_M/york/SV 150 Union Avenue.xlsx", 
+                        range = "A234:Z294", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...6,
+         "Results" = ...13, 
+         "Units" = ...17,
+         "LOQ" = ...19,
+         "Dilution" = ...26) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "120 Union Avenue",
+         Client_ID = "SV-4",
+         Collection_date = "04/21/2014", 
+         Analysis_date = "04/24/2014",
+         Project_ID = "15CVCP058K")
+
+SV_Union2_5 = read_excel("data/data_from_M/york/SV 150 Union Avenue.xlsx", 
+                        range = "A309:Z369", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...6,
+         "Results" = ...13, 
+         "Units" = ...17,
+         "LOQ" = ...19,
+         "Dilution" = ...26) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "120 Union Avenue",
+         Client_ID = "SV-5",
+         Collection_date = "04/21/2014", 
+         Analysis_date = "04/24/2014",
+         Project_ID = "15CVCP058K")
+
+SV_Union2_6 = read_excel("data/data_from_M/york/SV 150 Union Avenue.xlsx", 
+                        range = "A390:Z450", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...6,
+         "Results" = ...13, 
+         "Units" = ...17,
+         "LOQ" = ...19,
+         "Dilution" = ...26) %>% 
+  filter(!is.na(CAS.No)) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "Outdoor Ambient Air", 
+         Lab = "York",
+         Street = "120 Union Avenue",
+         Client_ID = "AO-1",
+         Collection_date = "04/21/2014", 
+         Analysis_date = "04/24/2014",
+         Project_ID = "15CVCP058K")
+
+SV_120_Union_Avenue = rbind(SV_Union2_1, SV_Union2_2, SV_Union2_3, SV_Union2_4, SV_Union2_5, SV_Union2_6)
+```
+
+## 1328 Fulton Street
+
+```{r}
+SV_Fulton2_1 = read_excel("data/data_from_M/york/SV 1328 Fulton Street.xlsx", 
+                        range = "A85:AD118", col_names = FALSE) %>% 
+  rename("CAS.No" = ...6, 
+         "Parameter" = ...2,
+         "Results" = ...1, 
+         "Units" = ...16,
+         "LOQ" = ...23,
+         "Dilution" = ...30) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "1328 Fulton Street",
+         Client_ID = "SV-1",
+         Collection_date = "06/05/2013", 
+         Analysis_date = "06/11/2013",
+         Project_ID = "14CVCP192K")
+
+SV_Fulton2_2 = read_excel("data/data_from_M/york/SV 1328 Fulton Street.xlsx", 
+                        range = "A125:AX151", col_names = FALSE) %>% 
+  rename("CAS.No" = ...6, 
+         "Parameter" = ...1,
+         "Results" = ...50, 
+         "Units" = ...13,
+         "LOQ" = ...20,
+         "Dilution" = ...28) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "1328 Fulton Street",
+         Client_ID = "SV-1",
+         Collection_date = "06/05/2013", 
+         Analysis_date = "06/11/2013",
+         Project_ID = "14CVCP192K")
+
+SV_Fulton2_3 = read_excel("data/data_from_M/york/SV 1328 Fulton Street.xlsx", 
+                        range = "A236:AD269", col_names = FALSE) %>% 
+  rename("CAS.No" = ...6, 
+         "Parameter" = ...2,
+         "Results" = ...1, 
+         "Units" = ...16,
+         "LOQ" = ...23,
+         "Dilution" = ...30) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "1328 Fulton Street",
+         Client_ID = "SV-2",
+         Collection_date = "06/05/2013", 
+         Analysis_date = "06/11/2013",
+         Project_ID = "14CVCP192K")
+
+SV_Fulton2_4 = read_excel("data/data_from_M/york/SV 1328 Fulton Street.xlsx", 
+                        range = "A276:AX302", col_names = FALSE) %>% 
+  rename("CAS.No" = ...6, 
+         "Parameter" = ...1,
+         "Results" = ...50, 
+         "Units" = ...13,
+         "LOQ" = ...20,
+         "Dilution" = ...28) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "1328 Fulton Street",
+         Client_ID = "SV-2",
+         Collection_date = "06/05/2013", 
+         Analysis_date = "06/11/2013",
+         Project_ID = "14CVCP192K")
+
+SV_Fulton2_5 = read_excel("data/data_from_M/york/SV 1328 Fulton Street.xlsx", 
+                        range = "B387:AC421", col_names = FALSE) %>% 
+  rename("CAS.No" = ...6, 
+         "Parameter" = ...1,
+         "Results" = ...11, 
+         "Units" = ...14,
+         "LOQ" = ...25,
+         "Dilution" = ...28) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "1328 Fulton Street",
+         Client_ID = "SV-3",
+         Collection_date = "06/05/2013", 
+         Analysis_date = "06/11/2013",
+         Project_ID = "14CVCP192K")
+
+SV_Fulton2_6 = read_excel("data/data_from_M/york/SV 1328 Fulton Street.xlsx", 
+                        range = "A428:AX453", col_names = FALSE) %>% 
+  rename("CAS.No" = ...6, 
+         "Parameter" = ...1,
+         "Results" = ...50, 
+         "Units" = ...13,
+         "LOQ" = ...20,
+         "Dilution" = ...28) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "1328 Fulton Street",
+         Client_ID = "SV-3",
+         Collection_date = "06/05/2013", 
+         Analysis_date = "06/11/2013",
+         Project_ID = "14CVCP192K")
+
+SV_Fulton2_7 = read_excel("data/data_from_M/york/SV 1328 Fulton Street.xlsx", 
+                        range = "A538:AD571", col_names = FALSE) %>% 
+  rename("CAS.No" = ...6, 
+         "Parameter" = ...2,
+         "Results" = ...1, 
+         "Units" = ...16,
+         "LOQ" = ...23,
+         "Dilution" = ...30) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "1328 Fulton Street",
+         Client_ID = "SV-4",
+         Collection_date = "06/05/2013", 
+         Analysis_date = "06/11/2013",
+         Project_ID = "14CVCP192K")
+
+SV_Fulton2_8 = read_excel("data/data_from_M/york/SV 1328 Fulton Street.xlsx", 
+                        range = "A578:AX604", col_names = FALSE) %>% 
+  rename("CAS.No" = ...6, 
+         "Parameter" = ...1,
+         "Results" = ...50, 
+         "Units" = ...13,
+         "LOQ" = ...20,
+         "Dilution" = ...28) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "1328 Fulton Street",
+         Client_ID = "SV-4",
+         Collection_date = "06/05/2013", 
+         Analysis_date = "06/11/2013",
+         Project_ID = "14CVCP192K")
+
+SV_Fulton2_9 = read_excel("data/data_from_M/york/SV 1328 Fulton Street.xlsx", 
+                        range = "A689:AJ723", col_names = FALSE) %>% 
+  rename("CAS.No" = ...6, 
+         "Parameter" = ...1,
+         "Results" = ...19, 
+         "LOQ" = ...33,
+         "Dilution" = ...36) %>% 
+  select(c(CAS.No, Parameter, Results, LOQ, Dilution)) %>% 
+  separate(col = Results, into = c("Results", "Units")) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "1328 Fulton Street",
+         Client_ID = "SV-5",
+         Collection_date = "06/05/2013", 
+         Analysis_date = "06/11/2013",
+         Project_ID = "14CVCP192K", 
+         Units = "ug/m3") 
+
+SV_Fulton2_10 = read_excel("data/data_from_M/york/SV 1328 Fulton Street.xlsx", 
+                        range = "A730:AX755", col_names = FALSE) %>% 
+  rename("CAS.No" = ...6, 
+         "Parameter" = ...1,
+         "Results" = ...50, 
+         "Units" = ...13,
+         "LOQ" = ...20,
+         "Dilution" = ...28) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "1328 Fulton Street",
+         Client_ID = "SV-5",
+         Collection_date = "06/05/2013", 
+         Analysis_date = "06/11/2013",
+         Project_ID = "14CVCP192K")
+
+SV_Fulton2_11 = read_excel("data/data_from_M/york/SV 1328 Fulton Street.xlsx", 
+                        range = "A846:AD880", col_names = FALSE) %>% 
+  rename("CAS.No" = ...6, 
+         "Parameter" = ...2,
+         "Results" = ...1, 
+         "Units" = ...16,
+         "LOQ" = ...23,
+         "Dilution" = ...30) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "Outdoor Ambient Air", 
+         Lab = "York",
+         Street = "1328 Fulton Street",
+         Client_ID = "Ambient Air",
+         Collection_date = "06/05/2013", 
+         Analysis_date = "06/11/2013",
+         Project_ID = "14CVCP192K")
+
+SV_Fulton2_12 = read_excel("data/data_from_M/york/SV 1328 Fulton Street.xlsx", 
+                        range = "A888:AX913", col_names = FALSE) %>% 
+  rename("CAS.No" = ...6, 
+         "Parameter" = ...1,
+         "Results" = ...50, 
+         "Units" = ...16,
+         "LOQ" = ...27,
+         "Dilution" = ...30) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "Outdoor Ambient Air", 
+         Lab = "York",
+         Street = "1328 Fulton Street",
+         Client_ID = "Ambient Air",
+         Collection_date = "06/05/2013", 
+         Analysis_date = "06/11/2013",
+         Project_ID = "14CVCP192K")
+
+SV_1328_Fulton_Street = rbind(SV_Fulton2_1, SV_Fulton2_2, SV_Fulton2_3, SV_Fulton2_4, SV_Fulton2_5, SV_Fulton2_6, SV_Fulton2_7, SV_Fulton2_8, SV_Fulton2_9, SV_Fulton2_10, SV_Fulton2_11, SV_Fulton2_12)
+```
+
+## 120 Kings Highway
+
+```{r}
+SV_Kings_1 = read_excel("data/data_from_M/york/SV 120 Kings Highway.xlsx", 
+                        range = "A11:S71", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...4,
+         "Results" = ...10, 
+         "Units" = ...13,
+         "LOQ" = ...18,
+         "Dilution" = ...19) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "120 Kings Highway",
+         Client_ID = "SV-1",
+         Collection_date = "07/16/2014", 
+         Analysis_date = "07/23/2014",
+         Project_ID = "15CVCP039K")
+
+SV_Kings_2 = read_excel("data/data_from_M/york/SV 120 Kings Highway.xlsx", 
+                        range = "A84:T144", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...4,
+         "Results" = ...10, 
+         "Units" = ...13,
+         "LOQ" = ...18,
+         "Dilution" = ...20) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "120 Kings Highway",
+         Client_ID = "SV-2",
+         Collection_date = "07/16/2014", 
+         Analysis_date = "07/23/2014",
+         Project_ID = "15CVCP039K")
+
+SV_Kings_3 = read_excel("data/data_from_M/york/SV 120 Kings Highway.xlsx", 
+                        range = "A157:S217", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...4,
+         "Results" = ...10, 
+         "Units" = ...13,
+         "LOQ" = ...18,
+         "Dilution" = ...19) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "120 Kings Highway",
+         Client_ID = "SV-3",
+         Collection_date = "07/16/2014", 
+         Analysis_date = "07/23/2014",
+         Project_ID = "15CVCP039K", 
+         Dilution = "20.57")
+
+SV_Kings_4 = read_excel("data/data_from_M/york/SV 120 Kings Highway.xlsx", 
+                        range = "A230:S290", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...4,
+         "Results" = ...10, 
+         "Units" = ...13,
+         "LOQ" = ...18,
+         "Dilution" = ...19) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "120 Kings Highway",
+         Client_ID = "SV-4",
+         Collection_date = "07/16/2014", 
+         Analysis_date = "07/23/2014",
+         Project_ID = "15CVCP039K", 
+         Dilution = "17.68")
+
+SV_120_Kings_Highway = rbind(SV_Kings_1, SV_Kings_2, SV_Kings_3, SV_Kings_4)
+```
+
+## 107 Union Street
+
+```{r}
+SV_Union3_1 = read_excel("data/data_from_M/york/SV 107 Union Street.xlsx", 
+                        range = "A4:W64", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...3,
+         "Results" = ...10, 
+         "Units" = ...14,
+         "LOQ" = ...20,
+         "Dilution" = ...23) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "107 Union Street",
+         Client_ID = "V6",
+         Collection_date = "03/08/2012", 
+         Analysis_date = "03/16/2012",
+         Project_ID = "12CVCP054K")
+
+SV_Union3_2 = read_excel("data/data_from_M/york/SV 107 Union Street.xlsx", 
+                        range = "B82:W142", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "Parameter" = ...2,
+         "Results" = ...9, 
+         "Units" = ...13, 
+         "LOQ" = ...19,
+         "Dilution" = ...22) %>% 
+  select(c(CAS.No, Parameter, Results, Units, LOQ, Dilution)) %>% 
+  separate(col = Results, into = c("Results", NA)) %>%  
+  mutate(Matrix = "SV", 
+         Lab = "York",
+         Street = "107 Union Street",
+         Client_ID = "VS9",
+         Collection_date = "03/08/2012", 
+         Analysis_date = "03/16/2012",
+         Project_ID = "12CVCP054K")
+
+SV_107_Union_Street = rbind(SV_Union3_2, SV_Union3_1)
+```
+
 ## Full Dataframe 
 ```{r}
-#york_data = rbind(SV_153_Green_Street, SV_1520_Fulton_Street, SV_179_Throop_Avenue, 
+york_data = rbind(SV_153_Green_Street, SV_1520_Fulton_Street, SV_179_Throop_Avenue, 
                   SV_40_48_Commercial_Street, SV_402_Snediker_Avenue, SV_402_Union_Avenue, 
                   SV_44_Box_Street, SV_522_Grand_Street, SV_625_Driggs_Avenue, 
                   SV_658_Driggs_Avenue, SV_705_Franklin_Avenue, SV_710_Grand_Street, 
                   SV_74_76_Ainslie_Street, SV_925_Atlantic_Avenue, SV_929_Atlantic_Avenue, 
                   SV_432_438_Keap_Street, SV_2702_West_15th_Street, SV_2501_Pitkin_Avenue, 
                   SV_148_West_Street, SV_1127_Flatbush_Avenue, SV_83_Grand_Street,
-                  SV_821_Bedford_Avenue, SV_767_Bergen_Street, SV_66_North_8th_Street)
+                  SV_821_Bedford_Avenue, SV_767_Bergen_Street, SV_66_North_8th_Street,
+                  SV_531_Waverly_Avenue, SV_415_Manhattan_Avenue, SV_28_46_Roebling_Street,
+                  SV_2633_Ocean_Avenue, SV_245_247_Driggs_Avenue, SV_242_246_Wallabout_Sreet,
+                  SV_2396_Dean_Street, SV_2166_Nostrand_Avenue, SV_210_North_12th_Street,
+                  SV_1941_Coney_Island_Avenue, SV_186_Greenpoint_Avenue, SV_120_Union_Avenue,
+                  SV_1328_Fulton_Street, SV_120_Kings_Highway, SV_107_Union_Street)
 ```
 
