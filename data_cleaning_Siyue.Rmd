@@ -4485,7 +4485,7 @@ rm(sv1, sv2, sv3, sv4, sv5, sv6)
 
 Some `mutate` on `full_alpha` and merging `project_id`, with some sample data shown below.
 
-```{r, eval = FALSE}
+```{r}
 full_alpha = full_alpha %>% 
   mutate(
     laboratory = "Alpha Analytical",
@@ -4497,9 +4497,7 @@ full_alpha = full_alpha %>%
   ) %>% 
   select(street_address, laboratory, lab_data_availability, everything())
 
-full_alpha %>% 
-  head() %>% 
-  knitr::kable()
+write_csv(full_alpha, "data/cleandata/alpha.csv")
 
 # test = left_join(select(project_id_list, project_id, street_address = name), full_alpha,
 #                  by = "street_address") %>% 
