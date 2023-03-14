@@ -74,7 +74,7 @@ Data Cleaning
 Some `mutate` on `full_alpha` and merging `project_id`, with some sample
 data shown below.
 
-## Mixed Reports: 1 out of 3 Finished
+## Mixed Reports: 3 out of 3 Finished
 
 1.  86 Fleet Place
 
