@@ -1,4 +1,4 @@
-Data Cleaning for Alpha Labs
+Data Cleaning
 ================
 
 ## Notes
@@ -27,7 +27,7 @@ Data Cleaning for Alpha Labs
 - Have to manually re-position the respective range for each sub-form
   before binding them together
 
-## Current Progress: 20 out of 20 Finished
+## Alpha Reports: 20 out of 20 Finished
 
 (codes are hidden)
 
@@ -73,3 +73,11 @@ Data Cleaning for Alpha Labs
 
 Some `mutate` on `full_alpha` and merging `project_id`, with some sample
 data shown below.
+
+## Mixed Reports: 3 out of 3 Finished
+
+1.  86 Fleet Place
+
+2.  209-227 McGuinness Boulevard
+
+3.  Greenpoint Landing G1

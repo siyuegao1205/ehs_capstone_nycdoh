@@ -1,5 +1,5 @@
 ---
-title: "Data Cleaning for Alpha Labs"
+title: "Data Cleaning"
 output: github_document
 ---
 
@@ -55,7 +55,7 @@ project_id_list = read_csv("data/brooklyn_cvcp_list.csv")
 *   Have to manually re-position the respective range for each sub-form before binding them together
 
 
-## Current Progress: 20 out of 20 Finished
+## Alpha Reports: 20 out of 20 Finished
 
 (codes are hidden)
 
@@ -4485,7 +4485,7 @@ rm(sv1, sv2, sv3, sv4, sv5, sv6)
 
 Some `mutate` on `full_alpha` and merging `project_id`, with some sample data shown below.
 
-```{r, eval = FALSE}
+```{r}
 full_alpha = full_alpha %>% 
   mutate(
     laboratory = "Alpha Analytical",
@@ -4497,12 +4497,1723 @@ full_alpha = full_alpha %>%
   ) %>% 
   select(street_address, laboratory, lab_data_availability, everything())
 
-full_alpha %>% 
-  head() %>% 
-  knitr::kable()
+write_csv(full_alpha, "data/cleandata/alpha.csv")
 
 # test = left_join(select(project_id_list, project_id, street_address = name), full_alpha,
 #                  by = "street_address") %>% 
 #   select(project_id, street_address, laboratory, lab_data_availability, everything())
+```
+
+
+## Mixed Reports: 3 out of 3 Finished
+
+1.    86 Fleet Place  
+
+```{r}
+svc_1 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D5:AG49",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x22", "x30"))
+
+names = c("parameter", "ppbv_results", "ppbv_rl", "ug_m3_results", "ug_m3_rl")
+
+svc_2 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D54:AG67",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x26", "x30"))
+
+names(svc_1) = names
+names(svc_2) = names
+
+svc = bind_rows(svc_1, svc_2) %>% 
+  mutate(
+    street_address = "86 Fleet Place",
+    sample_id = "SV-C",
+    collection_date = as.Date("06/12/07", "%m/%d/%y"),
+    analysis_date = as.Date("06/16/07", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(svc_1, svc_2)
+
+sve_1 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D73:AG117",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x22", "x30"))
+
+sve_2 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D122:AG135",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x26", "x30"))
+
+names(sve_1) = names
+names(sve_2) = names
+
+sve = bind_rows(sve_1, sve_2) %>% 
+  mutate(
+    street_address = "86 Fleet Place",
+    sample_id = "SV-E",
+    collection_date = as.Date("06/12/07", "%m/%d/%y"),
+    analysis_date = as.Date("06/16/07", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sve_1, sve_2)
+
+svf_1 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D141:AG185",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x22", "x30"))
+
+svf_2 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D190:AG203",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x26", "x30"))
+
+names(svf_1) = names
+names(svf_2) = names
+
+svf = bind_rows(svf_1, svf_2) %>% 
+  mutate(
+    street_address = "86 Fleet Place",
+    sample_id = "SV-F",
+    collection_date = as.Date("06/12/07", "%m/%d/%y"),
+    analysis_date = as.Date("06/16/07", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(svf_1, svf_2)
+
+svg_1 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D209:AG253",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x22", "x30"))
+
+svg_2 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D258:AG271",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x21", "x30"))
+
+names(svg_1) = names
+names(svg_2) = names
+
+svg = bind_rows(svg_1, svg_2) %>% 
+  mutate(
+    street_address = "86 Fleet Place",
+    sample_id = "SV-G",
+    collection_date = as.Date("06/12/07", "%m/%d/%y"),
+    analysis_date = as.Date("06/18/07", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(svg_1, svg_2)
+
+sv22_1 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D277:AG321",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x22", "x30"))
+
+sv22_2 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D326:AG339",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x21", "x30"))
+
+names(sv22_1) = names
+names(sv22_2) = names
+
+sv22 = bind_rows(sv22_1, sv22_2) %>% 
+  mutate(
+    street_address = "86 Fleet Place",
+    sample_id = "SV-22",
+    collection_date = as.Date("06/12/07", "%m/%d/%y"),
+    analysis_date = as.Date("06/16/07", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv22_1, sv22_2)
+
+svao_1 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D345:AG389",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x22", "x30"))
+
+svao_2 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D394:AG407",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x21", "x30"))
+
+names(svao_1) = names
+names(svao_2) = names
+
+svao = bind_rows(svao_1, svao_2) %>% 
+  mutate(
+    street_address = "86 Fleet Place",
+    sample_id = "SV-AO",
+    collection_date = as.Date("06/12/07", "%m/%d/%y"),
+    analysis_date = as.Date("06/16/07", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(svao_1, svao_2)
+
+sva_1 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D413:AG457",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x22", "x30"))
+
+sva_2 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D462:AG475",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x21", "x30"))
+
+names(sva_1) = names
+names(sva_2) = names
+
+sva = bind_rows(sva_1, sva_2) %>% 
+  mutate(
+    street_address = "86 Fleet Place",
+    sample_id = "SV-A",
+    collection_date = as.Date("06/13/07", "%m/%d/%y"),
+    analysis_date = as.Date("06/18/07", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sva_1, sva_2)
+
+svai_1 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D481:AG525",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x22", "x30"))
+
+svai_2 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D530:AG543",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x21", "x30"))
+
+names(svai_1) = names
+names(svai_2) = names
+
+svai = bind_rows(svai_1, svai_2) %>% 
+  mutate(
+    street_address = "86 Fleet Place",
+    sample_id = "SV-AI",
+    collection_date = as.Date("06/13/07", "%m/%d/%y"),
+    analysis_date = as.Date("06/16/07", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(svai_1, svai_2)
+
+svb_1 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D549:AG593",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x22", "x30"))
+
+svb_2 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D598:AG611",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x21", "x30"))
+
+names(svb_1) = names
+names(svb_2) = names
+
+svb = bind_rows(svb_1, svb_2) %>% 
+  mutate(
+    street_address = "86 Fleet Place",
+    sample_id = "SV-B",
+    collection_date = as.Date("06/13/07", "%m/%d/%y"),
+    analysis_date = as.Date("06/16/07", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(svb_1, svb_2)
+
+sv24_1 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D617:AG661",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x22", "x30"))
+
+sv24_2 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D666:AG679",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x26", "x30"))
+
+names(sv24_1) = names
+names(sv24_2) = names
+
+sv24 = bind_rows(sv24_1, sv24_2) %>% 
+  mutate(
+    street_address = "86 Fleet Place",
+    sample_id = "SV-24",
+    collection_date = as.Date("04/26/07", "%m/%d/%y"),
+    analysis_date = as.Date("04/27/07", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv24_1, sv24_2)
+
+sv30_1 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D685:AG729",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x22", "x30"))
+
+sv30_2 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D734:AG747",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x26", "x30"))
+
+names(sv30_1) = names
+names(sv30_2) = names
+
+sv30 = bind_rows(sv30_1, sv30_2) %>% 
+  mutate(
+    street_address = "86 Fleet Place",
+    sample_id = "SV-30",
+    collection_date = as.Date("04/26/07", "%m/%d/%y"),
+    analysis_date = as.Date("04/28/07", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv30_1, sv30_2)
+
+sv302_1 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D754:AG798",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x22", "x30"))
+
+sv302_2 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D804:AG817",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x21", "x30"))
+
+names(sv302_1) = names
+names(sv302_2) = names
+
+sv302 = bind_rows(sv302_1, sv302_2) %>% 
+  mutate(
+    street_address = "86 Fleet Place",
+    sample_id = "SV-30",
+    collection_date = as.Date("04/26/07", "%m/%d/%y"),
+    analysis_date = as.Date("04/30/07", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv302_1, sv302_2)
+
+amb_1 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D823:AG867",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x22", "x30"))
+
+amb_2 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "D872:AG885",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x18", "x21", "x30"))
+
+names(amb_1) = names
+names(amb_2) = names
+
+amb = bind_rows(amb_1, amb_2) %>% 
+  mutate(
+    street_address = "86 Fleet Place",
+    sample_id = "AMB",
+    collection_date = as.Date("04/26/07", "%m/%d/%y"),
+    analysis_date = as.Date("04/30/07", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(amb_1, amb_2)
+
+full_bind = bind_rows(amb, sv22, sv24, sv30, sv302, svai, svao, sva, svb, svc, sve, svf, svg) %>% 
+  mutate(
+    laboratory = "Spectrum Analytical",
+    lab_data_availability = "Yes",
+    ppbv_results = as.character(as.numeric(ppbv_results)),
+    ppbv_results = replace_na(ppbv_results, "ND"),
+    ug_m3_results = as.character(as.numeric(ug_m3_results)),
+    ug_m3_results = replace_na(ug_m3_results, "ND")
+  ) %>% 
+  select(street_address, laboratory, lab_data_availability, everything())
+
+rm(amb, sv22, sv24, sv30, sv302, svai, svao, sva, svb, svc, sve, svf, svg)
+
+sv1_1 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "A897:AR920",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x19", "x23", "x28", "x36", "x42", "x44"))
+
+sv1_2 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "A929:AR956",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x11", "x15", "x20", "x25", "x32", "x38", "x44"))
+
+sv1_3 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "A965:AR975",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x11", "x15", "x20", "x25", "x31", "x38", "x44"))
+
+names(sv1_1) = alpha_names
+names(sv1_2) = alpha_names
+names(sv1_3) = alpha_names
+
+sv1 = bind_rows(sv1_1, sv1_2, sv1_3) %>% 
+  mutate(
+    street_address = "86 Fleet Place",
+    sample_id = "SV01",
+    collection_date = as.Date("05/19/14", "%m/%d/%y"),
+    analysis_date = as.Date("05/28/14", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv1_1, sv1_2, sv1_3)
+
+sv2_1 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "A992:AR1015",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x19", "x25", "x28", "x36", "x42", "x44"))
+
+sv2_2 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "A1024:AR1051",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x11", "x15", "x21", "x25", "x32", "x38", "x44"))
+
+sv2_3 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "A1060:AR1070",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x11", "x15", "x21", "x25", "x31", "x38", "x44"))
+
+names(sv2_1) = alpha_names
+names(sv2_2) = alpha_names
+names(sv2_3) = alpha_names
+
+sv2 = bind_rows(sv2_1, sv2_2, sv2_3) %>% 
+  mutate(
+    street_address = "86 Fleet Place",
+    sample_id = "SV02",
+    collection_date = as.Date("05/19/14", "%m/%d/%y"),
+    analysis_date = as.Date("05/28/14", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv2_1, sv2_2, sv2_3)
+
+sv3_1 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "A1087:AR1110",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x19", "x25", "x28", "x36", "x42", "x44"))
+
+sv3_2 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "A1119:AR1146",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x11", "x15", "x21", "x25", "x32", "x38", "x44"))
+
+sv3_3 = read_excel("data/data_from_M/mixed/SV 86 Fleet Place.xlsx",
+                range = "A1155:AR1165",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x11", "x15", "x21", "x25", "x31", "x38", "x44"))
+
+names(sv3_1) = alpha_names
+names(sv3_2) = alpha_names
+names(sv3_3) = alpha_names
+
+sv3 = bind_rows(sv3_1, sv3_2, sv3_3) %>% 
+  mutate(
+    street_address = "86 Fleet Place",
+    sample_id = "SV03",
+    collection_date = as.Date("05/19/14", "%m/%d/%y"),
+    analysis_date = as.Date("05/28/14", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv3_1, sv3_2, sv3_3)
+
+full_bind1 = bind_rows(sv1, sv2, sv3) %>% 
+  select(-ends_with("mdl"), -dilution) %>% 
+  mutate(
+    laboratory = "Alpha Analytical",
+    lab_data_availability = "Yes",
+    ppbv_results = as.character(as.numeric(ppbv_results)),
+    ppbv_results = replace_na(ppbv_results, "ND"),
+    ug_m3_results = as.character(as.numeric(ug_m3_results)),
+    ug_m3_results = replace_na(ug_m3_results, "ND")
+  ) %>% 
+  select(street_address, laboratory, lab_data_availability, everything())
+
+full_bind = bind_rows(full_bind, full_bind1)
+
+rm(full_bind1, sv1, sv2, sv3)
+```
+
+1.    209-227 McGuinness Boulevard  
+
+```{r}
+sv1_1 = read_excel("data/data_from_M/mixed/SV 209-227 McGuinness Boulevard.xlsx",
+                range = "A10:AK33",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x12", "x15", "x19", "x24", "x29", "x34", "x37"))
+
+sv1_2 = read_excel("data/data_from_M/mixed/SV 209-227 McGuinness Boulevard.xlsx",
+                range = "A41:AG68",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x9", "x11", "x17", "x22", "x27", "x31", "x33"))
+
+sv1_3 = read_excel("data/data_from_M/mixed/SV 209-227 McGuinness Boulevard.xlsx",
+                range = "A76:AG86",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x9", "x11", "x17", "x22", "x27", "x31", "x33"))
+
+names(sv1_1) = alpha_names
+names(sv1_2) = alpha_names
+names(sv1_3) = alpha_names
+
+vhbsv1 = bind_rows(sv1_1, sv1_2, sv1_3) %>% 
+  mutate(
+    street_address = "209-227 McGuinness Boulevard",
+    sample_id = "VHB SV-1",
+    collection_date = as.Date("11/20/14", "%m/%d/%y"),
+    analysis_date = as.Date("11/27/14", "%m/%d/%y"),
+    laboratory = "Alpha Analytical",
+    lab_data_availability = "Yes",
+    ppbv_results = as.character(as.numeric(ppbv_results)),
+    ppbv_results = replace_na(ppbv_results, "ND"),
+    ug_m3_results = as.character(as.numeric(ug_m3_results)),
+    ug_m3_results = replace_na(ug_m3_results, "ND")
+  ) %>% 
+  select(street_address, laboratory, lab_data_availability, sample_id, collection_date, analysis_date, everything())
+
+rm(sv1_1, sv1_2, sv1_3)
+
+sv1_1 = read_excel("data/data_from_M/mixed/SV 209-227 McGuinness Boulevard_sg.xlsx",
+                range = "A97:AE132",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x15", "x19", "x31"))
+
+centek_ppbv_name = c("parameter", "ppbv_results", "ppbv_rl", "dilution")
+
+sv1_2 = read_excel("data/data_from_M/mixed/SV 209-227 McGuinness Boulevard.xlsx",
+                range = "A139:AE165",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x15", "x19", "x31"))
+
+names(sv1_1) = centek_ppbv_name
+names(sv1_2) = centek_ppbv_name
+
+sv1_ppbv = bind_rows(sv1_1, sv1_2) %>% 
+  mutate(
+    street_address = "209-227 McGuinness Boulevard",
+    sample_id = "SV-1",
+    collection_date = as.Date("02/25/14", "%m/%d/%y"),
+    analysis_date = as.Date("02/27/14", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv1_1, sv1_2)
+
+sv2_1 = read_excel("data/data_from_M/mixed/SV 209-227 McGuinness Boulevard_sg.xlsx",
+                range = "A174:AE209",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x15", "x19", "x31"))
+
+sv2_2 = read_excel("data/data_from_M/mixed/SV 209-227 McGuinness Boulevard.xlsx",
+                range = "A216:AE242",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x15", "x19", "x31"))
+
+names(sv2_1) = centek_ppbv_name
+names(sv2_2) = centek_ppbv_name
+
+sv2_ppbv = bind_rows(sv2_1, sv2_2) %>% 
+  mutate(
+    street_address = "209-227 McGuinness Boulevard",
+    sample_id = "SV-2",
+    collection_date = as.Date("02/25/14", "%m/%d/%y"),
+    analysis_date = as.Date(ifelse(dilution %in% c(1, 10), as.Date("02/27/14", "%m/%d/%y"), as.Date("03/05/14", "%m/%d/%y")), origin = "1970-01-01")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv2_1, sv2_2)
+
+sv3_1 = read_excel("data/data_from_M/mixed/SV 209-227 McGuinness Boulevard_sg.xlsx",
+                range = "A252:AE287",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x15", "x19", "x31"))
+
+sv3_2 = read_excel("data/data_from_M/mixed/SV 209-227 McGuinness Boulevard.xlsx",
+                range = "A294:AE320",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x15", "x19", "x31"))
+
+names(sv3_1) = centek_ppbv_name
+names(sv3_2) = centek_ppbv_name
+
+sv3_ppbv = bind_rows(sv3_1, sv3_2) %>% 
+  mutate(
+    street_address = "209-227 McGuinness Boulevard",
+    sample_id = "SV-3",
+    collection_date = as.Date("02/25/14", "%m/%d/%y"),
+    analysis_date = as.Date(ifelse(dilution %in% c(1, 10), as.Date("02/27/14", "%m/%d/%y"), as.Date("03/05/14", "%m/%d/%y")), origin = "1970-01-01")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv3_1, sv3_2)
+
+sv1_1 = read_excel("data/data_from_M/mixed/SV 209-227 McGuinness Boulevard_sg.xlsx",
+                range = "A328:Z367",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x10", "x14", "x26"))
+
+centek_ugm3_name = c("parameter", "ug_m3_results", "ug_m3_rl", "dilution")
+
+sv1_2 = read_excel("data/data_from_M/mixed/SV 209-227 McGuinness Boulevard_sg.xlsx",
+                range = "A374:AE396",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x15", "x19", "x31"))
+
+names(sv1_1) = centek_ugm3_name
+names(sv1_2) = centek_ugm3_name
+
+sv1_ugm3 = bind_rows(sv1_1, sv1_2) %>% 
+  mutate(
+    street_address = "209-227 McGuinness Boulevard",
+    sample_id = "SV-1",
+    collection_date = as.Date("02/25/14", "%m/%d/%y"),
+    analysis_date = as.Date("02/27/14", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv1_1, sv1_2)
+
+sv1 = full_join(sv1_ppbv, sv1_ugm3) %>% 
+  relocate(dilution, .after = ug_m3_rl)
+
+rm(sv1_ppbv, sv1_ugm3)
+
+sv2_1 = read_excel("data/data_from_M/mixed/SV 209-227 McGuinness Boulevard_sg.xlsx",
+                range = "A403:AE442",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x15", "x19", "x31"))
+
+sv2_2 = read_excel("data/data_from_M/mixed/SV 209-227 McGuinness Boulevard_sg.xlsx",
+                range = "A449:AE471",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x15", "x19", "x31"))
+
+names(sv2_1) = centek_ugm3_name
+names(sv2_2) = centek_ugm3_name
+
+sv2_ugm3 = bind_rows(sv2_1, sv2_2) %>% 
+  mutate(
+    street_address = "209-227 McGuinness Boulevard",
+    sample_id = "SV-2",
+    collection_date = as.Date("02/25/14", "%m/%d/%y"),
+    analysis_date = as.Date(ifelse(dilution %in% c(1, 10), as.Date("02/27/14", "%m/%d/%y"), as.Date("03/05/14", "%m/%d/%y")), origin = "1970-01-01")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv2_1, sv2_2)
+
+sv2 = full_join(sv2_ppbv, sv2_ugm3) %>% 
+  relocate(dilution, .after = ug_m3_rl)
+
+rm(sv2_ppbv, sv2_ugm3)
+
+sv3_1 = read_excel("data/data_from_M/mixed/SV 209-227 McGuinness Boulevard.xlsx",
+                range = "A478:AE517",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x15", "x19", "x31"))
+
+sv3_2 = read_excel("data/data_from_M/mixed/SV 209-227 McGuinness Boulevard_sg.xlsx",
+                range = "A524:AE546",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x15", "x19", "x31"))
+
+names(sv3_1) = centek_ugm3_name
+names(sv3_2) = centek_ugm3_name
+
+sv3_ugm3 = bind_rows(sv3_1, sv3_2) %>% 
+  mutate(
+    street_address = "209-227 McGuinness Boulevard",
+    sample_id = "SV-3",
+    collection_date = as.Date("02/25/14", "%m/%d/%y"),
+    analysis_date = as.Date(ifelse(dilution %in% c(1, 10), as.Date("02/27/14", "%m/%d/%y"), as.Date("03/05/14", "%m/%d/%y")), origin = "1970-01-01")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv3_1, sv3_2)
+
+sv3 = full_join(sv3_ppbv, sv3_ugm3) %>% 
+  relocate(dilution, .after = ug_m3_rl)
+
+rm(sv3_ppbv, sv3_ugm3)
+
+centek_bind = bind_rows(sv1, sv2, sv3) %>% 
+  mutate(
+    laboratory = "CENTEK Laboratories",
+    lab_data_availability = "Yes"
+  ) %>% 
+  select(street_address, laboratory, lab_data_availability, sample_id, collection_date, analysis_date, everything()) %>% 
+  select(-dilution)
+
+rm(sv1, sv2, sv3)
+
+vhbsv1 = vhbsv1 %>% 
+  select(-ends_with("mdl"), -dilution)
+
+full_bind = bind_rows(full_bind, vhbsv1, centek_bind)
+
+rm(vhbsv1, centek_bind)
+```
+
+1.    Greenpoint Landing G1  
+
+```{r}
+sv7_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A11:AY34",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x51"))
+
+sv7_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A43:AW70",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+sv7_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A79:AW90",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(sv7_1) = alpha_names
+names(sv7_2) = alpha_names
+names(sv7_3) = alpha_names
+
+sv7 = bind_rows(sv7_1, sv7_2, sv7_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "SV-7",
+    collection_date = as.Date("09/17/13", "%m/%d/%y"),
+    analysis_date = as.Date("09/20/13", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv7_1, sv7_2, sv7_3)
+
+sv8_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A107:AY130",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x51"))
+
+sv8_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A139:AW166",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+sv8_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A175:AW186",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(sv8_1) = alpha_names
+names(sv8_2) = alpha_names
+names(sv8_3) = alpha_names
+
+sv8 = bind_rows(sv8_1, sv8_2, sv8_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "SV-8",
+    collection_date = as.Date("09/17/13", "%m/%d/%y"),
+    analysis_date = as.Date("09/20/13", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv8_1, sv8_2, sv8_3)
+
+sv11_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A203:AY226",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x51"))
+
+sv11_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A235:AW262",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+sv11_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A271:AW282",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(sv11_1) = alpha_names
+names(sv11_2) = alpha_names
+names(sv11_3) = alpha_names
+
+sv11 = bind_rows(sv11_1, sv11_2, sv11_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "SV-11",
+    collection_date = as.Date("09/17/13", "%m/%d/%y"),
+    analysis_date = as.Date("09/20/13", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv11_1, sv11_2, sv11_3)
+
+aa1_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A299:AY322",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x51"))
+
+aa1_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A331:AW358",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+aa1_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A367:AW378",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(aa1_1) = alpha_names
+names(aa1_2) = alpha_names
+names(aa1_3) = alpha_names
+
+aa1 = bind_rows(aa1_1, aa1_2, aa1_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "AA01",
+    collection_date = as.Date("09/17/13", "%m/%d/%y"),
+    analysis_date = as.Date("09/20/13", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(aa1_1, aa1_2, aa1_3)
+
+svdup1_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A395:AY418",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x51"))
+
+svdup1_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A427:AW454",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+svdup1_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A463:AW474",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(svdup1_1) = alpha_names
+names(svdup1_2) = alpha_names
+names(svdup1_3) = alpha_names
+
+svdup1 = bind_rows(svdup1_1, svdup1_2, svdup1_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "SVDUP01",
+    collection_date = as.Date("09/17/13", "%m/%d/%y"),
+    analysis_date = as.Date("09/21/13", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(svdup1_1, svdup1_2, svdup1_3)
+
+sv10_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A491:BC514",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x55"))
+
+sv10_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A523:AW550",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+sv10_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A559:AW570",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(sv10_1) = alpha_names
+names(sv10_2) = alpha_names
+names(sv10_3) = alpha_names
+
+sv10 = bind_rows(sv10_1, sv10_2, sv10_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "SV-10",
+    collection_date = as.Date("09/18/13", "%m/%d/%y"),
+    analysis_date = as.Date("09/20/13", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv10_1, sv10_2, sv10_3)
+
+sv12_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A583:AY606",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x51"))
+
+sv12_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A615:AW642",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+sv12_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A651:AW662",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(sv12_1) = alpha_names
+names(sv12_2) = alpha_names
+names(sv12_3) = alpha_names
+
+sv12 = bind_rows(sv12_1, sv12_2, sv12_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "SV-12",
+    collection_date = as.Date("09/18/13", "%m/%d/%y"),
+    analysis_date = as.Date("09/20/13", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv12_1, sv12_2, sv12_3)
+
+aa2_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A679:AY702",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x51"))
+
+aa2_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A711:AW738",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+aa2_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A747:AW758",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(aa2_1) = alpha_names
+names(aa2_2) = alpha_names
+names(aa2_3) = alpha_names
+
+aa2 = bind_rows(aa2_1, aa2_2, aa2_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "AA02",
+    collection_date = as.Date("09/18/13", "%m/%d/%y"),
+    analysis_date = as.Date("09/20/13", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(aa2_1, aa2_2, aa2_3)
+
+sv9_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A775:AY798",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x51"))
+
+sv9_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A807:AW834",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+sv9_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A843:AW854",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(sv9_1) = alpha_names
+names(sv9_2) = alpha_names
+names(sv9_3) = alpha_names
+
+sv9 = bind_rows(sv9_1, sv9_2, sv9_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "SV-9",
+    collection_date = as.Date("09/18/13", "%m/%d/%y"),
+    analysis_date = as.Date("09/20/13", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv9_1, sv9_2, sv9_3)
+
+sv6_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A871:AY894",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x51"))
+
+sv6_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A903:AW930",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+sv6_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A939:AW950",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(sv6_1) = alpha_names
+names(sv6_2) = alpha_names
+names(sv6_3) = alpha_names
+
+sv6 = bind_rows(sv6_1, sv6_2, sv6_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "SV-6",
+    collection_date = as.Date("09/18/13", "%m/%d/%y"),
+    analysis_date = as.Date("09/20/13", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv6_1, sv6_2, sv6_3)
+
+sv5_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A967:AY990",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x51"))
+
+sv5_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A999:AW1026",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+sv5_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1035:AW1046",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(sv5_1) = alpha_names
+names(sv5_2) = alpha_names
+names(sv5_3) = alpha_names
+
+sv5 = bind_rows(sv5_1, sv5_2, sv5_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "SV-5",
+    collection_date = as.Date("09/18/13", "%m/%d/%y"),
+    analysis_date = as.Date("09/20/13", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv5_1, sv5_2, sv5_3)
+
+sv3_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1063:AY1086",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x51"))
+
+sv3_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1095:AW1122",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+sv3_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1131:AW1142",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(sv3_1) = alpha_names
+names(sv3_2) = alpha_names
+names(sv3_3) = alpha_names
+
+sv3 = bind_rows(sv3_1, sv3_2, sv3_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "SV-3",
+    collection_date = as.Date("09/18/13", "%m/%d/%y"),
+    analysis_date = as.Date("09/20/13", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv3_1, sv3_2, sv3_3)
+
+sv4_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1159:AY1182",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x51"))
+
+sv4_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1191:AW1218",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+sv4_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1227:AW1238",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(sv4_1) = alpha_names
+names(sv4_2) = alpha_names
+names(sv4_3) = alpha_names
+
+sv4 = bind_rows(sv4_1, sv4_2, sv4_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "SV-4",
+    collection_date = as.Date("09/18/13", "%m/%d/%y"),
+    analysis_date = as.Date("09/20/13", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv4_1, sv4_2, sv4_3)
+
+sv2_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1255:AY1278",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x51"))
+
+sv2_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1287:AW1314",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+sv2_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1323:AW1334",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(sv2_1) = alpha_names
+names(sv2_2) = alpha_names
+names(sv2_3) = alpha_names
+
+sv2 = bind_rows(sv2_1, sv2_2, sv2_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "SV-2",
+    collection_date = as.Date("09/18/13", "%m/%d/%y"),
+    analysis_date = as.Date("09/20/13", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv2_1, sv2_2, sv2_3)
+
+sv1_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1351:AY1374",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x51"))
+
+sv1_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1383:AW1410",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+sv1_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1419:AW1430",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(sv1_1) = alpha_names
+names(sv1_2) = alpha_names
+names(sv1_3) = alpha_names
+
+sv1 = bind_rows(sv1_1, sv1_2, sv1_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "SV-1",
+    collection_date = as.Date("09/18/13", "%m/%d/%y"),
+    analysis_date = as.Date("09/21/13", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv1_1, sv1_2, sv1_3)
+
+alpha_bind = bind_rows(aa1, aa2, sv1, sv2, sv3, sv4, sv5, sv6, sv7, sv8, sv9, sv10, sv11, sv12, svdup1) %>% 
+  mutate(
+    laboratory = "Alpha Analytical",
+    lab_data_availability = "Yes",
+    ppbv_results = as.character(as.numeric(ppbv_results)),
+    ppbv_results = replace_na(ppbv_results, "ND"),
+    ug_m3_results = as.character(as.numeric(ug_m3_results)),
+    ug_m3_results = replace_na(ug_m3_results, "ND")
+  ) %>% 
+  select(street_address, laboratory, lab_data_availability, sample_id, collection_date, analysis_date, everything())
+
+rm(aa1, aa2, sv1, sv2, sv3, sv4, sv5, sv6, sv7, sv8, sv9, sv10, sv11, sv12, svdup1)
+
+alpha_bind = alpha_bind %>% 
+  select(-ends_with("mdl"), -dilution)
+
+a1_ppbv = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1440:AK1465",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x19", "x37", "x25")) %>% 
+  mutate(sample_id = "A1")
+
+contest_ppbv_name = c("paramter", "ppbv_results", "ppbv_rl", "analysis_date", "sample_id")
+
+names(a1_ppbv) = contest_ppbv_name
+
+sg1_ppbv = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1470:AK1495",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x19", "x37", "x25")) %>% 
+  mutate(sample_id = "SG1")
+
+names(sg1_ppbv) = contest_ppbv_name
+
+sg2_ppbv = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1499:AK1524",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x19", "x37", "x25")) %>% 
+  mutate(sample_id = "SG2")
+
+names(sg2_ppbv) = contest_ppbv_name
+
+sg3_ppbv = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1528:AK1553",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x19", "x37", "x25")) %>% 
+  mutate(sample_id = "SG3")
+
+names(sg3_ppbv) = contest_ppbv_name
+
+sg4_ppbv = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1557:AK1582",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x19", "x37", "x25")) %>% 
+  mutate(sample_id = "SG4")
+
+names(sg4_ppbv) = contest_ppbv_name
+
+sg5_ppbv = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1586:AK1611",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x19", "x37", "x25")) %>% 
+  mutate(sample_id = "SG5")
+
+names(sg5_ppbv) = contest_ppbv_name
+
+a1_ugm3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1615:AK1640",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x19", "x37", "x25")) %>% 
+  mutate(sample_id = "A1")
+
+contest_ugm3_name = c("paramter", "ug_m3_results", "ug_m3_rl", "analysis_date", "sample_id")
+
+names(a1_ugm3) = contest_ugm3_name
+
+a1 = full_join(a1_ppbv, a1_ugm3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    collection_date = NA
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(a1_ppbv, a1_ugm3)
+
+sg1_ugm3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1644:AK1669",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x19", "x37", "x25")) %>% 
+  mutate(sample_id = "SG1")
+
+names(sg1_ugm3) = contest_ugm3_name
+
+sg1 = full_join(sg1_ppbv, sg1_ugm3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    collection_date = NA
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sg1_ppbv, sg1_ugm3)
+
+sg2_ugm3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1673:AK1698",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x19", "x37", "x25")) %>% 
+  mutate(sample_id = "SG2")
+
+names(sg2_ugm3) = contest_ugm3_name
+
+sg2 = full_join(sg2_ppbv, sg2_ugm3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    collection_date = NA
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sg2_ppbv, sg2_ugm3)
+
+sg3_ugm3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1702:AK1727",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x19", "x37", "x25")) %>% 
+  mutate(
+    sample_id = "SG3",
+    x25 = as.Date("06/03/08", "%m/%d/%y")
+  )
+
+sg3_ppbv = sg3_ppbv %>% 
+  mutate(
+    analysis_date = as.Date(analysis_date)
+  )
+
+names(sg3_ugm3) = contest_ugm3_name
+
+sg3 = full_join(sg3_ppbv, sg3_ugm3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    collection_date = NA,
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sg3_ppbv, sg3_ugm3)
+
+sg4_ugm3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1731:AK1756",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x19", "x37", "x25")) %>% 
+  mutate(
+    sample_id = "SG4",
+    x25 = as.Date("06/04/08", "%m/%d/%y")
+  )
+
+names(sg4_ugm3) = contest_ugm3_name
+
+sg4_ppbv = sg4_ppbv %>% 
+  mutate(
+    analysis_date = as.Date(analysis_date)
+  )
+
+sg4 = full_join(sg4_ppbv, sg4_ugm3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    collection_date = NA,
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sg4_ppbv, sg4_ugm3)
+
+sg5_ugm3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1760:AK1785",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x19", "x37", "x25")) %>% 
+  mutate(sample_id = "SG5")
+
+names(sg5_ugm3) = contest_ugm3_name
+
+sg5 = full_join(sg5_ppbv, sg5_ugm3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    collection_date = NA,
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sg5_ppbv, sg5_ugm3)
+
+contest_bind = bind_rows(a1, sg1, sg2, sg3, sg4, sg5) %>% 
+  mutate(
+    laboratory = "con-TEST Analytical",
+    lab_data_availability = "Yes",
+    ppbv_results = as.character(as.numeric(ppbv_results)),
+    ppbv_results = replace_na(ppbv_results, "ND"),
+    ug_m3_results = as.character(as.numeric(ug_m3_results)),
+    ug_m3_results = replace_na(ug_m3_results, "ND")
+  ) %>% 
+  select(street_address, laboratory, lab_data_availability, sample_id, collection_date, analysis_date, everything())
+
+rm(a1, sg1, sg2, sg3, sg4, sg5)
+
+sv19_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1796:AY1819",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x51"))
+
+sv19_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1827:AW1854",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+sv19_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1862:AW1872",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(sv19_1) = alpha_names
+names(sv19_2) = alpha_names
+names(sv19_3) = alpha_names
+
+sv19 = bind_rows(sv19_1, sv19_2, sv19_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "SV-19",
+    collection_date = as.Date("08/21/14", "%m/%d/%y"),
+    analysis_date = as.Date("08/23/14", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv19_1, sv19_2, sv19_3)
+
+sv20_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1889:AY1912",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x51"))
+
+sv20_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1920:AW1947",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+sv20_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1955:AW1965",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(sv20_1) = alpha_names
+names(sv20_2) = alpha_names
+names(sv20_3) = alpha_names
+
+sv20 = bind_rows(sv20_1, sv20_2, sv20_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "SV-20",
+    collection_date = as.Date("08/21/14", "%m/%d/%y"),
+    analysis_date = as.Date("08/23/14", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv20_1, sv20_2, sv20_3)
+
+sv21_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A1982:BC2005",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x55"))
+
+sv21_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A2013:AW2040",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+sv21_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A2048:AW2058",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(sv21_1) = alpha_names
+names(sv21_2) = alpha_names
+names(sv21_3) = alpha_names
+
+sv21 = bind_rows(sv21_1, sv21_2, sv21_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "SV-21",
+    collection_date = as.Date("08/21/14", "%m/%d/%y"),
+    analysis_date = as.Date("08/23/14", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv21_1, sv21_2, sv21_3)
+
+sv22_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A2090:BC2113",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x55"))
+
+sv22_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A2121:AW2148",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+sv22_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A2156:AW2166",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(sv22_1) = alpha_names
+names(sv22_2) = alpha_names
+names(sv22_3) = alpha_names
+
+sv22 = bind_rows(sv22_1, sv22_2, sv22_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "SV-22",
+    collection_date = as.Date("08/21/14", "%m/%d/%y"),
+    analysis_date = as.Date("08/23/14", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv22_1, sv22_2, sv22_3)
+
+sv23_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A2198:BC2221",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x55"))
+
+sv23_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A2229:AW2256",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+sv23_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A2264:AW2274",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(sv23_1) = alpha_names
+names(sv23_2) = alpha_names
+names(sv23_3) = alpha_names
+
+sv23 = bind_rows(sv23_1, sv23_2, sv23_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "SV-23",
+    collection_date = as.Date("08/21/14", "%m/%d/%y"),
+    analysis_date = as.Date("08/23/14", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv23_1, sv23_2, sv23_3)
+
+sv24_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A2306:AY2329",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x51"))
+
+sv24_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A2337:AW2364",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+sv24_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A2372:AW2382",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(sv24_1) = alpha_names
+names(sv24_2) = alpha_names
+names(sv24_3) = alpha_names
+
+sv24 = bind_rows(sv24_1, sv24_2, sv24_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "SV-24",
+    collection_date = as.Date("08/21/14", "%m/%d/%y"),
+    analysis_date = as.Date("08/23/14", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(sv24_1, sv24_2, sv24_3)
+
+g1svdup_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A2399:AY2422",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x51"))
+
+g1svdup_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A2431:AW2458",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+g1svdup_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A2467:AW2477",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(g1svdup_1) = alpha_names
+names(g1svdup_2) = alpha_names
+names(g1svdup_3) = alpha_names
+
+g1svdup = bind_rows(g1svdup_1, g1svdup_2, g1svdup_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "G1-SVDUP",
+    collection_date = as.Date("08/21/14", "%m/%d/%y"),
+    analysis_date = as.Date("08/26/14", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(g1svdup_1, g1svdup_2, g1svdup_3)
+
+g1aa1_1 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A2494:AY2517",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x20", "x24", "x30", "x35", "x41", "x46", "x51"))
+
+g1aa1_2 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A2525:AW2552",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+g1aa1_3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
+                range = "A2560:AW2570",
+                col_names = FALSE) %>% 
+  janitor::clean_names() %>% 
+  select(c("x1", "x14", "x20", "x26", "x32", "x37", "x43", "x49"))
+
+names(g1aa1_1) = alpha_names
+names(g1aa1_2) = alpha_names
+names(g1aa1_3) = alpha_names
+
+g1aa1 = bind_rows(g1aa1_1, g1aa1_2, g1aa1_3) %>% 
+  mutate(
+    street_address = "Greenpoint Landing G1",
+    sample_id = "G1-AA01",
+    collection_date = as.Date("08/21/14", "%m/%d/%y"),
+    analysis_date = as.Date("08/23/14", "%m/%d/%y")
+  ) %>% 
+  select(street_address, sample_id, collection_date, analysis_date, everything())
+
+rm(g1aa1_1, g1aa1_2, g1aa1_3)
+
+alpha_bind2 = bind_rows(g1aa1, g1svdup, sv19, sv20, sv21, sv22, sv23, sv24) %>% 
+  mutate(
+    laboratory = "Alpha Analytical",
+    lab_data_availability = "Yes",
+    ppbv_results = as.character(as.numeric(ppbv_results)),
+    ppbv_results = replace_na(ppbv_results, "ND"),
+    ug_m3_results = as.character(as.numeric(ug_m3_results)),
+    ug_m3_results = replace_na(ug_m3_results, "ND")
+  ) %>% 
+  select(street_address, laboratory, lab_data_availability, sample_id, collection_date, analysis_date, everything())
+
+alpha_bind2 = alpha_bind2 %>% 
+  select(-ends_with("mdl"), -dilution)
+
+rm(g1aa1, g1svdup, sv19, sv20, sv21, sv22, sv23, sv24)
+
+full_bind = bind_rows(full_bind, alpha_bind, contest_bind, alpha_bind2)
+
+rm(alpha_bind, contest_bind, alpha_bind2)
+
+mixed_full = full_bind
+
+rm(full_bind)
+```
+
+
+```{r, eval = FALSE}
+write_csv(mixed_full, "data/cleandata/mixed.csv")
 ```
 
