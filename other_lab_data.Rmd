@@ -1,0 +1,57 @@
+---
+title: "other_lab_data"
+author: "Lindsey Covell"
+output: html_document
+---
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  fig.width = 6,
+  fig.asp = .6,
+  out.width = "90%"
+)
+
+library(tidyverse)
+library(readxl)
+```
+
+## als_env:  
+
+### SV 112 Emerson Place
+
+** NOT CORRECT REPORT FOR THIS ADDRESS 
+
+```{r}
+#First Sample
+als_1 = read_excel("data/data_from_M/als_env/SV 112 Emerson Place.xlsx", 
+                        range = "A69:L132", col_names = FALSE) %>% 
+  rename("Parameter" = ...1,
+         "Results" = ...6, 
+         "Units" = ...10,
+         "LOQ" = ...12) %>% 
+  select(c(Parameter, Results, Units, LOQ)) %>% 
+  mutate(Matrix = "Air", 
+         Lab = "ALS Environmental",
+         Street = "112 Emerson Place",
+         Client_ID = "SG1",
+         Collection_date = "07/26/2011", 
+         Analysis_date = "08/03/2011",
+         Project_ID = "12CBCP029K")
+
+als_2 = read_excel("data/data_from_M/als_env/SV 112 Emerson Place.xlsx", 
+                        range = "A205:L268", col_names = FALSE) %>% 
+  rename("Parameter" = ...1,
+         "Results" = ...6, 
+         "Units" = ...10,
+         "LOQ" = ...12) %>% 
+  select(c(Parameter, Results, Units, LOQ)) %>% 
+  mutate(Matrix = "Air", 
+         Lab = "ALS Environmental",
+         Street = "112 Emerson Place",
+         Client_ID = "SG2",
+         Collection_date = "07/26/2011", 
+         Analysis_date = "08/03/2011",
+         Project_ID = "12CBCP029K")
+```
+

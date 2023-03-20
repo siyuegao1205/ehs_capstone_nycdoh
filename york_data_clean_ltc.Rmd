@@ -3581,5 +3581,9 @@ york_data = rbind(SV_153_Green_Street, SV_1520_Fulton_Street, SV_179_Throop_Aven
                   SV_2396_Dean_Street, SV_2166_Nostrand_Avenue, SV_210_North_12th_Street,
                   SV_1941_Coney_Island_Avenue, SV_186_Greenpoint_Avenue, SV_120_Union_Avenue,
                   SV_1328_Fulton_Street, SV_120_Kings_Highway, SV_107_Union_Street)
+
+write_csv(york_data, "data/data_from_M/york/york_data.csv")
+
+write_csv(centek_reports, "data/data_from_M/centek/centek_mixed.csv")
 ```
 
