@@ -1,0 +1,84 @@
+---
+title: "Figures"
+author: "Siyue Gao"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(readxl)
+library(tidyverse)
+library(ggridges)
+library(patchwork)
+
+theme_set(theme_minimal() + theme(legend.position = "bottom"))
+```
+
+
+```{r}
+summary = read_excel("data/data_from_M/Summary of SV data for Capstone_236 sites.xlsx") %>% 
+  janitor::clean_names()
+
+btex = summary %>% 
+  mutate(btex = as.numeric(btex)) %>% 
+  ggplot(aes(x = btex)) + 
+  geom_histogram() +
+  labs(
+    x = "BTEX (ug/m3)",
+    y = "Density",
+    title = "Distribution of BTEX Concentrations"
+  )
+
+trichloroethene = summary %>% 
+  mutate(trichloroethene = as.numeric(trichloroethene)) %>% 
+  ggplot(aes(x = trichloroethene)) + 
+  geom_histogram() +
+  labs(
+    x = "Trichloroethene (ug/m3)",
+    y = "Count",
+    title = "Distribution of Trichloroethene Concentrations"
+  )
+
+tetrachloroethene = summary %>% 
+  mutate(tetrachloroethene = as.numeric(tetrachloroethene)) %>% 
+  ggplot(aes(x = tetrachloroethene)) + 
+  geom_histogram() +
+  labs(
+    x = "Tetrachloroethene (ug/m3)",
+    y = "Count",
+    title = "Distribution of Tetrachloroethene Concentrations"
+  )
+
+ggsave(
+  filename = "btex_plot.png", 
+  plot = btex, 
+  width = 26, 
+  height = 20, 
+  units = "cm",
+  bg = "white"
+)
+
+ggsave(
+  filename = "trichloroethenee_plot.png", 
+  plot = trichloroethene, 
+  width = 26, 
+  height = 20, 
+  units = "cm",
+  bg = "white"
+)
+
+ggsave(
+  filename = "tetrachloroethene_plot.png", 
+  plot = tetrachloroethene, 
+  width = 26, 
+  height = 20, 
+  units = "cm",
+  bg = "white"
+)
+```
+
