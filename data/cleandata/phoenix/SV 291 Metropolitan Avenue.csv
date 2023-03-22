@@ -1,0 +1,464 @@
+street_address,sample_id,parameter,ppbv_result,ppbv_rl,ug_m3_result,ug_m3_rl,date_time,by,lab
+SV 291 Metropolitan Avenue,SG 1,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"1,1,1-Trichloroethane",ND,0.183,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"1,1,2-Trichloroethane",ND,0.183,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"1,1-Dichloroethane",ND,0.247,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"1,1-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"1,2,4-Trimethylbenzene",ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"1,2-Dichloroethane",ND,0.247,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"1,2-dichloropropane",ND,0.216,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"1,3,5-Trimethylbenzene",ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"1,3-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,4-Ethyltoluene,ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,4-Isopropyltoluene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Bromoform,ND,9.7000000000000003E-2,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Bromomethane,ND,0.25800000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Carbon Disulfide,1.77,0.32100000000000001,5.51,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Carbon Tetrachloride,0.05,0.04,0.314,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Chlorobenzene,ND,0.217,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Chloroethane,ND,0.379,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Chloroform,ND,0.20499999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Chloromethane,ND,0.48399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"cis-1,3-Dichloropropene",ND,0.22,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Cyclohexane,ND,0.29099999999999998,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Dibromochloromethane,ND,0.11700000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Dichlorodifluoromethane,0.49,0.20200000000000001,2.42,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Ethanol,10.6,0.53100000000000003,20,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Ethyl acetate,0.8,0.27800000000000002,2.88,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Ethylbenzene,ND,0.23,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Heptane,0.28999999999999998,0.24399999999999999,1.19,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Hexachlorobutadiene,ND,9.4E-2,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Hexane,ND,0.28399999999999997,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Isopropylalcohol,ND,0.40699999999999997,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Isopropylbenzene,ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"m,p-Xylene",0.66,0.23,2.86,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Methyl Ethyl Ketone,0.43,0.33900000000000002,1.27,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Methyl tert-butyl ether(MTBE),5.67,0.27800000000000002,20.399999999999999,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Methylene Chloride,1.1100000000000001,0.28799999999999998,3.85,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,n-Butylbenzene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,o-Xylene,ND,0.23,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Propylene,ND,0.58099999999999996,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,sec-Butylbenzene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Styrene,ND,0.23499999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Tetrachloroethene,1.67,3.6999999999999998E-2,11.3,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Tetrahydrofuran,ND,0.33900000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Toluene,1.97,0.26600000000000001,7.42,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,"trans-1,3-Dichloropropene",ND,0.22,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Trichloroethene,ND,4.7E-2,ND,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Trichlorofluoromethane,0.23,0.17799999999999999,1.29,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Trichlorotrifluoroethane,ND,0.13,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 1,% Bromofluorobenzene,104,%,104,%,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"1,1,1-Trichloroethane",ND,0.183,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"1,1,2-Trichloroethane",ND,0.183,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"1,1-Dichloroethane",ND,0.247,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"1,1-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"1,2,4-Trimethylbenzene",ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"1,2-Dichloroethane",ND,0.247,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"1,2-dichloropropane",ND,0.216,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"1,3,5-Trimethylbenzene",ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"1,3-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,4-Ethyltoluene,ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,4-Isopropyltoluene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Acetone,4.8600000000000003,0.42099999999999999,11.5,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Acrylonitrile,ND,0.46100000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Benzene,0.42,0.313,1.34,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Benzyl chloride,ND,0.193,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Bromodichloromethane,ND,0.14899999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Bromoform,ND,9.7000000000000003E-2,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Bromomethane,ND,0.25800000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Carbon Disulfide,0.84,0.32100000000000001,2.61,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Carbon Tetrachloride,7.0000000000000007E-2,0.04,0.44,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Chlorobenzene,ND,0.217,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Chloroethane,ND,0.379,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Chloroform,0.3,0.20499999999999999,1.46,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Chloromethane,ND,0.48399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"cis-1,3-Dichloropropene",ND,0.22,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Cyclohexane,ND,0.29099999999999998,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Dibromochloromethane,ND,0.11700000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Dichlorodifluoromethane,0.51,0.20200000000000001,2.52,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Ethanol,9.26,0.53100000000000003,17.399999999999999,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Ethyl acetate,0.35,0.27800000000000002,1.26,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Ethylbenzene,0.61,0.23,2.65,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Heptane,ND,0.24399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Hexachlorobutadiene,ND,9.4E-2,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Hexane,1.64,0.28399999999999997,5.78,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Isopropylalcohol,0.64,0.40699999999999997,1.57,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Isopropylbenzene,ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"m,p-Xylene",3.12,0.23,13.5,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Methyl Ethyl Ketone,0.43,0.33900000000000002,1.27,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Methyl tert-butyl ether(MTBE),0.37,0.27800000000000002,1.33,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Methylene Chloride,1.75,0.28799999999999998,6.08,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,n-Butylbenzene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,o-Xylene,ND,0.23,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Propylene,ND,0.58099999999999996,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,sec-Butylbenzene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Styrene,ND,0.23499999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Tetrachloroethene,1.01,3.6999999999999998E-2,6.85,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Tetrahydrofuran,ND,0.33900000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Toluene,1.01,0.26600000000000001,3.8,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,"trans-1,3-Dichloropropene",ND,0.22,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Trichloroethene,ND,4.7E-2,ND,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Trichlorofluoromethane,0.24,0.17799999999999999,1.35,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Trichlorotrifluoroethane,ND,0.13,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 2,% Bromofluorobenzene,104,%,104,%,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"1,1,1-Trichloroethane",ND,0.183,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"1,1,2-Trichloroethane",ND,0.183,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"1,1-Dichloroethane",ND,0.247,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"1,1-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"1,2,4-Trimethylbenzene",ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"1,2-Dichloroethane",ND,0.247,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"1,2-dichloropropane",ND,0.216,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"1,3,5-Trimethylbenzene",ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"1,3-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,4-Ethyltoluene,ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,4-Isopropyltoluene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Acetone,1.52,0.42099999999999999,3.61,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Acrylonitrile,ND,0.46100000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Benzene,ND,0.313,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Benzyl chloride,ND,0.193,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Bromodichloromethane,ND,0.14899999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Bromoform,ND,9.7000000000000003E-2,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Bromomethane,ND,0.25800000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Carbon Disulfide,3.13,0.32100000000000001,9.74,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Carbon Tetrachloride,0.14000000000000001,0.04,0.88,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Chlorobenzene,ND,0.217,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Chloroethane,ND,0.379,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Chloroform,ND,0.20499999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Chloromethane,ND,0.48399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"cis-1,3-Dichloropropene",ND,0.22,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Cyclohexane,ND,0.29099999999999998,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Dibromochloromethane,ND,0.11700000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Dichlorodifluoromethane,ND,0.20200000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Ethanol,9.7100000000000009,0.53100000000000003,18.3,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Ethyl acetate,0.56999999999999995,0.27800000000000002,2.0499999999999998,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Ethylbenzene,0.28000000000000003,0.23,1.22,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Heptane,ND,0.24399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Hexachlorobutadiene,ND,9.4E-2,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Hexane,ND,0.28399999999999997,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Isopropylalcohol,0.69,0.40699999999999997,1.7,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Isopropylbenzene,ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"m,p-Xylene",0.93,0.23,4.04,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Methyl Ethyl Ketone,ND,0.33900000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Methyl tert-butyl ether(MTBE),14.1,0.27800000000000002,50.8,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Methylene Chloride,0.54,0.28799999999999998,1.87,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,n-Butylbenzene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,o-Xylene,0.31,0.23,1.34,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Propylene,ND,0.58099999999999996,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,sec-Butylbenzene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Styrene,ND,0.23499999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Tetrachloroethene,5.58,3.6999999999999998E-2,37.799999999999997,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Tetrahydrofuran,ND,0.33900000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Toluene,1.33,0.26600000000000001,5.01,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,"trans-1,3-Dichloropropene",ND,0.22,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Trichloroethene,0.1,4.7E-2,0.53700000000000003,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Trichlorofluoromethane,0.22,0.17799999999999999,1.24,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Trichlorotrifluoroethane,ND,0.13,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 3,% Bromofluorobenzene,104,%,104,%,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"1,1,1-Trichloroethane",ND,0.183,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"1,1,2-Trichloroethane",ND,0.183,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"1,1-Dichloroethane",ND,0.247,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"1,1-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"1,2,4-Trimethylbenzene",ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"1,2-Dichloroethane",ND,0.247,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"1,2-dichloropropane",ND,0.216,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"1,3,5-Trimethylbenzene",ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"1,3-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,4-Ethyltoluene,ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,4-Isopropyltoluene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Acetone,1.23,0.42099999999999999,2.92,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Acrylonitrile,ND,0.46100000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Benzene,ND,0.313,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Benzyl chloride,ND,0.193,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Bromodichloromethane,ND,0.14899999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Bromoform,ND,9.7000000000000003E-2,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Bromomethane,ND,0.25800000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Carbon Disulfide,2.5099999999999998,0.32100000000000001,7.81,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Carbon Tetrachloride,0.06,0.04,0.377,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Chlorobenzene,ND,0.217,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Chloroethane,ND,0.379,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Chloroform,ND,0.20499999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Chloromethane,ND,0.48399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"cis-1,3-Dichloropropene",ND,0.22,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Cyclohexane,ND,0.29099999999999998,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Dibromochloromethane,ND,0.11700000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Dichlorodifluoromethane,4.93,0.20200000000000001,24.4,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Ethanol,8.58,0.53100000000000003,16.2,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Ethyl acetate,0.56999999999999995,0.27800000000000002,2.0499999999999998,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Ethylbenzene,0.31,0.23,1.34,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Heptane,ND,0.24399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Hexachlorobutadiene,ND,9.4E-2,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Hexane,ND,0.28399999999999997,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Isopropylalcohol,0.92,0.40699999999999997,2.2599999999999998,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Isopropylbenzene,ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"m,p-Xylene",0.94,0.23,4.08,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Methyl Ethyl Ketone,ND,0.33900000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Methyl tert-butyl ether(MTBE),0.42,0.27800000000000002,1.51,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Methylene Chloride,0.54,0.28799999999999998,1.87,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,n-Butylbenzene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,o-Xylene,0.39,0.23,1.69,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Propylene,1.1000000000000001,0.58099999999999996,1.89,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,sec-Butylbenzene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Styrene,ND,0.23499999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Tetrachloroethene,2.73,3.6999999999999998E-2,18.5,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Tetrahydrofuran,ND,0.33900000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Toluene,1.1599999999999999,0.26600000000000001,4.37,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,"trans-1,3-Dichloropropene",ND,0.22,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Trichloroethene,ND,4.7E-2,ND,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Trichlorofluoromethane,0.21,0.17799999999999999,1.18,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Trichlorotrifluoroethane,ND,0.13,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SG 4,% Bromofluorobenzene,104,%,104,%,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"1,1,1-Trichloroethane",ND,0.183,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"1,1,2-Trichloroethane",ND,0.183,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"1,1-Dichloroethane",ND,0.247,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"1,1-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"1,2,4-Trimethylbenzene",ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"1,2-Dichloroethane",ND,0.247,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"1,2-dichloropropane",ND,0.216,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"1,3,5-Trimethylbenzene",ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"1,3-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"1,4-Dioxane",0.44,0.27800000000000002,1.58,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,4-Ethyltoluene,ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,4-Isopropyltoluene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,4-Methyl-2-pentanone(MIBK),0.45,0.24399999999999999,1.84,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Acetone,89.4,0.42099999999999999,212,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Acrylonitrile,ND,0.46100000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Benzene,3.41,0.313,10.9,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Benzyl chloride,ND,0.193,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Bromodichloromethane,ND,0.14899999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Bromoform,ND,9.7000000000000003E-2,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Bromomethane,ND,0.25800000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Carbon Disulfide,0.36,0.32100000000000001,1.1200000000000001,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Carbon Tetrachloride,0.08,0.04,0.503,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Chlorobenzene,ND,0.217,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Chloroethane,ND,0.379,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Chloroform,ND,0.20499999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Chloromethane,0.59,0.48399999999999999,1.22,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"cis-1,3-Dichloropropene",ND,0.22,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Cyclohexane,ND,0.29099999999999998,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Dibromochloromethane,ND,0.11700000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Dichlorodifluoromethane,0.53,0.20200000000000001,2.62,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Ethanol,14,0.53100000000000003,26.4,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Ethyl acetate,2.02,0.27800000000000002,7.27,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Ethylbenzene,0.6,0.23,2.6,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Heptane,0.82,0.24399999999999999,3.36,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Hexachlorobutadiene,ND,9.4E-2,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Hexane,ND,0.28399999999999997,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Isopropylalcohol,2.5499999999999998,0.40699999999999997,6.26,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Isopropylbenzene,3.01,0.20399999999999999,14.8,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"m,p-Xylene",1.03,0.23,4.47,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Methyl Ethyl Ketone,2.93,0.33900000000000002,8.64,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Methylene Chloride,0.79,0.28799999999999998,2.74,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,n-Butylbenzene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,o-Xylene,0.49,0.23,2.13,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Propylene,3.96,0.58099999999999996,6.81,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,sec-Butylbenzene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Styrene,ND,0.23499999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Tetrachloroethene,1.1499999999999999,3.6999999999999998E-2,7.8,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Tetrahydrofuran,0.75,0.33900000000000002,2.21,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Toluene,3.49,0.26600000000000001,13.1,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,"trans-1,3-Dichloropropene",ND,0.22,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Trichloroethene,0.91,4.7E-2,4.8899999999999997,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Trichlorofluoromethane,0.27,0.17799999999999999,1.52,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Trichlorotrifluoroethane,ND,0.13,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,Vinyl Chloride,0.1,9.8000000000000004E-2,0.255,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS 1,% Bromofluorobenzene,97,%,97,%,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"1,1,1-Trichloroethane",ND,0.183,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"1,1,2-Trichloroethane",ND,0.183,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"1,1-Dichloroethane",ND,0.247,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"1,1-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"1,2,4-Trimethylbenzene",ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"1,2-Dichloroethane",ND,0.247,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"1,2-dichloropropane",ND,0.216,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"1,3,5-Trimethylbenzene",ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"1,3-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,4-Ethyltoluene,ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,4-Isopropyltoluene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Acetone,15.2,0.42099999999999999,36.1,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Acrylonitrile,ND,0.46100000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Benzene,1.01,0.313,3.22,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Benzyl chloride,ND,0.193,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Bromodichloromethane,ND,0.14899999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Bromoform,ND,9.7000000000000003E-2,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Bromomethane,ND,0.25800000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Carbon Disulfide,0.68,0.32100000000000001,2.12,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Carbon Tetrachloride,0.7,0.04,4.4000000000000004,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Chlorobenzene,ND,0.217,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Chloroethane,ND,0.379,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Chloroform,0.38,0.20499999999999999,1.85,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Chloromethane,ND,0.48399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"cis-1,3-Dichloropropene",ND,0.22,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Cyclohexane,0.48,0.29099999999999998,1.65,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Dibromochloromethane,ND,0.11700000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Dichlorodifluoromethane,2.2200000000000002,0.20200000000000001,11,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Ethanol,21.9,0.53100000000000003,41.2,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Ethyl acetate,1.47,0.27800000000000002,5.29,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Ethylbenzene,ND,0.23,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Heptane,0.46,0.24399999999999999,1.88,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Hexachlorobutadiene,ND,9.4E-2,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Hexane,1.1299999999999999,0.28399999999999997,3.98,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Isopropylalcohol,2.5499999999999998,0.40699999999999997,6.26,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Isopropylbenzene,ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"m,p-Xylene",0.54,0.23,2.34,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Methyl Ethyl Ketone,ND,0.33900000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Methylene Chloride,0.43,0.28799999999999998,1.49,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,n-Butylbenzene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,o-Xylene,ND,0.23,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Propylene,ND,0.58099999999999996,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,sec-Butylbenzene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Styrene,ND,0.23499999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Tetrachloroethene,0.61,3.6999999999999998E-2,4.13,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Tetrahydrofuran,ND,0.33900000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Toluene,0.91,0.26600000000000001,3.43,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,"trans-1,3-Dichloropropene",ND,0.22,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Trichloroethene,ND,4.7E-2,ND,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Trichlorofluoromethane,ND,0.17799999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Trichlorotrifluoroethane,ND,0.13,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS3,% Bromofluorobenzene,102,%,102,%,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"1,1,1-Trichloroethane",ND,0.183,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"1,1,2-Trichloroethane",ND,0.183,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"1,1-Dichloroethane",ND,0.247,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"1,1-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"1,2,4-Trimethylbenzene",ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"1,2-Dichloroethane",ND,0.247,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"1,2-dichloropropane",ND,0.216,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"1,3,5-Trimethylbenzene",ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"1,3-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,4-Ethyltoluene,ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,4-Isopropyltoluene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Acetone,48.7,0.42099999999999999,116,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Acrylonitrile,ND,0.46100000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Benzene,1.52,0.313,4.8499999999999996,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Benzyl chloride,ND,0.193,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Bromodichloromethane,ND,0.14899999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Bromoform,ND,9.7000000000000003E-2,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Bromomethane,ND,0.25800000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Carbon Disulfide,2.91,0.32100000000000001,9.06,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Carbon Tetrachloride,0.05,0.04,0.314,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Chlorobenzene,ND,0.217,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Chloroethane,ND,0.379,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Chloroform,ND,0.20499999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Chloromethane,ND,0.48399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"cis-1,3-Dichloropropene",ND,0.22,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Cyclohexane,ND,0.29099999999999998,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Dibromochloromethane,ND,0.11700000000000001,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Dichlorodifluoromethane,0.59,0.20200000000000001,2.92,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Ethanol,222,E   0.531,418,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Ethyl acetate,1.1000000000000001,0.27800000000000002,3.96,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Ethylbenzene,0.36,0.23,1.56,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Heptane,1.27,0.24399999999999999,5.2,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Hexachlorobutadiene,ND,9.4E-2,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Hexane,0.84,0.28399999999999997,2.96,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Isopropylalcohol,2.2799999999999998,0.40699999999999997,5.6,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Isopropylbenzene,ND,0.20399999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"m,p-Xylene",0.98,0.23,4.25,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Methyl Ethyl Ketone,3.56,0.33900000000000002,10.5,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Methyl tert-butyl ether(MTBE),1.08,0.27800000000000002,3.89,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Methylene Chloride,0.54,0.28799999999999998,1.87,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,n-Butylbenzene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,o-Xylene,0.46,0.23,2,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Propylene,7.6,0.58099999999999996,13.1,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,sec-Butylbenzene,ND,0.182,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Styrene,ND,0.23499999999999999,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Tetrachloroethene,1.08,3.6999999999999998E-2,7.32,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Tetrahydrofuran,ND,0.33900000000000002,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Toluene,1.59,0.26600000000000001,5.99,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,"trans-1,3-Dichloropropene",ND,0.22,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Trichloroethene,ND,4.7E-2,ND,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Trichlorofluoromethane,0.21,0.17799999999999999,1.18,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Trichlorotrifluoroethane,ND,0.13,ND,1,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,2013-01-29T05:00:00Z,KCA,phoenix
+SV 291 Metropolitan Avenue,SS4,% Bromofluorobenzene,103,%,103,%,2013-01-29T05:00:00Z,KCA,phoenix

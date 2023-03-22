@@ -52,20 +52,20 @@ tibble(
   )
 ```
 
-    ## # A tibble: 70 × 2
+    ## # A tibble: 69 × 2
     ##    files                              path                                      
     ##    <chr>                              <chr>                                     
-    ##  1 ~$SV 1-37 Forrest Street.xlsx      ./data/data_from_M/phoenix/~$SV 1-37 Forr…
-    ##  2 SV 1-37 Forrest Street.xlsx        ./data/data_from_M/phoenix/SV 1-37 Forres…
-    ##  3 SV 1026-1030 Manhattan Ave.xlsx    ./data/data_from_M/phoenix/SV 1026-1030 M…
-    ##  4 SV 1044 Bedford Ave.xlsx           ./data/data_from_M/phoenix/SV 1044 Bedfor…
-    ##  5 SV 1048 Manhattan Ave.xlsx         ./data/data_from_M/phoenix/SV 1048 Manhat…
-    ##  6 SV 1050-1066 Manhattan Avenue.xlsx ./data/data_from_M/phoenix/SV 1050-1066 M…
-    ##  7 SV 1068-1072 Fulton Street.xlsx    ./data/data_from_M/phoenix/SV 1068-1072 F…
-    ##  8 SV 108 Frost Street.xlsx           ./data/data_from_M/phoenix/SV 108 Frost S…
-    ##  9 SV 1096 Broadway.xlsx              ./data/data_from_M/phoenix/SV 1096 Broadw…
-    ## 10 SV 113 Hamilton Ave.xlsx           ./data/data_from_M/phoenix/SV 113 Hamilto…
-    ## # … with 60 more rows
+    ##  1 SV 1-37 Forrest Street.xlsx        ./data/data_from_M/phoenix/SV 1-37 Forres…
+    ##  2 SV 1026-1030 Manhattan Ave.xlsx    ./data/data_from_M/phoenix/SV 1026-1030 M…
+    ##  3 SV 1044 Bedford Ave.xlsx           ./data/data_from_M/phoenix/SV 1044 Bedfor…
+    ##  4 SV 1048 Manhattan Ave.xlsx         ./data/data_from_M/phoenix/SV 1048 Manhat…
+    ##  5 SV 1050-1066 Manhattan Avenue.xlsx ./data/data_from_M/phoenix/SV 1050-1066 M…
+    ##  6 SV 1068-1072 Fulton Street.xlsx    ./data/data_from_M/phoenix/SV 1068-1072 F…
+    ##  7 SV 108 Frost Street.xlsx           ./data/data_from_M/phoenix/SV 108 Frost S…
+    ##  8 SV 1096 Broadway.xlsx              ./data/data_from_M/phoenix/SV 1096 Broadw…
+    ##  9 SV 113 Hamilton Ave.xlsx           ./data/data_from_M/phoenix/SV 113 Hamilto…
+    ## 10 SV 1146 Fulton Street.xlsx         ./data/data_from_M/phoenix/SV 1146 Fulton…
+    ## # … with 59 more rows
 
 ``` r
 project_id_list = read_csv("data/brooklyn_cvcp_list.csv")
@@ -83,7 +83,7 @@ project_id_list = read_csv("data/brooklyn_cvcp_list.csv")
 
 **Errors from Excel**
 
-SV 1353 Flatbush Avenue: address is incomplete
+didn’t do: SV 308 North 7th Street
 
 # Code For Each Lab
 
@@ -164,7 +164,7 @@ colnames(df2)[2] = "client_id"
 df4 <-df1 %>% 
     mutate(lab = "phoenix",
            street_address = "SV 67 Duffield Street") %>% 
-  select(-lod_mdl, -lod_mdl_2) %>% 
+  select(-lod_mdl, -lod_mdl_2, -dilution) %>% 
   select(street_address, sample_id, everything())
 
 
@@ -232,7 +232,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV1",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 81 McGuinness Blvd") %>% 
-    select(-lod_mdl, -lod_mdl_2) %>%    
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
   select(street_address, sample_id, everything())
 
 
@@ -296,7 +296,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV-2",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 98 3rd Avenue") %>% 
-  select(-lod_mdl, -lod_mdl_2) %>%    
+  select(-lod_mdl, -lod_mdl_2, -reference) %>%    
   select(street_address, sample_id, everything())
 
 
@@ -356,6 +356,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV-1",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 113 Hamilton Ave") %>% 
+      select(-dilution) %>%  
   select(street_address, sample_id, everything())
 
 
@@ -417,6 +418,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG1",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 137 Frost Street") %>% 
+      select(-dilution) %>%  
   select(street_address, sample_id, everything())
 
 
@@ -477,7 +479,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV3",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 183 McGuinness Blvd") %>% 
-  select(-lod_mdl, -lod_mdl_2) %>%    
+  select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
   select(street_address, sample_id, everything())
 
 
@@ -535,6 +537,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG2",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 288-292 Union Ave") %>% 
+      select(-dilution) %>%  
   select(street_address, sample_id, everything())
 
 
@@ -599,7 +602,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV2",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 633 Marcy Avenue") %>% 
-  select(-lod_mdl, -lod_mdl_2) %>%    
+  select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
   select(street_address, sample_id, everything())
 
 
@@ -672,7 +675,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "18SV2",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 842-846 Flushing Ave") %>% 
-  select(-lod_mdl, -lod_mdl_2) %>%    
+  select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
   select(street_address, sample_id, everything())
 
 
@@ -787,7 +790,8 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV1",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 922 Myrtle Avenue") %>% 
-  select(-lod_mdl, -lod_mdl_2, -reference) %>%    
+  select(-lod_mdl, -lod_mdl_2, -reference) %>%  
+      select(-dilution) %>%  
   select(street_address, sample_id, everything())
 
 
@@ -885,7 +889,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SS3",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 975 Manhattan Ave") %>% 
-  select(-lod_mdl, -lod_mdl_2) %>%    
+  select(-lod_mdl, -lod_mdl_2, -reference) %>%    
   select(street_address, sample_id, everything())
 
 phoenix_11 <- df4 
@@ -945,7 +949,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV1",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 1026-1030 Manhattan Ave") %>% 
-  select(-lod_mdl, -lod_mdl_2) %>%    
+  select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
   select(street_address, sample_id, everything())
 
 
@@ -1008,7 +1012,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SS1",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 1048 Manhattan Ave") %>% 
-  select(-lod_mdl, -lod_mdl_2) %>%    
+  select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
   select(street_address, sample_id, everything())
 
 
@@ -1071,7 +1075,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV3",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 1096 Broadway") %>% 
-  select(-lod_mdl, -lod_mdl_2) %>%    
+  select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
   select(street_address, sample_id, everything())
 
 
@@ -1136,7 +1140,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SS1",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 1457-1471 Flatbush Avenue") %>% 
-  select(-lod_mdl, -lod_mdl_2) %>%    select(street_address, sample_id, everything())
+  select(-lod_mdl, -lod_mdl_2, -dilution) %>%    select(street_address, sample_id, everything())
 
 
 phoenix_15 <- df4 
@@ -1194,6 +1198,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV 3",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 1458-1460 Flatbush Avenue") %>% 
+      select(-dilution) %>%  
   select(street_address, sample_id, everything())
 
 
@@ -1257,7 +1262,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG4",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 1516 Fulton Street") %>% 
-  select(-lod_mdl, -lod_mdl_2) %>%    select(street_address, sample_id, everything())
+  select(-lod_mdl, -lod_mdl_2, -dilution) %>%    select(street_address, sample_id, everything())
 
 
 phoenix_17 <- df4 
@@ -1318,7 +1323,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV1",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 2437 Pitkin Ave") %>% 
-  select(-lod_mdl, -lod_mdl_2) %>%    
+  select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
   select(street_address, sample_id, everything())
 
 
@@ -1381,6 +1386,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SS-1",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 47 Walton Street") %>% 
+      select(-reference) %>%  
   select(street_address, sample_id, everything())
 
 
@@ -1442,6 +1448,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV-2",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 71 & 76 North 7th Street") %>% 
+      select(-dilution) %>%  
   select(street_address, sample_id, everything())
 
 
@@ -1501,7 +1508,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SS3",
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 141 Metropolitan Avenue",
            ppbv_rl = NA) %>% 
-  select(-lod_mdl, -lod_mdl_2) %>%    
+  select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
   select(street_address, sample_id, everything())
 
 
@@ -1561,6 +1568,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV-3",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 241-245 4th Avenue") %>% 
+      select(-dilution) %>%  
   select(street_address, sample_id, everything())
 
 
@@ -1622,7 +1630,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG 2",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 415-419 Marcy Avenue") %>% 
-    select(-lod_mdl, -lod_mdl_2) %>%    
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
   select(street_address, sample_id, everything())
 
 
@@ -1684,7 +1692,8 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV-1",
 
 
 df4 <-df1 %>% 
-    mutate(lab = "phoenix", street_address = "SV 578 5th Avenue") %>% 
+    mutate(lab = "phoenix", street_address = "SV 578 5th Avenue") %>%
+      select(-dilution) %>%  
   select(street_address, sample_id, everything())
 
 
@@ -1748,6 +1757,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV-1",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 609-619 4th Avenue") %>% 
+      select(-dilution) %>%  
   select(street_address, sample_id, everything())
 
 
@@ -1810,7 +1820,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
-    select(-lod_mdl, -lod_mdl_2) %>%    
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
   select(street_address, sample_id, everything())
 
 
@@ -1875,7 +1885,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG 6",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 1050-1066 Manhattan Avenue") %>% 
-    select(-lod_mdl, -lod_mdl_2) %>%    
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
   select(street_address, sample_id, everything())
 
 
@@ -2057,7 +2067,7 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "Outdoor Air",
 
 
 df4 <-df1 %>% 
-    mutate(lab = "phoenix", street_address = "SV 1353 Flatbush Avenue") %>% 
+    mutate(lab = "phoenix", street_address = "SV 1353 Flatbush Avenue") %>%     select(-dilution) %>%  
   select(street_address, sample_id, everything())
 
 
@@ -2143,10 +2153,1916 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "BL 3139 SG-3",
 
 df4 <-df1 %>% 
     mutate(lab = "phoenix", street_address = "SV 1-37 Forrest Street") %>% 
-#  select(-lod_mdl, -lod_mdl_2) %>%
+#  select(-lod_mdl, -lod_mdl_2, -dilution) %>%
+      select(-reference) %>%  
   select(street_address, sample_id, everything())
 
 
 phoenix_29 <- df4 
 write_csv(phoenix_29, "./data/cleandata/phoenix/SV 1-37 Forrest Street.csv")
+```
+
+## SV 20 Marcy Ave
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 20 Marcy Ave.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...7`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 5) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 5 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG 5",
+                        ifelse(row.names(df1) %in% 68:134, "HOPE SG 3",
+                               ifelse(row.names(df1) %in% 135:201, "SG 1",
+                                      ifelse(row.names(df1) %in% 202:268, "SG 4",
+                                            ifelse(row.names(df1) %in% 269:335, "SG 2",
+                                                  ifelse(row.names(df1) %in% 336:402, "SG 3",
+                                                         ifelse(row.names(df1) %in% 403:469, "SG 6",
+                                                            ifelse(row.names(df1) %in% 470:536, "HOPE SG 1","HOPE SG 2"))))))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 20 Marcy Ave") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>% 
+  select(street_address, sample_id, everything())
+
+
+phoenix_30 <- df4 
+write_csv(phoenix_30, "./data/cleandata/phoenix/SV 20 Marcy Ave.csv")
+```
+
+## SV 79 Clay Street
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 79 Clay Street.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...7`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  rename(ppbv_result = result,
+         ppbv_rl = rl,
+         ug_m3_result = result_2,
+         ug_m3__rl = rl_2) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+    filter(if_any(by, ~ !(.x %in% c("by", NA)))) %>% 
+  filter(if_any(by, ~ !(.x %in% c("By", NA)))) %>% 
+  mutate(date_time = 41541) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG-1",
+                        ifelse(row.names(df1) %in% 68:134, "SG-2","SG-3"))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 79 Clay Street") %>% 
+    select(-reference) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_31 <- df4 
+write_csv(phoenix_31, "./data/cleandata/phoenix/SV 79 Clay Street.csv")
+```
+
+## SV 79-97 4th Avenue and 82 St. Marks Place
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 79-97 4th Avenue and 82 St. Marks Place.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...7`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 5) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) 
+```
+
+    ## Warning: Row 5 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1<-data.frame(df1)
+# df1$parameter[df1$parameter == "QA/QC Surrogates/Internals\r\n% Bromofluorobenzene"] <- "% Bromofluorobenzene"
+
+# df1 %>% mutate(parameter = replace(parameter, 67, "% Bromofluorobenzene"))
+df1$parameter[67] <- "% Bromofluorobenzene"
+df1$parameter[141] <- "% Bromofluorobenzene"
+df1$parameter[211] <- "% Bromofluorobenzene"
+df1$parameter[281] <- "% Bromofluorobenzene"
+df1$parameter[355] <- "% Bromofluorobenzene"
+
+df1$date_time <- convertToDateTime(df1$date_time)
+
+ row_numbers <- which(df1$parameter == "1,1,1,2-Tetrachloroethane")
+
+df1$sample_id <- ifelse(row.names(df1) %in% 1:74, "SG8",
+                        ifelse(row.names(df1) %in% 75:144, "SS2",
+                               ifelse(row.names(df1) %in% 145:214, "SS3",
+                                  ifelse(row.names(df1) %in% 215:288, "SG9","SS1"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 79-97 4th Avenue and 82 St. Marks Place") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_32 <- df4 
+write_csv(phoenix_32, "./data/cleandata/phoenix/SV 79-97 4th Avenue and 82 St. Marks Place.csv")
+```
+
+## SV 80-82 Ainslie
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 80-82 Ainslie.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...7`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 5) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 5 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "indoor",
+                        ifelse(row.names(df1) %in% 68:134, "SG4",
+                               ifelse(row.names(df1) %in% 135:201, "SG1",
+                                  ifelse(row.names(df1) %in% 202:268, "SG2",
+                                          ifelse(row.names(df1) %in% 269:335, "SG3",
+                                                  ifelse(row.names(df1) %in% 336:402, "SG5","outdoor"))))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 80-82 Ainslie") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_33 <- df4 
+write_csv(phoenix_33, "./data/cleandata/phoenix/SV 80-82 Ainslie.csv")
+```
+
+## SV 125 Borinquen Place
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 125 Borinquen Place.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...6`
+    ## • `` -> `...7`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+    rename(ppbv_result = result,
+         ppbv_rl = rl,
+         ug_m3_result = result_2,
+         ug_m3__rl = rl_2) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+  filter(if_any(by, ~ !(.x %in% c("by", NA)))) %>% 
+  filter(if_any(by, ~ !(.x %in% c("By", NA)))) %>% 
+  mutate(date_time = 41939) %>% 
+  mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG1",
+                        ifelse(row.names(df1) %in% 68:134, "SG2",
+                               ifelse(row.names(df1) %in% 135:201, "SG3",
+                                  ifelse(row.names(df1) %in% 202:268, "SG4","SG5"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 125 Borinquen Place") %>% 
+    select(-reference) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_34 <- df4 
+write_csv(phoenix_34, "./data/cleandata/phoenix/SV 125 Borinquen Place.csv")
+```
+
+## SV 153 Lorimer Street
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 153 Lorimer Street.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...7`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+      rename(ppbv_result = result,
+         ppbv_rl = rl,
+         ug_m3_result = result_2,
+         ug_m3__rl = rl_2) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+    filter(if_any(by, ~ !(.x %in% c("by", NA)))) %>% 
+  filter(if_any(by, ~ !(.x %in% c("By", NA)))) %>% 
+  mutate(date_time = 41521) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG1",
+                        ifelse(row.names(df1) %in% 68:134, "SG2",
+                               ifelse(row.names(df1) %in% 135:201, "SG3","SG4")))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 153 Lorimer Street") %>% 
+    select(-reference) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_35 <- df4 
+write_csv(phoenix_35, "./data/cleandata/phoenix/SV 153 Lorimer Street.csv")
+```
+
+## SV 291 Metropolitan Avenue
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 291 Metropolitan Avenue.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...7`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1a <- df %>% 
+  slice(c(1:28)) %>% 
+  row_to_names(row_number =6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ug_m3_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1b <- df %>% 
+  slice(c(35:75)) %>% 
+  row_to_names(row_number =1) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ug_m3_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 1 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1c <- df %>% 
+  slice(c(76:115)) %>% 
+  row_to_names(row_number =12) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ug_m3_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 12 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1d <- df %>% 
+  slice(c(116:156)) %>% 
+  row_to_names(row_number =1) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ug_m3_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 1 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1e <- df %>% 
+  slice(c(157:196)) %>% 
+  row_to_names(row_number =12) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ug_m3_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 12 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1f <- df %>% 
+  slice(c(197:237)) %>%
+  row_to_names(row_number = 1) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 1 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1g <- df %>% 
+  slice(c(238:277)) %>% 
+  row_to_names(row_number =12) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ug_m3_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 12 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1h <- df %>% 
+  slice(c(278:318)) %>%
+  row_to_names(row_number = 1) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 1 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1i <- df %>% 
+  slice(c(319:358)) %>% 
+  row_to_names(row_number =12) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ug_m3_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 12 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1j <- df %>% 
+  slice(c(359:399)) %>%
+  row_to_names(row_number = 1) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 1 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1k <- df %>% 
+  slice(c(400:439)) %>%
+  row_to_names(row_number = 12) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 12 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1l <- df %>% 
+  slice(c(440:480)) %>% 
+  row_to_names(row_number =1) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ug_m3_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 1 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1m <- df %>% 
+  slice(c(481:520)) %>% 
+  row_to_names(row_number =12) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ug_m3_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 12 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1n <- df %>% 
+  slice(c(521:566)) %>%
+  row_to_names(row_number = 1) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 1 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1 <- rbind(df1a, df1b, df1c, df1d, df1e, df1f, df1g, df1h,df1i, df1j, df1k, df1l, df1m, df1n)
+
+
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:61, "SG 1",
+                        ifelse(row.names(df1) %in% 62:128, "SG 2",
+                               ifelse(row.names(df1) %in% 129:195, "SG 3",
+                                  ifelse(row.names(df1) %in% 196:262, "SG 4",
+                                         ifelse(row.names(df1) %in% 263:329, "SS 1",
+                                                ifelse(row.names(df1) %in% 330:396, "SS3","SS4"))))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 291 Metropolitan Avenue") %>% 
+    select(-reference) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_36 <- df4 
+write_csv(phoenix_36, "./data/cleandata/phoenix/SV 291 Metropolitan Avenue.csv")
+```
+
+## SV 376-382 Wallabout Street
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 376-382 Wallabout Street.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...7`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG 4",
+                        ifelse(row.names(df1) %in% 68:134, "SG 3",
+                               ifelse(row.names(df1) %in% 135:201, "SG 2","SG 1")))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 376-382 Wallabout Street") %>% 
+    select(-reference) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_37 <- df4 
+write_csv(phoenix_37, "./data/cleandata/phoenix/SV 376-382 Wallabout Street.csv")
+```
+
+## SV 814 Bedford Avenue
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 814 Bedford Avenue.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
+                        ifelse(row.names(df1) %in% 68:134, "SG4",
+                               ifelse(row.names(df1) %in% 135:201, "SG2",
+                                  ifelse(row.names(df1) %in% 202:268, "SG6","SG1"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_26 <- df4 
+write_csv(phoenix_26, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
+```
+
+## SV 814 Bedford Avenue
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 814 Bedford Avenue.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
+                        ifelse(row.names(df1) %in% 68:134, "SG4",
+                               ifelse(row.names(df1) %in% 135:201, "SG2",
+                                  ifelse(row.names(df1) %in% 202:268, "SG6","SG1"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_26 <- df4 
+write_csv(phoenix_26, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
+```
+
+## SV 814 Bedford Avenue
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 814 Bedford Avenue.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
+                        ifelse(row.names(df1) %in% 68:134, "SG4",
+                               ifelse(row.names(df1) %in% 135:201, "SG2",
+                                  ifelse(row.names(df1) %in% 202:268, "SG6","SG1"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_26 <- df4 
+write_csv(phoenix_26, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
+```
+
+## SV 814 Bedford Avenue
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 814 Bedford Avenue.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
+                        ifelse(row.names(df1) %in% 68:134, "SG4",
+                               ifelse(row.names(df1) %in% 135:201, "SG2",
+                                  ifelse(row.names(df1) %in% 202:268, "SG6","SG1"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_26 <- df4 
+write_csv(phoenix_26, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
+```
+
+## SV 814 Bedford Avenue
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 814 Bedford Avenue.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
+                        ifelse(row.names(df1) %in% 68:134, "SG4",
+                               ifelse(row.names(df1) %in% 135:201, "SG2",
+                                  ifelse(row.names(df1) %in% 202:268, "SG6","SG1"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_26 <- df4 
+write_csv(phoenix_26, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
+```
+
+## SV 814 Bedford Avenue
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 814 Bedford Avenue.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
+                        ifelse(row.names(df1) %in% 68:134, "SG4",
+                               ifelse(row.names(df1) %in% 135:201, "SG2",
+                                  ifelse(row.names(df1) %in% 202:268, "SG6","SG1"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_26 <- df4 
+write_csv(phoenix_26, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
+```
+
+## SV 814 Bedford Avenue
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 814 Bedford Avenue.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
+                        ifelse(row.names(df1) %in% 68:134, "SG4",
+                               ifelse(row.names(df1) %in% 135:201, "SG2",
+                                  ifelse(row.names(df1) %in% 202:268, "SG6","SG1"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_26 <- df4 
+write_csv(phoenix_26, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
+```
+
+## SV 814 Bedford Avenue
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 814 Bedford Avenue.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
+                        ifelse(row.names(df1) %in% 68:134, "SG4",
+                               ifelse(row.names(df1) %in% 135:201, "SG2",
+                                  ifelse(row.names(df1) %in% 202:268, "SG6","SG1"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_26 <- df4 
+write_csv(phoenix_26, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
+```
+
+## SV 814 Bedford Avenue
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 814 Bedford Avenue.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
+                        ifelse(row.names(df1) %in% 68:134, "SG4",
+                               ifelse(row.names(df1) %in% 135:201, "SG2",
+                                  ifelse(row.names(df1) %in% 202:268, "SG6","SG1"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_26 <- df4 
+write_csv(phoenix_26, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
+```
+
+## SV 814 Bedford Avenue
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 814 Bedford Avenue.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
+                        ifelse(row.names(df1) %in% 68:134, "SG4",
+                               ifelse(row.names(df1) %in% 135:201, "SG2",
+                                  ifelse(row.names(df1) %in% 202:268, "SG6","SG1"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_26 <- df4 
+write_csv(phoenix_26, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
+```
+
+## SV 814 Bedford Avenue
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 814 Bedford Avenue.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
+                        ifelse(row.names(df1) %in% 68:134, "SG4",
+                               ifelse(row.names(df1) %in% 135:201, "SG2",
+                                  ifelse(row.names(df1) %in% 202:268, "SG6","SG1"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_26 <- df4 
+write_csv(phoenix_26, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
+```
+
+## SV 814 Bedford Avenue
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 814 Bedford Avenue.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
+                        ifelse(row.names(df1) %in% 68:134, "SG4",
+                               ifelse(row.names(df1) %in% 135:201, "SG2",
+                                  ifelse(row.names(df1) %in% 202:268, "SG6","SG1"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_26 <- df4 
+write_csv(phoenix_26, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
+```
+
+## SV 814 Bedford Avenue
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 814 Bedford Avenue.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
+                        ifelse(row.names(df1) %in% 68:134, "SG4",
+                               ifelse(row.names(df1) %in% 135:201, "SG2",
+                                  ifelse(row.names(df1) %in% 202:268, "SG6","SG1"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_26 <- df4 
+write_csv(phoenix_26, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
+```
+
+## SV 814 Bedford Avenue
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 814 Bedford Avenue.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
+                        ifelse(row.names(df1) %in% 68:134, "SG4",
+                               ifelse(row.names(df1) %in% 135:201, "SG2",
+                                  ifelse(row.names(df1) %in% 202:268, "SG6","SG1"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_26 <- df4 
+write_csv(phoenix_26, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
+```
+
+## SV 814 Bedford Avenue
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 814 Bedford Avenue.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
+                        ifelse(row.names(df1) %in% 68:134, "SG4",
+                               ifelse(row.names(df1) %in% 135:201, "SG2",
+                                  ifelse(row.names(df1) %in% 202:268, "SG6","SG1"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_26 <- df4 
+write_csv(phoenix_26, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
+```
+
+## SV 814 Bedford Avenue
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 814 Bedford Avenue.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
+                        ifelse(row.names(df1) %in% 68:134, "SG4",
+                               ifelse(row.names(df1) %in% 135:201, "SG2",
+                                  ifelse(row.names(df1) %in% 202:268, "SG6","SG1"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_26 <- df4 
+write_csv(phoenix_26, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
+```
+
+## SV 814 Bedford Avenue
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 814 Bedford Avenue.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
+                        ifelse(row.names(df1) %in% 68:134, "SG4",
+                               ifelse(row.names(df1) %in% 135:201, "SG2",
+                                  ifelse(row.names(df1) %in% 202:268, "SG6","SG1"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_26 <- df4 
+write_csv(phoenix_26, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
+```
+
+## SV 814 Bedford Avenue
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 814 Bedford Avenue.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
+                        ifelse(row.names(df1) %in% 68:134, "SG4",
+                               ifelse(row.names(df1) %in% 135:201, "SG2",
+                                  ifelse(row.names(df1) %in% 202:268, "SG6","SG1"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_26 <- df4 
+write_csv(phoenix_26, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
+```
+
+## SV 814 Bedford Avenue
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 814 Bedford Avenue.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...6`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
+                        ifelse(row.names(df1) %in% 68:134, "SG4",
+                               ifelse(row.names(df1) %in% 135:201, "SG2",
+                                  ifelse(row.names(df1) %in% 202:268, "SG6","SG1"))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2, -dilution) %>%    
+  select(street_address, sample_id, everything())
+
+
+phoenix_26 <- df4 
+write_csv(phoenix_26, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
 ```
