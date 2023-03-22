@@ -52,20 +52,20 @@ tibble(
   )
 ```
 
-    ## # A tibble: 47 × 2
+    ## # A tibble: 70 × 2
     ##    files                              path                                      
     ##    <chr>                              <chr>                                     
-    ##  1 SV 1-37 Forrest Street.xlsx        ./data/data_from_M/phoenix/SV 1-37 Forres…
-    ##  2 SV 1026-1030 Manhattan Ave.xlsx    ./data/data_from_M/phoenix/SV 1026-1030 M…
-    ##  3 SV 1048 Manhattan Ave.xlsx         ./data/data_from_M/phoenix/SV 1048 Manhat…
-    ##  4 SV 1050-1066 Manhattan Avenue.xlsx ./data/data_from_M/phoenix/SV 1050-1066 M…
-    ##  5 SV 1068-1072 Fulton Street.xlsx    ./data/data_from_M/phoenix/SV 1068-1072 F…
-    ##  6 SV 1096 Broadway.xlsx              ./data/data_from_M/phoenix/SV 1096 Broadw…
-    ##  7 SV 113 Hamilton Ave.xlsx           ./data/data_from_M/phoenix/SV 113 Hamilto…
-    ##  8 SV 1146 Fulton Street.xlsx         ./data/data_from_M/phoenix/SV 1146 Fulton…
-    ##  9 SV 125 Borinquen Place.xlsx        ./data/data_from_M/phoenix/SV 125 Borinqu…
-    ## 10 SV 1353 Flatbush Avenue.xlsx       ./data/data_from_M/phoenix/SV 1353 Flatbu…
-    ## # … with 37 more rows
+    ##  1 ~$SV 1-37 Forrest Street.xlsx      ./data/data_from_M/phoenix/~$SV 1-37 Forr…
+    ##  2 SV 1-37 Forrest Street.xlsx        ./data/data_from_M/phoenix/SV 1-37 Forres…
+    ##  3 SV 1026-1030 Manhattan Ave.xlsx    ./data/data_from_M/phoenix/SV 1026-1030 M…
+    ##  4 SV 1044 Bedford Ave.xlsx           ./data/data_from_M/phoenix/SV 1044 Bedfor…
+    ##  5 SV 1048 Manhattan Ave.xlsx         ./data/data_from_M/phoenix/SV 1048 Manhat…
+    ##  6 SV 1050-1066 Manhattan Avenue.xlsx ./data/data_from_M/phoenix/SV 1050-1066 M…
+    ##  7 SV 1068-1072 Fulton Street.xlsx    ./data/data_from_M/phoenix/SV 1068-1072 F…
+    ##  8 SV 108 Frost Street.xlsx           ./data/data_from_M/phoenix/SV 108 Frost S…
+    ##  9 SV 1096 Broadway.xlsx              ./data/data_from_M/phoenix/SV 1096 Broadw…
+    ## 10 SV 113 Hamilton Ave.xlsx           ./data/data_from_M/phoenix/SV 113 Hamilto…
+    ## # … with 60 more rows
 
 ``` r
 project_id_list = read_csv("data/brooklyn_cvcp_list.csv")
@@ -162,7 +162,9 @@ colnames(df2)[2] = "client_id"
 
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 67 Duffield Street") %>% 
+    mutate(lab = "phoenix",
+           street_address = "SV 67 Duffield Street") %>% 
+  select(-lod_mdl, -lod_mdl_2) %>% 
   select(street_address, sample_id, everything())
 
 
@@ -174,8 +176,8 @@ df4 <-df1 %>%
  #        client_id = client_id$client_id) %>% 
  # select(project_id, client_id, everything())
 
-
-write_csv(df4, "./data/cleandata/phoenix/SV 67 Duffield Street.csv")
+phoenix_1 <- df4 
+write_csv(phoenix_1, "./data/cleandata/phoenix/SV 67 Duffield Street.csv")
 ```
 
 ## SV 81 McGuinness Blvd
@@ -229,10 +231,13 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV1",
 # check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 81 McGuinness Blvd") %>% 
+    mutate(lab = "phoenix", street_address = "SV 81 McGuinness Blvd") %>% 
+    select(-lod_mdl, -lod_mdl_2) %>%    
   select(street_address, sample_id, everything())
 
-write_csv(df4, "./data/cleandata/phoenix/SV 81 McGuinness Blvd.csv")
+
+phoenix_2 <- df4 
+write_csv(phoenix_2, "./data/cleandata/phoenix/SV 81 McGuinness Blvd.csv")
 ```
 
 ## SV 98 3rd Avenue
@@ -290,11 +295,13 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV-2",
 
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 98 3rd Avenue") %>% 
+    mutate(lab = "phoenix", street_address = "SV 98 3rd Avenue") %>% 
+  select(-lod_mdl, -lod_mdl_2) %>%    
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 98 3rd Avenue.csv")
+phoenix_3 <- df4 
+write_csv(phoenix_3, "./data/cleandata/phoenix/SV 98 3rd Avenue.csv")
 ```
 
 ## SV 113 Hamilton Ave
@@ -348,11 +355,12 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV-1",
 
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 113 Hamilton Ave") %>% 
+    mutate(lab = "phoenix", street_address = "SV 113 Hamilton Ave") %>% 
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 113 Hamilton Ave.csv")
+phoenix_4 <- df4 
+write_csv(phoenix_4, "./data/cleandata/phoenix/SV 113 Hamilton Ave.csv")
 ```
 
 ## SV 137 Frost Street
@@ -408,11 +416,12 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG1",
 
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 137 Frost Street") %>% 
+    mutate(lab = "phoenix", street_address = "SV 137 Frost Street") %>% 
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 137 Frost Street.csv")
+phoenix_5 <- df4 
+write_csv(phoenix_5, "./data/cleandata/phoenix/SV 137 Frost Street.csv")
 ```
 
 ## SV 183 McGuinness Blvd
@@ -467,11 +476,13 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV3",
 # check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 183 McGuinness Blvd") %>% 
+    mutate(lab = "phoenix", street_address = "SV 183 McGuinness Blvd") %>% 
+  select(-lod_mdl, -lod_mdl_2) %>%    
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 183 McGuinness Blvd.csv")
+phoenix_6 <- df4 
+write_csv(phoenix_6, "./data/cleandata/phoenix/SV 183 McGuinness Blvd.csv")
 ```
 
 ## SV 288-292 Union Ave
@@ -523,11 +534,12 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG2",
 # check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 288-292 Union Ave") %>% 
+    mutate(lab = "phoenix", street_address = "SV 288-292 Union Ave") %>% 
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 288-292 Union Ave.csv")
+phoenix_7 <- df4 
+write_csv(phoenix_7, "./data/cleandata/phoenix/SV 288-292 Union Ave.csv")
 ```
 
 ## SV 633 Marcy Avenue
@@ -586,11 +598,13 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV2",
 # check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 633 Marcy Avenue") %>% 
+    mutate(lab = "phoenix", street_address = "SV 633 Marcy Avenue") %>% 
+  select(-lod_mdl, -lod_mdl_2) %>%    
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 633 Marcy Avenue.csv")
+phoenix_8 <- df4 
+write_csv(phoenix_8, "./data/cleandata/phoenix/SV 633 Marcy Avenue.csv")
 ```
 
 ## SV 842-846 Flushing Ave
@@ -657,11 +671,13 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "18SV2",
 # check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 842-846 Flushing Ave") %>% 
+    mutate(lab = "phoenix", street_address = "SV 842-846 Flushing Ave") %>% 
+  select(-lod_mdl, -lod_mdl_2) %>%    
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 842-846 Flushing Ave.csv")
+phoenix_9 <- df4 
+write_csv(phoenix_9, "./data/cleandata/phoenix/SV 842-846 Flushing Ave.csv")
 ```
 
 ## SV 922 Myrtle Avenue
@@ -770,11 +786,13 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV1",
 
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 922 Myrtle Avenue") %>% 
+    mutate(lab = "phoenix", street_address = "SV 922 Myrtle Avenue") %>% 
+  select(-lod_mdl, -lod_mdl_2, -reference) %>%    
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 922 Myrtle Avenue.csv")
+phoenix_10 <- df4 
+write_csv(phoenix_10, "./data/cleandata/phoenix/SV 922 Myrtle Avenue.csv")
 ```
 
 ## SV 975 Manhattan Ave
@@ -866,11 +884,12 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SS3",
 
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 975 Manhattan Ave") %>% 
+    mutate(lab = "phoenix", street_address = "SV 975 Manhattan Ave") %>% 
+  select(-lod_mdl, -lod_mdl_2) %>%    
   select(street_address, sample_id, everything())
 
-
-write_csv(df4, "./data/cleandata/phoenix/SV 975 Manhattan Ave.csv")
+phoenix_11 <- df4 
+write_csv(phoenix_11, "./data/cleandata/phoenix/SV 975 Manhattan Ave.csv")
 ```
 
 ## SV 1026-1030 Manhattan Ave
@@ -925,11 +944,13 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV1",
 # check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 1026-1030 Manhattan Ave") %>% 
+    mutate(lab = "phoenix", street_address = "SV 1026-1030 Manhattan Ave") %>% 
+  select(-lod_mdl, -lod_mdl_2) %>%    
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 1026-1030 Manhattan Ave.csv")
+phoenix_12 <- df4 
+write_csv(phoenix_12, "./data/cleandata/phoenix/SV 1026-1030 Manhattan Ave.csv")
 ```
 
 ## SV 1048 Manhattan Ave
@@ -986,11 +1007,13 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SS1",
 
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 1048 Manhattan Ave") %>% 
+    mutate(lab = "phoenix", street_address = "SV 1048 Manhattan Ave") %>% 
+  select(-lod_mdl, -lod_mdl_2) %>%    
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 1048 Manhattan Ave.csv")
+phoenix_13 <- df4 
+write_csv(phoenix_13, "./data/cleandata/phoenix/SV 1048 Manhattan Ave.csv")
 ```
 
 ## SV 1096 Broadway
@@ -1047,11 +1070,13 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV3",
 
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 1096 Broadway") %>% 
+    mutate(lab = "phoenix", street_address = "SV 1096 Broadway") %>% 
+  select(-lod_mdl, -lod_mdl_2) %>%    
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 1096 Broadway.csv")
+phoenix_14 <- df4 
+write_csv(phoenix_14, "./data/cleandata/phoenix/SV 1096 Broadway.csv")
 ```
 
 ## SV 1457-1471 Flatbush Avenue
@@ -1110,11 +1135,12 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SS1",
 
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 1457-1471 Flatbush Avenue") %>% 
-  select(street_address, sample_id, everything())
+    mutate(lab = "phoenix", street_address = "SV 1457-1471 Flatbush Avenue") %>% 
+  select(-lod_mdl, -lod_mdl_2) %>%    select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 1457-1471 Flatbush Avenue.csv")
+phoenix_15 <- df4 
+write_csv(phoenix_15, "./data/cleandata/phoenix/SV 1457-1471 Flatbush Avenue.csv")
 ```
 
 ## SV 1458-1460 Flatbush Avenue
@@ -1167,11 +1193,12 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV 3",
 
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 1458-1460 Flatbush Avenue") %>% 
+    mutate(lab = "phoenix", street_address = "SV 1458-1460 Flatbush Avenue") %>% 
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 1458-1460 Flatbush Avenue.csv")
+phoenix_16 <- df4 
+write_csv(phoenix_16, "./data/cleandata/phoenix/SV 1458-1460 Flatbush Avenue.csv")
 ```
 
 ## SV 1516 Fulton Street
@@ -1229,11 +1256,12 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG4",
 
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 1516 Fulton Street") %>% 
-  select(street_address, sample_id, everything())
+    mutate(lab = "phoenix", street_address = "SV 1516 Fulton Street") %>% 
+  select(-lod_mdl, -lod_mdl_2) %>%    select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 1516 Fulton Street.csv")
+phoenix_17 <- df4 
+write_csv(phoenix_17, "./data/cleandata/phoenix/SV 1516 Fulton Street.csv")
 ```
 
 ## SV 2437 Pitkin Ave
@@ -1289,11 +1317,13 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV1",
 # check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 2437 Pitkin Ave") %>% 
+    mutate(lab = "phoenix", street_address = "SV 2437 Pitkin Ave") %>% 
+  select(-lod_mdl, -lod_mdl_2) %>%    
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 2437 Pitkin Ave.csv")
+phoenix_18 <- df4 
+write_csv(phoenix_18, "./data/cleandata/phoenix/SV 2437 Pitkin Ave.csv")
 ```
 
 ## SV 47 Walton Street
@@ -1350,11 +1380,12 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SS-1",
 
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 47 Walton Street") %>% 
+    mutate(lab = "phoenix", street_address = "SV 47 Walton Street") %>% 
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 47 Walton Street.csv")
+phoenix_19 <- df4 
+write_csv(phoenix_19, "./data/cleandata/phoenix/SV 47 Walton Street.csv")
 ```
 
 ## SV 71 & 76 North 7th Street
@@ -1410,11 +1441,12 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV-2",
 
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 71 & 76 North 7th Street") %>% 
+    mutate(lab = "phoenix", street_address = "SV 71 & 76 North 7th Street") %>% 
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 71 & 76 North 7th Street.csv")
+phoenix_20 <- df4 
+write_csv(phoenix_20, "./data/cleandata/phoenix/SV 71 & 76 North 7th Street.csv")
 ```
 
 ## SV 141 Metropolitan Avenue
@@ -1467,11 +1499,14 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SS3",
 
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 141 Metropolitan Avenue") %>% 
+    mutate(lab = "phoenix", street_address = "SV 141 Metropolitan Avenue",
+           ppbv_rl = NA) %>% 
+  select(-lod_mdl, -lod_mdl_2) %>%    
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 141 Metropolitan Avenue.csv")
+phoenix_21 <- df4 
+write_csv(phoenix_21, "./data/cleandata/phoenix/SV 141 Metropolitan Avenue.csv")
 ```
 
 ## SV 241-245 4th Avenue
@@ -1525,11 +1560,12 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV-3",
 
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 241-245 4th Avenue") %>% 
+    mutate(lab = "phoenix", street_address = "SV 241-245 4th Avenue") %>% 
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 241-245 4th Avenue.csv")
+phoenix_22 <- df4 
+write_csv(phoenix_22, "./data/cleandata/phoenix/SV 241-245 4th Avenue.csv")
 ```
 
 \##SV 415-419 Marcy Avenue
@@ -1585,11 +1621,13 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG 2",
 # check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 415-419 Marcy Avenue") %>% 
+    mutate(lab = "phoenix", street_address = "SV 415-419 Marcy Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2) %>%    
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 415-419 Marcy Avenue.csv")
+phoenix_23 <- df4 
+write_csv(phoenix_23, "./data/cleandata/phoenix/SV 415-419 Marcy Avenue.csv")
 ```
 
 ## SV 578 5th Avenue
@@ -1646,11 +1684,12 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV-1",
 
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 578 5th Avenue") %>% 
+    mutate(lab = "phoenix", street_address = "SV 578 5th Avenue") %>% 
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 578 5th Avenue.csv")
+phoenix_24 <- df4 
+write_csv(phoenix_24, "./data/cleandata/phoenix/SV 578 5th Avenue.csv")
 ```
 
 ## SV 609-619 4th Avenue
@@ -1708,11 +1747,12 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SV-1",
 # check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 609-619 4th Avenue") %>% 
+    mutate(lab = "phoenix", street_address = "SV 609-619 4th Avenue") %>% 
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 609-619 4th Avenue.csv")
+phoenix_25 <- df4 
+write_csv(phoenix_25, "./data/cleandata/phoenix/SV 609-619 4th Avenue.csv")
 ```
 
 ## SV 814 Bedford Avenue
@@ -1769,11 +1809,13 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG5",
 
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 814 Bedford Avenue") %>% 
+    mutate(lab = "phoenix", street_address = "SV 814 Bedford Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2) %>%    
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
+phoenix_26 <- df4 
+write_csv(phoenix_26, "./data/cleandata/phoenix/SV 814 Bedford Avenue.csv")
 ```
 
 ## SV 1050-1066 Manhattan Avenue
@@ -1832,11 +1874,13 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "SG 6",
 
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 1050-1066 Manhattan Avenue") %>% 
+    mutate(lab = "phoenix", street_address = "SV 1050-1066 Manhattan Avenue") %>% 
+    select(-lod_mdl, -lod_mdl_2) %>%    
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 1050-1066 Manhattan Avenue.csv")
+phoenix_27 <- df4 
+write_csv(phoenix_27, "./data/cleandata/phoenix/SV 1050-1066 Manhattan Avenue.csv")
 ```
 
 ## SV 1353 Flatbush Avenue
@@ -2013,9 +2057,96 @@ df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "Outdoor Air",
 
 
 df4 <-df1 %>% 
-    mutate(street_address = "SV 1353 Flatbush Avenue") %>% 
+    mutate(lab = "phoenix", street_address = "SV 1353 Flatbush Avenue") %>% 
   select(street_address, sample_id, everything())
 
 
-write_csv(df4, "./data/cleandata/phoenix/SV 1353 Flatbush Avenue.csv")
+phoenix_28 <- df4 
+write_csv(phoenix_28, "./data/cleandata/phoenix/SV 1353 Flatbush Avenue.csv")
+```
+
+## SV 1-37 Forrest Street
+
+``` r
+df = 
+  read_excel("./data/data_from_M/phoenix/SV 1-37 Forrest Street.xlsx") %>% 
+  janitor::clean_names()
+```
+
+    ## Warning: Expecting logical in U1603 / R1603C21: got '12:44
+    ## 16:54'
+
+    ## Warning: Expecting logical in H1604 / R1604C8: got 'Laboratory Data'
+
+    ## New names:
+    ## • `` -> `...2`
+    ## • `` -> `...3`
+    ## • `` -> `...4`
+    ## • `` -> `...5`
+    ## • `` -> `...7`
+    ## • `` -> `...8`
+    ## • `` -> `...9`
+    ## • `` -> `...10`
+    ## • `` -> `...11`
+    ## • `` -> `...12`
+    ## • `` -> `...13`
+    ## • `` -> `...14`
+    ## • `` -> `...15`
+    ## • `` -> `...16`
+    ## • `` -> `...17`
+    ## • `` -> `...18`
+    ## • `` -> `...19`
+    ## • `` -> `...20`
+    ## • `` -> `...21`
+    ## • `` -> `...22`
+    ## • `` -> `...23`
+
+``` r
+df1 <- df %>% 
+  row_to_names(row_number = 6) %>%  #may change
+  clean_names() %>% 
+  select(-starts_with("na")) %>% 
+  filter(if_any(ppbv_result, ~ !(.x %in% c("ppbv Result", NA)))) %>% 
+   mutate(parameter = ifelse(ppbv_rl=="%", "% Bromofluorobenzene", parameter))
+```
+
+    ## Warning: Row 6 does not provide unique names. Consider running clean_names()
+    ## after row_to_names().
+
+``` r
+df1$date_time <- convertToDateTime(df1$date_time)
+
+row_numbers <- which(df1$parameter == "% Bromofluorobenzene")
+
+df1$sample_id <- ifelse(row.names(df1) %in% 1:67, "BL 3139 SG-3",
+                        ifelse(row.names(df1) %in% 68:134, "BL 3139 SG-4",
+                               ifelse(row.names(df1) %in% 135:201, "BL 3141 SG-6",
+                                      ifelse(row.names(df1) %in% 202:268, "BL 3139 SG-2",
+                                            ifelse(row.names(df1) %in% 269:335, "BL 3141 SG-4",
+                                                  ifelse(row.names(df1) %in% 336:402, "BL 3139 SG-1",
+                                                         ifelse(row.names(df1) %in% 403:469, "BL 3141 SG-2",
+                                                            ifelse(row.names(df1) %in% 470:536, "BL 3141 SG-7", 
+                                                                       ifelse(row.names(df1) %in% 537:603, "BL 3141 SG-1",
+                                                                              ifelse(row.names(df1) %in% 604:670, "BL 3141 SG-5",
+                                                                                     ifelse(row.names(df1) %in% 671:737, "BL 3139 SG-3",
+                                                                                            ifelse(row.names(df1) %in% 738:804, "BL 3139 SG-4",
+                                                                                                   ifelse(row.names(df1) %in% 805:871, "BL 3141 SG-6",
+                                                                                                          ifelse(row.names(df1) %in% 872:938, "BL 3139 SG-2",
+                                                                                                                 ifelse(row.names(df1) %in% 939:1005, "BL 3141 SG-4",
+                                                                                                                        ifelse(row.names(df1) %in% 1006:1072, "BL 3139 SG-1",
+                                                                                                                               ifelse(row.names(df1) %in% 1073:1139, "BL 3141 SG-2",
+                                                                                                                                      ifelse(row.names(df1) %in% 1140:1206, "BL 3141 SG-7",
+                                                                                                                                             ifelse(row.names(df1) %in% 1207:1273, "BL 3141 SG-1",
+                                                                                                                                                    ifelse(row.names(df1) %in% 1274:1340, "BL 3141 SG-5", "SG 1-20-15"))))))))))))))))))))
+
+# check the data: using keyword: 1. Tetrachloroethane 2.Bromofluorobenzene
+
+df4 <-df1 %>% 
+    mutate(lab = "phoenix", street_address = "SV 1-37 Forrest Street") %>% 
+#  select(-lod_mdl, -lod_mdl_2) %>%
+  select(street_address, sample_id, everything())
+
+
+phoenix_29 <- df4 
+write_csv(phoenix_29, "./data/cleandata/phoenix/SV 1-37 Forrest Street.csv")
 ```
