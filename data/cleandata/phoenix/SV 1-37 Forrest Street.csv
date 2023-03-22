@@ -1,0 +1,1382 @@
+street_address,sample_id,parameter,ppbv_result,ppbv_rl,ug_m3_result,ug_m3_rl,date_time,by,reference,lab
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,1,1-Trichloroethane",3.21,0.183,17.5,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,1-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,1-Dichloroethene",ND,0.252,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,2,4-Trimethylbenzene",3.21,0.20399999999999999,15.8,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,2-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,2-dichloropropane",ND,0.216,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,3,5-Trimethylbenzene",1,0.20399999999999999,4.91,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,3-Dichlorobenzene",0.6,0.16600000000000001,3.6,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,4-Ethyltoluene,0.52,0.20399999999999999,2.5499999999999998,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,4-Isopropyltoluene,0.35,0.182,1.92,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,4-Methyl-2-pentanone(MIBK),0.33,0.24399999999999999,1.35,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Acetone,99.1,0.42099999999999999,235,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Benzene,0.62,0.313,1.98,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Benzyl chloride,ND,0.193,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Bromodichloromethane,ND,0.14899999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Bromomethane,ND,0.25800000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Carbon Disulfide,2.38,0.32100000000000001,7.4,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Carbon Tetrachloride,0.05,0.04,0.314,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Chlorobenzene,ND,0.217,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Chloroethane,ND,0.379,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Chloroform,0.97,0.20499999999999999,4.7300000000000004,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Chloromethane,ND,0.48399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Cyclohexane,4.32,0.29099999999999998,14.9,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Dichlorodifluoromethane,0.48,0.20200000000000001,2.37,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Ethanol,40.799999999999997,0.53100000000000003,76.8,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Ethyl acetate,0.85,0.27800000000000002,3.06,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Ethylbenzene,0.42,0.23,1.82,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Heptane,1.99,0.24399999999999999,8.15,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Hexane,1.5,0.28399999999999997,5.28,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Isopropylalcohol,15.4,0.40699999999999997,37.799999999999997,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Isopropylbenzene,0.22,0.20399999999999999,1.08,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"m,p-Xylene",1.2,0.23,5.21,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Methyl Ethyl Ketone,22.6,0.33900000000000002,66.599999999999994,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Methylene Chloride,ND,0.28799999999999998,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,n-Butylbenzene,0.46,0.182,2.52,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,o-Xylene,0.54,0.23,2.34,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Propylene,50,0.58099999999999996,86,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,sec-Butylbenzene,0.2,0.182,1.1000000000000001,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Styrene,ND,0.23499999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Tetrachloroethene,0.18,3.6999999999999998E-2,1.22,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Toluene,5.08,0.26600000000000001,19.100000000000001,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Trichloroethene,0.09,4.7E-2,0.48299999999999998,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Trichlorofluoromethane,1.6,0.17799999999999999,8.98,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Trichlorotrifluoroethane,ND,0.13,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,% Bromofluorobenzene,109,%,109,%,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,1,1-Trichloroethane",0.21,0.183,1.1399999999999999,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,1-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,1-Dichloroethene",ND,0.252,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,2,4-Trimethylbenzene",3.12,0.20399999999999999,15.3,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,2-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,2-dichloropropane",ND,0.216,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,3,5-Trimethylbenzene",0.91,0.20399999999999999,4.47,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,3-Dichlorobenzene",0.85,0.16600000000000001,5.1100000000000003,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,4-Ethyltoluene,0.64,0.20399999999999999,3.14,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,4-Isopropyltoluene,10.8,0.182,59.2,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Acetone,198,0.42099999999999999,470,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Benzene,0.82,0.313,2.62,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Benzyl chloride,ND,0.193,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Bromodichloromethane,ND,0.14899999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Bromomethane,ND,0.25800000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Carbon Disulfide,0.82,0.32100000000000001,2.5499999999999998,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Carbon Tetrachloride,ND,0.04,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Chlorobenzene,ND,0.217,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Chloroethane,ND,0.379,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Chloroform,1.64,0.20499999999999999,8,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Chloromethane,ND,0.48399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Cyclohexane,0.89,0.29099999999999998,3.06,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Dichlorodifluoromethane,1.02,0.20200000000000001,5.04,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Ethanol,15.2,0.53100000000000003,28.6,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Ethyl acetate,ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Ethylbenzene,2.88,0.23,12.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Heptane,4.72,0.24399999999999999,19.3,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Hexane,3.09,0.28399999999999997,10.9,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Isopropylalcohol,14.5,0.40699999999999997,35.6,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Isopropylbenzene,0.28000000000000003,0.20399999999999999,1.38,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"m,p-Xylene",8.94,0.23,38.799999999999997,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Methyl Ethyl Ketone,20.8,0.33900000000000002,61.3,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Methylene Chloride,ND,0.28799999999999998,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,n-Butylbenzene,0.48,0.182,2.63,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,o-Xylene,3.55,0.23,15.4,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Propylene,10.199999999999999,0.58099999999999996,17.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,sec-Butylbenzene,ND,0.182,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Styrene,0.28999999999999998,0.23499999999999999,1.23,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Tetrachloroethene,3.64,3.6999999999999998E-2,24.7,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Toluene,10.4,0.26600000000000001,39.200000000000003,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Trichloroethene,0.05,4.7E-2,0.26800000000000002,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Trichlorofluoromethane,1.7,0.17799999999999999,9.5399999999999991,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Trichlorotrifluoroethane,ND,0.13,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,% Bromofluorobenzene,106,%,106,%,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,1,1-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,1-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,1-Dichloroethene",ND,0.252,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,2,4-Trimethylbenzene",3.26,0.20399999999999999,16,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,2-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,2-dichloropropane",ND,0.216,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,3,5-Trimethylbenzene",1.0900000000000001,0.20399999999999999,5.36,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,3-Dichlorobenzene",0.49,0.16600000000000001,2.94,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,4-Ethyltoluene,0.65,0.20399999999999999,3.19,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,4-Isopropyltoluene,0.39,0.182,2.14,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Acetone,1300,0.42099999999999999,3090,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Benzene,1.36,0.313,4.34,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Benzyl chloride,ND,0.193,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Bromodichloromethane,0.2,0.14899999999999999,1.34,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Bromomethane,ND,0.25800000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Carbon Disulfide,2.44,0.32100000000000001,7.59,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Carbon Tetrachloride,7.0000000000000007E-2,0.04,0.44,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Chlorobenzene,ND,0.217,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Chloroethane,ND,0.379,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Chloroform,117,0.20499999999999999,571,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Chloromethane,ND,0.48399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Cyclohexane,2.27,0.29099999999999998,7.81,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Dichlorodifluoromethane,1.3,0.20200000000000001,6.42,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Ethanol,66,0.53100000000000003,124,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Ethyl acetate,ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Ethylbenzene,2.31,0.23,10,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Heptane,9.7200000000000006,0.24399999999999999,39.799999999999997,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Hexane,7.89,0.28399999999999997,27.8,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Isopropylalcohol,99,0.40699999999999997,243,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Isopropylbenzene,0.31,0.20399999999999999,1.52,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"m,p-Xylene",7.36,0.23,31.9,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Methyl Ethyl Ketone,198,0.33900000000000002,584,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Methylene Chloride,7.57,0.28799999999999998,26.3,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,n-Butylbenzene,0.47,0.182,2.58,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,o-Xylene,2.59,0.23,11.2,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Propylene,95,0.58099999999999996,163,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,sec-Butylbenzene,0.24,0.182,1.32,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Styrene,ND,0.23499999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Tetrachloroethene,0.39,3.6999999999999998E-2,2.64,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Toluene,13.6,0.26600000000000001,51.2,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Trichloroethene,0.13,4.7E-2,0.69799999999999995,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Trichlorofluoromethane,0.62,0.17799999999999999,3.48,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Trichlorotrifluoroethane,ND,0.13,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,% Bromofluorobenzene,Interference,%,Interference,%,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,1,1-Trichloroethane",10.7,0.183,58.3,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,1-Dichloroethane",0.46,0.247,1.86,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,1-Dichloroethene",ND,0.252,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,2,4-Trimethylbenzene",3.17,0.20399999999999999,15.6,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,2-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,2-dichloropropane",ND,0.216,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,3,5-Trimethylbenzene",0.89,0.20399999999999999,4.37,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,3-Dichlorobenzene",0.89,0.16600000000000001,5.35,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,4-Ethyltoluene,0.72,0.20399999999999999,3.54,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,4-Isopropyltoluene,0.2,0.182,1.1000000000000001,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Acetone,118,0.42099999999999999,280,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Benzene,ND,0.313,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Benzyl chloride,ND,0.193,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Bromodichloromethane,ND,0.14899999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Bromomethane,ND,0.25800000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Carbon Disulfide,0.44,0.32100000000000001,1.37,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Carbon Tetrachloride,0.04,0.04,0.251,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Chlorobenzene,ND,0.217,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Chloroethane,ND,0.379,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Chloroform,ND,0.20499999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Chloromethane,ND,0.48399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Cyclohexane,0.67,0.29099999999999998,2.2999999999999998,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Dichlorodifluoromethane,1.07,0.20200000000000001,5.29,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Ethanol,9.84,0.53100000000000003,18.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Ethyl acetate,0.36,0.27800000000000002,1.3,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Ethylbenzene,1.81,0.23,7.85,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Heptane,1.81,0.24399999999999999,7.41,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Hexane,3.06,0.28399999999999997,10.8,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Isopropylalcohol,3.94,0.40699999999999997,9.68,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Isopropylbenzene,0.22,0.20399999999999999,1.08,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"m,p-Xylene",6.44,0.23,27.9,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Methyl Ethyl Ketone,15.9,0.33900000000000002,46.9,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Methylene Chloride,0.87,0.28799999999999998,3.02,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,n-Butylbenzene,0.42,0.182,2.2999999999999998,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,o-Xylene,2.39,0.23,10.4,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Propylene,8.41,0.58099999999999996,14.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,sec-Butylbenzene,ND,0.182,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Styrene,ND,0.23499999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Tetrachloroethene,0.26,3.6999999999999998E-2,1.76,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Toluene,5.05,0.26600000000000001,19,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Trichloroethene,ND,4.7E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Trichlorofluoromethane,1.06,0.17799999999999999,5.95,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Trichlorotrifluoroethane,ND,0.13,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,% Bromofluorobenzene,104,%,104,%,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,1,1-Trichloroethane",1.28,0.183,6.98,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,1-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,1-Dichloroethene",ND,0.252,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,2,4-Trimethylbenzene",2.4700000000000002,0.20399999999999999,12.1,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,2-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,2-dichloropropane",ND,0.216,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,3,5-Trimethylbenzene",0.88,0.20399999999999999,4.32,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,3-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,2-Hexanone(MBK),7.21,0.24399999999999999,29.5,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,4-Ethyltoluene,0.48,0.20399999999999999,2.36,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,4-Isopropyltoluene,0.28999999999999998,0.182,1.59,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Acetone,311,0.42099999999999999,738,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Benzene,ND,0.313,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Benzyl chloride,ND,0.193,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Bromodichloromethane,ND,0.14899999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Bromomethane,ND,0.25800000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Carbon Disulfide,1.49,0.32100000000000001,4.6399999999999997,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Carbon Tetrachloride,ND,0.04,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Chlorobenzene,ND,0.217,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Chloroethane,ND,0.379,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Chloroform,1.25,0.20499999999999999,6.1,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Chloromethane,ND,0.48399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Cyclohexane,1.04,0.29099999999999998,3.58,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Dichlorodifluoromethane,0.44,0.20200000000000001,2.17,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Ethanol,23.1,0.53100000000000003,43.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Ethyl acetate,ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Ethylbenzene,1.06,0.23,4.5999999999999996,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Heptane,3.26,0.24399999999999999,13.4,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Hexane,2.61,0.28399999999999997,9.19,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Isopropylalcohol,28.3,0.40699999999999997,69.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Isopropylbenzene,ND,0.20399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"m,p-Xylene",3.91,0.23,17,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Methyl Ethyl Ketone,87.6,0.33900000000000002,258,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Methylene Chloride,ND,0.28799999999999998,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,n-Butylbenzene,0.39,0.182,2.14,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,o-Xylene,1.5,0.23,6.51,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Propylene,19,0.58099999999999996,32.700000000000003,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,sec-Butylbenzene,ND,0.182,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Styrene,ND,0.23499999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Tetrachloroethene,9.0299999999999994,3.6999999999999998E-2,61.2,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Toluene,4.28,0.26600000000000001,16.100000000000001,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Trichloroethene,0.09,4.7E-2,0.48299999999999998,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Trichlorofluoromethane,0.82,0.17799999999999999,4.5999999999999996,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Trichlorotrifluoroethane,ND,0.13,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,% Bromofluorobenzene,104,%,104,%,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,1,1-Trichloroethane",5.84,0.183,31.8,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,1-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,1-Dichloroethene",ND,0.252,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,2,4-Trimethylbenzene",2.3199999999999998,0.20399999999999999,11.4,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,2-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,2-dichloropropane",ND,0.216,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,3,5-Trimethylbenzene",0.73,0.20399999999999999,3.59,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,3-Dichlorobenzene",0.47,0.16600000000000001,2.82,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,4-Ethyltoluene,0.43,0.20399999999999999,2.11,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,4-Isopropyltoluene,0.22,0.182,1.21,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,4-Methyl-2-pentanone(MIBK),0.32,0.24399999999999999,1.31,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Acetone,232,0.42099999999999999,551,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Benzene,0.88,0.313,2.81,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Benzyl chloride,ND,0.193,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Bromodichloromethane,ND,0.14899999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Bromomethane,ND,0.25800000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Carbon Disulfide,2.81,0.32100000000000001,8.74,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Carbon Tetrachloride,0.11,0.04,0.69199999999999995,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Chlorobenzene,ND,0.217,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Chloroethane,ND,0.379,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Chloroform,1.01,0.20499999999999999,4.93,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Chloromethane,ND,0.48399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Cyclohexane,2.74,0.29099999999999998,9.42,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Dichlorodifluoromethane,0.53,0.20200000000000001,2.62,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Ethanol,34.6,0.53100000000000003,65.2,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Ethyl acetate,0.46,0.27800000000000002,1.66,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Ethylbenzene,0.46,0.23,2,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Heptane,3.21,0.24399999999999999,13.1,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Hexane,4.3099999999999996,0.28399999999999997,15.2,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Isopropylalcohol,24,0.40699999999999997,59,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Isopropylbenzene,ND,0.20399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"m,p-Xylene",1.24,0.23,5.38,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Methyl Ethyl Ketone,38.700000000000003,0.33900000000000002,114,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Methylene Chloride,ND,0.28799999999999998,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,n-Butylbenzene,0.35,0.182,1.92,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,o-Xylene,0.53,0.23,2.2999999999999998,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Propylene,26.4,0.58099999999999996,45.4,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,sec-Butylbenzene,ND,0.182,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Styrene,ND,0.23499999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Tetrachloroethene,0.34,3.6999999999999998E-2,2.2999999999999998,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Toluene,5.34,0.26600000000000001,20.100000000000001,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Trichloroethene,ND,4.7E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Trichlorofluoromethane,0.76,0.17799999999999999,4.2699999999999996,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Trichlorotrifluoroethane,0.25,0.13,1.91,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,% Bromofluorobenzene,106,%,106,%,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,1,1-Trichloroethane",0.47,0.183,2.56,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,1-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,1-Dichloroethene",ND,0.252,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,2,4-Trimethylbenzene",1.88,0.20399999999999999,9.24,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,2-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,2-dichloropropane",ND,0.216,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,3,5-Trimethylbenzene",0.63,0.20399999999999999,3.1,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,3-Dichlorobenzene",0.19,0.16600000000000001,1.1399999999999999,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,4-Ethyltoluene,0.39,0.20399999999999999,1.92,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,4-Isopropyltoluene,0.21,0.182,1.1499999999999999,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Acetone,320,0.42099999999999999,760,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Benzene,0.83,0.313,2.65,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Benzyl chloride,ND,0.193,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Bromodichloromethane,ND,0.14899999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Bromomethane,ND,0.25800000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Carbon Disulfide,2.84,0.32100000000000001,8.84,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Carbon Tetrachloride,ND,0.04,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Chlorobenzene,ND,0.217,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Chloroethane,ND,0.379,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Chloroform,2.39,0.20499999999999999,11.7,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Chloromethane,ND,0.48399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Cyclohexane,1.39,0.29099999999999998,4.78,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Dichlorodifluoromethane,0.53,0.20200000000000001,2.62,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Ethanol,27,0.53100000000000003,50.8,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Ethyl acetate,ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Ethylbenzene,1.17,0.23,5.08,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Heptane,3.8,0.24399999999999999,15.6,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Hexane,2.73,0.28399999999999997,9.6199999999999992,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Isopropylalcohol,15,0.40699999999999997,36.799999999999997,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Isopropylbenzene,ND,0.20399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"m,p-Xylene",3.44,0.23,14.9,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Methyl Ethyl Ketone,42.4,0.33900000000000002,125,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Methylene Chloride,ND,0.28799999999999998,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,n-Butylbenzene,0.28000000000000003,0.182,1.54,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,o-Xylene,1.18,0.23,5.12,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Propylene,10.9,0.58099999999999996,18.7,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,sec-Butylbenzene,ND,0.182,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Styrene,ND,0.23499999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Tetrachloroethene,0.45,3.6999999999999998E-2,3.05,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Toluene,8.15,0.26600000000000001,30.7,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Trichloroethene,ND,4.7E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Trichlorofluoromethane,0.25,0.17799999999999999,1.4,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Trichlorotrifluoroethane,ND,0.13,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,% Bromofluorobenzene,104,%,104,%,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,1,1-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,1-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,1-Dichloroethene",ND,0.252,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,2,4-Trimethylbenzene",5.08,0.20399999999999999,25,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,2-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,2-dichloropropane",ND,0.216,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,3,5-Trimethylbenzene",1.47,0.20399999999999999,7.22,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,3-Dichlorobenzene",2.13,0.16600000000000001,12.8,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,2-Hexanone(MBK),2.48,0.24399999999999999,10.199999999999999,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,4-Ethyltoluene,1.1200000000000001,0.20399999999999999,5.5,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,4-Isopropyltoluene,0.35,0.182,1.92,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,4-Methyl-2-pentanone(MIBK),0.35,0.24399999999999999,1.43,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Acetone,435,0.42099999999999999,1030,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Benzene,0.92,0.313,2.94,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Benzyl chloride,ND,0.193,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Bromodichloromethane,ND,0.14899999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Bromomethane,ND,0.25800000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Carbon Disulfide,1.1599999999999999,0.32100000000000001,3.61,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Carbon Tetrachloride,0.08,0.04,0.503,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Chlorobenzene,ND,0.217,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Chloroethane,ND,0.379,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Chloroform,1.46,0.20499999999999999,7.12,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Chloromethane,0.74,0.48399999999999999,1.53,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Cyclohexane,2.7,0.29099999999999998,9.2899999999999991,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Dichlorodifluoromethane,0.49,0.20200000000000001,2.42,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Ethanol,40.6,0.53100000000000003,76.400000000000006,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Ethyl acetate,ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Ethylbenzene,1.56,0.23,6.77,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Heptane,3,0.24399999999999999,12.3,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Hexane,4.43,0.28399999999999997,15.6,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Isopropylalcohol,41.5,0.40699999999999997,102,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Isopropylbenzene,0.32,0.20399999999999999,1.57,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"m,p-Xylene",5.5,0.23,23.9,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Methyl Ethyl Ketone,67,0.33900000000000002,197,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Methylene Chloride,0.3,0.28799999999999998,1.04,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,n-Butylbenzene,0.59,0.182,3.24,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,o-Xylene,2.19,0.23,9.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Propylene,53.8,0.58099999999999996,92.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,sec-Butylbenzene,ND,0.182,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Styrene,ND,0.23499999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Tetrachloroethene,0.25,3.6999999999999998E-2,1.69,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Toluene,6.51,0.26600000000000001,24.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Trichloroethene,0.06,4.7E-2,0.32200000000000001,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Trichlorofluoromethane,0.24,0.17799999999999999,1.35,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Trichlorotrifluoroethane,ND,0.13,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,% Bromofluorobenzene,106,%,106,%,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,1,1-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,1-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,1-Dichloroethene",ND,0.252,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,2,4-Trimethylbenzene",3.44,0.20399999999999999,16.899999999999999,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,2-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,2-dichloropropane",ND,0.216,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,3,5-Trimethylbenzene",1.1499999999999999,0.20399999999999999,5.65,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,3-Dichlorobenzene",0.79,0.16600000000000001,4.75,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,4-Ethyltoluene,0.67,0.20399999999999999,3.29,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,4-Isopropyltoluene,0.45,0.182,2.4700000000000002,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,4-Methyl-2-pentanone(MIBK),0.42,0.24399999999999999,1.72,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Acetone,116,0.42099999999999999,275,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Benzene,0.47,0.313,1.5,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Benzyl chloride,ND,0.193,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Bromodichloromethane,ND,0.14899999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Bromomethane,ND,0.25800000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Carbon Disulfide,1.1599999999999999,0.32100000000000001,3.61,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Carbon Tetrachloride,ND,0.04,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Chlorobenzene,ND,0.217,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Chloroethane,ND,0.379,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Chloroform,4.7699999999999996,0.20499999999999999,23.3,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Chloromethane,ND,0.48399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Cyclohexane,2.82,0.29099999999999998,9.6999999999999993,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Dichlorodifluoromethane,2.2400000000000002,0.20200000000000001,11.1,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Ethanol,20.9,0.53100000000000003,39.4,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Ethyl acetate,ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Ethylbenzene,0.7,0.23,3.04,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Heptane,2.1800000000000002,0.24399999999999999,8.93,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Hexane,2.94,0.28399999999999997,10.4,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Isopropylalcohol,12.9,0.40699999999999997,31.7,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Isopropylbenzene,0.26,0.20399999999999999,1.28,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"m,p-Xylene",1.92,0.23,8.33,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Methyl Ethyl Ketone,11,0.33900000000000002,32.4,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Methylene Chloride,0.31,0.28799999999999998,1.08,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,n-Butylbenzene,0.51,0.182,2.8,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,o-Xylene,0.81,0.23,3.52,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Propylene,8.1300000000000008,0.58099999999999996,14,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,sec-Butylbenzene,0.25,0.182,1.37,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Styrene,ND,0.23499999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Tetrachloroethene,9.36,3.6999999999999998E-2,63.4,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Toluene,5.6,0.26600000000000001,21.1,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Trichloroethene,18.899999999999999,4.7E-2,102,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Trichlorofluoromethane,7.03,0.17799999999999999,39.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Trichlorotrifluoroethane,ND,0.13,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,% Bromofluorobenzene,109,%,109,%,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,1,1-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,1-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,1-Dichloroethene",ND,0.252,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,2,4-Trimethylbenzene",2.2799999999999998,0.20399999999999999,11.2,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,2-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,2-dichloropropane",ND,0.216,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,3,5-Trimethylbenzene",0.69,0.20399999999999999,3.39,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,3-Dichlorobenzene",0.56999999999999995,0.16600000000000001,3.42,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,2-Hexanone(MBK),0.44,0.24399999999999999,1.8,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,4-Ethyltoluene,0.35,0.20399999999999999,1.72,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,4-Isopropyltoluene,0.26,0.182,1.43,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Acetone,34.9,0.42099999999999999,82.8,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Benzene,ND,0.313,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Benzyl chloride,ND,0.193,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Bromodichloromethane,ND,0.14899999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Bromomethane,ND,0.25800000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Carbon Disulfide,2.39,0.32100000000000001,7.44,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Carbon Tetrachloride,0.04,0.04,0.251,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Chlorobenzene,ND,0.217,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Chloroethane,ND,0.379,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Chloroform,0.25,0.20499999999999999,1.22,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Chloromethane,ND,0.48399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Cyclohexane,0.75,0.29099999999999998,2.58,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Dichlorodifluoromethane,9.61,0.20200000000000001,47.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Ethanol,9.7799999999999994,0.53100000000000003,18.399999999999999,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Ethyl acetate,0.32,0.27800000000000002,1.1499999999999999,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Ethylbenzene,0.24,0.23,1.04,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Heptane,ND,0.24399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Hexane,0.83,0.28399999999999997,2.92,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Isopropylalcohol,3.38,0.40699999999999997,8.3000000000000007,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Isopropylbenzene,ND,0.20399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"m,p-Xylene",0.78,0.23,3.38,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Methyl Ethyl Ketone,5.28,0.33900000000000002,15.6,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Methylene Chloride,0.48,0.28799999999999998,1.67,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,n-Butylbenzene,0.38,0.182,2.08,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,o-Xylene,0.4,0.23,1.74,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Propylene,3.27,0.58099999999999996,5.62,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,sec-Butylbenzene,ND,0.182,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Styrene,ND,0.23499999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Tetrachloroethene,40.9,3.6999999999999998E-2,277,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Toluene,1.51,0.26600000000000001,5.69,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Trichloroethene,6.75,4.7E-2,36.200000000000003,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Trichlorofluoromethane,62.4,0.17799999999999999,350,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Trichlorotrifluoroethane,ND,0.13,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,% Bromofluorobenzene,106,%,106,%,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,1,1-Trichloroethane",3.21,0.183,17.5,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,1-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,1-Dichloroethene",ND,0.252,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,2,4-Trimethylbenzene",3.21,0.20399999999999999,15.8,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,2-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,2-dichloropropane",ND,0.216,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,3,5-Trimethylbenzene",1,0.20399999999999999,4.91,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,3-Dichlorobenzene",0.6,0.16600000000000001,3.6,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,4-Ethyltoluene,0.52,0.20399999999999999,2.5499999999999998,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,4-Isopropyltoluene,0.35,0.182,1.92,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,4-Methyl-2-pentanone(MIBK),0.33,0.24399999999999999,1.35,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Acetone,99.1,0.42099999999999999,235,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Benzene,0.62,0.313,1.98,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Benzyl chloride,ND,0.193,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Bromodichloromethane,ND,0.14899999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Bromomethane,ND,0.25800000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Carbon Disulfide,2.38,0.32100000000000001,7.4,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Carbon Tetrachloride,0.05,0.04,0.314,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Chlorobenzene,ND,0.217,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Chloroethane,ND,0.379,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Chloroform,0.97,0.20499999999999999,4.7300000000000004,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Chloromethane,ND,0.48399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Cyclohexane,4.32,0.29099999999999998,14.9,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Dichlorodifluoromethane,0.48,0.20200000000000001,2.37,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Ethanol,40.799999999999997,0.53100000000000003,76.8,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Ethyl acetate,0.85,0.27800000000000002,3.06,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Ethylbenzene,0.42,0.23,1.82,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Heptane,1.99,0.24399999999999999,8.15,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Hexane,1.5,0.28399999999999997,5.28,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Isopropylalcohol,15.4,0.40699999999999997,37.799999999999997,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Isopropylbenzene,0.22,0.20399999999999999,1.08,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"m,p-Xylene",1.2,0.23,5.21,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Methyl Ethyl Ketone,22.6,0.33900000000000002,66.599999999999994,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Methylene Chloride,ND,0.28799999999999998,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,n-Butylbenzene,0.46,0.182,2.52,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,o-Xylene,0.54,0.23,2.34,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Propylene,50,0.58099999999999996,86,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,sec-Butylbenzene,0.2,0.182,1.1000000000000001,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Styrene,ND,0.23499999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Tetrachloroethene,0.18,3.6999999999999998E-2,1.22,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Toluene,5.08,0.26600000000000001,19.100000000000001,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Trichloroethene,0.09,4.7E-2,0.48299999999999998,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Trichlorofluoromethane,1.6,0.17799999999999999,8.98,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Trichlorotrifluoroethane,ND,0.13,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-3,% Bromofluorobenzene,109,%,109,%,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,1,1-Trichloroethane",0.21,0.183,1.1399999999999999,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,1-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,1-Dichloroethene",ND,0.252,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,2,4-Trimethylbenzene",3.12,0.20399999999999999,15.3,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,2-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,2-dichloropropane",ND,0.216,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,3,5-Trimethylbenzene",0.91,0.20399999999999999,4.47,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,3-Dichlorobenzene",0.85,0.16600000000000001,5.1100000000000003,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,4-Ethyltoluene,0.64,0.20399999999999999,3.14,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,4-Isopropyltoluene,10.8,0.182,59.2,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Acetone,198,0.42099999999999999,470,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Benzene,0.82,0.313,2.62,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Benzyl chloride,ND,0.193,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Bromodichloromethane,ND,0.14899999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Bromomethane,ND,0.25800000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Carbon Disulfide,0.82,0.32100000000000001,2.5499999999999998,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Carbon Tetrachloride,ND,0.04,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Chlorobenzene,ND,0.217,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Chloroethane,ND,0.379,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Chloroform,1.64,0.20499999999999999,8,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Chloromethane,ND,0.48399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Cyclohexane,0.89,0.29099999999999998,3.06,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Dichlorodifluoromethane,1.02,0.20200000000000001,5.04,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Ethanol,15.2,0.53100000000000003,28.6,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Ethyl acetate,ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Ethylbenzene,2.88,0.23,12.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Heptane,4.72,0.24399999999999999,19.3,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Hexane,3.09,0.28399999999999997,10.9,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Isopropylalcohol,14.5,0.40699999999999997,35.6,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Isopropylbenzene,0.28000000000000003,0.20399999999999999,1.38,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"m,p-Xylene",8.94,0.23,38.799999999999997,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Methyl Ethyl Ketone,20.8,0.33900000000000002,61.3,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Methylene Chloride,ND,0.28799999999999998,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,n-Butylbenzene,0.48,0.182,2.63,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,o-Xylene,3.55,0.23,15.4,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Propylene,10.199999999999999,0.58099999999999996,17.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,sec-Butylbenzene,ND,0.182,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Styrene,0.28999999999999998,0.23499999999999999,1.23,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Tetrachloroethene,3.64,3.6999999999999998E-2,24.7,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Toluene,10.4,0.26600000000000001,39.200000000000003,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Trichloroethene,0.05,4.7E-2,0.26800000000000002,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Trichlorofluoromethane,1.7,0.17799999999999999,9.5399999999999991,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Trichlorotrifluoroethane,ND,0.13,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-4,% Bromofluorobenzene,106,%,106,%,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,1,1-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,1-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,1-Dichloroethene",ND,0.252,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,2,4-Trimethylbenzene",3.26,0.20399999999999999,16,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,2-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,2-dichloropropane",ND,0.216,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,3,5-Trimethylbenzene",1.0900000000000001,0.20399999999999999,5.36,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,3-Dichlorobenzene",0.49,0.16600000000000001,2.94,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,4-Ethyltoluene,0.65,0.20399999999999999,3.19,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,4-Isopropyltoluene,0.39,0.182,2.14,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Acetone,1300,0.42099999999999999,3090,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Benzene,1.36,0.313,4.34,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Benzyl chloride,ND,0.193,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Bromodichloromethane,0.2,0.14899999999999999,1.34,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Bromomethane,ND,0.25800000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Carbon Disulfide,2.44,0.32100000000000001,7.59,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Carbon Tetrachloride,7.0000000000000007E-2,0.04,0.44,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Chlorobenzene,ND,0.217,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Chloroethane,ND,0.379,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Chloroform,117,0.20499999999999999,571,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Chloromethane,ND,0.48399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Cyclohexane,2.27,0.29099999999999998,7.81,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Dichlorodifluoromethane,1.3,0.20200000000000001,6.42,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Ethanol,66,0.53100000000000003,124,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Ethyl acetate,ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Ethylbenzene,2.31,0.23,10,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Heptane,9.7200000000000006,0.24399999999999999,39.799999999999997,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Hexane,7.89,0.28399999999999997,27.8,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Isopropylalcohol,99,0.40699999999999997,243,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Isopropylbenzene,0.31,0.20399999999999999,1.52,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"m,p-Xylene",7.36,0.23,31.9,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Methyl Ethyl Ketone,198,0.33900000000000002,584,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Methylene Chloride,7.57,0.28799999999999998,26.3,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,n-Butylbenzene,0.47,0.182,2.58,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,o-Xylene,2.59,0.23,11.2,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Propylene,95,0.58099999999999996,163,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,sec-Butylbenzene,0.24,0.182,1.32,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Styrene,ND,0.23499999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Tetrachloroethene,0.39,3.6999999999999998E-2,2.64,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Toluene,13.6,0.26600000000000001,51.2,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Trichloroethene,0.13,4.7E-2,0.69799999999999995,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Trichlorofluoromethane,0.62,0.17799999999999999,3.48,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Trichlorotrifluoroethane,ND,0.13,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-6,% Bromofluorobenzene,Interference,%,Interference,%,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,1,1-Trichloroethane",10.7,0.183,58.3,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,1-Dichloroethane",0.46,0.247,1.86,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,1-Dichloroethene",ND,0.252,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,2,4-Trimethylbenzene",3.17,0.20399999999999999,15.6,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,2-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,2-dichloropropane",ND,0.216,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,3,5-Trimethylbenzene",0.89,0.20399999999999999,4.37,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,3-Dichlorobenzene",0.89,0.16600000000000001,5.35,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,4-Ethyltoluene,0.72,0.20399999999999999,3.54,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,4-Isopropyltoluene,0.2,0.182,1.1000000000000001,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Acetone,118,0.42099999999999999,280,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Benzene,ND,0.313,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Benzyl chloride,ND,0.193,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Bromodichloromethane,ND,0.14899999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Bromomethane,ND,0.25800000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Carbon Disulfide,0.44,0.32100000000000001,1.37,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Carbon Tetrachloride,0.04,0.04,0.251,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Chlorobenzene,ND,0.217,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Chloroethane,ND,0.379,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Chloroform,ND,0.20499999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Chloromethane,ND,0.48399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Cyclohexane,0.67,0.29099999999999998,2.2999999999999998,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Dichlorodifluoromethane,1.07,0.20200000000000001,5.29,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Ethanol,9.84,0.53100000000000003,18.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Ethyl acetate,0.36,0.27800000000000002,1.3,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Ethylbenzene,1.81,0.23,7.85,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Heptane,1.81,0.24399999999999999,7.41,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Hexane,3.06,0.28399999999999997,10.8,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Isopropylalcohol,3.94,0.40699999999999997,9.68,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Isopropylbenzene,0.22,0.20399999999999999,1.08,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"m,p-Xylene",6.44,0.23,27.9,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Methyl Ethyl Ketone,15.9,0.33900000000000002,46.9,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Methylene Chloride,0.87,0.28799999999999998,3.02,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,n-Butylbenzene,0.42,0.182,2.2999999999999998,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,o-Xylene,2.39,0.23,10.4,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Propylene,8.41,0.58099999999999996,14.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,sec-Butylbenzene,ND,0.182,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Styrene,ND,0.23499999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Tetrachloroethene,0.26,3.6999999999999998E-2,1.76,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Toluene,5.05,0.26600000000000001,19,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Trichloroethene,ND,4.7E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Trichlorofluoromethane,1.06,0.17799999999999999,5.95,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Trichlorotrifluoroethane,ND,0.13,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-2,% Bromofluorobenzene,104,%,104,%,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,1,1-Trichloroethane",1.28,0.183,6.98,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,1-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,1-Dichloroethene",ND,0.252,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,2,4-Trimethylbenzene",2.4700000000000002,0.20399999999999999,12.1,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,2-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,2-dichloropropane",ND,0.216,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,3,5-Trimethylbenzene",0.88,0.20399999999999999,4.32,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,3-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,2-Hexanone(MBK),7.21,0.24399999999999999,29.5,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,4-Ethyltoluene,0.48,0.20399999999999999,2.36,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,4-Isopropyltoluene,0.28999999999999998,0.182,1.59,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Acetone,311,0.42099999999999999,738,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Benzene,ND,0.313,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Benzyl chloride,ND,0.193,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Bromodichloromethane,ND,0.14899999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Bromomethane,ND,0.25800000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Carbon Disulfide,1.49,0.32100000000000001,4.6399999999999997,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Carbon Tetrachloride,ND,0.04,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Chlorobenzene,ND,0.217,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Chloroethane,ND,0.379,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Chloroform,1.25,0.20499999999999999,6.1,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Chloromethane,ND,0.48399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Cyclohexane,1.04,0.29099999999999998,3.58,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Dichlorodifluoromethane,0.44,0.20200000000000001,2.17,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Ethanol,23.1,0.53100000000000003,43.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Ethyl acetate,ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Ethylbenzene,1.06,0.23,4.5999999999999996,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Heptane,3.26,0.24399999999999999,13.4,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Hexane,2.61,0.28399999999999997,9.19,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Isopropylalcohol,28.3,0.40699999999999997,69.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Isopropylbenzene,ND,0.20399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"m,p-Xylene",3.91,0.23,17,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Methyl Ethyl Ketone,87.6,0.33900000000000002,258,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Methylene Chloride,ND,0.28799999999999998,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,n-Butylbenzene,0.39,0.182,2.14,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,o-Xylene,1.5,0.23,6.51,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Propylene,19,0.58099999999999996,32.700000000000003,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,sec-Butylbenzene,ND,0.182,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Styrene,ND,0.23499999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Tetrachloroethene,9.0299999999999994,3.6999999999999998E-2,61.2,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Toluene,4.28,0.26600000000000001,16.100000000000001,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Trichloroethene,0.09,4.7E-2,0.48299999999999998,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Trichlorofluoromethane,0.82,0.17799999999999999,4.5999999999999996,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Trichlorotrifluoroethane,ND,0.13,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-4,% Bromofluorobenzene,104,%,104,%,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,1,1-Trichloroethane",5.84,0.183,31.8,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,1-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,1-Dichloroethene",ND,0.252,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,2,4-Trimethylbenzene",2.3199999999999998,0.20399999999999999,11.4,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,2-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,2-dichloropropane",ND,0.216,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,3,5-Trimethylbenzene",0.73,0.20399999999999999,3.59,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,3-Dichlorobenzene",0.47,0.16600000000000001,2.82,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,4-Ethyltoluene,0.43,0.20399999999999999,2.11,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,4-Isopropyltoluene,0.22,0.182,1.21,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,4-Methyl-2-pentanone(MIBK),0.32,0.24399999999999999,1.31,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Acetone,232,0.42099999999999999,551,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Benzene,0.88,0.313,2.81,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Benzyl chloride,ND,0.193,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Bromodichloromethane,ND,0.14899999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Bromomethane,ND,0.25800000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Carbon Disulfide,2.81,0.32100000000000001,8.74,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Carbon Tetrachloride,0.11,0.04,0.69199999999999995,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Chlorobenzene,ND,0.217,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Chloroethane,ND,0.379,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Chloroform,1.01,0.20499999999999999,4.93,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Chloromethane,ND,0.48399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Cyclohexane,2.74,0.29099999999999998,9.42,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Dichlorodifluoromethane,0.53,0.20200000000000001,2.62,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Ethanol,34.6,0.53100000000000003,65.2,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Ethyl acetate,0.46,0.27800000000000002,1.66,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Ethylbenzene,0.46,0.23,2,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Heptane,3.21,0.24399999999999999,13.1,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Hexane,4.3099999999999996,0.28399999999999997,15.2,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Isopropylalcohol,24,0.40699999999999997,59,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Isopropylbenzene,ND,0.20399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"m,p-Xylene",1.24,0.23,5.38,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Methyl Ethyl Ketone,38.700000000000003,0.33900000000000002,114,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Methylene Chloride,ND,0.28799999999999998,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,n-Butylbenzene,0.35,0.182,1.92,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,o-Xylene,0.53,0.23,2.2999999999999998,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Propylene,26.4,0.58099999999999996,45.4,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,sec-Butylbenzene,ND,0.182,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Styrene,ND,0.23499999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Tetrachloroethene,0.34,3.6999999999999998E-2,2.2999999999999998,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Toluene,5.34,0.26600000000000001,20.100000000000001,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Trichloroethene,ND,4.7E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Trichlorofluoromethane,0.76,0.17799999999999999,4.2699999999999996,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Trichlorotrifluoroethane,0.25,0.13,1.91,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3139 SG-1,% Bromofluorobenzene,106,%,106,%,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,1,1-Trichloroethane",0.47,0.183,2.56,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,1-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,1-Dichloroethene",ND,0.252,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,2,4-Trimethylbenzene",1.88,0.20399999999999999,9.24,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,2-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,2-dichloropropane",ND,0.216,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,3,5-Trimethylbenzene",0.63,0.20399999999999999,3.1,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,3-Dichlorobenzene",0.19,0.16600000000000001,1.1399999999999999,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,4-Ethyltoluene,0.39,0.20399999999999999,1.92,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,4-Isopropyltoluene,0.21,0.182,1.1499999999999999,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Acetone,320,0.42099999999999999,760,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Benzene,0.83,0.313,2.65,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Benzyl chloride,ND,0.193,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Bromodichloromethane,ND,0.14899999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Bromomethane,ND,0.25800000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Carbon Disulfide,2.84,0.32100000000000001,8.84,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Carbon Tetrachloride,ND,0.04,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Chlorobenzene,ND,0.217,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Chloroethane,ND,0.379,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Chloroform,2.39,0.20499999999999999,11.7,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Chloromethane,ND,0.48399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Cyclohexane,1.39,0.29099999999999998,4.78,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Dichlorodifluoromethane,0.53,0.20200000000000001,2.62,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Ethanol,27,0.53100000000000003,50.8,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Ethyl acetate,ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Ethylbenzene,1.17,0.23,5.08,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Heptane,3.8,0.24399999999999999,15.6,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Hexane,2.73,0.28399999999999997,9.6199999999999992,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Isopropylalcohol,15,0.40699999999999997,36.799999999999997,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Isopropylbenzene,ND,0.20399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"m,p-Xylene",3.44,0.23,14.9,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Methyl Ethyl Ketone,42.4,0.33900000000000002,125,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Methylene Chloride,ND,0.28799999999999998,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,n-Butylbenzene,0.28000000000000003,0.182,1.54,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,o-Xylene,1.18,0.23,5.12,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Propylene,10.9,0.58099999999999996,18.7,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,sec-Butylbenzene,ND,0.182,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Styrene,ND,0.23499999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Tetrachloroethene,0.45,3.6999999999999998E-2,3.05,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Toluene,8.15,0.26600000000000001,30.7,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Trichloroethene,ND,4.7E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Trichlorofluoromethane,0.25,0.17799999999999999,1.4,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Trichlorotrifluoroethane,ND,0.13,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-2,% Bromofluorobenzene,104,%,104,%,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,1,1-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,1-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,1-Dichloroethene",ND,0.252,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,2,4-Trimethylbenzene",5.08,0.20399999999999999,25,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,2-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,2-dichloropropane",ND,0.216,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,3,5-Trimethylbenzene",1.47,0.20399999999999999,7.22,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,3-Dichlorobenzene",2.13,0.16600000000000001,12.8,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,2-Hexanone(MBK),2.48,0.24399999999999999,10.199999999999999,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,4-Ethyltoluene,1.1200000000000001,0.20399999999999999,5.5,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,4-Isopropyltoluene,0.35,0.182,1.92,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,4-Methyl-2-pentanone(MIBK),0.35,0.24399999999999999,1.43,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Acetone,435,0.42099999999999999,1030,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Benzene,0.92,0.313,2.94,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Benzyl chloride,ND,0.193,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Bromodichloromethane,ND,0.14899999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Bromomethane,ND,0.25800000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Carbon Disulfide,1.1599999999999999,0.32100000000000001,3.61,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Carbon Tetrachloride,0.08,0.04,0.503,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Chlorobenzene,ND,0.217,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Chloroethane,ND,0.379,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Chloroform,1.46,0.20499999999999999,7.12,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Chloromethane,0.74,0.48399999999999999,1.53,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Cyclohexane,2.7,0.29099999999999998,9.2899999999999991,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Dichlorodifluoromethane,0.49,0.20200000000000001,2.42,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Ethanol,40.6,0.53100000000000003,76.400000000000006,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Ethyl acetate,ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Ethylbenzene,1.56,0.23,6.77,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Heptane,3,0.24399999999999999,12.3,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Hexane,4.43,0.28399999999999997,15.6,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Isopropylalcohol,41.5,0.40699999999999997,102,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Isopropylbenzene,0.32,0.20399999999999999,1.57,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"m,p-Xylene",5.5,0.23,23.9,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Methyl Ethyl Ketone,67,0.33900000000000002,197,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Methylene Chloride,0.3,0.28799999999999998,1.04,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,n-Butylbenzene,0.59,0.182,3.24,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,o-Xylene,2.19,0.23,9.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Propylene,53.8,0.58099999999999996,92.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,sec-Butylbenzene,ND,0.182,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Styrene,ND,0.23499999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Tetrachloroethene,0.25,3.6999999999999998E-2,1.69,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Toluene,6.51,0.26600000000000001,24.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Trichloroethene,0.06,4.7E-2,0.32200000000000001,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Trichlorofluoromethane,0.24,0.17799999999999999,1.35,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Trichlorotrifluoroethane,ND,0.13,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-7,% Bromofluorobenzene,106,%,106,%,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,1,1-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,1-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,1-Dichloroethene",ND,0.252,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,2,4-Trimethylbenzene",3.44,0.20399999999999999,16.899999999999999,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,2-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,2-dichloropropane",ND,0.216,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,3,5-Trimethylbenzene",1.1499999999999999,0.20399999999999999,5.65,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,3-Dichlorobenzene",0.79,0.16600000000000001,4.75,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,4-Ethyltoluene,0.67,0.20399999999999999,3.29,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,4-Isopropyltoluene,0.45,0.182,2.4700000000000002,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,4-Methyl-2-pentanone(MIBK),0.42,0.24399999999999999,1.72,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Acetone,116,0.42099999999999999,275,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Benzene,0.47,0.313,1.5,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Benzyl chloride,ND,0.193,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Bromodichloromethane,ND,0.14899999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Bromomethane,ND,0.25800000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Carbon Disulfide,1.1599999999999999,0.32100000000000001,3.61,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Carbon Tetrachloride,ND,0.04,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Chlorobenzene,ND,0.217,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Chloroethane,ND,0.379,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Chloroform,4.7699999999999996,0.20499999999999999,23.3,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Chloromethane,ND,0.48399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Cyclohexane,2.82,0.29099999999999998,9.6999999999999993,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Dichlorodifluoromethane,2.2400000000000002,0.20200000000000001,11.1,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Ethanol,20.9,0.53100000000000003,39.4,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Ethyl acetate,ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Ethylbenzene,0.7,0.23,3.04,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Heptane,2.1800000000000002,0.24399999999999999,8.93,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Hexane,2.94,0.28399999999999997,10.4,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Isopropylalcohol,12.9,0.40699999999999997,31.7,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Isopropylbenzene,0.26,0.20399999999999999,1.28,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"m,p-Xylene",1.92,0.23,8.33,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Methyl Ethyl Ketone,11,0.33900000000000002,32.4,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Methylene Chloride,0.31,0.28799999999999998,1.08,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,n-Butylbenzene,0.51,0.182,2.8,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,o-Xylene,0.81,0.23,3.52,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Propylene,8.1300000000000008,0.58099999999999996,14,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,sec-Butylbenzene,0.25,0.182,1.37,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Styrene,ND,0.23499999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Tetrachloroethene,9.36,3.6999999999999998E-2,63.4,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Toluene,5.6,0.26600000000000001,21.1,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Trichloroethene,18.899999999999999,4.7E-2,102,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Trichlorofluoromethane,7.03,0.17799999999999999,39.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Trichlorotrifluoroethane,ND,0.13,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-1,% Bromofluorobenzene,109,%,109,%,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,1,1-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,1-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,1-Dichloroethene",ND,0.252,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,2,4-Trimethylbenzene",2.2799999999999998,0.20399999999999999,11.2,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,2-Dichloroethane",ND,0.247,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,2-dichloropropane",ND,0.216,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,3,5-Trimethylbenzene",0.69,0.20399999999999999,3.39,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,3-Dichlorobenzene",0.56999999999999995,0.16600000000000001,3.42,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,2-Hexanone(MBK),0.44,0.24399999999999999,1.8,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,4-Ethyltoluene,0.35,0.20399999999999999,1.72,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,4-Isopropyltoluene,0.26,0.182,1.43,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Acetone,34.9,0.42099999999999999,82.8,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Benzene,ND,0.313,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Benzyl chloride,ND,0.193,ND,1,2014-04-28T04:00:00Z,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Bromodichloromethane,ND,0.14899999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Bromomethane,ND,0.25800000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Carbon Disulfide,2.39,0.32100000000000001,7.44,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Carbon Tetrachloride,0.04,0.04,0.251,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Chlorobenzene,ND,0.217,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Chloroethane,ND,0.379,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Chloroform,0.25,0.20499999999999999,1.22,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Chloromethane,ND,0.48399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Cyclohexane,0.75,0.29099999999999998,2.58,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Dichlorodifluoromethane,9.61,0.20200000000000001,47.5,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Ethanol,9.7799999999999994,0.53100000000000003,18.399999999999999,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Ethyl acetate,0.32,0.27800000000000002,1.1499999999999999,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Ethylbenzene,0.24,0.23,1.04,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Heptane,ND,0.24399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Hexane,0.83,0.28399999999999997,2.92,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Isopropylalcohol,3.38,0.40699999999999997,8.3000000000000007,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Isopropylbenzene,ND,0.20399999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"m,p-Xylene",0.78,0.23,3.38,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Methyl Ethyl Ketone,5.28,0.33900000000000002,15.6,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Methylene Chloride,0.48,0.28799999999999998,1.67,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,n-Butylbenzene,0.38,0.182,2.08,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,o-Xylene,0.4,0.23,1.74,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Propylene,3.27,0.58099999999999996,5.62,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,sec-Butylbenzene,ND,0.182,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Styrene,ND,0.23499999999999999,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Tetrachloroethene,40.9,3.6999999999999998E-2,277,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Toluene,1.51,0.26600000000000001,5.69,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Trichloroethene,6.75,4.7E-2,36.200000000000003,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Trichlorofluoromethane,62.4,0.17799999999999999,350,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Trichlorotrifluoroethane,ND,0.13,ND,1,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,BL 3141 SG-5,% Bromofluorobenzene,106,%,106,%,NA,KCA,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Bromodichloromethane,ND,0.14899999999999999,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Bromoform,ND,9.7000000000000003E-2,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Bromomethane,ND,0.25800000000000001,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Carbon Disulfide,ND,0.32100000000000001,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Carbon Tetrachloride,0.08,0.04,0.503,0.25,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Chlorobenzene,ND,0.217,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Chloroethane,ND,0.379,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Chloroform,ND,0.20499999999999999,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Chloromethane,ND,0.48399999999999999,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,"cis-1,3-Dichloropropene",ND,0.22,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Cyclohexane,81,0.29099999999999998,279,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Dibromochloromethane,ND,0.11700000000000001,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Dichlorodifluoromethane,ND,0.20200000000000001,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Ethanol,637,0.53100000000000003,1200,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Ethyl acetate,ND,0.27800000000000002,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Ethylbenzene,37.799999999999997,0.23,164,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Heptane,76.400000000000006,0.24399999999999999,313,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Hexachlorobutadiene,ND,9.4E-2,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Hexane,86,0.28399999999999997,303,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Isopropylalcohol,2.59,0.40699999999999997,6.36,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Isopropylbenzene,3.23,0.20399999999999999,15.9,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,"m,p-Xylene",152,0.23,660,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Methyl Ethyl Ketone,1.64,0.33900000000000002,4.83,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Methylene Chloride,ND,0.28799999999999998,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,n-Butylbenzene,1.97,0.182,10.8,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,o-Xylene,51.6,0.23,224,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Propylene,ND,0.58099999999999996,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,sec-Butylbenzene,0.94,0.182,5.16,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Styrene,ND,0.23499999999999999,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Tetrachloroethene,0.97,3.6999999999999998E-2,6.57,0.25,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Tetrahydrofuran,ND,0.33900000000000002,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Toluene,121,0.26600000000000001,456,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,"trans-1,3-Dichloropropene",ND,0.22,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Trichloroethene,ND,4.7E-2,ND,0.25,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Trichlorofluoromethane,5.45,0.17799999999999999,30.6,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Trichlorotrifluoroethane,ND,0.13,ND,1,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,NA,DD,TO15,phoenix
+SV 1-37 Forrest Street,SG 1-20-15,% Bromofluorobenzene,98,%,98,%,NA,DD,70 - 130 %,phoenix
