@@ -1,0 +1,336 @@
+street_address,sample_id,parameter,ppbv_result,ppbv_rl,ug_m3_result,ug_m3__rl,date_time,by,lab
+SV 125 Borinquen Place,SG1,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"1,1,1-Trichloroethane",ND,0.183,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"1,1-Dichloroethane",ND,0.247,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"1,1-Dichloroethene",ND,0.252,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"1,2,4-Trimethylbenzene",0.37,0.20399999999999999,1.82,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"1,2-Dichloroethane",ND,0.247,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"1,2-dichloropropane",ND,0.216,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"1,3,5-Trimethylbenzene",ND,0.20399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"1,3-Dichlorobenzene",0.38,0.16600000000000001,2.2799999999999998,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,4-Ethyltoluene,ND,0.20399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,4-Isopropyltoluene,ND,0.182,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,4-Methyl-2-pentanone(MIBK),0.28999999999999998,0.24399999999999999,1.19,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Acetone,24.6,0.42099999999999999,58.4,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Benzene,0.96,0.313,3.06,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Benzyl chloride,ND,0.193,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Bromodichloromethane,ND,0.14899999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Bromoform,ND,9.7000000000000003E-2,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Bromomethane,ND,0.25800000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Carbon Disulfide,0.46,0.32100000000000001,1.43,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Carbon Tetrachloride,0.05,0.04,0.314,0.25,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Chlorobenzene,ND,0.217,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Chloroethane,ND,0.379,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Chloroform,11,0.20499999999999999,53.7,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Chloromethane,ND,0.48399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"cis-1,3-Dichloropropene",ND,0.22,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Cyclohexane,0.47,0.29099999999999998,1.62,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Dibromochloromethane,ND,0.11700000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Dichlorodifluoromethane,0.51,0.20200000000000001,2.52,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Ethanol,111,E   0.531,209,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Ethyl acetate,0.86,0.27800000000000002,3.1,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Ethylbenzene,1.47,0.23,6.38,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Heptane,0.91,0.24399999999999999,3.73,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Hexachlorobutadiene,ND,9.4E-2,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Hexane,1.2,0.28399999999999997,4.2300000000000004,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Isopropylalcohol,28.8,0.40699999999999997,70.7,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Isopropylbenzene,ND,0.20399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"m,p-Xylene",4.76,0.23,20.6,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Methyl Ethyl Ketone,2.48,0.33900000000000002,7.31,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Methylene Chloride,ND,0.28799999999999998,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,n-Butylbenzene,ND,0.182,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,o-Xylene,1.43,0.23,6.2,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Propylene,ND,0.58099999999999996,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,sec-Butylbenzene,ND,0.182,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Styrene,ND,0.23499999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Tetrachloroethene,4.8,3.6999999999999998E-2,32.5,0.25,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Tetrahydrofuran,0.57999999999999996,0.33900000000000002,1.71,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Toluene,7.91,0.26600000000000001,29.8,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,"trans-1,3-Dichloropropene",ND,0.22,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Trichloroethene,ND,4.7E-2,ND,0.25,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Trichlorofluoromethane,0.23,0.17799999999999999,1.29,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Trichlorotrifluoroethane,ND,0.13,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG1,% Bromofluorobenzene,105,%,105,%,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"1,1,1-Trichloroethane",ND,0.183,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"1,1-Dichloroethane",ND,0.247,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"1,1-Dichloroethene",ND,0.252,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"1,2,4-Trimethylbenzene",0.94,0.20399999999999999,4.62,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"1,2-Dichloroethane",ND,0.247,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"1,2-dichloropropane",ND,0.216,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"1,3,5-Trimethylbenzene",0.42,0.20399999999999999,2.06,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"1,3-Dichlorobenzene",0.78,0.16600000000000001,4.6900000000000004,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,4-Ethyltoluene,0.42,0.20399999999999999,2.06,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,4-Isopropyltoluene,ND,0.182,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Acetone,168,0.42099999999999999,399,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Benzene,5.68,0.313,18.100000000000001,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Benzyl chloride,ND,0.193,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Bromodichloromethane,ND,0.14899999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Bromoform,ND,9.7000000000000003E-2,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Bromomethane,ND,0.25800000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Carbon Disulfide,62.3,0.32100000000000001,194,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Carbon Tetrachloride,ND,0.04,ND,0.25,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Chlorobenzene,ND,0.217,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Chloroethane,ND,0.379,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Chloroform,0.27,0.20499999999999999,1.32,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Chloromethane,ND,0.48399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"Cis-1,2-Dichloroethene",0.74,0.252,2.93,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"cis-1,3-Dichloropropene",ND,0.22,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Cyclohexane,4.28,0.29099999999999998,14.7,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Dibromochloromethane,ND,0.11700000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Dichlorodifluoromethane,0.4,0.20200000000000001,1.98,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Ethanol,106,0.53100000000000003,200,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Ethyl acetate,0.53,0.27800000000000002,1.91,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Ethylbenzene,4.5999999999999996,0.23,20,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Heptane,8.9,0.24399999999999999,36.4,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Hexachlorobutadiene,ND,9.4E-2,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Hexane,14.4,0.28399999999999997,50.7,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Isopropylalcohol,10.9,0.40699999999999997,26.8,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Isopropylbenzene,ND,0.20399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"m,p-Xylene",13.2,0.23,57.3,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Methyl Ethyl Ketone,2.5,0.33900000000000002,7.37,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Methylene Chloride,ND,0.28799999999999998,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,n-Butylbenzene,ND,0.182,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,o-Xylene,4.0999999999999996,0.23,17.8,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Propylene,17.8,0.58099999999999996,30.6,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,sec-Butylbenzene,ND,0.182,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Styrene,ND,0.23499999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Tetrachloroethene,56,3.6999999999999998E-2,380,0.25,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Tetrahydrofuran,0.43,0.33900000000000002,1.27,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Toluene,25.7,0.26600000000000001,96.8,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,"trans-1,3-Dichloropropene",ND,0.22,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Trichloroethene,19.8,4.7E-2,106,0.25,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Trichlorofluoromethane,0.31,0.17799999999999999,1.74,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Trichlorotrifluoroethane,ND,0.13,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG2,% Bromofluorobenzene,106,%,106,%,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"1,1,1-Trichloroethane",ND,0.183,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"1,1-Dichloroethane",ND,0.247,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"1,1-Dichloroethene",0.43,0.252,1.7,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"1,2,4-Trimethylbenzene",0.84,0.20399999999999999,4.13,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"1,2-Dichloroethane",ND,0.247,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"1,2-dichloropropane",ND,0.216,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"1,3,5-Trimethylbenzene",0.32,0.20399999999999999,1.57,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"1,3-Dichlorobenzene",0.46,0.16600000000000001,2.76,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,4-Ethyltoluene,0.28000000000000003,0.20399999999999999,1.38,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,4-Isopropyltoluene,ND,0.182,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Acetone,21.8,0.42099999999999999,51.8,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Benzene,3.82,0.313,12.2,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Benzyl chloride,ND,0.193,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Bromodichloromethane,ND,0.14899999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Bromoform,ND,9.7000000000000003E-2,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Bromomethane,ND,0.25800000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Carbon Disulfide,25.7,0.32100000000000001,80,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Carbon Tetrachloride,ND,0.04,ND,0.25,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Chlorobenzene,ND,0.217,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Chloroethane,ND,0.379,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Chloroform,0.43,0.20499999999999999,2.1,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Chloromethane,ND,0.48399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"Cis-1,2-Dichloroethene",3.6,0.252,14.3,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"cis-1,3-Dichloropropene",ND,0.22,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Cyclohexane,1.67,0.29099999999999998,5.74,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Dibromochloromethane,ND,0.11700000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Dichlorodifluoromethane,0.34,0.20200000000000001,1.68,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Ethanol,29.2,0.53100000000000003,55,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Ethyl acetate,0.62,0.27800000000000002,2.23,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Ethylbenzene,3.7,0.23,16,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Heptane,4.88,0.24399999999999999,20,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Hexachlorobutadiene,ND,9.4E-2,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Hexane,6.33,0.28399999999999997,22.3,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Isopropylalcohol,12.6,0.40699999999999997,31,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Isopropylbenzene,ND,0.20399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"m,p-Xylene",11,0.23,47.7,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Methyl Ethyl Ketone,ND,0.33900000000000002,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Methylene Chloride,0.31,0.28799999999999998,1.08,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,n-Butylbenzene,ND,0.182,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,o-Xylene,3.41,0.23,14.8,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Propylene,7.63,0.58099999999999996,13.1,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,sec-Butylbenzene,ND,0.182,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Styrene,ND,0.23499999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Tetrachloroethene,1.66,3.6999999999999998E-2,11.2,0.25,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Tetrahydrofuran,0.38,0.33900000000000002,1.1200000000000001,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Toluene,19.399999999999999,0.26600000000000001,73.099999999999994,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,"trans-1,3-Dichloropropene",ND,0.22,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Trichloroethene,1.19,4.7E-2,6.39,0.25,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Trichlorofluoromethane,0.31,0.17799999999999999,1.74,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Trichlorotrifluoroethane,ND,0.13,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,Vinyl Chloride,0.63,9.8000000000000004E-2,1.61,0.25,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG3,% Bromofluorobenzene,104,%,104,%,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"1,1,1-Trichloroethane",ND,0.183,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"1,1-Dichloroethane",ND,0.247,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"1,1-Dichloroethene",ND,0.252,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"1,2,4-Trimethylbenzene",0.44,0.20399999999999999,2.16,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"1,2-Dichloroethane",ND,0.247,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"1,2-dichloropropane",ND,0.216,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"1,3,5-Trimethylbenzene",ND,0.20399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"1,3-Dichlorobenzene",0.51,0.16600000000000001,3.06,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,4-Ethyltoluene,ND,0.20399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,4-Isopropyltoluene,ND,0.182,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Acetone,13,0.42099999999999999,30.9,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Benzene,0.41,0.313,1.31,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Benzyl chloride,ND,0.193,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Bromodichloromethane,ND,0.14899999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Bromoform,ND,9.7000000000000003E-2,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Bromomethane,ND,0.25800000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Carbon Disulfide,5.13,0.32100000000000001,16,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Carbon Tetrachloride,ND,0.04,ND,0.25,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Chlorobenzene,ND,0.217,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Chloroethane,ND,0.379,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Chloroform,0.69,0.20499999999999999,3.37,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Chloromethane,ND,0.48399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"cis-1,3-Dichloropropene",ND,0.22,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Cyclohexane,ND,0.29099999999999998,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Dibromochloromethane,ND,0.11700000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Dichlorodifluoromethane,0.43,0.20200000000000001,2.12,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Ethanol,36.700000000000003,0.53100000000000003,69.099999999999994,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Ethyl acetate,0.31,0.27800000000000002,1.1200000000000001,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Ethylbenzene,0.99,0.23,4.3,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Heptane,0.46,0.24399999999999999,1.88,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Hexachlorobutadiene,ND,9.4E-2,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Hexane,0.62,0.28399999999999997,2.1800000000000002,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Isopropylalcohol,9.15,0.40699999999999997,22.5,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Isopropylbenzene,ND,0.20399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"m,p-Xylene",3.99,0.23,17.3,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Methyl Ethyl Ketone,0.35,0.33900000000000002,1.03,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Methylene Chloride,0.31,0.28799999999999998,1.08,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,n-Butylbenzene,ND,0.182,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,o-Xylene,1.25,0.23,5.42,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Propylene,4.03,0.58099999999999996,6.93,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,sec-Butylbenzene,ND,0.182,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Styrene,ND,0.23499999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Tetrachloroethene,0.36,3.6999999999999998E-2,2.44,0.25,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Tetrahydrofuran,0.43,0.33900000000000002,1.27,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Toluene,3.71,0.26600000000000001,14,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,"trans-1,3-Dichloropropene",ND,0.22,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Trichloroethene,0.24,4.7E-2,1.29,0.25,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Trichlorofluoromethane,0.34,0.17799999999999999,1.91,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Trichlorotrifluoroethane,ND,0.13,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,Vinyl Chloride,0.16,9.8000000000000004E-2,0.40899999999999997,0.25,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG4,% Bromofluorobenzene,103,%,103,%,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"1,1,1-Trichloroethane",ND,0.183,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"1,1,2-Trichloroethane",ND,0.183,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"1,1-Dichloroethane",ND,0.247,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"1,1-Dichloroethene",ND,0.252,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"1,2,4-Trimethylbenzene",0.27,0.20399999999999999,1.33,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"1,2-Dichloroethane",ND,0.247,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"1,2-dichloropropane",ND,0.216,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"1,3,5-Trimethylbenzene",ND,0.20399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"1,3-Dichlorobenzene",0.65,0.16600000000000001,3.9,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,4-Ethyltoluene,ND,0.20399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,4-Isopropyltoluene,ND,0.182,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Acetone,6.22,0.42099999999999999,14.8,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Acrylonitrile,ND,0.46100000000000002,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Benzene,ND,0.313,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Benzyl chloride,ND,0.193,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Bromodichloromethane,ND,0.14899999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Bromoform,ND,9.7000000000000003E-2,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Bromomethane,ND,0.25800000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Carbon Disulfide,2.08,0.32100000000000001,6.47,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Carbon Tetrachloride,7.0000000000000007E-2,0.04,0.44,0.25,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Chlorobenzene,ND,0.217,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Chloroethane,ND,0.379,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Chloroform,ND,0.20499999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Chloromethane,ND,0.48399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"cis-1,3-Dichloropropene",ND,0.22,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Cyclohexane,ND,0.29099999999999998,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Dibromochloromethane,ND,0.11700000000000001,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Dichlorodifluoromethane,0.49,0.20200000000000001,2.42,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Ethanol,45.4,E   0.531,85.5,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Ethyl acetate,0.67,0.27800000000000002,2.41,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Ethylbenzene,0.46,0.23,2,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Heptane,0.31,0.24399999999999999,1.27,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Hexachlorobutadiene,ND,9.4E-2,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Hexane,0.49,0.28399999999999997,1.73,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Isopropylalcohol,16.5,0.40699999999999997,40.5,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Isopropylbenzene,ND,0.20399999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"m,p-Xylene",1.42,0.23,6.16,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Methyl Ethyl Ketone,0.45,0.33900000000000002,1.33,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Methylene Chloride,0.33,0.28799999999999998,1.1399999999999999,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,n-Butylbenzene,ND,0.182,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,o-Xylene,0.48,0.23,2.08,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Propylene,ND,0.58099999999999996,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,sec-Butylbenzene,ND,0.182,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Styrene,ND,0.23499999999999999,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Tetrachloroethene,0.15,3.6999999999999998E-2,1.02,0.25,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Tetrahydrofuran,ND,0.33900000000000002,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Toluene,2.58,0.26600000000000001,9.7200000000000006,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,"trans-1,3-Dichloropropene",ND,0.22,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Trichloroethene,ND,4.7E-2,ND,0.25,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Trichlorofluoromethane,0.23,0.17799999999999999,1.29,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Trichlorotrifluoroethane,ND,0.13,ND,1,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,2014-10-27T04:00:00Z,KCA,phoenix
+SV 125 Borinquen Place,SG5,% Bromofluorobenzene,104,%,104,%,2014-10-27T04:00:00Z,KCA,phoenix

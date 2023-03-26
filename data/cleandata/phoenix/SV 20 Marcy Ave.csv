@@ -1,0 +1,604 @@
+street_address,sample_id,parameter,ppbv_result,ppbv_rl,ug_m3_result,ug_m3_rl,date_time,by,lab
+SV 20 Marcy Ave,SG 5,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"1,1-Dichloroethane",ND,0.247,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"1,1-Dichloroethene",ND,0.252,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"1,2,4-Trimethylbenzene",1.99,0.204,9.8,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"1,2-Dichloroethane",ND,0.247,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"1,2-dichloropropane",ND,0.217,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"1,3,5-Trimethylbenzene",0.500,0.204,2.46,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"1,3-Butadiene",ND,0.452,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"1,4-Dioxane",ND,0.278,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,2-Hexanone(MBK),ND,0.244,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,4-Ethyltoluene,0.331,0.204,1.63,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,4-Isopropyltoluene,ND,0.182,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,4-Methyl-2-pentanone(MIBK),0.438,0.244,1.79,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Acetone,129,S   4.21,306,10.0,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Acrylonitrile,ND,0.461,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Benzene,5.43,0.313,17.3,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Benzyl chloride,ND,0.193,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Bromodichloromethane,ND,0.149,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Bromoform,ND,0.097,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Bromomethane,ND,0.258,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Carbon Disulfide,0.947,0.321,2.95,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Carbon Tetrachloride,0.078,0.040,0.49,0.25,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Chlorobenzene,ND,0.217,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Chloroethane,ND,0.379,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Chloroform,ND,0.205,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Chloromethane,0.590,0.485,1.22,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"cis-1,3-Dichloropropene",ND,0.221,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Cyclohexane,2.69,0.291,9.25,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Dibromochloromethane,ND,0.118,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Dichlorodifluoromethane,0.509,0.202,2.52,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Ethanol,22.2,S  0.531,41.8,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Ethyl acetate,ND,0.278,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Ethylbenzene,2.58,0.230,11.2,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Heptane,4.11,0.244,16.8,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Hexachlorobutadiene,ND,0.094,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Hexane,ND,0.284,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Isopropylalcohol,ND,0.407,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Isopropylbenzene,ND,0.204,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"m,p-Xylene",6.35,0.230,27.6,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Methyl Ethyl Ketone,10.7,0.339,31.5,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Methylene Chloride,0.535,S  0.288,1.86,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,n-Butylbenzene,0.609,0.182,3.34,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,o-Xylene,2.12,0.230,9.20,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Propylene,3.00,0.581,5.16,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,sec-Butylbenzene,ND,0.182,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Styrene,ND,0.235,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Tetrachloroethene,79.2,0.369,537,2.50,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Tetrahydrofuran,ND,0.339,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Toluene,38.5,0.266,145,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,"trans-1,3-Dichloropropene",ND,0.221,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Trichloroethene,0.524,0.047,2.81,0.25,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Trichlorofluoromethane,0.232,0.178,1.30,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Trichlorotrifluoroethane,ND,0.131,ND,1.00,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,Vinyl Chloride,ND,0.098,ND,0.25,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,SG 5,% Bromofluorobenzene,112,%,112,%,2015-04-14T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"1,1-Dichloroethane",ND,0.247,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"1,1-Dichloroethene",ND,0.252,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"1,2,4-Trimethylbenzene",1.83,0.204,8.99,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"1,2-Dichloroethane",ND,0.247,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"1,2-dichloropropane",ND,0.217,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"1,3,5-Trimethylbenzene",0.465,0.204,2.28,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"1,3-Butadiene",ND,0.452,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"1,4-Dioxane",ND,0.278,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,2-Hexanone(MBK),ND,0.244,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,4-Ethyltoluene,0.326,0.204,1.60,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,4-Isopropyltoluene,ND,0.182,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Acetone,172,S   4.21,408,10.0,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Acrylonitrile,ND,0.461,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Benzene,2.26,0.313,7.22,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Benzyl chloride,ND,0.193,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Bromodichloromethane,ND,0.149,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Bromoform,ND,0.097,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Bromomethane,ND,0.258,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Carbon Disulfide,1.97,0.321,6.13,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Carbon Tetrachloride,0.075,0.040,0.47,0.25,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Chlorobenzene,ND,0.217,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Chloroethane,ND,0.379,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Chloroform,0.220,0.205,1.07,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Chloromethane,ND,0.485,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"cis-1,3-Dichloropropene",ND,0.221,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Cyclohexane,0.549,0.291,1.89,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Dibromochloromethane,ND,0.118,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Dichlorodifluoromethane,0.468,0.202,2.31,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Ethanol,ND,0.531,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Ethyl acetate,ND,0.278,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Ethylbenzene,0.752,0.230,3.26,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Heptane,1.62,0.244,6.64,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Hexachlorobutadiene,ND,0.094,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Hexane,ND,0.284,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Isopropylalcohol,ND,0.407,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Isopropylbenzene,ND,0.204,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"m,p-Xylene",2.10,0.230,9.11,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Methyl Ethyl Ketone,9.45,0.339,27.9,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Methylene Chloride,0.343,S  0.288,1.19,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,n-Butylbenzene,ND,0.182,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,o-Xylene,0.896,0.230,3.89,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Propylene,4.55,0.581,7.83,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,sec-Butylbenzene,ND,0.182,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Styrene,ND,0.235,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Tetrachloroethene,0.162,0.037,1.10,0.25,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Tetrahydrofuran,ND,0.339,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Toluene,11.3,0.266,42.6,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,"trans-1,3-Dichloropropene",ND,0.221,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Trichloroethene,ND,0.047,ND,0.25,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Trichlorofluoromethane,0.250,0.178,1.40,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Trichlorotrifluoroethane,ND,0.131,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,Vinyl Chloride,ND,0.098,ND,0.25,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 3,% Bromofluorobenzene,107,%,107,%,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"1,1-Dichloroethane",ND,0.247,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"1,1-Dichloroethene",ND,0.252,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"1,2,4-Trimethylbenzene",2.10,0.204,10.3,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"1,2-Dichloroethane",ND,0.247,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"1,2-dichloropropane",ND,0.217,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"1,3,5-Trimethylbenzene",0.585,0.204,2.87,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"1,3-Butadiene",ND,0.452,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"1,4-Dioxane",ND,0.278,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,2-Hexanone(MBK),ND,0.244,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,4-Ethyltoluene,0.382,0.204,1.88,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,4-Isopropyltoluene,ND,0.182,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Acetone,101,S   4.21,240,10.0,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Acrylonitrile,ND,0.461,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Benzene,0.437,0.313,1.40,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Benzyl chloride,ND,0.193,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Bromodichloromethane,ND,0.149,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Bromoform,ND,0.097,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Bromomethane,ND,0.258,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Carbon Disulfide,ND,0.321,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Carbon Tetrachloride,0.078,0.040,0.49,0.25,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Chlorobenzene,ND,0.217,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Chloroethane,ND,0.379,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Chloroform,4.35,0.205,21.2,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Chloromethane,ND,0.485,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"Cis-1,2-Dichloroethene",2.41,0.252,9.5,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"cis-1,3-Dichloropropene",ND,0.221,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Cyclohexane,ND,0.291,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Dibromochloromethane,ND,0.118,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Dichlorodifluoromethane,0.417,0.202,2.06,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Ethanol,ND,0.531,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Ethyl acetate,ND,0.278,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Ethylbenzene,1.48,0.230,6.42,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Heptane,1.54,0.244,6.31,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Hexachlorobutadiene,ND,0.094,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Hexane,ND,0.284,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Isopropylalcohol,ND,0.407,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Isopropylbenzene,ND,0.204,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"m,p-Xylene",5.01,0.230,21.7,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Methyl Ethyl Ketone,9.23,0.339,27.2,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Methylene Chloride,0.342,S  0.288,1.19,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,n-Butylbenzene,ND,0.182,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,o-Xylene,2.13,0.230,9.24,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Propylene,ND,0.581,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,sec-Butylbenzene,ND,0.182,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Styrene,ND,0.235,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Tetrachloroethene,192,0.369,1300,2.50,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Tetrahydrofuran,ND,0.339,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Toluene,10.3,0.266,38.8,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,"trans-1,3-Dichloropropene",ND,0.221,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Trichloroethene,14.8,0.047,79.5,0.25,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Trichlorofluoromethane,0.215,0.178,1.21,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Trichlorotrifluoroethane,ND,0.131,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,Vinyl Chloride,ND,0.098,ND,0.25,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 1,% Bromofluorobenzene,96,%,96,%,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"1,1-Dichloroethane",ND,0.247,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"1,1-Dichloroethene",ND,0.252,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"1,2,4-Trimethylbenzene",2.51,0.204,12.3,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"1,2-Dichloroethane",ND,0.247,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"1,2-dichloropropane",ND,0.217,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"1,3,5-Trimethylbenzene",0.678,0.204,3.33,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"1,3-Butadiene",ND,0.452,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"1,4-Dioxane",ND,0.278,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,2-Hexanone(MBK),ND,0.244,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,4-Ethyltoluene,0.425,0.204,2.09,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,4-Isopropyltoluene,ND,0.182,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Acetone,153,S   4.21,363,10.0,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Acrylonitrile,ND,0.461,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Benzene,1.51,0.313,4.82,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Benzyl chloride,ND,0.193,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Bromodichloromethane,ND,0.149,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Bromoform,ND,0.097,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Bromomethane,ND,0.258,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Carbon Disulfide,0.386,0.321,1.20,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Carbon Tetrachloride,0.071,0.040,0.45,0.25,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Chlorobenzene,ND,0.217,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Chloroethane,ND,0.379,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Chloroform,ND,0.205,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Chloromethane,0.665,0.485,1.37,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"cis-1,3-Dichloropropene",ND,0.221,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Cyclohexane,1.25,0.291,4.30,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Dibromochloromethane,ND,0.118,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Dichlorodifluoromethane,0.503,0.202,2.49,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Ethanol,ND,0.531,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Ethyl acetate,0.959,0.278,3.45,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Ethylbenzene,1.93,0.230,8.38,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Heptane,2.34,0.244,9.6,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Hexachlorobutadiene,ND,0.094,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Hexane,ND,0.284,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Isopropylalcohol,ND,0.407,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Isopropylbenzene,0.270,0.204,1.33,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"m,p-Xylene",5.59,0.230,24.3,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Methyl Ethyl Ketone,13.9,0.339,41.0,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Methylene Chloride,0.949,S  0.288,3.29,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,n-Butylbenzene,ND,0.182,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,o-Xylene,2.30,0.230,10.0,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Propylene,2.60,0.581,4.47,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,sec-Butylbenzene,ND,0.182,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Styrene,ND,0.235,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Tetrachloroethene,2.73,0.037,18.5,0.25,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Tetrahydrofuran,ND,0.339,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Toluene,22.4,0.266,84.4,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,"trans-1,3-Dichloropropene",ND,0.221,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Trichloroethene,0.062,0.047,0.33,0.25,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Trichlorofluoromethane,0.213,0.178,1.20,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Trichlorotrifluoroethane,ND,0.131,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,Vinyl Chloride,ND,0.098,ND,0.25,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 4,% Bromofluorobenzene,106,%,106,%,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"1,1-Dichloroethane",ND,0.247,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"1,1-Dichloroethene",ND,0.252,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"1,2,4-Trimethylbenzene",ND,0.204,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"1,2-Dichloroethane",ND,0.247,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"1,2-dichloropropane",ND,0.217,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"1,3,5-Trimethylbenzene",0.628,0.204,3.09,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"1,3-Butadiene",ND,0.452,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"1,4-Dioxane",ND,0.278,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,2-Hexanone(MBK),ND,0.244,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,4-Ethyltoluene,ND,0.204,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,4-Isopropyltoluene,ND,0.182,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Acetone,64.8,S   4.21,154,10.0,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Acrylonitrile,ND,0.461,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Benzene,0.392,0.313,1.25,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Benzyl chloride,ND,0.193,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Bromodichloromethane,ND,0.149,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Bromoform,ND,0.097,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Bromomethane,ND,0.258,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Carbon Disulfide,0.663,0.321,2.06,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Carbon Tetrachloride,0.078,0.040,0.49,0.25,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Chlorobenzene,ND,0.217,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Chloroethane,ND,0.379,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Chloroform,2.98,0.205,14.5,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Chloromethane,ND,0.485,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"cis-1,3-Dichloropropene",ND,0.221,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Cyclohexane,ND,0.291,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Dibromochloromethane,ND,0.118,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Dichlorodifluoromethane,0.393,0.202,1.94,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Ethanol,ND,0.531,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Ethyl acetate,0.493,0.278,1.78,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Ethylbenzene,0.992,0.230,4.30,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Heptane,0.988,0.244,4.05,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Hexachlorobutadiene,ND,0.094,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Hexane,ND,0.284,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Isopropylalcohol,ND,0.407,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Isopropylbenzene,ND,0.204,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"m,p-Xylene",3.53,0.230,15.3,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Methyl Ethyl Ketone,6.11,0.339,18.0,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Methylene Chloride,0.457,S  0.288,1.59,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,n-Butylbenzene,ND,0.182,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,o-Xylene,1.50,0.230,6.51,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Propylene,1.30,0.581,2.24,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,sec-Butylbenzene,ND,0.182,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Styrene,ND,0.235,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Tetrachloroethene,189,0.369,1280,2.50,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Tetrahydrofuran,ND,0.339,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Toluene,10.1,0.266,38.0,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,"trans-1,3-Dichloropropene",ND,0.221,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Trichloroethene,3.67,0.047,19.7,0.25,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Trichlorofluoromethane,0.217,0.178,1.22,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Trichlorotrifluoroethane,ND,0.131,ND,1.00,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,Vinyl Chloride,ND,0.098,ND,0.25,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 2,% Bromofluorobenzene,110,%,110,%,2015-04-14T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"1,1-Dichloroethane",ND,0.247,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"1,1-Dichloroethene",ND,0.252,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"1,2,4-Trimethylbenzene",2.61,0.204,12.8,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"1,2-Dichloroethane",ND,0.247,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"1,2-dichloropropane",ND,0.217,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"1,3,5-Trimethylbenzene",0.760,0.204,3.73,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"1,3-Butadiene",ND,0.452,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"1,4-Dioxane",ND,0.278,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,2-Hexanone(MBK),ND,0.244,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,4-Ethyltoluene,0.508,0.204,2.50,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,4-Isopropyltoluene,ND,0.182,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,4-Methyl-2-pentanone(MIBK),0.277,0.244,1.13,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Acetone,132,S   4.21,313,10.0,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Acrylonitrile,ND,0.461,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Benzene,0.476,0.313,1.52,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Benzyl chloride,ND,0.193,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Bromodichloromethane,ND,0.149,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Bromoform,ND,0.097,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Bromomethane,ND,0.258,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Carbon Disulfide,0.323,0.321,1.01,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Carbon Tetrachloride,ND,0.040,ND,0.25,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Chlorobenzene,ND,0.217,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Chloroethane,ND,0.379,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Chloroform,ND,0.205,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Chloromethane,ND,0.485,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"Cis-1,2-Dichloroethene",0.747,0.252,2.96,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"cis-1,3-Dichloropropene",ND,0.221,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Cyclohexane,ND,0.291,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Dibromochloromethane,ND,0.118,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Dichlorodifluoromethane,0.413,0.202,2.04,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Ethanol,ND,0.531,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Ethyl acetate,0.852,0.278,3.07,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Ethylbenzene,1.60,0.230,6.94,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Heptane,2.17,0.244,8.89,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Hexachlorobutadiene,ND,0.094,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Hexane,ND,0.284,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Isopropylalcohol,ND,0.407,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Isopropylbenzene,ND,0.204,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"m,p-Xylene",5.19,0.230,22.5,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Methyl Ethyl Ketone,11.3,0.339,33.3,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Methylene Chloride,0.460,S  0.288,1.60,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,n-Butylbenzene,ND,0.182,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,o-Xylene,2.39,0.230,10.4,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Propylene,1.62,0.581,2.79,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,sec-Butylbenzene,0.309,0.182,1.70,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Styrene,ND,0.235,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Tetrachloroethene,23.2,0.037,157,0.25,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Tetrahydrofuran,ND,0.339,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Toluene,10.7,0.266,40.3,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,"trans-1,3-Dichloropropene",ND,0.221,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Trichloroethene,1.16,0.047,6.23,0.25,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Trichlorofluoromethane,0.216,0.178,1.21,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Trichlorotrifluoroethane,ND,0.131,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,Vinyl Chloride,ND,0.098,ND,0.25,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 3,% Bromofluorobenzene,108,%,108,%,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"1,1-Dichloroethane",ND,0.247,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"1,1-Dichloroethene",ND,0.252,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"1,2,4-Trimethylbenzene",3.01,0.204,14.8,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"1,2-Dichloroethane",ND,0.247,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"1,2-dichloropropane",ND,0.217,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"1,3,5-Trimethylbenzene",0.821,0.204,4.03,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"1,3-Butadiene",ND,0.452,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"1,4-Dioxane",ND,0.278,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,2-Hexanone(MBK),ND,0.244,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,4-Ethyltoluene,0.637,0.204,3.13,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,4-Isopropyltoluene,ND,0.182,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,4-Methyl-2-pentanone(MIBK),0.554,0.244,2.27,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Acetone,170,S   4.21,404,10.0,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Acrylonitrile,ND,0.461,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Benzene,2.72,0.313,8.68,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Benzyl chloride,ND,0.193,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Bromodichloromethane,ND,0.149,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Bromoform,ND,0.097,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Bromomethane,ND,0.258,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Carbon Disulfide,0.524,0.321,1.63,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Carbon Tetrachloride,0.072,0.040,0.45,0.25,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Chlorobenzene,ND,0.217,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Chloroethane,ND,0.379,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Chloroform,ND,0.205,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Chloromethane,0.585,0.485,1.21,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"cis-1,3-Dichloropropene",ND,0.221,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Cyclohexane,1.61,0.291,5.54,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Dibromochloromethane,ND,0.118,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Dichlorodifluoromethane,0.523,0.202,2.58,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Ethanol,ND,0.531,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Ethyl acetate,ND,0.278,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Ethylbenzene,4.17,0.230,18.1,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Heptane,3.77,0.244,15.4,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Hexachlorobutadiene,ND,0.094,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Hexane,ND,0.284,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Isopropylalcohol,ND,0.407,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Isopropylbenzene,0.409,0.204,2.01,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"m,p-Xylene",11.1,0.230,48.2,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Methyl Ethyl Ketone,13.9,0.339,41.0,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Methylene Chloride,2.08,S  0.288,7.22,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,n-Butylbenzene,ND,0.182,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,o-Xylene,4.23,0.230,18.4,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Propylene,2.71,0.581,4.66,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,sec-Butylbenzene,0.360,0.182,1.97,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Styrene,ND,0.235,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Tetrachloroethene,3640,5.53,24700,37.5,2015-04-16T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Tetrahydrofuran,ND,0.339,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Toluene,36.7,0.266,138,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,"trans-1,3-Dichloropropene",ND,0.221,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Trichloroethene,3.33,0.047,17.9,0.25,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Trichlorofluoromethane,0.206,0.178,1.16,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Trichlorotrifluoroethane,ND,0.131,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,Vinyl Chloride,ND,0.098,ND,0.25,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,SG 6,% Bromofluorobenzene,115,%,115,%,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"1,1-Dichloroethane",ND,0.247,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"1,1-Dichloroethene",ND,0.252,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"1,2,4-Trimethylbenzene",0.695,0.204,3.41,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"1,2-Dichloroethane",ND,0.247,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"1,2-dichloropropane",ND,0.217,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"1,3,5-Trimethylbenzene",ND,0.204,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"1,3-Butadiene",ND,0.452,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"1,4-Dioxane",ND,0.278,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,2-Hexanone(MBK),ND,0.244,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,4-Ethyltoluene,ND,0.204,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,4-Isopropyltoluene,ND,0.182,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Acetone,71.5,S   2.11,170,5.01,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Acrylonitrile,ND,0.461,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Benzene,0.332,0.313,1.06,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Benzyl chloride,ND,0.193,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Bromodichloromethane,ND,0.149,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Bromoform,ND,0.097,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Bromomethane,ND,0.258,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Carbon Disulfide,ND,0.321,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Carbon Tetrachloride,0.078,0.040,0.49,0.25,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Chlorobenzene,ND,0.217,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Chloroethane,ND,0.379,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Chloroform,ND,0.205,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Chloromethane,0.589,0.485,1.22,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"cis-1,3-Dichloropropene",ND,0.221,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Cyclohexane,ND,0.291,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Dibromochloromethane,ND,0.118,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Dichlorodifluoromethane,0.492,0.202,2.43,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Ethanol,13.8,S  0.531,26.0,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Ethyl acetate,ND,0.278,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Ethylbenzene,0.251,0.230,1.09,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Heptane,ND,0.244,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Hexachlorobutadiene,ND,0.094,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Hexane,ND,0.284,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Isopropylalcohol,ND,0.407,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Isopropylbenzene,ND,0.204,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"m,p-Xylene",0.866,0.230,3.76,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Methyl Ethyl Ketone,3.20,0.339,9.43,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Methylene Chloride,0.301,S  0.288,1.04,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,n-Butylbenzene,0.198,0.182,1.09,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,o-Xylene,0.373,0.230,1.62,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Propylene,5.46,0.581,9.39,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,sec-Butylbenzene,ND,0.182,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Styrene,ND,0.235,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Tetrachloroethene,0.083,0.037,0.56,0.25,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Tetrahydrofuran,ND,0.339,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Toluene,3.22,0.266,12.1,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,"trans-1,3-Dichloropropene",ND,0.221,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Trichloroethene,ND,0.047,ND,0.25,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Trichlorofluoromethane,0.255,0.178,1.43,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Trichlorotrifluoroethane,ND,0.131,ND,1.00,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,Vinyl Chloride,ND,0.098,ND,0.25,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 1,% Bromofluorobenzene,104,%,104,%,2015-04-15T04:00:00Z,KCA,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"1,1-Dichloroethane",ND,0.247,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"1,1-Dichloroethene",ND,0.252,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"1,2,4-Trimethylbenzene",3.00,0.204,14.7,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"1,2-Dichloroethane",ND,0.247,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"1,2-dichloropropane",ND,0.217,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"1,3,5-Trimethylbenzene",1.66,0.204,8.16,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"1,3-Butadiene",ND,0.452,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"1,4-Dioxane",ND,0.278,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,2-Hexanone(MBK),ND,0.244,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,4-Ethyltoluene,1.31,0.204,6.44,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,4-Isopropyltoluene,ND,0.182,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Acetone,243,S   4.21,577,10.0,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Acrylonitrile,ND,0.461,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Benzene,73.2,3.13,234,10.0,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Benzyl chloride,ND,0.193,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Bromodichloromethane,ND,0.149,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Bromoform,ND,0.097,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Bromomethane,ND,0.258,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Carbon Disulfide,7.33,0.321,22.8,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Carbon Tetrachloride,0.059,0.040,0.37,0.25,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Chlorobenzene,0.633,0.217,2.91,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Chloroethane,ND,0.379,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Chloroform,ND,0.205,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Chloromethane,ND,0.485,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"cis-1,3-Dichloropropene",ND,0.221,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Cyclohexane,6.17,0.291,21.2,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Dibromochloromethane,ND,0.118,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Dichlorodifluoromethane,0.409,0.202,2.02,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Ethanol,258,SE  0.531,486,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Ethyl acetate,ND,0.278,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Ethylbenzene,92.2,2.30,400,10.0,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Heptane,39.9,0.244,163,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Hexachlorobutadiene,ND,0.094,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Hexane,ND,0.284,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Isopropylalcohol,ND,0.407,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Isopropylbenzene,4.84,0.204,23.8,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"m,p-Xylene",196,2.30,851,10.0,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Methyl Ethyl Ketone,11.2,0.339,33.0,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Methyl tert-butyl ether(MTBE),8.03,0.278,28.9,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Methylene Chloride,ND,0.288,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,n-Butylbenzene,ND,0.182,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,o-Xylene,57.9,2.30,251,10.0,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Propylene,23.7,0.581,40.8,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,sec-Butylbenzene,ND,0.182,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Styrene,ND,0.235,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Tetrachloroethene,0.847,0.037,5.74,0.25,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Tetrahydrofuran,ND,0.339,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Toluene,436,7.97,1640,30.0,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,"trans-1,3-Dichloropropene",ND,0.221,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Trichloroethene,ND,0.047,ND,0.25,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Trichlorofluoromethane,0.280,0.178,1.57,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Trichlorotrifluoroethane,ND,0.131,ND,1.00,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,Vinyl Chloride,ND,0.098,ND,0.25,2015-04-15T04:00:00Z,DD,phoenix
+SV 20 Marcy Ave,HOPE SG 2,% Bromofluorobenzene,122,%,122,%,2015-04-15T04:00:00Z,DD,phoenix

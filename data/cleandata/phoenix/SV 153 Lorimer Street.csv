@@ -1,0 +1,269 @@
+street_address,sample_id,parameter,ppbv_result,ppbv_rl,ug_m3_result,ug_m3__rl,date_time,by,lab
+SV 153 Lorimer Street,SG1,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"1,1,1-Trichloroethane",ND,0.183,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"1,1,2-Trichloroethane",ND,0.183,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"1,1-Dichloroethane",ND,0.247,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"1,1-Dichloroethene",ND,0.252,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"1,2,4-Trimethylbenzene",0.36,0.20399999999999999,1.77,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"1,2-Dichloroethane",ND,0.247,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"1,2-dichloropropane",ND,0.216,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"1,2-Dichlorotetrafluoroethane",0.3,0.14299999999999999,2.1,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"1,3,5-Trimethylbenzene",ND,0.20399999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"1,3-Dichlorobenzene",0.46,0.16600000000000001,2.76,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,2-Hexanone(MBK),5.26,0.24399999999999999,21.5,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,4-Ethyltoluene,ND,0.20399999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,4-Isopropyltoluene,ND,0.182,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Acetone,139,0.42099999999999999,330,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Acrylonitrile,ND,0.46100000000000002,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Benzene,ND,0.313,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Benzyl chloride,ND,0.193,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Bromodichloromethane,ND,0.14899999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Bromoform,ND,9.7000000000000003E-2,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Bromomethane,ND,0.25800000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Carbon Disulfide,0.45,0.32100000000000001,1.4,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Carbon Tetrachloride,ND,0.04,ND,0.25,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Chlorobenzene,ND,0.217,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Chloroethane,ND,0.379,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Chloroform,1.08,0.20499999999999999,5.27,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Chloromethane,ND,0.48399999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"cis-1,3-Dichloropropene",ND,0.22,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Cyclohexane,ND,0.29099999999999998,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Dibromochloromethane,ND,0.11700000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Dichlorodifluoromethane,0.63,0.20200000000000001,3.11,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Ethanol,34.1,0.53100000000000003,64.2,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Ethyl acetate,ND,0.27800000000000002,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Ethylbenzene,ND,0.23,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Heptane,0.63,0.24399999999999999,2.58,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Hexachlorobutadiene,ND,9.4E-2,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Hexane,0.47,0.28399999999999997,1.66,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Isopropylalcohol,2.16,0.40699999999999997,5.31,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Isopropylbenzene,ND,0.20399999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"m,p-Xylene",0.67,0.23,2.91,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Methyl Ethyl Ketone,17.399999999999999,0.33900000000000002,51.3,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Methylene Chloride,ND,0.28799999999999998,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,n-Butylbenzene,ND,0.182,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,o-Xylene,0.3,0.23,1.3,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Propylene,ND,0.58099999999999996,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,sec-Butylbenzene,0.35,0.182,1.92,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Styrene,ND,0.23499999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Tetrachloroethene,0.55000000000000004,3.6999999999999998E-2,3.73,0.25,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Tetrahydrofuran,ND,0.33900000000000002,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Toluene,0.84,0.26600000000000001,3.16,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,"trans-1,3-Dichloropropene",ND,0.22,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Trichloroethene,ND,4.7E-2,ND,0.25,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Trichlorofluoromethane,0.71,0.17799999999999999,3.99,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Trichlorotrifluoroethane,ND,0.13,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG1,% Bromofluorobenzene,103,%,103,%,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"1,1,1-Trichloroethane",ND,0.183,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"1,1,2-Trichloroethane",ND,0.183,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"1,1-Dichloroethane",ND,0.247,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"1,1-Dichloroethene",ND,0.252,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"1,2,4-Trimethylbenzene",0.42,0.20399999999999999,2.06,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"1,2-Dichloroethane",ND,0.247,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"1,2-dichloropropane",ND,0.216,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"1,3,5-Trimethylbenzene",ND,0.20399999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"1,3-Dichlorobenzene",0.2,0.16600000000000001,1.2,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,2-Hexanone(MBK),10.4,0.24399999999999999,42.6,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,4-Ethyltoluene,ND,0.20399999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,4-Isopropyltoluene,ND,0.182,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Acetone,205,0.42099999999999999,487,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Acrylonitrile,ND,0.46100000000000002,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Benzene,ND,0.313,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Benzyl chloride,ND,0.193,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Bromodichloromethane,ND,0.14899999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Bromoform,ND,9.7000000000000003E-2,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Bromomethane,ND,0.25800000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Carbon Disulfide,4.6500000000000004,0.32100000000000001,14.5,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Carbon Tetrachloride,ND,0.04,ND,0.25,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Chlorobenzene,ND,0.217,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Chloroethane,ND,0.379,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Chloroform,0.65,0.20499999999999999,3.17,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Chloromethane,ND,0.48399999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"cis-1,3-Dichloropropene",ND,0.22,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Cyclohexane,ND,0.29099999999999998,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Dibromochloromethane,ND,0.11700000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Dichlorodifluoromethane,ND,0.20200000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Ethanol,30.8,0.53100000000000003,58,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Ethyl acetate,ND,0.27800000000000002,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Ethylbenzene,ND,0.23,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Heptane,1.22,0.24399999999999999,5,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Hexachlorobutadiene,ND,9.4E-2,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Hexane,0.9,0.28399999999999997,3.17,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Isopropylalcohol,5.94,0.40699999999999997,14.6,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Isopropylbenzene,ND,0.20399999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"m,p-Xylene",0.79,0.23,3.43,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Methyl Ethyl Ketone,31,0.33900000000000002,91.4,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Methylene Chloride,ND,0.28799999999999998,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,n-Butylbenzene,ND,0.182,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,o-Xylene,0.4,0.23,1.74,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Propylene,ND,0.58099999999999996,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,sec-Butylbenzene,0.41,0.182,2.25,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Styrene,ND,0.23499999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Tetrachloroethene,0.54,3.6999999999999998E-2,3.66,0.25,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Tetrahydrofuran,ND,0.33900000000000002,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Toluene,1.63,0.26600000000000001,6.14,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,"trans-1,3-Dichloropropene",ND,0.22,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Trichloroethene,ND,4.7E-2,ND,0.25,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Trichlorofluoromethane,0.66,0.17799999999999999,3.7,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Trichlorotrifluoroethane,ND,0.13,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG2,% Bromofluorobenzene,100,%,100,%,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"1,1,1-Trichloroethane",ND,0.183,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"1,1,2-Trichloroethane",ND,0.183,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"1,1-Dichloroethane",ND,0.247,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"1,1-Dichloroethene",ND,0.252,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"1,2,4-Trimethylbenzene",0.62,0.20399999999999999,3.05,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"1,2-Dichloroethane",ND,0.247,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"1,2-dichloropropane",ND,0.216,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"1,3,5-Trimethylbenzene",ND,0.20399999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"1,3-Dichlorobenzene",0.23,0.16600000000000001,1.38,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,2-Hexanone(MBK),6.59,0.24399999999999999,27,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,4-Ethyltoluene,ND,0.20399999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,4-Isopropyltoluene,ND,0.182,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Acetone,129,0.42099999999999999,306,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Acrylonitrile,ND,0.46100000000000002,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Benzene,ND,0.313,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Benzyl chloride,ND,0.193,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Bromodichloromethane,ND,0.14899999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Bromoform,ND,9.7000000000000003E-2,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Bromomethane,ND,0.25800000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Carbon Disulfide,2.44,0.32100000000000001,7.59,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Carbon Tetrachloride,ND,0.04,ND,0.25,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Chlorobenzene,ND,0.217,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Chloroethane,ND,0.379,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Chloroform,ND,0.20499999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Chloromethane,ND,0.48399999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"cis-1,3-Dichloropropene",ND,0.22,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Cyclohexane,ND,0.29099999999999998,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Dibromochloromethane,ND,0.11700000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Dichlorodifluoromethane,ND,0.20200000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Ethanol,22.6,0.53100000000000003,42.6,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Ethyl acetate,ND,0.27800000000000002,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Ethylbenzene,0.25,0.23,1.08,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Heptane,4.0199999999999996,0.24399999999999999,16.5,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Hexachlorobutadiene,ND,9.4E-2,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Hexane,4.26,0.28399999999999997,15,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Isopropylalcohol,ND,0.40699999999999997,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Isopropylbenzene,ND,0.20399999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"m,p-Xylene",0.87,0.23,3.78,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Methyl Ethyl Ketone,21.3,0.33900000000000002,62.8,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Methylene Chloride,0.73,0.28799999999999998,2.5299999999999998,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,n-Butylbenzene,ND,0.182,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,o-Xylene,0.41,0.23,1.78,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Propylene,ND,0.58099999999999996,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,sec-Butylbenzene,ND,0.182,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Styrene,ND,0.23499999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Tetrachloroethene,0.39,3.6999999999999998E-2,2.64,0.25,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Tetrahydrofuran,ND,0.33900000000000002,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Toluene,1.06,0.26600000000000001,3.99,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,"trans-1,3-Dichloropropene",ND,0.22,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Trichloroethene,ND,4.7E-2,ND,0.25,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Trichlorofluoromethane,0.49,0.17799999999999999,2.75,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Trichlorotrifluoroethane,ND,0.13,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG3,% Bromofluorobenzene,101,%,101,%,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"1,1,1-Trichloroethane",0.23,0.183,1.25,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"1,1,2-Trichloroethane",ND,0.183,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"1,1-Dichloroethane",ND,0.247,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"1,1-Dichloroethene",ND,0.252,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"1,2,4-Trimethylbenzene",0.63,0.20399999999999999,3.1,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"1,2-Dichloroethane",ND,0.247,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"1,2-dichloropropane",ND,0.216,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"1,2-Dichlorotetrafluoroethane",0.27,0.14299999999999999,1.89,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"1,3,5-Trimethylbenzene",ND,0.20399999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"1,3-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,2-Hexanone(MBK),5.42,0.24399999999999999,22.2,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,4-Ethyltoluene,ND,0.20399999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,4-Isopropyltoluene,ND,0.182,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Acetone,96,0.42099999999999999,228,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Acrylonitrile,ND,0.46100000000000002,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Benzene,ND,0.313,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Benzyl chloride,ND,0.193,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Bromodichloromethane,ND,0.14899999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Bromoform,ND,9.7000000000000003E-2,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Bromomethane,ND,0.25800000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Carbon Disulfide,0.4,0.32100000000000001,1.24,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Carbon Tetrachloride,ND,0.04,ND,0.25,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Chlorobenzene,ND,0.217,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Chloroethane,ND,0.379,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Chloroform,0.46,0.20499999999999999,2.2400000000000002,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Chloromethane,ND,0.48399999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"cis-1,3-Dichloropropene",ND,0.22,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Cyclohexane,ND,0.29099999999999998,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Dibromochloromethane,ND,0.11700000000000001,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Dichlorodifluoromethane,0.83,0.20200000000000001,4.0999999999999996,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Ethanol,20.2,0.53100000000000003,38,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Ethyl acetate,ND,0.27800000000000002,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Ethylbenzene,ND,0.23,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Heptane,0.43,0.24399999999999999,1.76,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Hexachlorobutadiene,ND,9.4E-2,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Hexane,0.72,0.28399999999999997,2.54,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Isopropylalcohol,2.4300000000000002,0.40699999999999997,5.97,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Isopropylbenzene,ND,0.20399999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"m,p-Xylene",0.61,0.23,2.65,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Methyl Ethyl Ketone,13.4,0.33900000000000002,39.5,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Methylene Chloride,2.8,0.28799999999999998,9.7200000000000006,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,n-Butylbenzene,ND,0.182,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,o-Xylene,0.32,0.23,1.39,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Propylene,1.93,0.58099999999999996,3.32,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,sec-Butylbenzene,ND,0.182,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Styrene,ND,0.23499999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Tetrachloroethene,0.75,3.6999999999999998E-2,5.08,0.25,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Tetrahydrofuran,ND,0.33900000000000002,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Toluene,1.03,0.26600000000000001,3.88,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,"trans-1,3-Dichloropropene",ND,0.22,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Trichloroethene,ND,4.7E-2,ND,0.25,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Trichlorofluoromethane,0.42,0.17799999999999999,2.36,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Trichlorotrifluoroethane,ND,0.13,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,2013-09-04T04:00:00Z,KCA,phoenix
+SV 153 Lorimer Street,SG4,% Bromofluorobenzene,102,%,102,%,2013-09-04T04:00:00Z,KCA,phoenix
