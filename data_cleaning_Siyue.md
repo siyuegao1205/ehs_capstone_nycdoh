@@ -81,5 +81,3 @@ data shown below.
 2.  209-227 McGuinness Boulevard
 
 3.  Greenpoint Landing G1
-
-## Subset to ug/m3 and the three given cheimcals only
