@@ -5735,7 +5735,7 @@ a1_ppbv = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
   select(c("x1", "x19", "x37", "x25")) %>% 
   mutate(sample_id = "A1")
 
-contest_ppbv_name = c("paramter", "ppbv_results", "ppbv_rl", "analysis_date", "sample_id")
+contest_ppbv_name = c("parameter", "ppbv_results", "ppbv_rl", "analysis_date", "sample_id")
 
 names(a1_ppbv) = contest_ppbv_name
 
@@ -5791,7 +5791,7 @@ a1_ugm3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
   select(c("x1", "x19", "x37", "x25")) %>% 
   mutate(sample_id = "A1")
 
-contest_ugm3_name = c("paramter", "ug_m3_results", "ug_m3_rl", "analysis_date", "sample_id")
+contest_ugm3_name = c("parameter", "ug_m3_results", "ug_m3_rl", "analysis_date", "sample_id")
 
 names(a1_ugm3) = contest_ugm3_name
 
@@ -6213,7 +6213,46 @@ rm(full_bind)
 ```
 
 
-```{r, eval = FALSE}
+```{r, echo = FALSE}
 write_csv(mixed_full, "data/cleandata/mixed.csv")
+```
+
+
+## Subset to ug/m3 and the three given cheimcals only
+
+```{r}
+alpha = read_csv("data/cleandata/alpha.csv")
+mixed = read_csv("data/cleandata/mixed.csv")
+
+alpha_sub = alpha %>% 
+  select(street_address, sample_id, parameter, ug_m3_results) %>% 
+  filter(parameter %in% c("Benzene", "Toluene", "Ethylbenzene", "o-Xylene", "p/m-Xylene", "Trichloroethene", "Tetrachloroethene"))
+
+alpha_sub = left_join(alpha_sub, select(project_id_list, project_id, street_address = name), 
+                      by = "street_address") %>%
+  mutate(project_id = ifelse(street_address == "75 Dupont Street", "17CVCP035K",
+                             ifelse(street_address == "161 Harrison Avenue", "19CVCP022K",
+                                    ifelse(street_address == "174 Kings Highway", "19CVCP021K",
+                                           ifelse(street_address == "777 Glenmore Avenue", "19CVCP001K",
+ifelse(street_address == "820 Glenmore Avenue", "18CVCP009K", project_id)))))) %>%
+  select(project_id, street_address, sample_id, everything())
+
+mixed_sub = mixed %>% 
+  select(street_address, sample_id, parameter, ug_m3_results) %>% 
+  filter(parameter %in% c("Benzene", "Toluene", "Ethylbenzene", "o-Xylene", "p/m-Xylene", "Trichloroethene", "Tetrachloroethene"))
+
+mixed_sub = left_join(mixed_sub, select(project_id_list, project_id, street_address = name), 
+                      by = "street_address") %>% 
+  select(project_id, street_address, sample_id, everything())
+
+mixed_sub = mixed_sub %>% 
+  slice(-(25:30))
+
+bind_wide = bind_rows(alpha_sub, mixed_sub) %>% 
+  pivot_wider(
+    names_from = parameter,
+    values_from = ug_m3_results
+  ) %>% 
+select(project_id, street_address, sample_id, Benzene, Toluene, Ethylbenzene, `o-Xylene`, `p/m-Xylene`, Trichloroethene, Tetrachloroethene)
 ```
 
