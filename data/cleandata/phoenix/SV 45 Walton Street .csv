@@ -1,0 +1,269 @@
+street_address,sample_id,parameter,ppbv_result,ppbv_rl,ug_m3_result,ug_m3_rl,date_time,by,lab
+SV 45 Walton Street ,SS-1,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,"1,1,1-Trichloroethane",0.310,0.183,1.69,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,"1,1-Dichloroethane",ND,0.247,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,"1,2,4-Trimethylbenzene",1.35,0.204,6.63,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,"1,3,5-Trimethylbenzene",0.430,0.204,2.11,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,"1,3-Butadiene",ND,0.452,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,"1,4-Dichlorobenzene",0.230,0.166,1.38,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,"1,4-Dioxane",ND,0.278,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,2-Hexanone(MBK),ND,0.244,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,4-Ethyltoluene,0.240,0.204,1.18,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,4-Isopropyltoluene,ND,0.182,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,4-Methyl-2-pentanone(MIBK),0.350,0.244,1.43,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,Acetone,1.87,0.421,4.44,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,Acrylonitrile,ND,0.461,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,Benzene,ND,0.313,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,Benzyl chloride,ND,0.193,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-1,Bromodichloromethane,ND,0.149,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Bromoform,ND,0.097,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Bromomethane,ND,0.258,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Carbon Disulfide,ND,0.321,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Carbon Tetrachloride,0.340,0.040,2.14,0.25,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Chlorobenzene,ND,0.217,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Chloroethane,ND,0.379,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Chloroform,136,0.205,664,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Chloromethane,ND,0.484,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,"Cis-1,2-Dichloroethene",50.2,0.252,199,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Cyclohexane,ND,0.291,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Dibromochloromethane,ND,0.117,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Dichlorodifluoromethane,0.640,0.202,3.16,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Ethanol,9.98,0.531,18.8,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Ethyl acetate,ND,0.278,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Ethylbenzene,0.390,0.230,1.69,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Heptane,ND,0.244,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Hexane,ND,0.284,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Isopropylalcohol,1.30,0.407,3.19,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Isopropylbenzene,ND,0.204,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,"m,p-Xylene",1.54,0.230,6.68,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Methyl Ethyl Ketone,ND,0.339,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Methylene Chloride,0.300,0.288,1.04,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,n-Butylbenzene,0.230,0.182,1.26,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,o-Xylene,0.690,0.230,2.99,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Propylene,ND,0.581,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,sec-Butylbenzene,ND,0.182,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Styrene,ND,0.235,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Tetrachloroethene,609,0.037,4130,0.25,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Tetrahydrofuran,ND,0.339,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Toluene,1.08,0.266,4.07,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,"Trans-1,2-Dichloroethene",1.91,0.252,7.57,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Trichloroethene,1030,0.047,5530,0.25,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Trichlorofluoromethane,0.460,0.178,2.58,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,Vinyl Chloride,ND,0.098,ND,0.25,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-1,% Bromofluorobenzene,106,%,106,%,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,"1,1,1-Trichloroethane",1.37,0.183,7.47,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,"1,1-Dichloroethane",ND,0.247,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,"1,2,4-Trimethylbenzene",0.830,0.204,4.08,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,"1,3,5-Trimethylbenzene",0.240,0.204,1.18,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,"1,3-Butadiene",ND,0.452,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,"1,4-Dichlorobenzene",0.240,0.166,1.44,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,"1,4-Dioxane",ND,0.278,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,2-Hexanone(MBK),ND,0.244,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,4-Ethyltoluene,ND,0.204,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,4-Isopropyltoluene,ND,0.182,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,4-Methyl-2-pentanone(MIBK),0.410,0.244,1.68,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,Acetone,1.67,0.421,3.96,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,Acrylonitrile,ND,0.461,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,Benzene,ND,0.313,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,Benzyl chloride,ND,0.193,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-3,Bromodichloromethane,ND,0.149,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Bromoform,ND,0.097,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Bromomethane,ND,0.258,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Carbon Disulfide,ND,0.321,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Carbon Tetrachloride,9.63,0.040,60.5,0.25,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Chlorobenzene,ND,0.217,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Chloroethane,ND,0.379,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Chloroform,ND,0.205,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Chloromethane,ND,0.484,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Cyclohexane,ND,0.291,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Dibromochloromethane,ND,0.117,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Dichlorodifluoromethane,0.590,0.202,2.92,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Ethanol,8.88,0.531,16.7,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Ethyl acetate,0.380,0.278,1.37,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Ethylbenzene,0.270,0.230,1.17,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Heptane,ND,0.244,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Hexane,0.440,0.284,1.55,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Isopropylalcohol,1.08,0.407,2.65,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Isopropylbenzene,ND,0.204,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,"m,p-Xylene",1.00,0.230,4.34,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Methyl Ethyl Ketone,ND,0.339,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Methylene Chloride,ND,0.288,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,n-Butylbenzene,ND,0.182,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,o-Xylene,0.450,0.230,1.95,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Propylene,ND,0.581,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,sec-Butylbenzene,ND,0.182,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Styrene,ND,0.235,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Tetrachloroethene,689,0.037,4670,0.25,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Tetrahydrofuran,ND,0.339,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Toluene,0.780,0.266,2.94,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Trichloroethene,8.77,0.047,47.1,0.25,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Trichlorofluoromethane,0.240,0.178,1.35,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,Vinyl Chloride,ND,0.098,ND,0.25,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-3,% Bromofluorobenzene,106,%,106,%,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,"1,1-Dichloroethane",ND,0.247,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,"1,2,4-Trimethylbenzene",1.00,0.204,4.91,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,"1,3,5-Trimethylbenzene",0.300,0.204,1.47,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,"1,3-Butadiene",ND,0.452,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,"1,4-Dichlorobenzene",0.250,0.166,1.50,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,"1,4-Dioxane",ND,0.278,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,2-Hexanone(MBK),ND,0.244,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,4-Ethyltoluene,0.240,0.204,1.18,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,4-Isopropyltoluene,ND,0.182,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,4-Methyl-2-pentanone(MIBK),0.270,0.244,1.10,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,Acetone,3.50,0.421,8.31,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,Acrylonitrile,ND,0.461,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,Benzene,0.980,0.313,3.13,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,Benzyl chloride,ND,0.193,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-2,Bromodichloromethane,ND,0.149,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Bromoform,ND,0.097,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Bromomethane,ND,0.258,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Carbon Disulfide,ND,0.321,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Carbon Tetrachloride,0.970,0.040,6.10,0.25,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Chlorobenzene,ND,0.217,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Chloroethane,ND,0.379,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Chloroform,ND,0.205,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Chloromethane,ND,0.484,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Cyclohexane,ND,0.291,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Dibromochloromethane,ND,0.117,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Dichlorodifluoromethane,0.500,0.202,2.47,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Ethanol,16.0,0.531,30.1,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Ethyl acetate,ND,0.278,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Ethylbenzene,0.510,0.230,2.21,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Heptane,0.480,0.244,1.96,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Hexane,1.14,0.284,4.02,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Isopropylalcohol,1.40,0.407,3.44,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Isopropylbenzene,ND,0.204,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,"m,p-Xylene",1.93,0.230,8.38,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Methyl Ethyl Ketone,ND,0.339,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Methylene Chloride,ND,0.288,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,n-Butylbenzene,ND,0.182,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,o-Xylene,0.720,0.230,3.12,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Propylene,0.760,0.581,1.31,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,sec-Butylbenzene,ND,0.182,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Styrene,ND,0.235,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Tetrachloroethene,347,0.037,2350,0.25,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Tetrahydrofuran,ND,0.339,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Toluene,2.82,0.266,10.6,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Trichloroethene,13.8,0.047,74.1,0.25,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Trichlorofluoromethane,0.250,0.178,1.40,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,Vinyl Chloride,ND,0.098,ND,0.25,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-2,% Bromofluorobenzene,106,%,106,%,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,"1,1,1-Trichloroethane",1.89,0.183,10.3,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,"1,1-Dichloroethane",ND,0.247,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,"1,2,4-Trimethylbenzene",4.27,0.204,21.0,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,"1,3,5-Trimethylbenzene",1.53,0.204,7.52,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,"1,3-Butadiene",ND,0.452,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,"1,4-Dichlorobenzene",0.230,0.166,1.38,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,"1,4-Dioxane",ND,0.278,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,2-Hexanone(MBK),ND,0.244,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,4-Ethyltoluene,0.780,0.204,3.83,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,4-Isopropyltoluene,0.360,0.182,1.97,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,Acetone,1.68,0.421,3.99,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,Acrylonitrile,ND,0.461,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,Benzene,0.550,0.313,1.76,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,Benzyl chloride,ND,0.193,ND,1.00,2014-05-02T04:00:00Z,KCA,phoenix
+SV 45 Walton Street ,SS-4,Bromodichloromethane,ND,0.149,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Bromoform,ND,0.097,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Bromomethane,ND,0.258,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Carbon Disulfide,ND,0.321,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Carbon Tetrachloride,0.110,0.040,0.692,0.25,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Chlorobenzene,ND,0.217,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Chloroethane,ND,0.379,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Chloroform,ND,0.205,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Chloromethane,ND,0.484,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Cyclohexane,ND,0.291,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Dibromochloromethane,ND,0.117,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Dichlorodifluoromethane,0.490,0.202,2.42,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Ethanol,9.84,0.531,18.5,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Ethyl acetate,ND,0.278,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Ethylbenzene,1.01,0.230,4.38,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Heptane,0.350,0.244,1.43,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Hexane,0.600,0.284,2.11,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Isopropylalcohol,0.820,0.407,2.01,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Isopropylbenzene,0.320,0.204,1.57,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,"m,p-Xylene",4.56,0.230,19.8,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Methyl Ethyl Ketone,ND,0.339,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Methylene Chloride,ND,0.288,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,n-Butylbenzene,0.480,0.182,2.63,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,o-Xylene,2.18,0.230,9.46,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Propylene,ND,0.581,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,sec-Butylbenzene,ND,0.182,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Styrene,ND,0.235,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Tetrachloroethene,22.6,0.037,153,0.25,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Tetrahydrofuran,ND,0.339,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Toluene,2.34,0.266,8.81,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Trichloroethene,ND,0.047,ND,0.25,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Trichlorofluoromethane,0.210,0.178,1.18,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,Vinyl Chloride,ND,0.098,ND,0.25,2014-05-02T04:00:00Z,NA,phoenix
+SV 45 Walton Street ,SS-4,% Bromofluorobenzene,104,%,104,%,2014-05-02T04:00:00Z,NA,phoenix

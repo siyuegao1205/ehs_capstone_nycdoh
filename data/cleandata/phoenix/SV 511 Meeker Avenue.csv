@@ -1,0 +1,281 @@
+street_address,sample_id,parameter,ppbv_result,ppbv_rl,ug_m3_result,ug_m3_rl,date_time,by,lab
+SV 511 Meeker Avenue,SV3,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"1,1,1-Trichloroethane",ND,0.183,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"1,1,2-Trichloroethane",ND,0.183,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"1,1-Dichloroethane",ND,0.247,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"1,1-Dichloroethene",ND,5.0999999999999997E-2,ND,0.2,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"1,2,4-Trimethylbenzene",1.21,0.20399999999999999,5.94,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"1,2-Dichloroethane",ND,0.247,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"1,2-dichloropropane",ND,0.217,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"1,3,5-Trimethylbenzene",0.26200000000000001,0.20399999999999999,1.29,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"1,3-Dichlorobenzene",ND,0.16600000000000001,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,4-Ethyltoluene,1.23,0.20399999999999999,6.04,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,4-Isopropyltoluene,ND,0.182,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Acetone,8.51,0.42099999999999999,20.2,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Acrylonitrile,ND,0.46100000000000002,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Benzene,ND,0.313,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Benzyl chloride,ND,0.193,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Bromodichloromethane,ND,0.14899999999999999,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Bromoform,ND,9.7000000000000003E-2,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Bromomethane,ND,0.25800000000000001,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Carbon Disulfide,ND,0.32100000000000001,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Carbon Tetrachloride,8.8999999999999996E-2,3.2000000000000001E-2,0.56000000000000005,0.2,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Chlorobenzene,ND,0.217,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Chloroethane,ND,0.379,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Chloroform,ND,0.20499999999999999,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Chloromethane,ND,0.48499999999999999,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"Cis-1,2-Dichloroethene",ND,5.0999999999999997E-2,ND,0.2,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"cis-1,3-Dichloropropene",ND,0.221,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Cyclohexane,ND,0.29099999999999998,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Dibromochloromethane,ND,0.11799999999999999,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Dichlorodifluoromethane,0.746,0.20200000000000001,3.69,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Ethanol,6.76,0.53100000000000003,12.7,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Ethyl acetate,ND,0.27800000000000002,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Ethylbenzene,1.73,0.23,7.51,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Heptane,ND,0.24399999999999999,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Hexachlorobutadiene,ND,9.4E-2,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Hexane,0.96699999999999997,0.28399999999999997,3.41,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Isopropylalcohol,0.48599999999999999,0.40699999999999997,1.19,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Isopropylbenzene,ND,0.20399999999999999,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"m,p-Xylene",6.38,0.23,27.7,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Methyl Ethyl Ketone,0.56599999999999995,0.33900000000000002,1.67,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Methylene Chloride,ND,0.86299999999999999,ND,3,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,n-Butylbenzene,ND,0.182,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,o-Xylene,1.57,0.23,6.81,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Propylene,ND,0.58099999999999996,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,sec-Butylbenzene,ND,0.182,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Styrene,ND,0.23499999999999999,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Tetrachloroethene,8.1000000000000003E-2,3.6999999999999998E-2,0.55000000000000004,0.25,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Tetrahydrofuran,ND,0.33900000000000002,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Toluene,11.6,0.26600000000000001,43.7,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,"trans-1,3-Dichloropropene",ND,0.221,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Trichloroethene,ND,3.6999999999999998E-2,ND,0.2,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Trichlorofluoromethane,0.30199999999999999,0.17799999999999999,1.7,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Trichlorotrifluoroethane,ND,0.13100000000000001,ND,1,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,Vinyl Chloride,ND,7.8E-2,ND,0.2,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV3,% Bromofluorobenzene,104,%,104,%,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"% IS-1,4-Difluorobenzene",75,%,75,%,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,% IS-Bromochloromethane,76,%,76,%,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,% IS-Chlorobenzene-d5,79,%,79,%,2022-03-07T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"1,1,1-Trichloroethane",ND,0.183,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"1,1,2-Trichloroethane",ND,0.183,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"1,1-Dichloroethane",ND,0.247,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"1,1-Dichloroethene",ND,5.0999999999999997E-2,ND,0.2,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"1,2,4-Trimethylbenzene",0.54300000000000004,0.20399999999999999,2.67,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"1,2-Dichloroethane",ND,0.247,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"1,2-dichloropropane",ND,0.217,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"1,3,5-Trimethylbenzene",ND,0.20399999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"1,3-Dichlorobenzene",ND,0.16600000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,4-Ethyltoluene,0.48899999999999999,0.20399999999999999,2.4,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,4-Isopropyltoluene,ND,0.182,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Acetone,3.13,0.42099999999999999,7.43,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Acrylonitrile,ND,0.46100000000000002,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Benzene,0.35,0.313,1.1200000000000001,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Benzyl chloride,ND,0.193,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Bromodichloromethane,ND,0.14899999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Bromoform,ND,9.7000000000000003E-2,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Bromomethane,ND,0.25800000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Carbon Disulfide,ND,0.32100000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Carbon Tetrachloride,7.4999999999999997E-2,3.2000000000000001E-2,0.47,0.2,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Chlorobenzene,ND,0.217,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Chloroethane,ND,0.379,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Chloroform,0.27600000000000002,0.20499999999999999,1.35,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Chloromethane,ND,0.48499999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"Cis-1,2-Dichloroethene",ND,5.0999999999999997E-2,ND,0.2,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"cis-1,3-Dichloropropene",ND,0.221,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Cyclohexane,ND,0.29099999999999998,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Dibromochloromethane,ND,0.11799999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Dichlorodifluoromethane,ND,0.20200000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Ethanol,5.24,0.53100000000000003,9.9,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Ethyl acetate,ND,0.27800000000000002,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Ethylbenzene,0.78300000000000003,0.23,3.4,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Heptane,ND,0.24399999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Hexachlorobutadiene,ND,9.4E-2,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Hexane,0.61199999999999999,0.28399999999999997,2.16,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Isopropylalcohol,ND,0.40699999999999997,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Isopropylbenzene,ND,0.20399999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"m,p-Xylene",2.62,0.23,11.4,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Methyl Ethyl Ketone,ND,0.33900000000000002,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Methylene Chloride,ND,0.86299999999999999,ND,3,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,n-Butylbenzene,ND,0.182,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,o-Xylene,0.623,0.23,2.7,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Propylene,ND,0.58099999999999996,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,sec-Butylbenzene,ND,0.182,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Styrene,ND,0.23499999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Tetrachloroethene,ND,3.6999999999999998E-2,ND,0.25,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Tetrahydrofuran,ND,0.33900000000000002,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Toluene,2.41,0.26600000000000001,9.08,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,"trans-1,3-Dichloropropene",ND,0.221,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Trichloroethene,ND,3.6999999999999998E-2,ND,0.2,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Trichlorofluoromethane,0.183,0.17799999999999999,1.03,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Trichlorotrifluoroethane,ND,0.13100000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,Vinyl Chloride,ND,7.8E-2,ND,0.2,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV2,% Bromofluorobenzene,102,%,102,%,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"% IS-1,4-Difluorobenzene",74,%,74,%,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,% IS-Bromochloromethane,76,%,76,%,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,% IS-Chlorobenzene-d5,79,%,79,%,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"1,1,1-Trichloroethane",ND,0.183,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"1,1,2-Trichloroethane",ND,0.183,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"1,1-Dichloroethane",ND,0.247,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"1,1-Dichloroethene",ND,5.0999999999999997E-2,ND,0.2,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"1,2,4-Trimethylbenzene",1.74,0.20399999999999999,8.5500000000000007,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"1,2-Dichloroethane",ND,0.247,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"1,2-dichloropropane",ND,0.217,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"1,3,5-Trimethylbenzene",0.38200000000000001,0.20399999999999999,1.88,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"1,3-Dichlorobenzene",ND,0.16600000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,4-Ethyltoluene,1.38,0.20399999999999999,6.78,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,4-Isopropyltoluene,ND,0.182,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Acetone,1.87,0.42099999999999999,4.4400000000000004,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Acrylonitrile,ND,0.46100000000000002,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Benzene,0.57999999999999996,0.313,1.85,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Benzyl chloride,ND,0.193,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Bromodichloromethane,ND,0.14899999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Bromoform,ND,9.7000000000000003E-2,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Bromomethane,ND,0.25800000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Carbon Disulfide,ND,0.32100000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Carbon Tetrachloride,8.6999999999999994E-2,3.2000000000000001E-2,0.55000000000000004,0.2,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Chlorobenzene,ND,0.217,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Chloroethane,ND,0.379,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Chloroform,ND,0.20499999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Chloromethane,0.57799999999999996,0.48499999999999999,1.19,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"Cis-1,2-Dichloroethene",ND,5.0999999999999997E-2,ND,0.2,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"cis-1,3-Dichloropropene",ND,0.221,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Cyclohexane,ND,0.29099999999999998,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Dibromochloromethane,ND,0.11799999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Dichlorodifluoromethane,0.4,0.20200000000000001,1.98,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Ethanol,4.62,0.53100000000000003,8.6999999999999993,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Ethyl acetate,ND,0.27800000000000002,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Ethylbenzene,1.86,0.23,8.07,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Heptane,0.40300000000000002,0.24399999999999999,1.65,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Hexachlorobutadiene,ND,9.4E-2,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Hexane,1.46,0.28399999999999997,5.14,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Isopropylalcohol,ND,0.40699999999999997,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Isopropylbenzene,ND,0.20399999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"m,p-Xylene",6.71,0.23,29.1,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Methyl Ethyl Ketone,0.68100000000000005,0.33900000000000002,2.0099999999999998,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Methylene Chloride,1.57,0.86299999999999999,5.45,3,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,n-Butylbenzene,ND,0.182,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,o-Xylene,1.85,0.23,8.0299999999999994,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Propylene,ND,0.58099999999999996,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,sec-Butylbenzene,ND,0.182,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Styrene,ND,0.23499999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Tetrachloroethene,8.8999999999999996E-2,3.6999999999999998E-2,0.6,0.25,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Tetrahydrofuran,ND,0.33900000000000002,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Toluene,10.199999999999999,0.26600000000000001,38.4,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,"trans-1,3-Dichloropropene",ND,0.221,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Trichloroethene,ND,3.6999999999999998E-2,ND,0.2,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Trichlorofluoromethane,0.30199999999999999,0.17799999999999999,1.7,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Trichlorotrifluoroethane,ND,0.13100000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,Vinyl Chloride,ND,7.8E-2,ND,0.2,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SS1,% Bromofluorobenzene,101,%,101,%,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"% IS-1,4-Difluorobenzene",76,%,76,%,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,% IS-Bromochloromethane,77,%,77,%,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,% IS-Chlorobenzene-d5,81,%,81,%,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"1,1,1-Trichloroethane",ND,0.183,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"1,1,2-Trichloroethane",ND,0.183,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"1,1-Dichloroethane",ND,0.247,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"1,1-Dichloroethene",ND,5.0999999999999997E-2,ND,0.2,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"1,2,4-Trimethylbenzene",1.53,0.20399999999999999,7.52,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"1,2-Dichloroethane",ND,0.247,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"1,2-dichloropropane",ND,0.217,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"1,3,5-Trimethylbenzene",0.32100000000000001,0.20399999999999999,1.58,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"1,3-Dichlorobenzene",ND,0.16600000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,4-Ethyltoluene,1.49,0.20399999999999999,7.32,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,4-Isopropyltoluene,ND,0.182,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Acetone,6.97,0.42099999999999999,16.5,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Acrylonitrile,ND,0.46100000000000002,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Benzene,ND,0.313,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Benzyl chloride,ND,0.193,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Bromodichloromethane,ND,0.14899999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Bromoform,ND,9.7000000000000003E-2,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Bromomethane,ND,0.25800000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Carbon Disulfide,ND,0.32100000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Carbon Tetrachloride,0.04,3.2000000000000001E-2,0.25,0.2,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Chlorobenzene,ND,0.217,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Chloroethane,ND,0.379,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Chloroform,ND,0.20499999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Chloromethane,ND,0.48499999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"Cis-1,2-Dichloroethene",ND,5.0999999999999997E-2,ND,0.2,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"cis-1,3-Dichloropropene",ND,0.221,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Cyclohexane,ND,0.29099999999999998,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Dibromochloromethane,ND,0.11799999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Dichlorodifluoromethane,0.41699999999999998,0.20200000000000001,2.06,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Ethanol,9.3699999999999992,0.53100000000000003,17.600000000000001,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Ethyl acetate,ND,0.27800000000000002,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Ethylbenzene,1.89,0.23,8.1999999999999993,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Heptane,ND,0.24399999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Hexachlorobutadiene,ND,9.4E-2,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Hexane,0.97699999999999998,0.28399999999999997,3.44,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Isopropylalcohol,0.50800000000000001,0.40699999999999997,1.25,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Isopropylbenzene,ND,0.20399999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"m,p-Xylene",7.56,0.23,32.799999999999997,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Methyl Ethyl Ketone,0.54300000000000004,0.33900000000000002,1.6,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Methylene Chloride,ND,0.86299999999999999,ND,3,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,n-Butylbenzene,ND,0.182,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,o-Xylene,1.93,0.23,8.3800000000000008,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Propylene,ND,0.58099999999999996,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,sec-Butylbenzene,ND,0.182,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Styrene,ND,0.23499999999999999,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Tetrachloroethene,0.122,3.6999999999999998E-2,0.83,0.25,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Tetrahydrofuran,ND,0.33900000000000002,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Toluene,17.8,0.26600000000000001,67,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"trans-1,3-Dichloropropene",ND,0.221,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Trichloroethene,5.7000000000000002E-2,3.6999999999999998E-2,0.31,0.2,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Trichlorofluoromethane,0.311,0.17799999999999999,1.75,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Trichlorotrifluoroethane,ND,0.13100000000000001,ND,1,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,Vinyl Chloride,ND,7.8E-2,ND,0.2,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,% Bromofluorobenzene,99,%,99,%,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,"% IS-1,4-Difluorobenzene",70,%,70,%,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,% IS-Bromochloromethane,71,%,71,%,2022-03-08T05:00:00Z,KCA,phoenix
+SV 511 Meeker Avenue,SV1,% IS-Chlorobenzene-d5,76,%,76,%,2022-03-08T05:00:00Z,KCA,phoenix

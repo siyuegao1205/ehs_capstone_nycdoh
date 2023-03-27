@@ -1,0 +1,269 @@
+street_address,sample_id,parameter,ppbv_result,ppbv_rl,ug_m3_result,ug_m3_rl,date_time,by,lab
+SV 299-301 Wallabout Street,SG-2,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"1,1,1-Trichloroethane",ND,0.183,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"1,1,2-Trichloroethane",ND,0.183,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"1,1-Dichloroethane",ND,0.247,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"1,1-Dichloroethene",ND,0.252,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"1,2,4-Trimethylbenzene",ND,0.20399999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"1,2-Dichloroethane",ND,0.247,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"1,2-dichloropropane",ND,0.217,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"1,3,5-Trimethylbenzene",ND,0.20399999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"1,3-Dichlorobenzene",1.85,0.16600000000000001,11.1,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,4-Ethyltoluene,ND,0.20399999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,4-Isopropyltoluene,ND,0.182,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Acetone,21.3,0.42099999999999999,50.6,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Acrylonitrile,ND,0.46100000000000002,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Benzene,0.437,0.313,1.4,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Benzyl chloride,ND,0.193,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Bromodichloromethane,ND,0.14899999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Bromoform,ND,9.7000000000000003E-2,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Bromomethane,ND,0.25800000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Carbon Disulfide,ND,0.32100000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Carbon Tetrachloride,4.3999999999999997E-2,0.04,0.28000000000000003,0.25,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Chlorobenzene,ND,0.217,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Chloroethane,ND,0.379,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Chloroform,1.24,0.20499999999999999,6.05,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Chloromethane,ND,0.48499999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"cis-1,3-Dichloropropene",ND,0.221,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Cyclohexane,ND,0.29099999999999998,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Dibromochloromethane,ND,0.11799999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Dichlorodifluoromethane,0.38700000000000001,0.20200000000000001,1.91,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Ethanol,165,E   0.531,311,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Ethyl acetate,9.77,0.27800000000000002,35.200000000000003,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Ethylbenzene,0.81200000000000006,0.23,3.52,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Heptane,0.28000000000000003,0.24399999999999999,1.1499999999999999,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Hexachlorobutadiene,ND,9.4E-2,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Hexane,ND,0.28399999999999997,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Isopropylalcohol,148,E   0.407,364,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Isopropylbenzene,ND,0.20399999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"m,p-Xylene",3.39,0.23,14.7,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Methyl Ethyl Ketone,1.46,0.33900000000000002,4.3,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Methylene Chloride,1.02,0.28799999999999998,3.54,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,n-Butylbenzene,ND,0.182,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,o-Xylene,0.93500000000000005,0.23,4.0599999999999996,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Propylene,3.23,0.58099999999999996,5.56,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,sec-Butylbenzene,ND,0.182,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Styrene,ND,0.23499999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Tetrachloroethene,0.27900000000000003,3.6999999999999998E-2,1.89,0.25,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Tetrahydrofuran,ND,0.33900000000000002,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Toluene,1.07,0.26600000000000001,4.03,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,"trans-1,3-Dichloropropene",ND,0.221,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Trichloroethene,18,4.7E-2,96.7,0.25,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Trichlorofluoromethane,0.37,0.17799999999999999,2.08,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Trichlorotrifluoroethane,ND,0.13100000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-2,% Bromofluorobenzene,96,%,96,%,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"1,1,1-Trichloroethane",ND,0.183,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"1,1,2-Trichloroethane",ND,0.183,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"1,1-Dichloroethane",ND,0.247,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"1,1-Dichloroethene",ND,0.252,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"1,2,4-Trimethylbenzene",ND,0.20399999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"1,2-Dichloroethane",ND,0.247,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"1,2-dichloropropane",ND,0.217,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"1,3,5-Trimethylbenzene",ND,0.20399999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"1,3-Dichlorobenzene",2.66,0.16600000000000001,16,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,4-Ethyltoluene,ND,0.20399999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,4-Isopropyltoluene,ND,0.182,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Acetone,15.9,0.42099999999999999,37.700000000000003,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Acrylonitrile,ND,0.46100000000000002,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Benzene,0.57999999999999996,0.313,1.85,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Benzyl chloride,ND,0.193,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Bromodichloromethane,ND,0.14899999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Bromoform,ND,9.7000000000000003E-2,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Bromomethane,ND,0.25800000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Carbon Disulfide,ND,0.32100000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Carbon Tetrachloride,0.05,0.04,0.31,0.25,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Chlorobenzene,ND,0.217,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Chloroethane,ND,0.379,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Chloroform,0.46899999999999997,0.20499999999999999,2.29,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Chloromethane,ND,0.48499999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"cis-1,3-Dichloropropene",ND,0.221,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Cyclohexane,ND,0.29099999999999998,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Dibromochloromethane,ND,0.11799999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Dichlorodifluoromethane,0.38900000000000001,0.20200000000000001,1.92,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Ethanol,201,E   0.531,378,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Ethyl acetate,12,0.27800000000000002,43.2,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Ethylbenzene,2.5099999999999998,0.23,10.9,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Heptane,0.246,0.24399999999999999,1.01,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Hexachlorobutadiene,ND,9.4E-2,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Hexane,ND,0.28399999999999997,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Isopropylalcohol,208,E   0.407,511,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Isopropylbenzene,ND,0.20399999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"m,p-Xylene",6.17,0.23,26.8,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Methyl Ethyl Ketone,1.88,0.33900000000000002,5.54,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Methylene Chloride,1.31,0.28799999999999998,4.55,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,n-Butylbenzene,ND,0.182,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,o-Xylene,2.02,0.23,8.77,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Propylene,ND,0.58099999999999996,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,sec-Butylbenzene,ND,0.182,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Styrene,ND,0.23499999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Tetrachloroethene,0.23899999999999999,3.6999999999999998E-2,1.62,0.25,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Tetrahydrofuran,ND,0.33900000000000002,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Toluene,10.3,0.26600000000000001,38.799999999999997,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,"trans-1,3-Dichloropropene",ND,0.221,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Trichloroethene,12.8,4.7E-2,68.7,0.25,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Trichlorofluoromethane,0.32600000000000001,0.17799999999999999,1.83,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Trichlorotrifluoroethane,ND,0.13100000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-1,% Bromofluorobenzene,99,%,99,%,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"1,1,1-Trichloroethane",ND,0.183,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"1,1,2-Trichloroethane",ND,0.183,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"1,1-Dichloroethane",ND,0.247,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"1,1-Dichloroethene",ND,0.252,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"1,2,4-Trimethylbenzene",ND,0.20399999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"1,2-Dichloroethane",ND,0.247,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"1,2-dichloropropane",ND,0.217,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"1,3,5-Trimethylbenzene",ND,0.20399999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"1,3-Dichlorobenzene",1.44,0.16600000000000001,8.65,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,4-Ethyltoluene,ND,0.20399999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,4-Isopropyltoluene,ND,0.182,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Acetone,19.3,0.42099999999999999,45.8,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Acrylonitrile,ND,0.46100000000000002,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Benzene,0.747,0.313,2.38,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Benzyl chloride,ND,0.193,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Bromodichloromethane,ND,0.14899999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Bromoform,ND,9.7000000000000003E-2,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Bromomethane,ND,0.25800000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Carbon Disulfide,ND,0.32100000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Carbon Tetrachloride,6.4000000000000001E-2,0.04,0.4,0.25,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Chlorobenzene,ND,0.217,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Chloroethane,ND,0.379,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Chloroform,1.43,0.20499999999999999,6.98,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Chloromethane,ND,0.48499999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"cis-1,3-Dichloropropene",ND,0.221,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Cyclohexane,ND,0.29099999999999998,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Dibromochloromethane,ND,0.11799999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Dichlorodifluoromethane,0.44400000000000001,0.20200000000000001,2.19,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Ethanol,201,E   0.531,378,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Ethyl acetate,8.92,0.27800000000000002,32.1,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Ethylbenzene,0.83199999999999996,0.23,3.61,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Heptane,0.25,0.24399999999999999,1.02,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Hexachlorobutadiene,ND,9.4E-2,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Hexane,ND,0.28399999999999997,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Isopropylalcohol,166,E   0.407,408,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Isopropylbenzene,ND,0.20399999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"m,p-Xylene",3.74,0.23,16.2,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Methyl Ethyl Ketone,1.33,0.33900000000000002,3.92,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Methylene Chloride,0.64800000000000002,0.28799999999999998,2.25,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,n-Butylbenzene,ND,0.182,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,o-Xylene,1.01,0.23,4.38,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Propylene,4.16,0.58099999999999996,7.16,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,sec-Butylbenzene,ND,0.182,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Styrene,ND,0.23499999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Tetrachloroethene,0.1,3.6999999999999998E-2,0.68,0.25,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Tetrahydrofuran,ND,0.33900000000000002,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Toluene,1.1399999999999999,0.26600000000000001,4.29,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,"trans-1,3-Dichloropropene",ND,0.221,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Trichloroethene,0.73499999999999999,4.7E-2,3.95,0.25,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Trichlorofluoromethane,0.29899999999999999,0.17799999999999999,1.68,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Trichlorotrifluoroethane,ND,0.13100000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-3,% Bromofluorobenzene,98,%,98,%,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"1,1,1-Trichloroethane",ND,0.183,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"1,1,2-Trichloroethane",ND,0.183,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"1,1-Dichloroethane",ND,0.247,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"1,1-Dichloroethene",ND,0.252,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"1,2,4-Trichlorobenzene",ND,0.13500000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"1,2,4-Trimethylbenzene",1.89,0.20399999999999999,9.2899999999999991,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"1,2-Dibromoethane(EDB)",ND,0.13,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"1,2-Dichlorobenzene",ND,0.16600000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"1,2-Dichloroethane",ND,0.247,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"1,2-dichloropropane",ND,0.217,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"1,2-Dichlorotetrafluoroethane",ND,0.14299999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"1,3,5-Trimethylbenzene",0.70599999999999996,0.20399999999999999,3.47,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"1,3-Butadiene",ND,0.45200000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"1,3-Dichlorobenzene",1.54,0.16600000000000001,9.25,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"1,4-Dichlorobenzene",ND,0.16600000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"1,4-Dioxane",ND,0.27800000000000002,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,2-Hexanone(MBK),ND,0.24399999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,4-Ethyltoluene,0.56699999999999995,0.20399999999999999,2.79,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,4-Isopropyltoluene,ND,0.182,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,4-Methyl-2-pentanone(MIBK),ND,0.24399999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Acetone,ND,0.42099999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Acrylonitrile,ND,0.46100000000000002,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Benzene,36.9,0.313,118,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Benzyl chloride,ND,0.193,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Bromodichloromethane,ND,0.14899999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Bromoform,ND,9.7000000000000003E-2,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Bromomethane,ND,0.25800000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Carbon Disulfide,ND,0.32100000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Carbon Tetrachloride,6.2E-2,0.04,0.39,0.25,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Chlorobenzene,ND,0.217,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Chloroethane,ND,0.379,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Chloroform,ND,0.20499999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Chloromethane,ND,0.48499999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"Cis-1,2-Dichloroethene",ND,0.252,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"cis-1,3-Dichloropropene",ND,0.221,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Cyclohexane,97.5,1.45,335,4.99,2015-02-04T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Dibromochloromethane,ND,0.11799999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Dichlorodifluoromethane,0.499,0.20200000000000001,2.4700000000000002,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Ethanol,239,E    2.66,450,5.01,2015-02-04T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Ethyl acetate,ND,0.27800000000000002,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Ethylbenzene,2.65,0.23,11.5,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Heptane,60.7,1.22,249,5,2015-02-04T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Hexachlorobutadiene,ND,9.4E-2,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Hexane,141,1.42,497,5,2015-02-04T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Isopropylalcohol,241,E    2.04,592,5.01,2015-02-04T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Isopropylbenzene,0.214,0.20399999999999999,1.05,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"m,p-Xylene",9.4499999999999993,0.23,41,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Methyl Ethyl Ketone,2.84,0.33900000000000002,8.3699999999999992,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Methyl tert-butyl ether(MTBE),ND,0.27800000000000002,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Methylene Chloride,ND,0.28799999999999998,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,n-Butylbenzene,ND,0.182,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,o-Xylene,3.52,0.23,15.3,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Propylene,4.32,0.58099999999999996,7.43,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,sec-Butylbenzene,ND,0.182,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Styrene,ND,0.23499999999999999,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Tetrachloroethene,0.24,3.6999999999999998E-2,1.63,0.25,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Tetrahydrofuran,ND,0.33900000000000002,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Toluene,16.100000000000001,0.26600000000000001,60.6,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"Trans-1,2-Dichloroethene",ND,0.252,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,"trans-1,3-Dichloropropene",ND,0.221,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Trichloroethene,1.55,4.7E-2,8.32,0.25,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Trichlorofluoromethane,0.34100000000000003,0.17799999999999999,1.91,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Trichlorotrifluoroethane,ND,0.13100000000000001,ND,1,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,Vinyl Chloride,ND,9.8000000000000004E-2,ND,0.25,2015-02-03T05:00:00Z,KCA,phoenix
+SV 299-301 Wallabout Street,SG-4,% Bromofluorobenzene,97,%,97,%,2015-02-03T05:00:00Z,KCA,phoenix

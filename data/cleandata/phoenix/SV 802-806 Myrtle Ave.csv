@@ -1,0 +1,269 @@
+street_address,sample_id,parameter,ppbv_result,ppbv_rl,ug_m3_result,ug_m3_rl,date_time,by,lab
+SV 802-806 Myrtle Ave,SG1,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"1,1,1-Trichloroethane",0.230,0.183,1.25,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"1,1-Dichloroethane",ND,0.247,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"1,2,4-Trimethylbenzene",0.340,0.204,1.67,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"1,3,5-Trimethylbenzene",ND,0.204,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"1,3-Butadiene",ND,0.452,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"1,3-Dichlorobenzene",0.960,0.166,5.77,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"1,4-Dioxane",ND,0.278,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,2-Hexanone(MBK),ND,0.244,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,4-Ethyltoluene,ND,0.204,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,4-Isopropyltoluene,ND,0.182,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,4-Methyl-2-pentanone(MIBK),0.790,0.244,3.23,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Acetone,70.2,0.421,167,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Acrylonitrile,ND,0.461,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Benzene,0.360,0.313,1.15,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Benzyl chloride,ND,0.193,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Bromodichloromethane,ND,0.149,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Bromoform,ND,0.097,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Bromomethane,ND,0.258,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Carbon Disulfide,0.720,0.321,2.24,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Carbon Tetrachloride,0.060,0.040,0.377,0.25,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Chlorobenzene,ND,0.217,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Chloroethane,ND,0.379,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Chloroform,ND,0.205,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Chloromethane,ND,0.484,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Cyclohexane,ND,0.291,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Dibromochloromethane,ND,0.117,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Dichlorodifluoromethane,0.410,0.202,2.03,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Ethanol,49.0,0.531,92.3,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Ethyl acetate,ND,0.278,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Ethylbenzene,0.990,0.230,4.30,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Heptane,ND,0.244,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Hexane,0.310,0.284,1.09,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Isopropylalcohol,1.34,0.407,3.29,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Isopropylbenzene,ND,0.204,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"m,p-Xylene",3.38,0.230,14.7,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Methyl Ethyl Ketone,4.95,0.339,14.6,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Methylene Chloride,0.380,0.288,1.32,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,n-Butylbenzene,ND,0.182,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,o-Xylene,1.29,0.230,5.60,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Propylene,3.77,0.581,6.48,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,sec-Butylbenzene,ND,0.182,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Styrene,0.360,0.235,1.53,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Tetrachloroethene,0.290,0.037,1.96,0.25,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Tetrahydrofuran,ND,0.339,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Toluene,0.570,0.266,2.15,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Trichloroethene,ND,0.047,ND,0.25,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Trichlorofluoromethane,4.14,0.178,23.2,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,Vinyl Chloride,ND,0.098,ND,0.25,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG1,% Bromofluorobenzene,106,%,106,%,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"1,1,1-Trichloroethane",1.54,0.183,8.40,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"1,1-Dichloroethane",ND,0.247,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"1,2,4-Trimethylbenzene",0.440,0.204,2.16,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"1,3,5-Trimethylbenzene",ND,0.204,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"1,3-Butadiene",ND,0.452,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"1,3-Dichlorobenzene",1.54,0.166,9.25,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"1,4-Dioxane",ND,0.278,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,2-Hexanone(MBK),ND,0.244,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,4-Ethyltoluene,ND,0.204,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,4-Isopropyltoluene,ND,0.182,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,4-Methyl-2-pentanone(MIBK),0.970,0.244,3.97,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Acetone,191,0.421,453,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Acrylonitrile,ND,0.461,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Benzene,0.440,0.313,1.40,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Benzyl chloride,ND,0.193,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Bromodichloromethane,ND,0.149,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Bromoform,ND,0.097,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Bromomethane,ND,0.258,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Carbon Disulfide,ND,0.321,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Carbon Tetrachloride,0.050,0.040,0.314,0.25,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Chlorobenzene,ND,0.217,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Chloroethane,ND,0.379,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Chloroform,0.980,0.205,4.78,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Chloromethane,0.500,0.484,1.03,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Cyclohexane,ND,0.291,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Dibromochloromethane,ND,0.117,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Dichlorodifluoromethane,0.780,0.202,3.85,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Ethanol,84.2,0.531,158,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Ethyl acetate,ND,0.278,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Ethylbenzene,0.730,0.230,3.17,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Heptane,0.490,0.244,2.01,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Hexane,0.560,0.284,1.97,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Isopropylalcohol,3.73,0.407,9.16,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Isopropylbenzene,ND,0.204,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"m,p-Xylene",2.38,0.230,10.3,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Methyl Ethyl Ketone,18.6,0.339,54.8,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Methylene Chloride,0.580,0.288,2.01,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,n-Butylbenzene,ND,0.182,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,o-Xylene,0.930,0.230,4.04,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Propylene,8.49,0.581,14.6,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,sec-Butylbenzene,ND,0.182,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Styrene,0.280,0.235,1.19,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Tetrachloroethene,1.74,0.037,11.8,0.25,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Tetrahydrofuran,ND,0.339,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Toluene,1.00,0.266,3.77,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Trichloroethene,0.090,0.047,0.483,0.25,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Trichlorofluoromethane,10.1,0.178,56.7,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,Vinyl Chloride,ND,0.098,ND,0.25,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG2,% Bromofluorobenzene,106,%,106,%,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"1,1-Dichloroethane",ND,0.247,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"1,2,4-Trimethylbenzene",0.400,0.204,1.96,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"1,3,5-Trimethylbenzene",ND,0.204,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"1,3-Butadiene",ND,0.452,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"1,3-Dichlorobenzene",1.23,0.166,7.39,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"1,4-Dioxane",ND,0.278,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,2-Hexanone(MBK),ND,0.244,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,4-Ethyltoluene,ND,0.204,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,4-Isopropyltoluene,ND,0.182,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,4-Methyl-2-pentanone(MIBK),0.900,0.244,3.68,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Acetone,282,0.421,669,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Acrylonitrile,ND,0.461,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Benzene,0.560,0.313,1.79,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Benzyl chloride,ND,0.193,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Bromodichloromethane,ND,0.149,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Bromoform,ND,0.097,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Bromomethane,ND,0.258,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Carbon Disulfide,1.16,0.321,3.61,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Carbon Tetrachloride,ND,0.040,ND,0.25,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Chlorobenzene,ND,0.217,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Chloroethane,ND,0.379,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Chloroform,0.430,0.205,2.10,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Chloromethane,ND,0.484,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Cyclohexane,ND,0.291,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Dibromochloromethane,ND,0.117,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Dichlorodifluoromethane,0.310,0.202,1.53,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Ethanol,67.8,0.531,128,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Ethyl acetate,ND,0.278,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Ethylbenzene,0.850,0.230,3.69,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Heptane,0.990,0.244,4.05,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Hexane,1.09,0.284,3.84,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Isopropylalcohol,5.70,0.407,14.0,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Isopropylbenzene,ND,0.204,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"m,p-Xylene",2.80,0.230,12.2,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Methyl Ethyl Ketone,36.5,0.339,108,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Methylene Chloride,0.850,0.288,2.95,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,n-Butylbenzene,0.210,0.182,1.15,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,o-Xylene,1.02,0.230,4.43,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Propylene,18.0,0.581,31.0,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,sec-Butylbenzene,ND,0.182,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Styrene,0.360,0.235,1.53,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Tetrachloroethene,0.580,0.037,3.93,0.25,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Tetrahydrofuran,ND,0.339,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Toluene,1.42,0.266,5.35,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Trichloroethene,ND,0.047,ND,0.25,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Trichlorofluoromethane,5.60,0.178,31.4,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,Vinyl Chloride,ND,0.098,ND,0.25,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG3,% Bromofluorobenzene,108,%,108,%,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"1,1-Dichloroethane",ND,0.247,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"1,2,4-Trimethylbenzene",0.340,0.204,1.67,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"1,3,5-Trimethylbenzene",ND,0.204,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"1,3-Butadiene",ND,0.452,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"1,3-Dichlorobenzene",0.700,0.166,4.21,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"1,4-Dioxane",ND,0.278,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,2-Hexanone(MBK),ND,0.244,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,4-Ethyltoluene,ND,0.204,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,4-Isopropyltoluene,ND,0.182,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,4-Methyl-2-pentanone(MIBK),0.960,0.244,3.93,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Acetone,153,0.421,363,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Acrylonitrile,ND,0.461,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Benzene,0.450,0.313,1.44,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Benzyl chloride,ND,0.193,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Bromodichloromethane,ND,0.149,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Bromoform,ND,0.097,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Bromomethane,ND,0.258,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Carbon Disulfide,3.13,0.321,9.74,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Carbon Tetrachloride,ND,0.040,ND,0.25,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Chlorobenzene,ND,0.217,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Chloroethane,ND,0.379,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Chloroform,ND,0.205,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Chloromethane,ND,0.484,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Cyclohexane,ND,0.291,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Dibromochloromethane,ND,0.117,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Dichlorodifluoromethane,0.480,0.202,2.37,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Ethanol,41.7,0.531,78.5,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Ethyl acetate,ND,0.278,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Ethylbenzene,0.740,0.230,3.21,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Heptane,0.340,0.244,1.39,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Hexane,0.670,0.284,2.36,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Isopropylalcohol,2.60,0.407,6.39,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Isopropylbenzene,ND,0.204,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"m,p-Xylene",2.53,0.230,11.0,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Methyl Ethyl Ketone,11.1,0.339,32.7,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Methylene Chloride,1.37,0.288,4.76,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,n-Butylbenzene,ND,0.182,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,o-Xylene,0.940,0.230,4.08,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Propylene,8.80,0.581,15.1,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,sec-Butylbenzene,ND,0.182,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Styrene,0.280,0.235,1.19,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Tetrachloroethene,0.430,0.037,2.91,0.25,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Tetrahydrofuran,ND,0.339,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Toluene,1.57,0.266,5.91,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Trichloroethene,ND,0.047,ND,0.25,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Trichlorofluoromethane,1.00,0.178,5.61,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,Vinyl Chloride,ND,0.098,ND,0.25,2014-08-18T04:00:00Z,KCA,phoenix
+SV 802-806 Myrtle Ave,SG4,% Bromofluorobenzene,104,%,104,%,2014-08-18T04:00:00Z,KCA,phoenix

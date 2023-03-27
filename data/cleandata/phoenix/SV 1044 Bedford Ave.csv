@@ -1,0 +1,135 @@
+street_address,sample_id,parameter,ppbv_result,ppbv_rl,ug_m3_result,ug_m3_rl,date_time,by,lab
+SV 1044 Bedford Ave,SG 1,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"1,1-Dichloroethane",ND,0.247,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"1,1-Dichloroethene",ND,0.252,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"1,2,4-Trimethylbenzene",0.53,0.204,2.60,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"1,2-Dichloroethane",ND,0.247,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"1,2-dichloropropane",ND,0.216,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"1,3,5-Trimethylbenzene",0.24,0.204,1.18,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"1,3-Butadiene",ND,0.452,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"1,4-Dichlorobenzene",0.55,0.166,3.30,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"1,4-Dioxane",ND,0.278,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,2-Hexanone(MBK),ND,0.244,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,4-Ethyltoluene,ND,0.204,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,4-Isopropyltoluene,ND,0.182,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Acetone,15.2,0.421,36.1,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Acrylonitrile,ND,0.461,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Benzene,ND,0.313,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Benzyl chloride,ND,0.193,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Bromodichloromethane,ND,0.149,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Bromoform,ND,0.097,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Bromomethane,ND,0.258,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Carbon Disulfide,ND,0.321,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Carbon Tetrachloride,0.09,0.040,0.566,0.25,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Chlorobenzene,ND,0.217,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Chloroethane,ND,0.379,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Chloroform,ND,0.205,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Chloromethane,0.62,0.484,1.28,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Cyclohexane,ND,0.291,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Dibromochloromethane,ND,0.117,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Dichlorodifluoromethane,2.29,0.202,11.3,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Ethanol,1080,E   0.531,2030,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Ethyl acetate,1.75,0.278,6.30,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Ethylbenzene,ND,0.230,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Heptane,ND,0.244,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Hexachlorobutadiene,ND,0.094,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Hexane,ND,0.284,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Isopropylalcohol,155,E   0.407,381,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Isopropylbenzene,ND,0.204,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"m,p-Xylene",0.27,0.230,1.17,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Methyl Ethyl Ketone,0.68,0.339,2.00,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Methylene Chloride,ND,0.288,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,n-Butylbenzene,ND,0.182,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,o-Xylene,ND,0.230,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Propylene,1.73,0.581,2.98,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,sec-Butylbenzene,ND,0.182,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Styrene,0.27,0.235,1.15,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Tetrachloroethene,0.09,0.037,0.610,0.25,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Tetrahydrofuran,ND,0.339,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Toluene,0.54,0.266,2.03,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Trichloroethene,ND,0.047,ND,0.25,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Trichlorofluoromethane,5.73,0.178,32.2,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,Vinyl Chloride,ND,0.098,ND,0.25,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 1,% Bromofluorobenzene,104,%,104,%,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"1,1-Dichloroethane",ND,0.247,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"1,1-Dichloroethene",ND,0.252,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"1,2,4-Trimethylbenzene",1.33,0.204,6.53,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"1,2-Dichloroethane",ND,0.247,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"1,2-dichloropropane",ND,0.216,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"1,3,5-Trimethylbenzene",0.42,0.204,2.06,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"1,3-Butadiene",ND,0.452,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"1,3-Dichlorobenzene",0.48,0.166,2.88,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"1,4-Dioxane",ND,0.278,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,2-Hexanone(MBK),ND,0.244,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,4-Ethyltoluene,0.4,0.204,1.96,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,4-Isopropyltoluene,0.35,0.182,1.92,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,4-Methyl-2-pentanone(MIBK),1.31,0.244,5.36,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Acetone,48.2,0.421,114,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Acrylonitrile,ND,0.461,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Benzene,ND,0.313,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Benzyl chloride,ND,0.193,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Bromodichloromethane,ND,0.149,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Bromoform,ND,0.097,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Bromomethane,ND,0.258,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Carbon Disulfide,6.34,0.321,19.7,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Carbon Tetrachloride,0.09,0.040,0.566,0.25,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Chlorobenzene,ND,0.217,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Chloroethane,ND,0.379,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Chloroform,ND,0.205,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Chloromethane,ND,0.484,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Cyclohexane,0.83,0.291,2.86,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Dibromochloromethane,ND,0.117,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Dichlorodifluoromethane,0.83,0.202,4.10,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Ethanol,169,0.531,318,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Ethyl acetate,1.94,0.278,6.99,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Ethylbenzene,1.27,0.230,5.51,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Heptane,0.38,0.244,1.56,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Hexachlorobutadiene,ND,0.094,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Hexane,ND,0.284,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Isopropylalcohol,ND,0.407,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Isopropylbenzene,ND,0.204,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"m,p-Xylene",3.9,0.230,16.9,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Methyl Ethyl Ketone,2.11,0.339,6.22,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Methylene Chloride,1,0.288,3.47,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,n-Butylbenzene,0.23,0.182,1.26,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,o-Xylene,1.25,0.230,5.42,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Propylene,2.44,0.581,4.20,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,sec-Butylbenzene,ND,0.182,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Styrene,ND,0.235,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Tetrachloroethene,0.2,0.037,1.36,0.25,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Tetrahydrofuran,ND,0.339,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Toluene,12.8,0.266,48.2,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Trichloroethene,ND,0.047,ND,0.25,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Trichlorofluoromethane,63.2,0.178,355,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,Vinyl Chloride,ND,0.098,ND,0.25,2013-06-10T04:00:00Z,KCA,phoenix
+SV 1044 Bedford Ave,SG 2,% Bromofluorobenzene,105,%,105,%,2013-06-10T04:00:00Z,KCA,phoenix
