@@ -3064,3 +3064,11 @@ df4 <-df1 %>%
 phoenix_68 <- df4 
 write_csv(phoenix_68, "./data/cleandata/phoenix/SV 1875 Atlantic Ave.csv")
 ```
+
+```{r}
+
+phoenix_all <- rbind(phoenix_1,phoenix_2,phoenix_3,phoenix_4,phoenix_5,phoenix_6,phoenix_7,phoenix_8,phoenix_9,phoenix_10,phoenix_11,phoenix_12,phoenix_13,phoenix_14,phoenix_15,phoenix_16,phoenix_17,phoenix_18,phoenix_19,phoenix_20,phoenix_21,phoenix_22,phoenix_23,phoenix_24,phoenix_25,phoenix_26,phoenix_27,phoenix_28,phoenix_29,phoenix_30,phoenix_31,phoenix_32,phoenix_33,phoenix_34,phoenix_35,phoenix_36,phoenix_37,phoenix_38,phoenix_39,phoenix_40,phoenix_41,phoenix_42,phoenix_43,phoenix_44,phoenix_45,phoenix_46,phoenix_47,phoenix_48,phoenix_49,phoenix_50,phoenix_51,phoenix_52,phoenix_53,phoenix_54,phoenix_55,phoenix_56,phoenix_57,phoenix_58,phoenix_59,phoenix_60,phoenix_61,phoenix_62,phoenix_63,phoenix_64,phoenix_65,phoenix_66,phoenix_67,phoenix_68)
+
+write_csv(phoenix_all, "./data/cleandata/phoenix.csv")
+```
+
