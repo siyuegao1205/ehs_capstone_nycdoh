@@ -65,3 +65,18 @@ summary_data = read_excel("data/data_from_M/Summary of SV data for Capstone_236 
   fill(c("project_no", "address"))
 ```
 
+*   Merge `project_id` with lat/long
+
+```{r}
+geocoding = read_excel("Geocoding ALL.xlsx") %>% 
+  janitor::clean_names() %>% 
+  select(-name, -note) %>% 
+  select(name = address, everything())
+
+geo_info = left_join(project_id_list,
+                     geocoding,
+                     by = "name")
+
+write_csv(geo_info, file = "data/geo_info.csv")
+```
+
