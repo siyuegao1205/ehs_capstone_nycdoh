@@ -5735,7 +5735,7 @@ a1_ppbv = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
   select(c("x1", "x19", "x37", "x25")) %>% 
   mutate(sample_id = "A1")
 
-contest_ppbv_name = c("paramter", "ppbv_results", "ppbv_rl", "analysis_date", "sample_id")
+contest_ppbv_name = c("parameter", "ppbv_results", "ppbv_rl", "analysis_date", "sample_id")
 
 names(a1_ppbv) = contest_ppbv_name
 
@@ -5791,7 +5791,7 @@ a1_ugm3 = read_excel("data/data_from_M/mixed/SV Greenpoint Landing G1.xlsx",
   select(c("x1", "x19", "x37", "x25")) %>% 
   mutate(sample_id = "A1")
 
-contest_ugm3_name = c("paramter", "ug_m3_results", "ug_m3_rl", "analysis_date", "sample_id")
+contest_ugm3_name = c("parameter", "ug_m3_results", "ug_m3_rl", "analysis_date", "sample_id")
 
 names(a1_ugm3) = contest_ugm3_name
 
@@ -6213,7 +6213,7 @@ rm(full_bind)
 ```
 
 
-```{r, eval = FALSE}
+```{r, echo = FALSE}
 write_csv(mixed_full, "data/cleandata/mixed.csv")
 ```
 
