@@ -1656,14 +1656,15 @@ write_csv(other_data, "data/data_from_M/other_lab_data.csv")
 ```{r}
 york_other = rbind(york_data, other_data) %>% 
   mutate(Results = str_replace_all(Results, "[Ss]", "5"), 
-         Results = str_replace_all(Results, "[I]", "1")) %>% 
-  mutate(Results = as.numeric(Results)) 
+         Results = str_replace_all(Results, "[I]", "1"), 
+         Units = str_replace_all(Units, "V", "v"),
+         Units = str_replace_all(Units, "E", "ug/m3"), 
+         Units = str_replace_na(Units, replacement = "ug/m3")) %>% 
+  mutate(Results = as.numeric(Results), 
+         Collection_date = mdy(Collection_date), 
+         Analysis_date = mdy(Analysis_date)) %>% 
+    filter(!is.na(Parameter))
 
-
-york_other %>% group_by(Units) %>% 
-  count()
-         
-  
 ```
 
 
