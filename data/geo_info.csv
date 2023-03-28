@@ -1,0 +1,432 @@
+project_id,name,borough,address,block_lot,project_class,zip_code,latitude,longitude
+19CVCP027K,651 - 671 Gates Avenue,Brooklyn,651 - 671 GATES AVENUE,Block: 1811Lot:19 ...,Completed (C),11221-1553,40.687603,-73.939507
+20CVCP034K,63-71 Bridge Street,Brooklyn,63-71 BRIDGE STREET,Block: 42Lot:1 ...,Hold (H),11201-1127,40.70256,-73.984566
+19CVCP020K,1458-1460 FLATBUSH AVENUE,Brooklyn,1458-1460 FLATBUSH AVENUE,Block: 5249Lot:58 ...,Completed (C),11210-2329,40.635159,-73.950378
+19CVCP068K,842-846 FLUSHING AVENUE,Brooklyn,842-848 FLUSHING AVENUE,Block: 3138Lot:20 ...,Completed (C),11206-4252,40.701431,-73.937943
+19CVCP033K,2618 Fulton Street,Brooklyn,2618 FULTON STREET,Block: 3669Lot:13 ...,Completed (C),11207-2418,40.676781,-73.897591
+19CVCP022K,161 HARRISON AVENUE,Brooklyn,161 HARRISON AVENUE,Block: 2250Lot:4,Active (A),11206-4901,40.702026,-73.94883
+19CVCP021K,174 KINGS HIGHWAY,Brooklyn,166 KINGS HIGHWAY,Block: 6619Lot:42,Active (A),11223-1003,40.605549,73.985397
+19CVCP060K,975 MANHATTAN AVENUE,Brooklyn,975 MANHATTAN AVENUE,Block: 2532Lot:46,Completed (C),11222-7573,40.732498,-73.954788
+19CVCP001K,777 GLENMORE AVENUE,Brooklyn,777 GLENMORE AVENUE,Block: 3988Lot:35,Completed (C),11208,40.675457,-73.881363
+19CVCP002K,142-150 South Portland Avenue,Brooklyn,142-150 SOUTH PORTLAND AVE,Block: 2003Lot:37,Active (A),11217-1504,40.684902,-73.974373
+19CVCP006K,288-292 UNION AVENUE,Brooklyn,288-292 UNION AVENUE,Block: 3022Lot:3 ...,Completed (C),11211-5812,40.709152,-73.950539
+18CVCP072K,40-48 COMMERCIAL STREET,Brooklyn,40-48 COMMERCIAL STREET,Block: 2482Lot:1 ...,Active (A),11222-1038,40.736458,-73.957886
+19CVCP007K,233 Nevins Street,Brooklyn,236 BUTLER STREET,Block: 412Lot:6 ...,Completed (C),14467-9362,43.053158,-77.632683
+18CVCP051K,98 3RD AVENUE,Brooklyn,98 3RD AVENUE,Block: 388Lot:31,Hold (H),11217-2305,40.683208,-73.982452
+19CVCP079K,113 Hamilton Avenue,Brooklyn,113 HAMILTON AVENUE,Block: 362Lot:1,Completed (C),11231-1326,40.681641,-74.004639
+18CVCP048K,632 METROPOLITAN AVENUE,Brooklyn,632 METROPOLITAN AVENUE,Block: 2762Lot:17,Active (A),11211-3606,40.714016,-73.947937
+18CVCP063K,67 DUFFIELD STREET,Brooklyn,67 DUFFIELD STREET,Block: 121Lot:3,Completed (C),11201-2009,40.696484,-73.983559
+18CVCP040K,1026-1030 MANHATTAN AVENUE,Brooklyn,1026-1030 MANHATTAN AVENUE,Block: 2513Lot:3 ...,Active (A),11222-5881,40.734016,-73.954651
+18CVCP050K,522 GRAND STREET,Brooklyn,522 GRAND STREET,Block: 2785Lot:12,Completed (C),11211-6040,40.710743,-73.950432
+18CVCP018K,2415 CHURCH AVE,Brooklyn,2415 CHURCH AVE,Block: 5090Lot:86 ...,Completed (C),11226-8439,40.650852,-73.955124
+18CVCP030K,72 South Second Street,Brooklyn,72 SOUTH SECOND STREET,Block: 2416Lot:7,Active (A),11249-5152,40.714054,-73.964989
+19CVCP026K,705 Franklin Avenue,Brooklyn,705 FRANKLIN AVENUE,Block: 1231Lot:1,Active (A),11238-4202,40.674397,-73.956329
+18CVCP034K,2570 FLATBUSH AVENUE,Brooklyn,2570 FLATBUSH AVENUE,Block: 8590Lot:31 ...,Completed (C),11234-5129,40.6078,-73.920677
+18CVCP043K,157 New Jersey Avenue,Brooklyn,157 NEW JERSEY AVENUE,Block: 3671Lot:43 ...,Active (A),11706-3216,40.757088,-73.242195
+18CVCP084K,315 Linwood Street,Brooklyn,315 LINWOOD,Block: 3971Lot:19 ...,Completed (C),11208-4097,40.678059,-73.88324
+19CVCP011K,153 GREEN STREET,Brooklyn,153 GREEN STREET,Block: 2512Lot:52,Completed (C),11222-7566,40.733898,-73.955467
+18CVCP038K,658 DRIGGS AVENUE,Brooklyn,658 DRIGGS AVENUE,Block: 2366Lot:21,Completed (C),11211-6059,40.714737,-73.959221
+18CVCP032K,625 Driggs Avenue,Brooklyn,625 DRIGGS AVENUE,Block: 2353Lot:6 ...,Completed (C),11211-6993,40.715187,-73.95826
+18CVCP002K,1190 Fulton Street,Brooklyn,1190 FULTON STREET,Block: 1860Lot:6 ...,Completed (C),11216-6567,40.680485,-73.9533
+18CVCP014K,1048 MANHATTAN AVENUE,Brooklyn,1048 MANHATTAN AVENUE,Block: 2505Lot:2,Completed (C),11222-4098,40.73459,-73.95486
+18CVCP016K,2437 PITKIN AVENUE,Brooklyn,2437 PITKIN AVENUE,Block: 4003Lot:35,Completed (C),11208-4185,40.674026,-73.882362
+18CVCP009K,820 GLENMORE AVENUE,Brooklyn,820 GLENMORE AVENUE,Block: 4006Lot:13 ...,Completed (C),11208-4190,40.675381,-73.879639
+18CVCP023K,81 MCGUINNESS BLVD,Brooklyn,81 MCGUINNESS BLVD,Block: 2649Lot:21,Completed (C),11222-6938,40.725204,-73.948883
+17CVCP072K,1096 BROADWAY,Brooklyn,1096 BROADWAY,Block: 1600Lot:15,Completed (C),11221-3014,40.694088,-73.930588
+17CVCP066K,183 MCGUINNESS BOULEVARD,Brooklyn,183 MCGUINNESS BOULEVARD,Block: 2599Lot:19 ...,Completed (C),11222-7821,40.728493,-73.950668
+17CVCP062K,402 SNEDIKER AVENUE,Brooklyn,402 SNEDIKER AVENUE,Block: 3799Lot:26,Completed (C),11207-5009,40.66502,-73.900269
+17CVCP060K,633 MARCY AVENUE,Brooklyn,633 MARCY AVENUE,Block: 1771Lot:5 ...,Completed (C),11206-6438,40.692886,-73.948578
+17CVCP049K,922 MYRTLE AVENUE,Brooklyn,922 MYRTLE AVENUE,Block: 1756Lot:24 ...,Completed (C),11206-6526,40.695713,-73.944412
+21CVCP031K,335 Ralph Avenue,Brooklyn,335 RALPH AVENUE,Block: 1556Lot:3,Active (A),11233-3023,40.677475,-73.921486
+16CVCP085K,710 Grand Street,Brooklyn,710 Grand Street,Block: 2788Lot:19,Completed (C),11211-5140,40.711357,-73.944328
+16CVCP043K,1516 Fulton Street,Brooklyn,1516 Fulton Street,Block: 1864Lot:12,Completed (C),11216-5375,40.679756,-73.940208
+16CVCP066K,925 Atlantic Avenue,Brooklyn,925 Atlantic Avenue,Block: 2018Lot:57,Active (A),11238-2704,40.680756,-73.962296
+16CVCP015K,1989 Coney Island Avenue,Brooklyn,1989 Coney Island Avenue,Block: 6774Lot:57 ...,Completed (C),11223-2328,40.608665,-73.961761
+17CVCP055K,578 5th Avenue,Brooklyn,578 5th Avenue,Block: 1052Lot:46 ...,Completed (C),11215-7499,40.664753,-73.990196
+17CVCP031K,540 Fulton Street,Brooklyn,540 Fulton Street,Block: 161Lot:18,Completed (C),11201-5308,40.68895,-73.981415
+16CVCP072K,141 Metropolitan Avenue,Brooklyn,141 Metropolitan Avenue,Block: 2358Lot:24,Completed (C),11249-3893,40.716274,-73.962128
+16CVCP076K,814-822 Bedford Ave,Brooklyn,814 Bedford Avenue,Block: 1900Lot:31 ...,Completed (C),11205-3581,40.696461,-73.956696
+17CVCP018K,74-76 Ainslie Street,Brooklyn,74 Ainslie Street,Block: 2375Lot:10,Completed (C),11211-3404,40.712463,-73.951958
+16CVCP064K,383 Manhattan Avenue,Brooklyn,383 Manhattan Avenue,Block: 2738Lot:24,Completed (C),11211-5944,40.71756,-73.946877
+17CVCP027K,241 - 245 4TH AVENUE,Brooklyn,245 4TH AVENUE,Block: 958Lot:4 ...,Completed (C),11215-1008,40.676418,-73.983452
+16CVCP070K,1353 Flatbush Avenue,Brooklyn,1353 Flatbush Avenue,Block: 5227Lot:13 ...,Completed (C),11210-1377,40.63813,-73.953178
+16CVCP052K,805-825 Surf Avenue,Brooklyn,805 Surf Avenue,Block: 7268Lot:213 ...,Completed (C),11224-2819,40.575554,-73.977333
+16CVCP048K,526 Union Avenue,Brooklyn,526 Union Avenue,Block: 2741Lot:3,Completed (C),11211-5935,40.716347,-73.951675
+16CVCP020K,144 - 146 West Street,Brooklyn,146 West Street,Block: 2531Lot:1 ...,Completed (C),11222-1502,40.731991,-73.959328
+18CVCP049K,1050-1066 Manhattan Avenue,Brooklyn,1050 Manhattan Avenue,Block: 2505Lot:3 ...,Completed (C),11222-1325,40.734718,-73.954834
+17CVCP054K,609-619 4th Avenue,Brooklyn,609 4th Avenue,Block: 631Lot:6 ...,Completed (C),11215-5342,40.664375,-73.993484
+16CVCP041K,415-419 Marcy Avenue,Brooklyn,419 Marcy Avenue,Block: 2245Lot:1 ...,Active (A),11206-5789,40.70142,-73.951355
+16CVCP030K,470 Manhattan Avenue,Brooklyn,470 Manhattan Avenue,Block: 2714Lot:30 ...,Completed (C),11222-4848,40.720448,-73.947495
+18CVCP037K,82 John Street,Brooklyn,78 John Street,Block: 20Lot:21,Completed (C),11201-1122,40.704269,-73.985115
+16CVCP082K,461-463 Tompkins Avenue,Brooklyn,461 Tompkins Avenue,Block: 1852Lot:8 ...,Active (A),11216-2306,40.681618,-73.943268
+16CVCP079K,179 Throop Avenue,Brooklyn,179 Throop Avenue,Block: 1723Lot:1 ...,Completed (C),11206-5386,40.698891,-73.943085
+16CVCP016K,96-98 Degraw Street,Brooklyn,98 Degraw Street,Block: 329Lot:23 ...,Completed (C),11231-1442,40.68576,-74.003304
+20CVCP060K,205 Park Avenue,Brooklyn,195 Park Avenue,Block: 2033Lot:50,Active (A),11238-4344,40.677334,-73.970596
+15CVCP147K,308 North 7th Street,Brooklyn,308 NORTH 7TH STREET,Block: 2331Lot:15 ...,Completed (C),11211-3158,40.714912,-73.953209
+15CVCP117K,86-90 Walton Street - DOB Job # 321064389,Brooklyn,90 Walton Street,Block: 2250Lot:10 ...,Completed (C),11206-4309,40.70252,-73.94864
+15CVCP100K,209-227 McGuinness Boulevard,Brooklyn,209 McGuinness Blvd,Block: 2576Lot:20 ...,Completed (C),11222-2306,40.72998,-73.95099
+17CVCP009K,911-917 Atlantic Avenue,Brooklyn,911 Atlantic Avenue,Block: 2018Lot:62 ...,Completed (C),11238-2704,40.680832,-73.96257
+15CVCP142K,1520 Fulton Street,Brooklyn,1520 Fulton Street,Block: 1864Lot:14 ...,Completed (C),11216-6414,40.679581,-73.939926
+16CVCP006K,125 Third Avenue,Brooklyn,125 3rd Avenue,Block: 395Lot:3,Completed (C),11217-2603,40.682552,-73.982307
+15CVCP126K,977 Manhattan Avenue,Brooklyn,977 Manhattan Avenue,Block: 2532Lot:45,Completed (C),11222-6842,40.732555,-73.95504
+15CVCP119K,400 Union Avenue,Brooklyn,400 Union Avenue,Block: 2773Lot:8,Completed (C),11211-4063,40.712276,-73.951057
+16CVCP009K,402 Union Avenue,Brooklyn,402 Union Avenue,Block: 2767Lot:1,Active (A),11211-3428,40.71254,-73.951134
+17CVCP033K,Greenpoint Landing F1,Brooklyn,41 Blue Slip,Block: 2472Lot:45 ...,Completed (C),11222-7283,40.736118,-73.959747
+16CVCP065K,Greenpoint Landing G1,Brooklyn,1 BLUE SLIP,Block: 2472Lot:80 ...,Completed (C),11222-7283,40.736118,-73.959747
+15CVCP019K,2501 Pitkin Avenue,Brooklyn,2501 Pitkin Avenue,Block: 4005Lot:28 ...,Completed (C),11208-2330,40.674412,-73.880302
+15CVCP090K,100 Steuben Street,Brooklyn,102 Steuben Street,Block: 1893Lot:47 ...,Completed (C),11205-3449,40.694427,-73.96347
+15CVCP165K,1068-1072 Fulton Street - DOB Job No. NB-320597243,Brooklyn,1068 Fulton Street,Block: 2016Lot:12 ...,Completed (C),11238-5783,40.6814,-73.958122
+15CVCP055K,929 Atlantic Avenue,Brooklyn,929 Atlantic Avenue,Block: 2018Lot:54,Active (A),11238-2704,40.680855,-73.961823
+15CVCP168K,148 West Street,Brooklyn,148 West Street,Block: 2531Lot:3,Completed (C),11222-7445,40.732117,-73.959511
+16CVCP081K,2702 West 15th Street,Brooklyn,2702 West 15th Street,Block: 6996Lot:53 ...,Completed (C),11224-2706,40.581604,-73.983826
+16CVCP044K,71 & 76 N 7th Street,Brooklyn,71 North 7th Street,Block: 2317Lot:18 ...,Completed (C),11249-3005,40.719887,-73.960823
+16CVCP037K,337 Berry Street,Brooklyn,337 Berry Street,Block: 2443Lot:37 ...,Completed (C),11249-5113,40.711815,-73.964272
+15CVCP140K,20 Marcy Avenue,Brooklyn,20 Marcy Avenue,Block: 2369Lot:27 ...,Completed (C),11211-7820,40.71347,-73.954895
+15CVCP166K,432-438 Keap St.,Brooklyn,432 Keap Street,Block: 2375Lot:1 ...,Completed (C),11211-3436,40.711353,-73.953072
+15CVCP125K,1326 Ocean Avenue,Brooklyn,1326 Ocean Avenue,Block: 6703Lot:55,Completed (C),11230-3247,40.629875,-73.957512
+15CVCP163K,80-82 Ainslie St.,Brooklyn,80 Ainslie Street,Block: 2375Lot:12,Completed (C),11211-3404,40.71228,-73.951843
+15CVCP115K,5111 4th Avenue,Brooklyn,5111 4th Avenue,Block: 799Lot:6,Completed (C),11220-1815,40.645573,-74.013214
+15CVCP134K,1127 Flatbush Avenue,Brooklyn,1127 Flatbush Avenue,Block: 5165Lot:53 ...,Completed (C),11226-6141,40.642967,-73.957527
+15CVCP101K,202 North 10th Street,Brooklyn,202 North 10th Street,Block: 2306Lot:9 ...,Completed (C),11211-1155,40.718273,-73.954437
+16CVCP058K,430-434 Van Brunt Street,Brooklyn,434 Van Brunt Street,Block: 603Lot:23 ...,Completed (C),11231-1016,40.675655,-74.015251
+15CVCP081K,108 Frost Street,Brooklyn,108 Frost Street,Block: 2738Lot:15,Completed (C),11211-3042,40.717621,-73.947311
+15CVCP061K,9029 Flatlands Avenue,Brooklyn,9029 Flatlands Avenue,Block: 8179Lot:1,Completed (C),11236-3615,40.640934,-73.905197
+15CVCP094K,77 Clay Street - DOB Job No. NB - 320626998,Brooklyn,77 Clay Street,Block: 2483Lot:62,Completed (C),11222-1265,40.736794,-73.954781
+15CVCP071K,53 Grand Street - DOB Job No. NB-320914631,Brooklyn,53 Grand Street,Block: 2378Lot:35,Completed (C),11220,40.646534,-74.016762
+15CVCP044K,26 West Street,Brooklyn,26 West Street,Block: 2571Lot:1,Completed (C),11222-6271,40.727249,-73.958664
+15CVCP158K,88 Withers St.,Brooklyn,88 Withers Street,Block: 2742Lot:17,Completed (C),11211-3154,40.716816,-73.948479
+15CVCP054K,172-174 North 11th Street,Brooklyn,174 North 11th Street,Block: 2298Lot:13,Completed (C),11211-1111,40.719387,-73.95475
+15CVCP028K,59-63 North 6th Street,Brooklyn,61 North 6th Street,Block: 2325Lot:28 ...,Completed (C),11249-3010,40.719433,-73.961327
+16CVCP047K,901 Myrtle Ave,Brooklyn,901 Myrtle Avenue,Block: 1747Lot:34,Completed (C),11206-7237,40.6959,-73.946762
+15CVCP129K,47 Walton Street,Brooklyn,47 WALTON STREET,Block: 2245Lot:60 ...,Completed (C),11206-4919,40.701408,-73.95092
+18CVCP001K,1104-1106 Bedford Avenue,Brooklyn,1104 Bedford Avenue,Block: 1971Lot:28 ...,Completed (C),11216-6591,40.686913,-73.954918
+15CVCP113K,771-781 Metropolitan Ave,Brooklyn,781 Metropolitan Avenue,Block: 2760Lot:28 ...,Completed (C),11211-3701,40.714775,-73.9431
+15CVCP132K,948 Myrtle Avenue,Brooklyn,948 Myrtle Avenue,Block: 1756Lot:33 ...,Completed (C),11206-6505,40.695862,-73.944008
+15CVCP145K,260 Lee Avenue,Brooklyn,260 Lee Avenue,Block: 2263Lot:46,Active (A),11206-5402,40.699951,-73.953987
+15CVCP084K,902-908 Flushing Avenue/115 Stanwix Street (RheingoldBlock 3139),Brooklyn,115 Stanwix Street,Block: 3139Lot:21,Completed (C),11206-4601,40.701923,-73.935501
+15CVCP088K,843 Lexington Avenue,Brooklyn,843 Lexington Avenue,Block: 1623Lot:73,Completed (C),11221-2913,40.690643,-73.926804
+15CVCP073K,89-141 Melrose Street (Rheingold Block 3152 South),Brooklyn,123 MELROSE STREET,Block: 3152Lot:2 ...,Completed (C),11206-6110,40.69929,-73.93383
+15CVCP072K,36-70 Noll Street (Rheingold Block 3152 North),Brooklyn,54 NOLL STREET,Block: 3152Lot:1 ...,Completed (C),11206-4604,40.700241,-73.934753
+15CVCP029K,802-806 Myrtle Avenue,Brooklyn,806 Myrtle Avenue,Block: 1754Lot:33 ...,Completed (C),11206-5584,40.69503,-73.950134
+15CVCP036K,667 Myrtle Avenue,Brooklyn,667 Myrtle Avenue,Block: 1900Lot:70 ...,Completed (C),11205-4180,40.694611,-73.956879
+15CVCP068K,313 Wallabout Street,Brooklyn,313 Wallabout Street,Block: 2250Lot:36 ...,Completed (C),11206-4325,40.70289,-73.94693
+17CVCP030K,575-581 4th Avenue,Brooklyn,581 4th Avenue,Block: 1052Lot:1 ...,Completed (C),11215-7532,40.6656,-73.992432
+15CVCP152K,417 Manhattan Avenue,Brooklyn,417 Manhattan Avenue,Block: 2723Lot:29,Completed (C),11222-7520,40.719044,-73.947121
+16CVCP008K,299-301 Wallabout Street,Brooklyn,299 WALLABOUT STREET,Block: 2250Lot:41 ...,Completed (C),11206-5580,40.702408,-73.947937
+15CVCP031K,153 Lorimer Street,Brooklyn,153 Lorimer Street,Block: 2242Lot:53,Completed (C),11206-2907,40.703327,-73.949501
+15CVCP085K,196 Middleton Street,Brooklyn,196 Middleton Street,Block: 2242Lot:22,Completed (C),11206-3096,40.703835,-73.949432
+15CVCP148K,Henry Apartments - Site A - 1676 Broadway,Brooklyn,1676 Broadway,Block: 1503Lot:29 ...,Completed (C),11238,40.67992,-73.96343
+15CVCP120K,Henry Apartments Site B - 8 Rockaway Avenue,Brooklyn,8 Rockaway Avenue,Block: 1507Lot:32 ...,Completed (C),11238,40.67992,-73.96343
+15CVCP118K,81-111 Junius Street,Brooklyn,81 Junius Street,Block: 3696Lot:1 ...,Completed (C),11212-8004,40.67276,-73.90365
+15CVCP161K,1570 60th Street,Brooklyn,1570 60th Street,Block: 5516Lot:34 ...,Active (A),11219-6534,40.625111,-73.992622
+14CVCP242K,608-620 Franklin Avenue (Franklin Avenue Lofts - Dean Street Side),Brooklyn,608 Franklin Avenue,Block: 1142Lot:48 ...,Completed (C),11238-3639,40.67683,-73.95586
+15CVCP017K,6002 Fort Hamilton Parkway,Brooklyn,6002 Fort Hamilton Parkway,Block: 5715Lot:7501 ...,Completed (C),11219-4836,40.633194,-74.006149
+15CVCP157K,583 Franklin Avenue,Brooklyn,583 FRANKLIN AVENUE,Block: 1199Lot:3,Completed (C),11238-5294,40.678547,-73.954941
+14CVCP221K,225-227 Boerum Street aka 83 Bushwick Place,Brooklyn,83 Bushwick Place,Block: 3073Lot:97,Completed (C),11206-3516,40.706451,-73.938728
+15CVCP050K,83 Grand Street,Brooklyn,83 Grand Street,Block: 2379Lot:44,Completed (C),11249-4123,40.715763,-73.964027
+15CVCP014K,86 Fleet Place,Brooklyn,86 Fleet Place,Block: 2061Lot:50 ...,Completed (C),11201-5717,40.693222,-73.98217
+15CVCP151K,840 Fulton Street,Brooklyn,840 Fulton Street,Block: 2010Lot:25,Completed (C),11238-6752,40.683422,-73.967628
+13CVCP149K,1875 Atlantic Avenue,Brooklyn,1875 Atlantic Avenue,Block: 1713Lot:7,Completed (C),11233-5351,40.677219,-73.923004
+14CVCP236K,170-174 West Street,Brooklyn,174 West Street,Block: 2521Lot:5 ...,Completed (C),11222-6651,40.732914,-73.959557
+14CVCP216K,1007 Atlantic Avenue,Brooklyn,1007 Atlantic Avenue,Block: 2019Lot:55,Completed (C),11238-3467,40.680248,-73.958855
+14CVCP210K,113 Flatbush Avenue,Brooklyn,113 Flatbush Avenue,Block: 2110Lot:3 ...,Completed (C),11217-1483,40.686188,-73.978722
+14CVCP217K,670-678 Pacific Street - DOB Job No. NB- 320900566,Brooklyn,607 Pacific Street,Block: 1128Lot:9 ...,Completed (C),11217-3984,40.681911,-73.973351
+14CVCP227K,882 Fulton Street (502-506 Waverly),Brooklyn,882 Fulton Street,Block: 2011Lot:30,Completed (C),11238-1707,40.683121,-73.966156
+14CVCP215K,180 Myrtle Avenue,Brooklyn,180 Myrtle Avenue,Block: 2061Lot:1 ...,Completed (C),11201-7059,40.693226,-73.980446
+14CVCP177K,72 Box Street,Brooklyn,72 Box Street,Block: 2483Lot:25,Completed (C),11222-5787,40.737251,-73.953445
+14CVCP205K,596 Washington Avenue,Brooklyn,596 Washington Avenue,Block: 2012Lot:62 ...,Completed (C),11238-3281,40.6814,-73.964699
+15CVCP039K,120 Kings Highway,Brooklyn,120 Kings Highway,Block: 6253Lot:28 ...,Completed (C),11214-1510,40.605911,-73.98735
+15CVCP013K,96 North 1st Street,Brooklyn,96 North 1st Street,Block: 2379Lot:13,Active (A),11249-3936,40.715839,-73.963341
+14CVCP256K,4907-4709 4th Avenue,Brooklyn,4907 4th Avenue,Block: 783Lot:6,Completed (C),11220-2494,40.64694,-74.01194
+15CVCP139K,69 Hope Street,Brooklyn,69 Hope Street,Block: 2369Lot:37,Active (A),11211-4401,40.713207,-73.955254
+14CVCP228K,635 4th Avenue,Brooklyn,635 4th Avenue,Block: 634Lot:1,Completed (C),11232-1001,40.663937,-73.994102
+16CVCP007K,56 Frost Street,Brooklyn,56 Frost Street,Block: 2737Lot:10,Completed (C),11211-1830,40.717457,-73.949409
+15CVCP024K,171-173 Bayard Street,Brooklyn,173 Bayard Street,Block: 2720Lot:43 ...,Completed (C),11222-6288,40.720657,-73.945557
+15CVCP108K,4202 18th Avenue,Brooklyn,4202 18th Avenue,Block: 5409Lot:30,Completed (C),11218-5720,40.631859,-73.975418
+14CVCP231K,235-237 Kent Avenue,Brooklyn,235 Kent Avenue,Block: 2378Lot:1 ...,Completed (C),11249-4209,40.71656,-73.965401
+14CVCP237K,51-59 South 4th Street,Brooklyn,51 South 4th Street,Block: 2428Lot:28 ...,Completed (C),11220,40.641747,-74.005585
+15CVCP083K,406 - 408 Manhattan Avenue,Brooklyn,408 Manhattan Avenue,Block: 2734Lot:4 ...,Completed (C),11211-1419,40.718307,-73.946587
+14CVCP218K,434 Manhattan Ave,Brooklyn,434 Manhattan Avenue,Block: 2724Lot:7,Completed (C),11222-6075,40.719383,-73.946732
+14CVCP174K,79 Clay Street,Brooklyn,79 Clay Street,Block: 2483Lot:61 ...,Completed (C),11222-6262,40.736809,-73.954697
+15CVCP008K,207 North 8th Street,Brooklyn,207 North 8th Street,Block: 2313Lot:27,Active (A),11211-2007,40.717464,-73.955193
+14CVCP240K,275 4th Avenue,Brooklyn,275 4th Avenue,Block: 964Lot:1 ...,Completed (C),11215-1818,40.675198,-73.984215
+14CVCP188K,56 Box Street - DOB Job No. 320842237,Brooklyn,56 Box Street,Block: 2483Lot:17,Completed (C),11222-1126,40.737175,-73.954262
+15CVCP003K,Domino Sugar Site B,Brooklyn,280 Kent Avenue,Block: 2414Lot:1,Active (A),11238,40.67992,-73.96343
+14CVCP260K,818 Lexington Avenue,Brooklyn,818 Lexington Avenue,Block: 1628Lot:21,Completed (C),11221-6226,40.690331,-73.926277
+15CVCP012K,45 Walton Street,Brooklyn,45 Walton Street,Block: 2245Lot:62,Active (A),11206-4919,40.70134,-73.951027
+15CVCP102K,1060 Bedford Avenue,Brooklyn,1060 Bedford Avenue,Block: 1954Lot:22 ...,Completed (C),11216-1116,40.688412,-73.955223
+15CVCP048K,535 Flushing Ave.,Brooklyn,535 Flushing Avenue,Block: 2263Lot:52,Completed (C),11205-1610,40.699554,-73.953644
+15CVCP002K,Domino Sugar Site A,Brooklyn,254 Kent Avenue,Block: 2414Lot:1 ...,Active (A),11238,40.67992,-73.96343
+14CVCP193K,BASIS Independent School - 556 Columbia Street,Brooklyn,556 Columbia Street,Block: 601Lot:17,Completed (C),11238,40.67992,-73.96343
+14CVCP225K,1-37 Forrest Street,Brooklyn,37 Forrest Street,Block: 3141Lot:1 ...,Completed (C),11211-1401,40.718178,-73.946091
+14CVCP181K,200 Water Street,Brooklyn,200 Water Street,Block: 41Lot:13 ...,Completed (C),11201-1838,40.70298,-73.98578
+18CVCP024K,687 Flushing Ave,Brooklyn,687 Flushing Avenue,Block: 2274Lot:24 ...,Active (A),11206-5027,40.700596,-73.945297
+14CVCP190K,213 Maujer Street and 774-780 Grand Street,Brooklyn,213 Maujer Street,Block: 2790Lot:5 ...,Completed (C),11206-1364,40.711273,-73.941711
+14CVCP180K,177 Front Street,Brooklyn,177 Front Street,Block: 41Lot:42 ...,Completed (C),11201-1117,40.702599,-73.985962
+15CVCP058K,120 Union Avenue,Brooklyn,120 Union Avenue,Block: 2238Lot:49,Completed (C),11206-4733,40.704201,-73.949989
+14CVCP212K,116 Walton Street,Brooklyn,116 Walton Street,Block: 2250Lot:25,Completed (C),11206-4237,40.702938,-73.947777
+14CVCP184K,151 Lorimer Street - DOB Job No. 320965354,Brooklyn,151 Lorimer Street,Block: 2242Lot:54 ...,Completed (C),11206-3273,40.70327,-73.949585
+14CVCP244K,Bush Terminal,Brooklyn,5102 1ST AVENUE,Block: 725Lot:1,Active (A),11238,40.67992,-73.96343
+16CVCP014K,1146 Fulton Street,Brooklyn,1146 Fulton Street,Block: 2017Lot:8,Completed (C),11216-1808,40.680855,-73.954956
+14CVCP192K,"1328 Fulton Street ""Fulton South""",Brooklyn,1328 Fulton Street,Block: 1861Lot:119,Completed (C),11216-6239,40.680164,-73.947655
+14CVCP157K,1035 Fulton Street,Brooklyn,1035 Fulton Street,Block: 1992Lot:12 ...,Completed (C),11238-3463,40.682457,-73.960518
+13CVCP098K,45 India Street,Brooklyn,45 India Street,Block: 2531Lot:35,Completed (C),11222-3760,40.732086,-73.958878
+15CVCP033K,531 Waverly Avenue,Brooklyn,531 Waverly Avenue,Block: 2012Lot:1 ...,Completed (C),11238-2701,40.682648,-73.965622
+14CVCP167K,1225 Atlantic Avenue,Brooklyn,1225 Atlantic Avenue,Block: 1866Lot:23 ...,Completed (C),11216-2709,40.678787,-73.950119
+13CVCP113K,186 Greenpoint Avenue,Brooklyn,186 Greenpoint Avenue,Block: 2575Lot:5,Completed (C),11222-6657,40.730053,-73.952881
+15CVCP164K,2633 Ocean Avenue,Brooklyn,2633 Ocean Avenue,Block: 7381Lot:1 ...,Completed (C),11229-4581,40.597069,-73.9506
+14CVCP224K,566 Carroll Street,Brooklyn,566 Carroll Street,Block: 961Lot:7,Completed (C),11215-1118,40.675816,-73.983437
+14CVCP214K,28 - 46 Roebling Street,Brooklyn,28 Roebling Street,Block: 2306Lot:18 ...,Completed (C),11211-3157,40.717739,-73.953796
+14CVCP185K,767 Bergen Street - DOB Job No. 320576658 & 320576649,Brooklyn,767 Bergen Street,Block: 1140Lot:48 ...,Completed (C),11238-4465,40.678501,-73.962852
+14CVCP172K,137 Bayard Street,Brooklyn,137 Bayard Street,Block: 2719Lot:32,Completed (C),11222-6097,40.719959,-73.946724
+13CVCP146K,125 Borinquen Place,Brooklyn,125 Borinquen Place,Block: 2411Lot:1 ...,Completed (C),11211-4704,40.710781,-73.954506
+13CVCP139K,62 Box Street,Brooklyn,62 Box Street,Block: 2483Lot:20,Completed (C),11222-1234,40.737232,-73.954041
+14CVCP165K,219-223 North 8th Street (230 North 9th Street) - DOB Job No. NB - 320576989320577247 and 340125616,Brooklyn,230 North 9th Street,Block: 2313Lot:11 ...,Completed (C),11218-3303,40.644821,-73.971642
+13CVCP118K,291 Metropolitan Avenue - DOB Job No. NB - 320545362,Brooklyn,291 Metropolitan Avenue,Block: 2353Lot:13,Completed (C),11211-4008,40.714691,-73.957779
+13CVCP097K,"823 Bedford Avenue - ""Satmar Meat""",Brooklyn,823 Bedford Avenue,Block: 1734Lot:59,Completed (C),11205-2801,40.695724,-73.956055
+13CVCP144K,498 Leonard Street,Brooklyn,498 Leonard Street,Block: 2698Lot:11 ...,Completed (C),11222-6083,40.722054,-73.948769
+13CVCP133K,79-97 4th Avenue,Brooklyn,85 4th Avenue,Block: 934Lot:5 ...,Active (A),11217-2703,40.681641,-73.979797
+14CVCP159K,245-247 Driggs Avenue,Brooklyn,247 Driggs Avenue,Block: 2699Lot:15 ...,Completed (C),11222-2689,40.722534,-73.94767
+13CVCP081K,538 Union Avenue,Brooklyn,538 Union Avenue,Block: 2741Lot:7 ...,Completed (C),11211-1211,40.716541,-73.951775
+13CVCP153K,661 Flushing Avenue,Brooklyn,661 Flushing Avenue,Block: 2272Lot:54,Completed (C),11206-5231,40.700356,-73.946854
+13CVCP150K,376-382 Wallabout Street,Brooklyn,376 Wallabout Street,Block: 2266Lot:14 ...,Completed (C),11206-4391,40.701927,-73.947868
+13CVCP154K,101 West Street,Brooklyn,101 West Street,Block: 2556Lot:58 ...,Completed (C),11222-3534,40.72886,-73.95923
+13CVCP156K,1044 Bedford Avenue,Brooklyn,1044 Bedford Avenue,Block: 1950Lot:33,Completed (C),11205-5237,40.689175,-73.955353
+13CVCP147K,82 Throop Avenue - DOB Job No. NB - 320761733,Brooklyn,82 Throop Avenue,Block: 2266Lot:34 ...,Completed (C),11206-4393,40.702179,-73.946609
+14CVCP253K,874 Willoughby Ave,Brooklyn,874 Willoughby Avenue,Block: 1593Lot:23,Active (A),11221-8864,40.695457,-73.933243
+13CVCP108K,588 Myrtle Avenue - DOB Job No. NB - 320508688,Brooklyn,588 Myrtle Avenue,Block: 1910Lot:23 ...,Completed (C),11205-4175,40.693851,-73.960869
+13CVCP095K,78-80 Throop Avenue,Brooklyn,78 Throop Avenue,Block: 2266Lot:32 ...,Completed (C),11206-4470,40.702274,-73.946739
+14CVCP252K,415 Manhattan Avenue,Brooklyn,415 Manhattan Avenue,Block: 2723Lot:30,Completed (C),11222-7716,40.71899,-73.946945
+14CVCP164K,1345-1357 Rogers Avenue,Brooklyn,1345 Rogers Avenue,Block: 5229Lot:15 ...,Completed (C),11210-1431,40.636738,-73.950706
+13CVCP116K,683-691 Marcy Ave. (aka 168 Kosciusko St),Brooklyn,683 Marcy Avenue,Block: 1785Lot:1 ...,Completed (C),11216,40.68018,-73.94942
+13CVCP135K,Dean Street - Habitat for Humanity,Brooklyn,2396 Dean Street,Block: 1450Lot:8 ...,Active (A),11238,40.67992,-73.96343
+13CVCP072K,345 State Street,Brooklyn,345 State Street,Block: 171Lot:101 ...,Completed (C),11217-1705,40.687935,-73.98494
+13CVCP094K,81 Fleet Place,Brooklyn,81 Fleet Place,Block: 2061Lot:110 ...,Completed (C),11201-8000,40.693207,-73.981323
+13CVCP076K,172 Nassau Street - DOB Job No. NB - 301914739,Brooklyn,172 Nassau Street,Block: 108Lot:12 ...,Completed (C),11201-2000,40.69834,-73.98448
+14CVCP198K,89 Grand Street DOB Job No. NB-320917521,Brooklyn,89 GRAND STREET,Block: 2379Lot:42 ...,Completed (C),11249-4145,40.715733,-73.963799
+13CVCP071K,650 Metropolitan Avenue,Brooklyn,650 Metropolitan Avenue,Block: 2763Lot:11,Completed (C),11211-4259,40.714035,-73.947289
+12CVCP069K,249 North 7th Street & 248 North 8th Street - DOB Job Nos. NB - 302067484 & NB - 302061621,Brooklyn,249 North 7th Street,Block: 2322Lot:10 ...,Completed (C),11211-1285,40.716457,-73.953667
+13CVCP078K,243 Meeker Avenue - DOB Job Nos. NB-320587691NB-320544513 & NB-320544407,Brooklyn,243 Meeker Avenue,Block: 2741Lot:19 ...,Completed (C),11211-1948,40.716576,-73.950645
+17CVCP005K,288 North 8th Street,Brooklyn,288 North 8th Street,Block: 2323Lot:9 ...,Completed (C),11211-2103,40.71555,-73.95276
+13CVCP092K,10504 Flatlands Avenue,Brooklyn,10504 Flatlands Avenue,Block: 8213Lot:37 ...,Completed (C),11236-2908,40.638206,-73.884041
+13CVCP101K,66 North 8th Street,Brooklyn,66 North 8th Street,Block: 2317Lot:13,Active (A),11249-2929,40.720371,-73.96077
+13CVCP086K,235-247 & 253-263 North 9th Street,Brooklyn,235 North 9th Street,Block: 2307Lot:27 ...,Completed (C),11211-2144,40.71702,-73.95325
+12CVCP053K,25 Hope Street,Brooklyn,25 Hope Street,Block: 2368Lot:34,Completed (C),11211-5233,40.713776,-73.956886
+13CVCP122K,212-218 North 9th Street,Brooklyn,212 North 9th Street,Block: 2313Lot:5 ...,Completed (C),11211-2001,40.717628,-73.954872
+13CVCP112K,131 Berry Street,Brooklyn,131 Berry Street,Block: 2327Lot:5,Completed (C),11249-3018,40.718311,-73.958923
+12CVCP057K,821 Bedford Avenue,Brooklyn,821 Bedford Avenue,Block: 1734Lot:60 ...,Completed (C),11205-5505,40.695786,-73.956085
+12CVCP051K,263 Bedford Avenue - DOB Job No. NB-320321219,Brooklyn,263 Bedford Avenue,Block: 2366Lot:1,Completed (C),11211-4010,40.71489,-73.960533
+12CVCP056K,390 Wallabout Street,Brooklyn,390 Wallabout Street,Block: 2266Lot:21 ...,Completed (C),11206-4483,40.702164,-73.947395
+12CVCP055K,72 Throop Avenue,Brooklyn,72 Throop Avenue,Block: 2266Lot:27 ...,Completed (C),11206-4469,40.702446,-73.946892
+13CVCP087K,"527 Flushing Avenue ""New Bldg.""",Brooklyn,527 Flushing Avenue,Block: 2263Lot:56 ...,Completed (C),11205-1333,40.69957,-73.953934
+13CVCP093K,"60 Water Street ""Two Trees""",Brooklyn,60 Water Street,Block: 36Lot:1 ...,Completed (C),11201-1964,40.702953,-73.992073
+13CVCP074K,16 Bartlett Street,Brooklyn,16 BARTLETT STREET,Block: 2272Lot:4 ...,Completed (C),11206-7954,40.700493,-73.947121
+12CVCP048K,1309-1321 38th Street,Brooklyn,1321 38th Street,Block: 5300Lot:70 ...,Completed (C),11218-3656,40.641075,-73.985069
+12CVCP067K,1465 Rockaway Parkway,Brooklyn,1465 Rockaway Parkway,Block: 8185Lot:24,Completed (C),11236-2601,40.644585,-73.901367
+12CVCP054K,107 Union Street,Brooklyn,107 Union Street,Block: 335Lot:42,Completed (C),11231-1416,40.684742,-74.003609
+13CVCP152K,29-35 Carroll Street (a.k.a 33 Carroll Street),Brooklyn,29 Carroll Street,Block: 347Lot:50 ...,Completed (C),11231-1301,40.68351,-74.00457
+13CVCP110K,504 Myrtle Avenue,Brooklyn,504 Myrtle Avenue,Block: 1905Lot:30 ...,Completed (C),11205-3542,40.693344,-73.964661
+13CVCP070K,"876 Livonia Avenue ""New 2-Story Commerical Bldg."" - DOB Job No. NB - 320232930",Brooklyn,876 Livonia Avenue,Block: 4092Lot:3,Active (A),11207-5660,40.666035,-73.884453
+12CVCP045K,1426-1438 Fulton Street AKA 293-297 Herkimer Street,Brooklyn,1426 Fulton Street,Block: 1863Lot:9 ...,Completed (C),11216-2505,40.679829,-73.943687
+13CVCP109K,490 Myrtle Avenue,Brooklyn,484 Myrtle Avenue,Block: 1905Lot:19 ...,Completed (C),11205-3067,40.693268,-73.965378
+14CVCP246K,505 Union Avenue,Brooklyn,505 Union Avenue,Block: 2315Lot:21,Completed (C),11211-1395,40.71582,-73.95208
+13CVCP088K,285 Jay Street,Brooklyn,285 Jay Street,Block: 131Lot:1,Completed (C),11201-2933,40.695553,-73.986649
+13CVCP128K,501 Leonard Street,Brooklyn,501 Leonard Street,Block: 2697Lot:7 ...,Active (A),11222-3909,40.722038,-73.949272
+15CVCP095K,387 Manhattan Avenue,Brooklyn,387 Manhattan Avenue,Block: 2738Lot:21,Completed (C),11211-1801,40.717659,-73.946899
+23CVCP007K,97 North 6th Street,Brooklyn,97 NORTH 6TH STREET,Block: 2326Lot:34,Active (A),11249-3001,40.718632,-73.959991
+22CVCP079K,2667 Fulton Street,Brooklyn,2667 FULTON STREET,Block: 3661Lot:1,Active (A),11207-2404,40.67742,-73.8964
+22CVCP085K,60 Throop Avenue,Brooklyn,60 THROOP AVENUE,Block: 2250Lot:129,Active (A),11206-4307,40.70312,-73.94743
+22CVCP071K,511 Meeker Avenue,Brooklyn,511 MEEKER AVENUE,Block: 2727Lot:47,Active (A),11222-5001,40.720608,-73.944046
+22CVCP084K,840-856 Atlantic Avenue,Brooklyn,840 ATLANTIC AVENUE,Block: 1122Lot:71 ...,Active (A),11238-3115,40.681416,-73.967072
+22CVCP074K,288 Jackson Street,Brooklyn,288 JACKSON STREET,Block: 2885Lot:35,Active (A),11211-1604,40.717232,-73.93927
+22CVCP022K,105 River Street (North Tower),Brooklyn,87 RIVER STREET,Block: 2361Lot:1 ...,Active (A),11249,40.718426,-73.965454
+22CVCP021K,25 Milford Street,Brooklyn,25 MILFORD STREET,Block: 4153Lot:27,Active (A),11208-2411,40.67839,-73.87792
+22CVCP036K,356-380 Fulton Street,Brooklyn,356-370 FULTON STREET,Block: 154Lot:5 ...,Active (A),11201-5126,40.691467,-73.988327
+22CVCP057K,881-885 New Jersey Avenue,Brooklyn,881-885 NEW JERSEY AVENUE,Block: 4348Lot:48 ...,Active (A),11207-7727,40.658115,-73.888893
+21CVCP058K,1050 Pacific Street,Brooklyn,643 CLASSON AVENUE,Block: 1134Lot:2 ...,Active (A),11238-2910,40.678345,-73.95826
+21CVCP043K,155 Carlton Avenue,Brooklyn,155 CARLTON AVENUE,Block: 2073Lot:22,Active (A),11205-3206,40.692947,-73.972641
+22CVCP009K,979 Pacific Street,Brooklyn,979 PACIFIC STREET,Block: 1125Lot:1,Active (A),11238-3206,40.679852,-73.961319
+21CVCP045K,83 Apollo Street,Brooklyn,83 APOLLO STREET,Block: 2661Lot:16 ...,Active (A),11222-3802,40.727043,-73.938332
+21CVCP038K,89 Union Avenue,Brooklyn,89 UNION AVENUE,Block: 2241Lot:39,Active (A),11206-2913,40.702744,-73.950478
+21CVCP026K,4701 19th Avenue,Brooklyn,4701 19TH AVENUE,Block: 5457Lot:166,Active (A),11204-1302,40.627754,-73.977386
+22CVCP064K,1625 Prospect Place,Brooklyn,1625 PROSPECT PL,Block: 1363Lot:60,Active (A),11233-4403,40.67295,-73.92338
+22CVCP058K,772 Halsey Street,Brooklyn,772 HALSEY ST,Block: 1668Lot:48,Active (A),11233-1207,40.6846,-73.92473
+22CVCP065K,53 MacDougal Street,Brooklyn,53 MACDOUGAL ST,Block: 1524Lot:43,Active (A),11233-2312,40.679459,-73.92012
+22CVCP043K,1775 CONEY ISLAND AVENUE,Brooklyn,1775 CONEY ISLAND AVENUE,Block: 6749Lot:78,Active (A),11230-6501,40.614361,-73.962852
+22CVCP082K,6 Howard Avenue,Brooklyn,6 HOWARD AVENUE,Block: 1481Lot:35,Active (A),11221-4102,40.688618,-73.921432
+21CVCP017K,29 Jay Street,Brooklyn,29 Jay Street,Block: 20Lot:1,Active (A),11201-1105,40.704014,-73.986465
+21CVCP030K,117 Glenmore Avenue,Brooklyn,117 GLENMORE AVENUE,Block: 3692Lot:1 ...,Active (A),11212-8002,40.671841,-73.906555
+20CVCP076K,156-158 Somers Street,Brooklyn,156 - 158 SOMERS STREET,Block: 1544Lot:15 ...,Active (A),11233-2913,40.679169,-73.905571
+20CVCP061K,494 Manhattan Avenue,Brooklyn,494 MANHATTAN AVENUE,Block: 2713Lot:1,Completed (C),11222-4847,40.720844,-73.94809
+20CVCP054K,130 North 6th Street,Brooklyn,126 North 6th Street,Block: 2335Lot:6 ...,Completed (C),11217-3518,40.678005,-73.976501
+20CVCP063K,175 McGuinness Boulevard,Brooklyn,175 MCGUINNESS BOULEVARD,Block: 2599Lot:23 ...,Active (A),11222-2735,40.728245,-73.950508
+22CVCP019K,2602 Pitkin Avenue,Brooklyn,2602 PITKIN AVENUE,Block: 4228Lot:13,Active (A),11208-2589,40.674713,-73.875809
+20CVCP040K,487 4th Avenue,Brooklyn,487 4TH AVENUE,Block: 1028Lot:7,Active (A),11215-4736,40.668262,-73.990005
+20CVCP035K,411 Meeker Avenue,Brooklyn,411 MEEKER AVENUE,Block: 2724Lot:1 ...,Completed (C),11222-7172,40.719131,-73.94664
+20CVCP059K,381 Chester Street,Brooklyn,401 CHESTER STREET,Block: 3589Lot:21,Active (A),11212-5491,40.66227,-73.9097
+20CVCP011K,20 Luquer Street,Brooklyn,20 LUQUER STREET,Block: 520Lot:13 ...,Active (A),11231-1817,40.6788,-74.00473
+20CVCP049K,169 LORIMER STREET,Brooklyn,169 LORIMER STREET,Block: 2242Lot:45,Completed (C),11206-3449,40.703667,-73.94902
+20CVCP002K,1941 Coney Island Avenue,Brooklyn,1941 CONEY ISLAND AVENUE,Block: 6774Lot:1 ...,Completed (C),11223-2371,40.609848,-73.962151
+20CVCP044K,1601 Dekalb Avenue,Brooklyn,1601 DEKALB AVENUE,Block: 3237Lot:23 ...,Active (A),11237-3905,40.703781,-73.919876
+20CVCP016K,3294 Atlantic Avenue,Brooklyn,3294 ATLANTIC AVENUE,Block: 4153Lot:40,Active (A),11208-1919,40.679699,-73.877617
+20CVCP007K,2776 Fulton Street,Brooklyn,2776 FULTON STREET,Block: 3946Lot:18 ...,Active (A),11207-2521,40.677753,-73.892036
+19CVCP066K,233 NEVINS STREET Phase II,Brooklyn,233 NEVINS STREET,Block: 412Lot:6,Completed (C),11238,40.67992,-73.96343
+19CVCP056K,297 Wallabout Street,Brooklyn,297 Wallabout Street,Block: 2250Lot:45,Active (A),11206-4325,40.702278,-73.948174
+20CVCP005K,1010 Gates Avenue,Brooklyn,1010 GATES AVENUE,Block: 1480Lot:17,Active (A),11221-3602,40.689171,-73.922989
+19CVCP055K,2175 Bergen Street,Brooklyn,217-221 MOTHER GASTON BOULEVARD,Block: 1450Lot:1 ...,Completed (C),11233-6832,40.67392,-73.908104
+19CVCP039K,1256 38th Street,Brooklyn,1256 38TH STREET,Block: 5294Lot:26 ...,Active (A),11218-1929,40.641518,-73.986641
+19CVCP038K,1250 38TH STREET,Brooklyn,1250 38TH STREET,Block: 5294Lot:25,Active (A),11218-1929,40.641586,-73.986801
+19CVCP062K,1021 Bedford Avenue,Brooklyn,1021-1023 BEDFORD AVENUE,Block: 1788Lot:4 ...,Completed (C),11205-5263,40.689079,-73.954765
+18CVCP011K,800 Flatbush Avenue,Brooklyn,800 FLATBUSH AVENUE,Block: 5063Lot:58,Completed (C),11226-9907,40.653267,-73.959564
+15CVCP103K,77 Commercial Street,Brooklyn,77 Commercial Street,Block: 2472Lot:410,Active (A),11222-1005,40.737988,-73.957077
+16CVCP084K,666 Greene Avenue,Brooklyn,666 Greene Avenue,Block: 1801Lot:8,Completed (C),11221-1308,40.689232,-73.942024
+18CVCP070K,2846-2868 Linden Boulevard - Linden Boulevard Phase IBuilding 1,Brooklyn,2846-2868 LINDEN BOULEVARD,Block: 4496Lot:1 ...,Completed (C),11207,40.67168,-73.89567
+19CVCP081K,438 Union Avenue,Brooklyn,438 UNION AVENUE,Block: 2761Lot:5,Completed (C),11211-3427,40.713512,-73.951378
+23CVCP013K,184 Pennsylvania Avenue,Brooklyn,184 PENNSYLVANIA AVENUE,Block: 3703Lot:35 ...,Active (A),11207-3046,40.67329,-73.896576
+18CVCP068K,24 Bartlett Street,Brooklyn,24 BARTLETT STREET,Block: 2272Lot:6,Active (A),11206-5036,40.700718,-73.946869
+21CVCP046K,193 Greenpoint Avenue,Brooklyn,193 GREENPOINT AVENUE,Block: 2559Lot:37,Active (A),11222-7718,40.730583,-73.951859
+14CVCP168K,1043 Fulton Street,Brooklyn,1045 Fulton Street,Block: 1992Lot:7 ...,Completed (C),11238-6757,40.682198,-73.960152
+22CVCP081K,1 Putnam Avenue,Brooklyn,1 PUTNAM AVENUE,Block: 1981Lot:1,Active (A),11238-2410,40.682835,-73.962288
+19CVCP086K,596 Metropolitan Avenue,Brooklyn,596 METROPOLITAN AVENUE,Block: 2762Lot:5,Completed (C),11211-3606,40.713757,-73.948982
+20CVCP058K,723-733 Myrtle Avenue,Brooklyn,723-733 MYRTLE AVENUE,Block: 1736Lot:35 ...,Active (A),11205-3904,40.694996,-73.954094
+18CVCP046K,2718 Fulton Street,Brooklyn,2718 FULTON STREET,Block: 3673Lot:14 ...,Active (A),11207-2529,40.677444,-73.894112
+20CVCP072K,1010 Pacific Street,Brooklyn,1010 PACIFIC STREET,Block: 1133Lot:32 ...,Active (A),11238-3205,40.67928,-73.96012
+22CVCP073K,425 Coney Island Avenue,Brooklyn,425 CONEY ISLAND AVENUE,Block: 5070Lot:19 ...,Active (A),11218-2605,40.647236,-73.970734
+16CVCP068K,52-56 Throop Avenue,Brooklyn,52 Throop Avenue,Block: 2250Lot:27 ...,Completed (C),11206-4307,40.70312,-73.94743
+15CVCP077K,138-142 North 10th Street,Brooklyn,142 North 10th Street,Block: 2304Lot:12 ...,Completed (C),11249-1114,40.719841,-73.956787
+15CVCP098K,35-37 Duffield Street,Brooklyn,37 Duffield Street,Block: 121Lot:18 ...,Completed (C),11201-2535,40.69717,-73.983849
+17CVCP076K,801 Bedford Avenue,Brooklyn,801 Bedford Avenue,Block: 1734Lot:70,Completed (C),11205-1980,40.696507,-73.956367
+18CVCP015K,1249 CONEY ISLAND AVENUE,Brooklyn,1249 CONEY ISLAND AVENUE,Block: 6695Lot:48,Completed (C),11230-2911,40.627495,-73.965302
+20CVCP051K,1035 Coney Island Avenue,Brooklyn,1039 CONEY ISLAND AVENUE,Block: 5232Lot:37,Completed (C),11230-1348,40.632664,-73.966599
+18CVCP064K,20 PRESCOTT PLACE,Brooklyn,20 PRESCOTT PLACE,Block: 1556Lot:25 ...,Completed (C),11233-6974,40.677383,-73.921165
+18CVCP006K,223 SPENCER STREET,Brooklyn,223 SPENCER STREET,Block: 1763Lot:2 ...,Completed (C),11205-5186,40.691467,-73.954292
+18CVCP060K,481 GRAHAM AVENUE,Brooklyn,481 GRAHAM AVENUE,Block: 2724Lot:18,Completed (C),11222-4910,40.71984,-73.94594
+19CVCP012K,118 New Jersey Avenue,Brooklyn,118 NEW JERSEY AVENUE,Block: 3670Lot:25,Hold (H),11207-2554,40.677074,-73.896324
+17CVCP080K,436 FLUSHING AVENUE,Brooklyn,436 FLUSHING AVENUE,Block: 1886Lot:40,Completed (C),11205-3579,40.698696,-73.957184
+18CVCP005K,187 KENT AVENUE,Brooklyn,187 KENT AVENUE,Block: 2357Lot:1 ...,Completed (C),11249-3471,40.717697,-73.964195
+18CVCP008K,171 CONCORD STREET,Brooklyn,171 CONCORD STREET,Block: 108Lot:24,Completed (C),11201-2043,40.697796,-73.984367
+17CVCP050K,99 North 4th Street,Brooklyn,99 4TH STREET,Block: 2342Lot:26,Completed (C),11249-1151,40.717323,-73.960899
+17CVCP043K,167 Lorimer Street,Brooklyn,169 LORIMER STREET,Block: 2242Lot:46 ...,Completed (C),11206-3445,40.70369,-73.949165
+15CVCP075K,349-355 Grand Street,Brooklyn,349 Grand Street,Block: 2384Lot:22 ...,Completed (C),11238-4289,40.685383,-73.96199
+17CVCP011K,7 Whipple Street,Brooklyn,7 Whipple Street,Block: 2272Lot:45 ...,Completed (C),11206-5588,40.700394,-73.94632
+20CVCP014K,881 LEXINGTON AVENUE,Brooklyn,881 LEXINGTON AVENUE,Block: 1623Lot:57,Completed (C),11221-8309,40.690807,-73.925613
+20CVCP088K,625 Fulton Street,Brooklyn,625 FULTON STREET,Block: 2094Lot:1 ...,Active (A),11201-5432,40.689556,-73.980125
+20CVCP042K,447 Euclid Avenue,Brooklyn,447 EUCLID AVENUE,Block: 4214Lot:12 ...,Active (A),11208-2891,40.67669,-73.87211
+13CVCP155K,50 Greenpoint Avenue,Brooklyn,50 Greenpoint Avenue,Block: 2562Lot:1 ...,Completed (C),11222-1504,40.729393,-73.958977
+23CVCP033K,79 Quay Street,Brooklyn,79 QUAY STREET,Block: 2589Lot:1,Active (A),11222-2016,40.726433,-73.958298
+17CVCP071K,537 GRAND STREET,Brooklyn,537 GRAND STREET,Block: 2779Lot:38,Completed (C),11211-4196,40.711319,-73.94989
+15CVCP034K,75 Eckford Street,Brooklyn,75 Eckford Street,Block: 2698Lot:25,Completed (C),11222-7500,40.722233,-73.948311
+18CVCP035K,177 Bayard Street,Brooklyn,177 BAYARD STREET,Block: 2720Lot:41,Active (A),11222-7527,40.720806,-73.945427
+18CVCP013K,875 4th Avenue,Brooklyn,875 4th Avenue,Block: 681Lot:1 ...,Active (A),11232-2103,40.656017,-74.002197
+23CVCP030K,236 Gold Street,Brooklyn,236 GOLD STREET,Block: 121Lot:32 ...,Active (A),11201-2287,40.69796,-73.98337
+20CVCP019K,2337 Pitkin Avenue,Brooklyn,2337 PITKIN AVENUE,Block: 3998Lot:30 ...,Active (A),11207-3819,40.673592,-73.88607
+17CVCP057K,11-23 Montieth Street,Brooklyn,11 Montieth Street,Block: 3139Lot:30 ...,Active (A),11206-4610,40.701603,-73.93631
+21CVCP009K,76 North 8th Street,Brooklyn,76 NORTH 8TH STREET,Block: 2317Lot:18,Active (A),11249-2816,40.720146,-73.960419
+19CVCP072K,74-76 South Second Street,Brooklyn,74-76 SOUTH SECOND STREET,Block: 2416Lot:8 ...,Completed (C),11249-5152,40.714085,-73.964874
+20CVCP045K,169 Livonia Avenue,Brooklyn,169 LIVONIA AVENUE,Block: 3573Lot:1 ...,Completed (C),11212-4770,40.662399,-73.911301
+22CVCP068K,2701-2715 Fulton Street,Brooklyn,2701-2715 FULTON STREET,Block: 3662Lot:52 ...,Active (A),11207-2505,40.677654,-73.89489
+23CVCP012K,303 Wythe Avenue,Brooklyn,303 WYTHE AVENUE,Block: 2404Lot:1,Active (A),11249-4125,40.714466,-73.964928
+20CVCP038K,64 North 8th Street,Brooklyn,64 NORTH 8TH STREET,Block: 2317Lot:12,Active (A),11249-2816,40.720325,-73.96093
+13CVCP090K,125 Flatbush Avenue Extension,Brooklyn,125 Flatbush Avenue Extension,Block: 133Lot:13,Completed (C),11201-2901,40.695683,-73.983963
+19CVCP037K,1246 38th Street,Brooklyn,1246 38TH STREET,Block: 5294Lot:24,Active (A),11218-1929,40.641647,-73.986885
+15CVCP004K,Domino Sugar Site D,Brooklyn,350 Kent Avenue,Block: 2414Lot:1,Active (A),11238,40.67992,-73.96343
+19CVCP098K,302 Graham Avenue,Brooklyn,302 GRAHAM AVENUE,Block: 2777Lot:5,Active (A),11211-4904,40.712784,-73.943871
+21CVCP060K,103 Liberty Avenue,Brooklyn,103 LIBERTY AVENUE,Block: 3675Lot:25 ...,Completed (C),11212-7948,40.673065,-73.906929
+17CVCP063K,722 Metropolitan Avenue,Brooklyn,722 Metropolitan Avenue,Block: 2764Lot:13 ...,Active (A),11211-3712,40.714325,-73.945244
+22CVCP002K,540 Graham Avenue,Brooklyn,540 GRAHAM AVENUE,Block: 2701Lot:1 ...,Active (A),11222-4642,40.721611,-73.946716
+20CVCP055K,624 Metropolitan Avenue,Brooklyn,624 METROPOLITAN AVENUE,Block: 2762Lot:14,Active (A),11211-3606,40.713997,-73.948204
+23CVCP025K,6202 14th Avenue,Brooklyn,6202 14TH AVENUE,Block: 5733Lot:35 ...,Active (A),11219-5337,40.626415,-73.997963
+22CVCP087K,164 4th Avenue,Brooklyn,164 4TH AVENUE,Block: 420Lot:37,Active (A),11217-3110,40.679138,-73.982414
+22CVCP044K,553 Sackett Street,Brooklyn,553 SACKETT STREET,Block: 426Lot:49 ...,Active (A),11217-3018,40.679543,-73.985878
+18CVCP004K,6317 Fort Hamilton Parkway,Brooklyn,6317 Fort Hamilton Parkway,Block: 5736Lot:43,Active (A),11219-5123,40.631134,-74.007973
+21CVCP019K,167-171 North 1st Street,Brooklyn,167-171 NORTH 1ST STREET,Block: 2366Lot:32,Active (A),11211-4021,40.71479,-73.96047
+22CVCP008K,1499 Bedford Avenue,Brooklyn,1499 BEDFORD AVENUE,Block: 1253Lot:7,Active (A),11216-4101,40.671589,-73.954407
+15CVCP067K,280 Meeker Ave,Brooklyn,280 Meeker Avenue,Block: 2742Lot:9,Active (A),11211,40.71166,-73.95315
+15CVCP030K,156 Tillary Street,Brooklyn,156 Tillary Street,Block: 133Lot:15,Completed (C),11201-2003,40.695656,-73.983795
+22CVCP010K,276 Bedford Avenue,Brooklyn,276 BEDFORD AVENUE,Block: 2380Lot:20,Active (A),11249-4058,40.71469,-73.96124
+21CVCP012K,2384 Atlantic Avenue,Brooklyn,2384 ATLANTIC AVENUE,Block: 1437Lot:1,Active (A),11233-3402,40.675777,-73.905907
+22CVCP029K,121-123 Grand Street,Brooklyn,121 GRAND STREET,Block: 2379Lot:24 ...,Active (A),11249-4123,40.715378,-73.962875
+22CVCP031K,374 4th Avenue,Brooklyn,374 4TH AVENUE,Block: 980Lot:77,Active (A),11215-2718,40.672817,-73.986946
+23CVCP028K,285 Metropolitan Avenue,Brooklyn,285 Metropolitan Avenue,Block: 2353Lot:26 ...,Active (A),11211-4008,40.714733,-73.957954
+16CVCP035K,2150 Mill Avenue,Brooklyn,2150 Mill Avenue,Block: 8470Lot:1095 ...,Active (A),11234-6308,40.612949,-73.914444
+23CVCP027K,202 North 4th Street,Brooklyn,202 NORTH 4TH STREET,Block: 2353Lot:26,Active (A),11211-3218,40.714958,-73.957748
+19CVCP013K,390 Leonard Street,Brooklyn,390 LEONARD STREET,Block: 2733Lot:6,Active (A),11211-1302,40.71822,-73.948257
+22CVCP060K,127 Concord Street,Brooklyn,127 CONCORD STREET,Block: 107Lot:48,Active (A),11201-1904,40.697933,-73.986229
+20CVCP083K,129 Kent Avenue,Brooklyn,129 KENT AVENUE,Block: 2325Lot:1 ...,Active (A),11249-3014,40.719795,-73.961868
+21CVCP016K,508 Graham Avenue,Brooklyn,508 GRAHAM AVENUE,Block: 2720Lot:6 ...,Active (A),11222-4913,40.72047,-73.94613
+19CVCP064K,931 Carrol Street,Brooklyn,931 CARROLL STREET,Block: 1188Lot:58,Active (A),11225-1801,40.668407,-73.959541
+19CVCP040K,996 Manhattan Avenue,Brooklyn,996 Manhattan Avenue,Block: 2523Lot:1,Completed (C),11222-1314,40.733177,-73.95443
+23CVCP041K,213 Third Avenue,Brooklyn,213 THIRD AVENUE,Block: 427Lot:7 ...,Active (A),11217-3039,40.679237,-73.984314
+22CVCP089K,288 4th Avenue,Brooklyn,286-290 4TH AVENUE,Block: 456Lot:34,Active (A),11215-1819,40.67576,-73.98435
+16CVCP018K,100 Union Avenue,Brooklyn,100 Union Avenue,Block: 2242Lot:3,Active (A),11231-1418,40.684349,-74.00351
+20CVCP041K,160 17th Street,Brooklyn,160 17TH STREET,Block: 630Lot:22,Active (A),11215-5308,40.665329,-73.99424
+20CVCP009K,116 North 5th Street,Brooklyn,116 North 5th Street,Block: 2343Lot:5,Active (A),11249-3374,40.717178,-73.959846
+18CVCP019K,108-112 North 6th Street,Brooklyn,112 NORTH 6TH STREET,Block: 2334Lot:22 ...,Active (A),11249-4196,40.718159,-73.960182
+20CVCP023K,80 Flatbush Avenue,Brooklyn,80 FLATBUSH AVENUE,Block: 174Lot:13 ...,Active (A),11201,40.69374,-73.99057
+19CVCP103K,55 SUMMIT STREET,Brooklyn,55 SUMMIT STREET,Block: 352Lot:49 ...,Active (A),11231-1308,40.682705,-74.004539
+18CVCP020K,1860 EASTERN PARKWAY,Brooklyn,1860 EASTERN PARKWAY,Block: 1436Lot:6,Completed (C),11233-6909,40.67587,-73.90777
+15CVCP018K,66 Ainslie Street,Brooklyn,66 Ainslie Street,Block: 2375Lot:5,Completed (C),11211-3404,40.712559,-73.952209
+21CVCP015K,72-76 Congress Street,Brooklyn,72-76 CONGRESS STREET,Block: 299Lot:11,Active (A),11201-5922,40.689423,-74.000008
+15CVCP087K,74 Vernon Avenue,Brooklyn,74 Vernon Avenue,Block: 1759Lot:7,Completed (C),11206-6410,40.69436,-73.95068
+23CVCP015K,676 Myrtle Avenue,Brooklyn,676 MYRTLE AVENUE,Block: 1914Lot:22,Active (A),11205-3915,40.694263,-73.95668
+23CVCP038K,179 22nd Street,Brooklyn,691 4TH AVENUE,Block: 643Lot:1 ...,Active (A),11232-1303,40.66152,-73.99502
+16CVCP061K,1019-1033 Fulton Street,Brooklyn,1033 Fulton Street,Block: 1991Lot:1 ...,Completed (C),11238-2409,40.682461,-73.961174
+18CVCP047K,137 Frost Street,Brooklyn,137 FROST STREET,Block: 2734Lot:35 ...,Active (A),11211-1401,40.718178,-73.946091
+20CVCP031K,54 Crown Street,Brooklyn,46 CROWN STREET,Block: 1190Lot:29 ...,Active (A),11225,40.666885,-73.959976
+21CVCP036K,2440 Fulton Street,Brooklyn,2440 FULTON STREET,Block: 1554Lot:16,Active (A),11233-3401,40.677776,-73.903954
+15CVCP052K,1038 Greene Avenue,Brooklyn,1038 Greene Avenue,Block: 1623Lot:25,Completed (C),11221-6218,40.69118,-73.9262
+15CVCP074K,119-127 Livingston Street,Brooklyn,119 Livingston Street,Block: 154Lot:37 ...,Completed (C),11201-5105,40.69079,-73.98849
+19CVCP099K,322 Graham Avenue,Brooklyn,322 GRAHAM AVENUE,Block: 2771Lot:7,Active (A),11211-3737,40.713638,-73.944008
+20CVCP066K,1881 McDonald Avenue,Brooklyn,1881 MCDONALD AVENUE,Block: 6633Lot:45 ...,Active (A),11223-1826,40.607037,-73.972351
+15CVCP001K,Domino Sugar Site E,Brooklyn,317 KENT AVENUE,Block: 2428Lot:1,Completed (C),11238,40.67992,-73.96343
+19CVCP083K,161 West Street,Brooklyn,161 WEST STREET,Block: 2520Lot:1,Active (A),11222-1317,40.732735,-73.959869
+16CVCP080K,853 Lexington Avenue,Brooklyn,853 Lexington Avenue,Block: 1623Lot:70,Completed (C),11221-8452,40.690712,-73.926529
+20CVCP039K,540-554 WAVERLY AVENUE,Brooklyn,547 Clinton Avenue,Block: 2011Lot:1 ...,Completed (C),11238-7059,40.681778,-73.965691
+14CVCP250K,269-271 4th Avenue,Brooklyn,271 4th Avenue,Block: 964Lot:6 ...,Completed (C),11215-1818,40.675396,-73.984131
+16CVCP049K,912 Broadway,Brooklyn,374 Stockton Street,Block: 1584Lot:11,Completed (C),11206-5902,40.697338,-73.93676
+16CVCP062K,1200 Broadway,Brooklyn,1200 Broadway,Block: 1613Lot:16 ...,Completed (C),11221-3018,40.692101,-73.927155
+15CVCP123K,Ralph Avenue and Preston Court,Brooklyn,1423 Ralph Avenue,Block: 7918Lot:86 ...,Completed (C),11234,40.641182,-73.919569
+16CVCP034K,296 Wythe Avenue,Brooklyn,296 Wythe Avenue,Block: 2378Lot:21 ...,Completed (C),11249-4118,40.716236,-73.964294
+16CVCP078K,391 Meeker Avenue,Brooklyn,391 Meeker Avenue,Block: 2723Lot:33,Completed (C),11222-7818,40.718746,-73.947128
+17CVCP002K,44 Box Street,Brooklyn,44 BOX STREET,Block: 2483Lot:11 ...,Completed (C),11222-7504,40.737183,-73.954803
+18CVCP059K,13-15 GREENPOINT AVENUE,Brooklyn,13-15 GREENPOINT AVENUE,Block: 2556Lot:45 ...,Completed (C),11222-1514,40.730118,-73.960052
+19CVCP043K,Greenpoint Landing H3,Brooklyn,45 COMMERCIAL STREET,Block: 2472Lot:475 ...,Completed (C),11222-7283,40.736118,-73.959747
+22CVCP013K,352 Meeker Avenue,Brooklyn,352 MEEKER AVENUE,Block: 2738Lot:10 ...,Active (A),11211-1334,40.717552,-73.947662
+22CVCP020K,527 Grand Avenue,Brooklyn,527 GRAND AVENUE,Block: 1133Lot:7 ...,Active (A),11238-3120,40.67929,-73.9617
+22CVCP069K,794 Bedford Avenue,Brooklyn,794 BEDFORD AVENUE,Block: 1886Lot:71,Active (A),11205-1508,40.697433,-73.95694
+14CVCP254K,945 Bergen Street (Franklin Avenue Lofts - Bergen Street Side),Brooklyn,945 Bergen Street,Block: 1142Lot:48 ...,Active (A),11238-1111,40.676979,-73.956017
+22CVCP003K,5402 Fort Hamilton Parkway,Brooklyn,5402 - 5410 FORT HAMILTON PARKWAY,Block: 5673Lot:42 ...,Active (A),11219-4037,40.63599,-74.001717
+15CVCP006K,Domino Sugar Site C,Brooklyn,320-328 KENT AVENUE,Block: 2414Lot:26 ...,Active (A),11238,40.67992,-73.96343
+17CVCP068K,141 North 6th Street,Brooklyn,141 NORTH 6TH STREET,Block: 2327Lot:32 ...,Active (A),11249-3201,40.717716,-73.958572
+20CVCP053K,3513 Atlantic Avenue,Brooklyn,3513 ATLANTIC AVENUE,Block: 4151Lot:54,Active (A),11208-1823,40.683189,-73.867561
+21CVCP020K,144 Noll Street,Brooklyn,144 NOLL,Block: 3154Lot:23 ...,Active (A),11206-4713,40.702927,-73.930969
+22CVCP041K,2905 West 17th Street,Brooklyn,2905 WEST 17TH STREET,Block: 7062Lot:1 ...,Active (A),11224-2613,40.57596,-73.98453
+23CVCP006K,1514-1530 60th Street,Brooklyn,1514-1530 60TH STREET,Block: 5516Lot:14 ...,Active (A),11219-5022,40.625759,-73.993721
+15CVCP089K,963 Atlantic Avenue,Brooklyn,963 Atlantic Avenue,Block: 2019Lot:80,Active (A),11238-2801,40.680618,-73.960541
+17CVCP035K,75 DUPONT STREET,Brooklyn,93 DUPONT STREET,Block: 2487Lot:57 ...,Active (A),11222-1008,40.73587,-73.95617
+22CVCP001K,2700 Atlantic Avenue,Brooklyn,2700 ATLANTIC AVENUE,Block: 3689Lot:12 ...,Active (A),11207-2819,40.67577,-73.894562
+21CVCP049K,5914-5924 Bay Parkway,Brooklyn,5914-5924 BAY PARKWAY,Block: 5515Lot:43 ...,Active (A),11204-2565,40.617123,-73.978424
+14CVCP202K,738 Grand Street,Brooklyn,738 Grand Street,Block: 2789Lot:10,Active (A),11211-4916,40.711452,-73.943329
+22CVCP027K,311 Bergen Street,Brooklyn,311 BERGEN STREET,Block: 198Lot:48 ...,Active (A),11217-1909,40.682983,-73.980247
+21CVCP006K,416 Metropolitan Avenue,Brooklyn,416 Metropolitan Avenue,Block: 2369Lot:19,Active (A),11211-3377,40.713703,-73.954842
+21CVCP033K,171 Throop Avenue,Brooklyn,171 THROOP AVENUE,Block: 1723Lot:3 ...,Active (A),11206-4490,40.69886,-73.943771
+14CVCP245K,140 Vanderbilt Avenue,Brooklyn,140 Vanderbilt Avenue,Block: 2046Lot:84,Active (A),11205-2348,40.693512,-73.970261
+22CVCP090K,30 Bushwick Avenue,Brooklyn,30 BUSHWICK AVENUE,Block: 2772Lot:14 ...,Active (A),11211-3814,40.713833,-73.941933
+15CVCP005K,Domino Sugar Site F - Refinery Building,Brooklyn,292 Kent Avenue,Block: 2414Lot:1 ...,Active (A),11238,40.67992,-73.96343
+22CVCP091K,355 Shepherd Avenue,Brooklyn,355 SHEPHERD AVENUE,Block: 3989Lot:1 ...,Active (A),11208-2303,40.675846,-73.881073
+19CVCP010K,1457-1471 Flatbush Avenue,Brooklyn,1457-1471 FLATBUSH AVENUE,Block: 5251Lot:11 ...,Active (A),11210-2428,40.63493,-73.949463
+19CVCP045K,102-110 North 1st Street,Brooklyn,102 NORTH 1ST STREET,Block: 2379Lot:16 ...,Active (A),11249-3936,40.715725,-73.963051
+22CVCP045K,420-430 Carroll Street,Brooklyn,420 CARROLL STREET,Block: 453Lot:1 ...,Active (A),11215-1012,40.677578,-73.988678
+22CVCP042K,2400 Pitkin Avenue,Brooklyn,2400 PITKIN AVENUE,Block: 4017Lot:15 ...,Active (A),11208-2136,40.673439,-73.88382
+22CVCP032K,30 Bartlett Street,Brooklyn,30 BARTLETT STREET,Block: 2272Lot:9,Active (A),11206-5036,40.700798,-73.946739
+19CVCP053K,Greenpoint Landing D,Brooklyn,1 EAGLE STREET,Block: 2472Lot:21 ...,Completed (C),11222-7283,40.736118,-73.959747
+22CVCP049K,73-75 McGuinness Blvd,Brooklyn,73-75 MCGUINNESS BLVD,Block: 2649Lot:24 ...,Active (A),11222-3356,40.724983,-73.948677
+18CVCP079K,575 Grand Street,Brooklyn,575 Grand Street,Block: 2780Lot:1 ...,Active (A),11211-4801,40.711445,-73.948578
+17CVCP053K,566 Grand Street,Brooklyn,566 Grand Street,Block: 2785Lot:27 ...,Active (A),11211-3503,40.710972,-73.949196
+21CVCP053K,209 North 11th Street,Brooklyn,209 NORTH 11TH STREET,Block: 2292Lot:29,Active (A),11211-1112,40.719051,-73.9533
+22CVCP034K,Greenpoint Landing E1,Brooklyn,16 DUPONT STREET,Block: 2494Lot:6 ...,Active (A),11222-7283,40.736118,-73.959747
+23CVCP009K,88 North 1st Street,Brooklyn,88 North 1st Street,Block: 2379Lot:9,Active (A),11249-3936,40.716053,-73.963463
+21CVCP041K,584 4th Avenue,Brooklyn,584 4th Avenue,Block: 1051Lot:39,Active (A),11215-5307,40.665909,-73.99295
+20CVCP067K,886 Broadway,Brooklyn,886 BROADWAY,Block: 1582Lot:15 ...,Completed (C),11206-5901,40.697868,-73.937393
+21CVCP014K,590-594 Myrtle Avenue,Brooklyn,590-594 MYRTLE AVENUE,Block: 1910Lot:25 ...,Completed (C),11205-5325,40.693851,-73.960693
+22CVCP007K,639-641 East 28th Street,Brooklyn,639-641 EAST 28TH STREET,Block: 5251Lot:14 ...,Active (A),11210-2425,40.635139,-73.949562

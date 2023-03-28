@@ -1,0 +1,295 @@
+street_address,sample_id,parameter,ppbv_result,ppbv_rl,ug_m3_result,ug_m3_rl,date_time,by,lab
+SV 635 4th Ave,SS-1,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"1,1,1-Trichloroethane",0.35,0.183,1.91,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"1,1-Dichloroethane",ND,0.247,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"1,1-Dichloroethene",ND,0.252,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"1,2,4-Trimethylbenzene",0.95,0.204,4.67,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"1,2-Dichloroethane",ND,0.247,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"1,2-dichloropropane",ND,0.216,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"1,3,5-Trimethylbenzene",0.23,0.204,1.13,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"1,3-Butadiene",ND,0.452,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"1,4-Dioxane",ND,0.278,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,2-Hexanone(MBK),ND,0.244,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,4-Ethyltoluene,ND,0.204,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,4-Isopropyltoluene,ND,0.182,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Acetone,5.69,0.421,13.5,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Acrylonitrile,ND,0.461,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Benzene,ND,0.313,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Benzyl chloride,ND,0.193,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Bromodichloromethane,ND,0.149,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Bromoform,ND,0.097,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Bromomethane,ND,0.258,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Carbon Disulfide,ND,0.321,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Carbon Tetrachloride,0.07,0.040,0.440,0.25,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Chlorobenzene,ND,0.217,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Chloroethane,ND,0.379,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Chloroform,1.64,0.205,8.00,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Chloromethane,ND,0.484,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Cyclohexane,0.3,0.291,1.03,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Dibromochloromethane,ND,0.117,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Dichlorodifluoromethane,0.37,0.202,1.83,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Ethanol,10.1,0.531,19.0,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Ethyl acetate,1.72,0.278,6.19,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Ethylbenzene,0.64,0.230,2.78,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Heptane,ND,0.244,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Hexachlorobutadiene,ND,0.094,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Hexane,ND,0.284,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Isopropylalcohol,ND,0.407,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Isopropylbenzene,ND,0.204,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"m,p-Xylene",2.02,0.230,8.76,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Methyl Ethyl Ketone,0.52,0.339,1.53,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Methylene Chloride,ND,0.288,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,n-Butylbenzene,ND,0.182,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,o-Xylene,0.83,0.230,3.60,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Propylene,ND,0.581,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,sec-Butylbenzene,ND,0.182,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Styrene,0.44,0.235,1.87,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Tetrachloroethene,4.47,0.037,30.3,0.25,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Tetrahydrofuran,1.06,0.339,3.12,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Toluene,1.95,0.266,7.34,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Trichloroethene,11.7,0.047,62.8,0.25,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Trichlorofluoromethane,0.26,0.178,1.46,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,Vinyl Chloride,ND,0.098,ND,0.25,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-1,% Bromofluorobenzene,104,%,104,%,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"1,1,1-Trichloroethane",0.29,0.183,1.58,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"1,1-Dichloroethane",ND,0.247,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"1,1-Dichloroethene",ND,0.252,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"1,2,4-Trimethylbenzene",1.01,0.204,4.96,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"1,2-Dichloroethane",ND,0.247,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"1,2-dichloropropane",ND,0.216,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"1,3,5-Trimethylbenzene",0.25,0.204,1.23,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"1,3-Butadiene",ND,0.452,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"1,4-Dioxane",ND,0.278,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,2-Hexanone(MBK),ND,0.244,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,4-Ethyltoluene,0.22,0.204,1.08,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,4-Isopropyltoluene,ND,0.182,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Acetone,5.74,0.421,13.6,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Acrylonitrile,ND,0.461,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Benzene,ND,0.313,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Benzyl chloride,ND,0.193,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Bromodichloromethane,ND,0.149,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Bromoform,ND,0.097,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Bromomethane,ND,0.258,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Carbon Disulfide,ND,0.321,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Carbon Tetrachloride,0.1,0.040,0.629,0.25,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Chlorobenzene,ND,0.217,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Chloroethane,ND,0.379,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Chloroform,2.44,0.205,11.9,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Chloromethane,ND,0.484,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Cyclohexane,0.35,0.291,1.20,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Dibromochloromethane,ND,0.117,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Dichlorodifluoromethane,0.57,0.202,2.82,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Ethanol,10.1,0.531,19.0,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Ethyl acetate,0.79,0.278,2.84,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Ethylbenzene,0.67,0.230,2.91,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Heptane,ND,0.244,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Hexachlorobutadiene,ND,0.094,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Hexane,ND,0.284,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Isopropylalcohol,ND,0.407,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Isopropylbenzene,ND,0.204,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"m,p-Xylene",2.21,0.230,9.59,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Methyl Ethyl Ketone,0.46,0.339,1.36,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Methylene Chloride,ND,0.288,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,n-Butylbenzene,ND,0.182,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,o-Xylene,0.91,0.230,3.95,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Propylene,ND,0.581,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,sec-Butylbenzene,ND,0.182,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Styrene,0.46,0.235,1.96,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Tetrachloroethene,1.28,0.037,8.68,0.25,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Tetrahydrofuran,1.03,0.339,3.04,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Toluene,1.65,0.266,6.21,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Trichloroethene,2.44,0.047,13.1,0.25,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Trichlorofluoromethane,0.33,0.178,1.85,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,Vinyl Chloride,ND,0.098,ND,0.25,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SS-2,% Bromofluorobenzene,100,%,100,%,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"1,1,1-Trichloroethane",0.46,0.183,2.51,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"1,1-Dichloroethane",ND,0.247,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"1,1-Dichloroethene",ND,0.252,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"1,2,4-Trimethylbenzene",11.8,0.204,58.0,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"1,2-Dichloroethane",ND,0.247,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"1,2-dichloropropane",ND,0.216,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"1,3,5-Trimethylbenzene",3.63,0.204,17.8,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"1,3-Butadiene",ND,0.452,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"1,4-Dioxane",ND,0.278,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,2-Hexanone(MBK),ND,0.244,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,4-Ethyltoluene,1.82,0.204,8.94,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,4-Isopropyltoluene,0.22,0.182,1.21,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Acetone,28.2,0.421,66.9,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Acrylonitrile,ND,0.461,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Benzene,ND,0.313,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Benzyl chloride,ND,0.193,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Bromodichloromethane,ND,0.149,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Bromoform,ND,0.097,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Bromomethane,ND,0.258,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Carbon Disulfide,0.76,0.321,2.36,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Carbon Tetrachloride,0.06,0.040,0.377,0.25,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Chlorobenzene,ND,0.217,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Chloroethane,ND,0.379,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Chloroform,5.35,0.205,26.1,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Chloromethane,ND,0.484,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Cyclohexane,ND,0.291,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Dibromochloromethane,ND,0.117,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Dichlorodifluoromethane,0.48,0.202,2.37,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Ethanol,6.45,0.531,12.1,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Ethyl acetate,ND,0.278,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Ethylbenzene,4.15,0.230,18.0,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Heptane,0.43,0.244,1.76,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Hexachlorobutadiene,ND,0.094,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Hexane,ND,0.284,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Isopropylalcohol,ND,0.407,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Isopropylbenzene,0.69,0.204,3.39,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"m,p-Xylene",16.2,0.230,70.3,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Methyl Ethyl Ketone,0.43,0.339,1.27,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Methylene Chloride,ND,0.288,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,n-Butylbenzene,0.63,0.182,3.46,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,o-Xylene,8.14,0.230,35.3,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Propylene,ND,0.581,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,sec-Butylbenzene,ND,0.182,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Styrene,0.8,0.235,3.40,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Tetrachloroethene,1.65,0.037,11.2,0.25,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Tetrahydrofuran,ND,0.339,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Toluene,4.83,0.266,18.2,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Trichloroethene,0.17,0.047,0.913,0.25,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Trichlorofluoromethane,0.24,0.178,1.35,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,Vinyl Chloride,ND,0.098,ND,0.25,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-1,% Bromofluorobenzene,100,%,100,%,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"1,1-Dichloroethane",ND,0.247,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"1,1-Dichloroethene",ND,0.252,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"1,2,4-Trimethylbenzene",11.3,0.204,55.5,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"1,2-Dichloroethane",ND,0.247,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"1,2-dichloropropane",ND,0.216,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"1,3,5-Trimethylbenzene",3.49,0.204,17.1,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"1,3-Butadiene",ND,0.452,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"1,4-Dioxane",ND,0.278,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,2-Hexanone(MBK),ND,0.244,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,4-Ethyltoluene,1.82,0.204,8.94,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,4-Isopropyltoluene,0.25,0.182,1.37,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Acetone,26.1,0.421,62.0,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Acrylonitrile,ND,0.461,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Benzene,ND,0.313,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Benzyl chloride,ND,0.193,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Bromodichloromethane,ND,0.149,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Bromoform,ND,0.097,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Bromomethane,ND,0.258,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Carbon Disulfide,ND,0.321,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Carbon Tetrachloride,0.06,0.040,0.377,0.25,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Chlorobenzene,ND,0.217,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Chloroethane,ND,0.379,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Chloroform,0.89,0.205,4.34,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Chloromethane,ND,0.484,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Cyclohexane,ND,0.291,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Dibromochloromethane,ND,0.117,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Dichlorodifluoromethane,0.38,0.202,1.88,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Ethanol,6.72,0.531,12.6,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Ethyl acetate,ND,0.278,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Ethylbenzene,4.07,0.230,17.7,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Heptane,0.42,0.244,1.72,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Hexachlorobutadiene,ND,0.094,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Hexane,ND,0.284,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Isopropylalcohol,ND,0.407,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Isopropylbenzene,0.66,0.204,3.24,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"m,p-Xylene",15.8,0.230,68.6,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Methyl Ethyl Ketone,0.52,0.339,1.53,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Methylene Chloride,ND,0.288,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,n-Butylbenzene,0.49,0.182,2.69,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,o-Xylene,7.98,0.230,34.6,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Propylene,0.72,0.581,1.24,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,sec-Butylbenzene,0.19,0.182,1.04,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Styrene,0.56,0.235,2.38,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Tetrachloroethene,0.96,0.037,6.51,0.25,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Tetrahydrofuran,ND,0.339,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Toluene,4.91,0.266,18.5,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Trichloroethene,0.37,0.047,1.99,0.25,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Trichlorofluoromethane,0.29,0.178,1.63,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,Vinyl Chloride,ND,0.098,ND,0.25,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-2,% Bromofluorobenzene,104,%,104,%,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,"1,1-Dichloroethane",ND,0.247,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,"1,1-Dichloroethene",ND,0.252,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,"1,2,4-Trimethylbenzene",0.26,0.204,1.28,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,"1,2-Dichloroethane",ND,0.247,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,"1,2-dichloropropane",ND,0.216,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,"1,3,5-Trimethylbenzene",ND,0.204,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,"1,3-Butadiene",ND,0.452,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,"1,4-Dioxane",ND,0.278,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,2-Hexanone(MBK),ND,0.244,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,4-Ethyltoluene,ND,0.204,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,4-Isopropyltoluene,ND,0.182,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,Acetone,155,0.421,368,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,Acrylonitrile,ND,0.461,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,Benzene,ND,0.313,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix
+SV 635 4th Ave,SG-3,Benzyl chloride,ND,0.193,ND,1.00,2013-12-31T05:00:00Z,KCA,phoenix

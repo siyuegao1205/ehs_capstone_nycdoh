@@ -1,0 +1,202 @@
+street_address,sample_id,parameter,ppbv_result,ppbv_rl,ug_m3_result,ug_m3_rl,date_time,by,lab
+SV 5111 4th Avenue,SG-1,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"1,1-Dichloroethane",ND,0.247,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"1,1-Dichloroethene",ND,0.252,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"1,2,4-Trimethylbenzene",1.99,0.204,9.8,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"1,2-Dichloroethane",ND,0.247,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"1,2-dichloropropane",ND,0.217,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"1,3,5-Trimethylbenzene",0.503,0.204,2.47,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"1,3-Butadiene",ND,0.452,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"1,3-Dichlorobenzene",1.25,0.166,7.51,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"1,4-Dioxane",ND,0.278,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,2-Hexanone(MBK),ND,0.244,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,4-Ethyltoluene,0.341,0.204,1.68,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,4-Isopropyltoluene,ND,0.182,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Acetone,ND,0.421,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Acrylonitrile,ND,0.461,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Benzene,0.558,0.313,1.78,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Benzyl chloride,ND,0.193,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Bromodichloromethane,ND,0.149,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Bromoform,ND,0.097,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Bromomethane,ND,0.258,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Carbon Disulfide,0.342,0.321,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Carbon Tetrachloride,0.113,0.040,NA,0.25,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Chlorobenzene,ND,0.217,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Chloroethane,ND,0.379,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Chloroform,1.26,0.205,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Chloromethane,ND,0.485,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"Cis-1,2-Dichloroethene",ND,0.252,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"cis-1,3-Dichloropropene",ND,0.221,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Cyclohexane,ND,0.291,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Dibromochloromethane,ND,0.118,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Dichlorodifluoromethane,0.467,0.202,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Ethanol,84.1    SE,0.531,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Ethyl acetate,6.52,0.278,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Ethylbenzene,1.05,0.230,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Heptane,0.443,0.244,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Hexachlorobutadiene,ND,0.094,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Hexane,0.598      S,0.284,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Isopropylalcohol,77.8    SE,0.407,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Isopropylbenzene,ND,0.204,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"m,p-Xylene",4.20,0.230,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Methyl Ethyl Ketone,2.02,0.339,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Methyl tert-butyl ether(MTBE),ND,0.278,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Methylene Chloride,0.380      S,0.288,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,n-Butylbenzene,0.263,0.182,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,o-Xylene,1.48,0.230,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Propylene,0.914,0.581,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,sec-Butylbenzene,ND,0.182,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Styrene,ND,0.235,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Tetrachloroethene,0.204,0.037,NA,0.25,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Tetrahydrofuran,ND,0.339,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Toluene,1.70,0.266,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"Trans-1,2-Dichloroethene",ND,0.252,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,"trans-1,3-Dichloropropene",ND,0.221,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Trichloroethene,0.067,0.047,NA,0.25,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Trichlorofluoromethane,0.199,0.178,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Trichlorotrifluoroethane,ND,0.131,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,Vinyl Chloride,ND,0.098,NA,0.25,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-1,% Bromofluorobenzene,98,%,NA,%,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"1,1-Dichloroethane",ND,0.247,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"1,1-Dichloroethene",ND,0.252,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"1,2,4-Trimethylbenzene",0.861,0.204,4.23,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"1,2-Dichloroethane",ND,0.247,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"1,2-dichloropropane",ND,0.217,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"1,3,5-Trimethylbenzene",ND,0.204,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"1,3-Butadiene",ND,0.452,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"1,3-Dichlorobenzene",1.11,0.166,6.67,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"1,4-Dioxane",ND,0.278,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,2-Hexanone(MBK),ND,0.244,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,4-Ethyltoluene,ND,0.204,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,4-Isopropyltoluene,ND,0.182,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Acetone,7.41,0.421,17.6,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Acrylonitrile,ND,0.461,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Benzene,0.367,0.313,1.17,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Benzyl chloride,ND,0.193,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Bromodichloromethane,ND,0.149,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Bromoform,ND,0.097,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Bromomethane,ND,0.258,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Carbon Disulfide,ND,0.321,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Carbon Tetrachloride,0.057,0.040,NA,0.25,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Chlorobenzene,ND,0.217,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Chloroethane,ND,0.379,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Chloroform,ND,0.205,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Chloromethane,ND,0.485,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"Cis-1,2-Dichloroethene",ND,0.252,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"cis-1,3-Dichloropropene",ND,0.221,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Cyclohexane,ND,0.291,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Dibromochloromethane,ND,0.118,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Dichlorodifluoromethane,0.514,0.202,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Ethanol,69.1    SE,0.531,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Ethyl acetate,4.91,0.278,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Ethylbenzene,1.43,0.230,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Heptane,0.324,0.244,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Hexachlorobutadiene,ND,0.094,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Hexane,0.291      S,0.284,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Isopropylalcohol,64.5    SE,0.407,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Isopropylbenzene,ND,0.204,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"m,p-Xylene",5.71,0.230,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Methyl Ethyl Ketone,1.25,0.339,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Methyl tert-butyl ether(MTBE),ND,0.278,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Methylene Chloride,ND,0.288,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,n-Butylbenzene,ND,0.182,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,o-Xylene,1.72,0.230,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Propylene,ND,0.581,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,sec-Butylbenzene,ND,0.182,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Styrene,ND,0.235,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Tetrachloroethene,0.193,0.037,NA,0.25,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Tetrahydrofuran,ND,0.339,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Toluene,1.63,0.266,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"Trans-1,2-Dichloroethene",ND,0.252,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,"trans-1,3-Dichloropropene",ND,0.221,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Trichloroethene,ND,0.047,NA,0.25,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Trichlorofluoromethane,0.221,0.178,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Trichlorotrifluoroethane,ND,0.131,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,Vinyl Chloride,ND,0.098,NA,0.25,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-2,% Bromofluorobenzene,96,%,NA,%,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"1,1-Dichloroethane",ND,0.247,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"1,1-Dichloroethene",ND,0.252,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"1,2,4-Trimethylbenzene",0.691,0.204,3.39,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"1,2-Dichloroethane",ND,0.247,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"1,2-dichloropropane",ND,0.217,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"1,3,5-Trimethylbenzene",ND,0.204,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"1,3-Butadiene",ND,0.452,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"1,3-Dichlorobenzene",1.32,0.166,7.93,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"1,4-Dioxane",ND,0.278,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,2-Hexanone(MBK),ND,0.244,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,4-Ethyltoluene,ND,0.204,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,4-Isopropyltoluene,ND,0.182,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Acetone,13.3,0.421,31.6,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Acrylonitrile,ND,0.461,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Benzene,0.764,0.313,2.44,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Benzyl chloride,ND,0.193,ND,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Bromodichloromethane,ND,0.149,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Bromoform,ND,0.097,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Bromomethane,ND,0.258,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Carbon Disulfide,1.23,0.321,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Carbon Tetrachloride,0.074,0.040,NA,0.25,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Chlorobenzene,ND,0.217,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Chloroethane,ND,0.379,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Chloroform,9.15,0.205,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Chloromethane,ND,0.485,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"Cis-1,2-Dichloroethene",ND,0.252,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"cis-1,3-Dichloropropene",ND,0.221,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Cyclohexane,0.458,0.291,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Dibromochloromethane,ND,0.118,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Dichlorodifluoromethane,0.544,0.202,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Ethanol,125     SE,0.531,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Ethyl acetate,8.34,0.278,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Ethylbenzene,0.651,0.230,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Heptane,2.62,0.244,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Hexachlorobutadiene,ND,0.094,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Hexane,2.90       S,0.284,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Isopropylalcohol,121     SE,0.407,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Isopropylbenzene,ND,0.204,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"m,p-Xylene",2.49,0.230,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Methyl Ethyl Ketone,2.37,0.339,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Methyl tert-butyl ether(MTBE),ND,0.278,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Methylene Chloride,ND,0.288,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,n-Butylbenzene,ND,0.182,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,o-Xylene,0.828,0.230,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Propylene,1.80,0.581,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,sec-Butylbenzene,ND,0.182,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Styrene,ND,0.235,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Tetrachloroethene,0.103,0.037,NA,0.25,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Tetrahydrofuran,ND,0.339,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Toluene,1.65,0.266,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"Trans-1,2-Dichloroethene",ND,0.252,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,"trans-1,3-Dichloropropene",ND,0.221,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Trichloroethene,ND,0.047,NA,0.25,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Trichlorofluoromethane,0.238,0.178,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Trichlorotrifluoroethane,ND,0.131,NA,1.00,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,Vinyl Chloride,ND,0.098,NA,0.25,2015-02-28T05:00:00Z,KCA,phoenix
+SV 5111 4th Avenue,SG-3,% Bromofluorobenzene,102,%,NA,%,2015-02-28T05:00:00Z,KCA,phoenix

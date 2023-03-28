@@ -1,4 +1,4 @@
-street_address,sample_id,parameter,ppbv_result,ppbv_rl,ug_m3_result,ug_m3__rl,date_time,by,lab
+street_address,sample_id,parameter,ppbv_result,ppbv_rl,ug_m3_result,ug_m3_rl,date_time,by,lab
 SV 153 Lorimer Street,SG1,"1,1,1,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
 SV 153 Lorimer Street,SG1,"1,1,1-Trichloroethane",ND,0.183,ND,1,2013-09-04T04:00:00Z,KCA,phoenix
 SV 153 Lorimer Street,SG1,"1,1,2,2-Tetrachloroethane",ND,0.14599999999999999,ND,1,2013-09-04T04:00:00Z,KCA,phoenix

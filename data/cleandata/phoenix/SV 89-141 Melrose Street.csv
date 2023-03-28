@@ -1,0 +1,872 @@
+street_address,sample_id,parameter,ppbv_result,ppbv_rl,ug_m3_result,ug_m3_rl,date_time,by,lab
+SV 89-141 Melrose Street,SG 12,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"1,1,1-Trichloroethane",1.09,0.183,5.94,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"1,1-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"1,2,4-Trimethylbenzene",2.45,0.204,12.0,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"1,3,5-Trimethylbenzene",0.74,0.204,3.64,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"1,3-Butadiene",ND,0.452,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"1,3-Dichlorobenzene",0.47,0.166,2.82,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"1,4-Dioxane",ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,2-Hexanone(MBK),5.44,0.244,22.3,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,4-Ethyltoluene,0.47,0.204,2.31,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,4-Isopropyltoluene,0.28,0.182,1.54,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Acetone,526,0.421,1250,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Acrylonitrile,ND,0.461,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Benzene,ND,0.313,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Benzyl chloride,ND,0.193,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Bromodichloromethane,ND,0.149,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Bromoform,ND,0.097,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Bromomethane,ND,0.258,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Carbon Disulfide,0.39,0.321,1.21,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Carbon Tetrachloride,ND,0.040,ND,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Chlorobenzene,ND,0.217,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Chloroethane,ND,0.379,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Chloroform,ND,0.205,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Chloromethane,ND,0.484,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Cyclohexane,ND,0.291,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Dibromochloromethane,ND,0.117,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Dichlorodifluoromethane,0.41,0.202,2.03,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Ethanol,101,0.531,190,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Ethyl acetate,ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Ethylbenzene,0.78,0.230,3.38,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Heptane,2.78,0.244,11.4,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Hexane,1.79,0.284,6.30,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Isopropylalcohol,122,0.407,300,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Isopropylbenzene,ND,0.204,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"m,p-Xylene",2.53,0.230,11.0,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Methyl Ethyl Ketone,72.8,0.339,214,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Methylene Chloride,0.43,0.288,1.49,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,n-Butylbenzene,0.4,0.182,2.19,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,o-Xylene,1.06,0.230,4.60,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Propylene,39.9,0.581,68.6,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,sec-Butylbenzene,ND,0.182,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Styrene,ND,0.235,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Tetrachloroethene,1.74,0.037,11.8,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Tetrahydrofuran,ND,0.339,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Toluene,2.62,0.266,9.87,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Trichloroethene,2.36,0.047,12.7,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Trichlorofluoromethane,2.02,0.178,11.3,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,Vinyl Chloride,ND,0.098,ND,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 12,% Bromofluorobenzene,105,%,105,%,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"1,1,1-Trichloroethane",0.49,0.183,2.67,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"1,1-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"1,2,4-Trimethylbenzene",1.33,0.204,6.53,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"1,3,5-Trimethylbenzene",0.43,0.204,2.11,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"1,3-Butadiene",ND,0.452,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"1,4-Dioxane",ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,2-Hexanone(MBK),ND,0.244,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,4-Ethyltoluene,0.27,0.204,1.33,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,4-Isopropyltoluene,ND,0.182,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,4-Methyl-2-pentanone(MIBK),0.25,0.244,1.02,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Acetone,106,0.421,252,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Acrylonitrile,ND,0.461,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Benzene,ND,0.313,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Benzyl chloride,ND,0.193,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Bromodichloromethane,ND,0.149,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Bromoform,ND,0.097,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Bromomethane,ND,0.258,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Carbon Disulfide,ND,0.321,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Carbon Tetrachloride,0.04,0.040,0.251,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Chlorobenzene,ND,0.217,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Chloroethane,ND,0.379,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Chloroform,ND,0.205,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Chloromethane,ND,0.484,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Cyclohexane,ND,0.291,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Dibromochloromethane,ND,0.117,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Dichlorodifluoromethane,0.51,0.202,2.52,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Ethanol,20.9,0.531,39.4,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Ethyl acetate,0.46,0.278,1.66,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Ethylbenzene,0.54,0.230,2.34,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Heptane,1.14,0.244,4.67,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Hexane,3.48,0.284,12.2,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Isopropylalcohol,9.88,0.407,24.3,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Isopropylbenzene,ND,0.204,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"m,p-Xylene",1.73,0.230,7.51,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Methyl Ethyl Ketone,14,0.339,41.3,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Methylene Chloride,0.77,0.288,2.67,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,n-Butylbenzene,0.22,0.182,1.21,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,o-Xylene,0.61,0.230,2.65,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Propylene,4.41,0.581,7.58,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,sec-Butylbenzene,ND,0.182,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Styrene,ND,0.235,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Tetrachloroethene,0.37,0.037,2.51,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Tetrahydrofuran,ND,0.339,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Toluene,2.72,0.266,10.2,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Trichloroethene,0.22,0.047,1.18,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Trichlorofluoromethane,0.65,0.178,3.65,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,Vinyl Chloride,ND,0.098,ND,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 15,% Bromofluorobenzene,105,%,105,%,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"1,1,1-Trichloroethane",2.09,0.183,11.4,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"1,1-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"1,2,4-Trimethylbenzene",2.22,0.204,10.9,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"1,3,5-Trimethylbenzene",0.73,0.204,3.59,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"1,3-Butadiene",ND,0.452,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"1,3-Dichlorobenzene",0.45,0.166,2.70,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"1,4-Dioxane",ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,2-Hexanone(MBK),ND,0.244,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,4-Ethyltoluene,0.39,0.204,1.92,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,4-Isopropyltoluene,0.28,0.182,1.54,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,4-Methyl-2-pentanone(MIBK),0.33,0.244,1.35,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Acetone,86.9,0.421,206,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Acrylonitrile,ND,0.461,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Benzene,ND,0.313,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Benzyl chloride,ND,0.193,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Bromodichloromethane,ND,0.149,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Bromoform,ND,0.097,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Bromomethane,ND,0.258,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Carbon Disulfide,ND,0.321,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Carbon Tetrachloride,0.06,0.040,0.377,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Chlorobenzene,ND,0.217,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Chloroethane,ND,0.379,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Chloroform,0.21,0.205,1.02,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Chloromethane,ND,0.484,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Cyclohexane,ND,0.291,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Dibromochloromethane,ND,0.117,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Dichlorodifluoromethane,0.5,0.202,2.47,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Ethanol,27.4,0.531,51.6,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Ethyl acetate,0.45,0.278,1.62,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Ethylbenzene,0.55,0.230,2.39,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Heptane,0.6,0.244,2.46,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Hexane,1.16,0.284,4.09,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Isopropylalcohol,9.81,0.407,24.1,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Isopropylbenzene,ND,0.204,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"m,p-Xylene",1.93,0.230,8.38,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Methyl Ethyl Ketone,12.2,0.339,36.0,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Methylene Chloride,1.3,0.288,4.51,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,n-Butylbenzene,0.38,0.182,2.08,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,o-Xylene,0.72,0.230,3.12,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Propylene,5.83,0.581,10.0,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,sec-Butylbenzene,ND,0.182,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Styrene,ND,0.235,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Tetrachloroethene,62.2,0.037,422,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Tetrahydrofuran,ND,0.339,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Toluene,1.92,0.266,7.23,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Trichloroethene,2.07,0.047,11.1,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Trichlorofluoromethane,0.45,0.178,2.53,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,Vinyl Chloride,ND,0.098,ND,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 14,% Bromofluorobenzene,109,%,109,%,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"1,1,1-Trichloroethane",0.65,0.183,3.54,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"1,1-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"1,2,4-Trimethylbenzene",1.87,0.204,9.19,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"1,3,5-Trimethylbenzene",0.58,0.204,2.85,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"1,3-Butadiene",ND,0.452,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"1,4-Dioxane",ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,2-Hexanone(MBK),ND,0.244,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,4-Ethyltoluene,0.35,0.204,1.72,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,4-Isopropyltoluene,0.22,0.182,1.21,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,4-Methyl-2-pentanone(MIBK),0.29,0.244,1.19,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Acetone,8.79,0.421,20.9,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Acrylonitrile,ND,0.461,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Benzene,0.35,0.313,1.12,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Benzyl chloride,ND,0.193,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Bromodichloromethane,ND,0.149,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Bromoform,ND,0.097,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Bromomethane,ND,0.258,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Carbon Disulfide,ND,0.321,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Carbon Tetrachloride,0.2,0.040,1.26,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Chlorobenzene,ND,0.217,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Chloroethane,ND,0.379,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Chloroform,0.82,0.205,4.00,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Chloromethane,0.81,0.484,1.67,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Cyclohexane,ND,0.291,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Dibromochloromethane,ND,0.117,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Dichlorodifluoromethane,6.09,0.202,30.1,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Ethanol,58.3,0.531,110,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Ethyl acetate,0.76,0.278,2.74,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Ethylbenzene,0.47,0.230,2.04,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Heptane,0.36,0.244,1.47,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Hexane,8.66,0.284,30.5,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Isopropylalcohol,17.9,0.407,44.0,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Isopropylbenzene,ND,0.204,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"m,p-Xylene",1.61,0.230,6.99,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Methyl Ethyl Ketone,1.32,0.339,3.89,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Methylene Chloride,6.12,0.288,21.2,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,n-Butylbenzene,0.29,0.182,1.59,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,o-Xylene,0.62,0.230,2.69,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Propylene,1.19,0.581,2.05,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,sec-Butylbenzene,ND,0.182,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Styrene,ND,0.235,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Tetrachloroethene,0.07,0.037,0.474,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Tetrahydrofuran,0.36,0.339,1.06,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Toluene,1.95,0.266,7.34,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Trichloroethene,ND,0.047,ND,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Trichlorofluoromethane,0.44,0.178,2.47,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,Vinyl Chloride,ND,0.098,ND,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 7,% Bromofluorobenzene,103,%,103,%,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"1,1,1-Trichloroethane",1.01,0.183,5.51,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"1,1-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"1,2,4-Trimethylbenzene",1.36,0.204,6.68,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"1,3,5-Trimethylbenzene",0.45,0.204,2.21,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"1,3-Butadiene",ND,0.452,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"1,3-Dichlorobenzene",0.24,0.166,1.44,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"1,4-Dioxane",ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,2-Hexanone(MBK),ND,0.244,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,4-Ethyltoluene,0.28,0.204,1.38,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,4-Isopropyltoluene,ND,0.182,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,4-Methyl-2-pentanone(MIBK),0.26,0.244,1.06,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Acetone,4.69,0.421,11.1,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Acrylonitrile,ND,0.461,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Benzene,ND,0.313,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Benzyl chloride,ND,0.193,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Bromodichloromethane,ND,0.149,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Bromoform,ND,0.097,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Bromomethane,ND,0.258,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Carbon Disulfide,ND,0.321,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Carbon Tetrachloride,0.09,0.040,0.566,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Chlorobenzene,ND,0.217,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Chloroethane,ND,0.379,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Chloroform,0.47,0.205,2.29,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Chloromethane,ND,0.484,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Cyclohexane,7.72,0.291,26.6,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Dibromochloromethane,ND,0.117,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Dichlorodifluoromethane,0.4,0.202,1.98,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Ethanol,24.3,0.531,45.8,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Ethyl acetate,0.31,0.278,1.12,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Ethylbenzene,0.33,0.230,1.43,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Heptane,0.51,0.244,2.09,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Hexane,0.65,0.284,2.29,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Isopropylalcohol,10.2,0.407,25.0,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Isopropylbenzene,ND,0.204,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"m,p-Xylene",1.1,0.230,4.77,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Methyl Ethyl Ketone,0.64,0.339,1.89,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Methylene Chloride,1.05,0.288,3.64,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,n-Butylbenzene,0.25,0.182,1.37,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,o-Xylene,0.41,0.230,1.78,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Propylene,1.23,0.581,2.12,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,sec-Butylbenzene,ND,0.182,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Styrene,ND,0.235,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Tetrachloroethene,0.19,0.037,1.29,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Tetrahydrofuran,ND,0.339,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Toluene,4.66,0.266,17.6,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Trichloroethene,0.77,0.047,4.14,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Trichlorofluoromethane,4.21,0.178,23.6,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,Vinyl Chloride,ND,0.098,ND,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,BSG 16,% Bromofluorobenzene,109,%,109,%,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"1,1,1-Trichloroethane",3.28,0.183,17.9,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"1,1-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"1,2,4-Trimethylbenzene",1.51,0.204,7.42,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"1,3,5-Trimethylbenzene",0.5,0.204,2.46,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"1,3-Butadiene",ND,0.452,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"1,4-Dioxane",ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,2-Hexanone(MBK),ND,0.244,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,4-Ethyltoluene,0.29,0.204,1.42,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,4-Isopropyltoluene,0.19,0.182,1.04,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,4-Methyl-2-pentanone(MIBK),0.33,0.244,1.35,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Acetone,43.4,0.421,103,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Acrylonitrile,ND,0.461,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Benzene,ND,0.313,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Benzyl chloride,ND,0.193,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Bromodichloromethane,ND,0.149,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Bromoform,ND,0.097,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Bromomethane,ND,0.258,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Carbon Disulfide,ND,0.321,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Carbon Tetrachloride,1.85,0.040,11.6,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Chlorobenzene,ND,0.217,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Chloroethane,ND,0.379,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Chloroform,1.14,0.205,5.56,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Chloromethane,ND,0.484,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Cyclohexane,ND,0.291,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Dibromochloromethane,ND,0.117,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Dichlorodifluoromethane,3.77,0.202,18.6,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Ethanol,39.4,0.531,74.2,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Ethyl acetate,0.51,0.278,1.84,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Ethylbenzene,0.42,0.230,1.82,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Heptane,0.48,0.244,1.96,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Hexane,0.68,0.284,2.40,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Isopropylalcohol,11.2,0.407,27.5,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Isopropylbenzene,ND,0.204,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"m,p-Xylene",1.36,0.230,5.90,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Methyl Ethyl Ketone,5.65,0.339,16.6,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Methylene Chloride,0.72,0.288,2.50,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,n-Butylbenzene,ND,0.182,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,o-Xylene,0.51,0.230,2.21,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Propylene,7.52,0.581,12.9,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,sec-Butylbenzene,ND,0.182,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Styrene,ND,0.235,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Tetrachloroethene,0.08,0.037,0.542,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Tetrahydrofuran,ND,0.339,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Toluene,2.15,0.266,8.10,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Trichloroethene,0.28,0.047,1.50,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Trichlorofluoromethane,0.5,0.178,2.81,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,Vinyl Chloride,ND,0.098,ND,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 8,% Bromofluorobenzene,106,%,106,%,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"1,1,1-Trichloroethane",1.73,0.183,9.43,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"1,1-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"1,2,4-Trimethylbenzene",1.41,0.204,6.93,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"1,3,5-Trimethylbenzene",0.46,0.204,2.26,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"1,3-Butadiene",ND,0.452,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"1,3-Dichlorobenzene",0.19,0.166,1.14,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"1,4-Dioxane",ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,2-Hexanone(MBK),ND,0.244,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,4-Ethyltoluene,0.24,0.204,1.18,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,4-Isopropyltoluene,ND,0.182,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,4-Methyl-2-pentanone(MIBK),0.31,0.244,1.27,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Acetone,5.33,0.421,12.6,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Acrylonitrile,ND,0.461,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Benzene,ND,0.313,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Benzyl chloride,ND,0.193,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Bromodichloromethane,ND,0.149,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Bromoform,ND,0.097,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Bromomethane,ND,0.258,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Carbon Disulfide,ND,0.321,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Carbon Tetrachloride,0.08,0.040,0.503,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Chlorobenzene,ND,0.217,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Chloroethane,ND,0.379,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Chloroform,3.4,0.205,16.6,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Chloromethane,ND,0.484,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Cyclohexane,4.56,0.291,15.7,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Dibromochloromethane,ND,0.117,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Dichlorodifluoromethane,1.26,0.202,6.23,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Ethanol,20.9,0.531,39.4,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Ethyl acetate,0.38,0.278,1.37,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Ethylbenzene,0.34,0.230,1.48,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Heptane,1.02,0.244,4.18,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Hexane,0.96,0.284,3.38,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Isopropylalcohol,7.22,0.407,17.7,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Isopropylbenzene,ND,0.204,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"m,p-Xylene",1.13,0.230,4.90,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Methyl Ethyl Ketone,0.6,0.339,1.77,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Methylene Chloride,0.95,0.288,3.30,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,n-Butylbenzene,0.25,0.182,1.37,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,o-Xylene,0.43,0.230,1.86,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Propylene,2.39,0.581,4.11,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,sec-Butylbenzene,ND,0.182,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Styrene,ND,0.235,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Tetrachloroethene,0.18,0.037,1.22,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Tetrahydrofuran,ND,0.339,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Toluene,6.67,0.266,25.1,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Trichloroethene,0.61,0.047,3.28,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Trichlorofluoromethane,4.13,0.178,23.2,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,Vinyl Chloride,ND,0.098,ND,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 4,% Bromofluorobenzene,106,%,106,%,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"1,1-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"1,2,4-Trimethylbenzene",1.16,0.204,5.70,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"1,3,5-Trimethylbenzene",0.39,0.204,1.92,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"1,3-Butadiene",ND,0.452,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"1,3-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"1,4-Dioxane",ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,2-Hexanone(MBK),ND,0.244,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,4-Ethyltoluene,0.24,0.204,1.18,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,4-Isopropyltoluene,ND,0.182,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Acetone,10,0.421,23.7,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Acrylonitrile,ND,0.461,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Benzene,ND,0.313,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Benzyl chloride,ND,0.193,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Bromodichloromethane,ND,0.149,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Bromoform,ND,0.097,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Bromomethane,ND,0.258,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Carbon Disulfide,ND,0.321,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Carbon Tetrachloride,0.05,0.040,0.314,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Chlorobenzene,ND,0.217,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Chloroethane,ND,0.379,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Chloroform,ND,0.205,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Chloromethane,ND,0.484,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Cyclohexane,ND,0.291,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Dibromochloromethane,ND,0.117,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Dichlorodifluoromethane,0.42,0.202,2.08,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Ethanol,8.4,0.531,15.8,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Ethyl acetate,ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Ethylbenzene,0.32,0.230,1.39,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Heptane,ND,0.244,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Hexane,ND,0.284,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Isopropylalcohol,3.1,0.407,7.62,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Isopropylbenzene,ND,0.204,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"m,p-Xylene",1.04,0.230,4.51,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Methyl Ethyl Ketone,0.68,0.339,2.00,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Methylene Chloride,ND,0.288,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,n-Butylbenzene,0.19,0.182,1.04,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,o-Xylene,0.37,0.230,1.60,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Propylene,ND,0.581,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,sec-Butylbenzene,ND,0.182,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Styrene,ND,0.235,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Tetrachloroethene,0.07,0.037,0.474,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Tetrahydrofuran,ND,0.339,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Toluene,1.41,0.266,5.31,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Trichloroethene,ND,0.047,ND,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Trichlorofluoromethane,0.2,0.178,1.12,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,Vinyl Chloride,ND,0.098,ND,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 13,% Bromofluorobenzene,104,%,104,%,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"1,1,1-Trichloroethane",0.62,0.183,3.38,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"1,1-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"1,2,4-Trimethylbenzene",1.34,0.204,6.58,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"1,3,5-Trimethylbenzene",0.43,0.204,2.11,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"1,3-Butadiene",ND,0.452,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"1,3-Dichlorobenzene",0.29,0.166,1.74,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"1,4-Dioxane",ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,2-Hexanone(MBK),ND,0.244,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,4-Ethyltoluene,0.25,0.204,1.23,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,4-Isopropyltoluene,ND,0.182,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Acetone,1.95,0.421,4.63,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Acrylonitrile,ND,0.461,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Benzene,ND,0.313,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Benzyl chloride,ND,0.193,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Bromodichloromethane,ND,0.149,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Bromoform,ND,0.097,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Bromomethane,ND,0.258,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Carbon Disulfide,ND,0.321,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Carbon Tetrachloride,0.04,0.040,0.251,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Chlorobenzene,ND,0.217,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Chloroethane,ND,0.379,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Chloroform,ND,0.205,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Chloromethane,ND,0.484,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Cyclohexane,1.28,0.291,4.40,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Dibromochloromethane,ND,0.117,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Dichlorodifluoromethane,1.44,0.202,7.12,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Ethanol,10.6,0.531,20.0,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Ethyl acetate,ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Ethylbenzene,0.33,0.230,1.43,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Heptane,0.53,0.244,2.17,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Hexane,ND,0.284,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Isopropylalcohol,1.84,0.407,4.52,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Isopropylbenzene,ND,0.204,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"m,p-Xylene",1.08,0.230,4.69,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Methyl Ethyl Ketone,ND,0.339,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Methylene Chloride,ND,0.288,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,n-Butylbenzene,0.24,0.182,1.32,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,o-Xylene,0.41,0.230,1.78,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Propylene,ND,0.581,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,sec-Butylbenzene,ND,0.182,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Styrene,ND,0.235,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Tetrachloroethene,0.19,0.037,1.29,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Tetrahydrofuran,ND,0.339,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Toluene,5.53,0.266,20.8,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Trichloroethene,ND,0.047,ND,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Trichlorofluoromethane,0.66,0.178,3.70,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,Vinyl Chloride,ND,0.098,ND,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 5,% Bromofluorobenzene,104,%,104,%,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"1,1,1-Trichloroethane",0.26,0.183,1.42,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"1,1-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"1,2,4-Trimethylbenzene",0.9,0.204,4.42,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"1,3,5-Trimethylbenzene",0.28,0.204,1.38,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"1,3-Butadiene",ND,0.452,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"1,3-Dichlorobenzene",0.18,0.166,1.08,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"1,4-Dioxane",ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,2-Hexanone(MBK),ND,0.244,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,4-Ethyltoluene,ND,0.204,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,4-Isopropyltoluene,ND,0.182,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Acetone,8.5,0.421,20.2,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Acrylonitrile,ND,0.461,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Benzene,ND,0.313,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Benzyl chloride,ND,0.193,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Bromodichloromethane,ND,0.149,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Bromoform,ND,0.097,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Bromomethane,ND,0.258,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Carbon Disulfide,ND,0.321,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Carbon Tetrachloride,0.05,0.040,0.314,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Chlorobenzene,ND,0.217,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Chloroethane,ND,0.379,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Chloroform,ND,0.205,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Chloromethane,ND,0.484,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Cyclohexane,ND,0.291,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Dibromochloromethane,ND,0.117,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Dichlorodifluoromethane,1.18,0.202,5.83,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Ethanol,11.4,0.531,21.5,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Ethyl acetate,ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Ethylbenzene,0.26,0.230,1.13,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Heptane,0.26,0.244,1.06,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Hexane,1.02,0.284,3.59,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Isopropylalcohol,2.21,0.407,5.43,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Isopropylbenzene,ND,0.204,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"m,p-Xylene",0.82,0.230,3.56,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Methyl Ethyl Ketone,0.85,0.339,2.50,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Methylene Chloride,1.34,0.288,4.65,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,n-Butylbenzene,ND,0.182,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,o-Xylene,0.33,0.230,1.43,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Propylene,ND,0.581,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,sec-Butylbenzene,ND,0.182,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Styrene,ND,0.235,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Tetrachloroethene,0.12,0.037,0.813,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Tetrahydrofuran,ND,0.339,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Toluene,1.2,0.266,4.52,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Trichloroethene,ND,0.047,ND,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Trichlorofluoromethane,0.36,0.178,2.02,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,Vinyl Chloride,ND,0.098,ND,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 3,% Bromofluorobenzene,109,%,109,%,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"1,1,1-Trichloroethane",0.52,0.183,2.84,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"1,1-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"1,2,4-Trimethylbenzene",2.88,0.204,14.1,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"1,3,5-Trimethylbenzene",0.91,0.204,4.47,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"1,3-Butadiene",ND,0.452,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"1,3-Dichlorobenzene",0.34,0.166,2.04,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"1,4-Dioxane",ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,2-Hexanone(MBK),3.08,0.244,12.6,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,4-Ethyltoluene,0.49,0.204,2.41,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,4-Isopropyltoluene,0.36,0.182,1.97,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,4-Methyl-2-pentanone(MIBK),0.51,0.244,2.09,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Acetone,284,0.421,674,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Acrylonitrile,ND,0.461,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Benzene,ND,0.313,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Benzyl chloride,ND,0.193,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Bromodichloromethane,ND,0.149,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Bromoform,ND,0.097,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Bromomethane,ND,0.258,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Carbon Disulfide,1.05,0.321,3.27,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Carbon Tetrachloride,0.05,0.040,0.314,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Chlorobenzene,ND,0.217,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Chloroethane,ND,0.379,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Chloroform,0.35,0.205,1.71,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Chloromethane,ND,0.484,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Cyclohexane,ND,0.291,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Dibromochloromethane,ND,0.117,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Dichlorodifluoromethane,0.5,0.202,2.47,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Ethanol,51.6,0.531,97.2,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Ethyl acetate,0.78,0.278,2.81,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Ethylbenzene,0.91,0.230,3.95,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Heptane,2.65,0.244,10.8,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Hexane,1.69,0.284,5.95,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Isopropylalcohol,39.9,0.407,98.0,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Isopropylbenzene,ND,0.204,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"m,p-Xylene",2.84,0.230,12.3,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Methyl Ethyl Ketone,66.3,0.339,195,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Methylene Chloride,ND,0.288,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,n-Butylbenzene,0.46,0.182,2.52,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,o-Xylene,1.09,0.230,4.73,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Propylene,29.7,0.581,51.1,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,sec-Butylbenzene,0.2,0.182,1.10,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Styrene,ND,0.235,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Tetrachloroethene,0.47,0.037,3.18,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Tetrahydrofuran,ND,0.339,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Toluene,3.65,0.266,13.7,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Trichloroethene,0.8,0.047,4.30,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Trichlorofluoromethane,2.42,0.178,13.6,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,Vinyl Chloride,ND,0.098,ND,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 9,% Bromofluorobenzene,106,%,106,%,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"1,1,1-Trichloroethane",6.36,0.183,34.7,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"1,1-Dichloroethane",1.3,0.247,5.26,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"1,2,4-Trimethylbenzene",2.49,0.204,12.2,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"1,3,5-Trimethylbenzene",0.76,0.204,3.73,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"1,3-Butadiene",ND,0.452,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"1,3-Dichlorobenzene",0.45,0.166,2.70,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"1,4-Dioxane",ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,2-Hexanone(MBK),4.65,0.244,19.0,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,4-Ethyltoluene,0.45,0.204,2.21,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,4-Isopropyltoluene,0.27,0.182,1.48,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,4-Methyl-2-pentanone(MIBK),ND,0.244,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Acetone,122,0.421,290,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Acrylonitrile,ND,0.461,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Benzene,ND,0.313,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Benzyl chloride,0.39,0.193,2.02,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Bromodichloromethane,ND,0.149,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Bromoform,ND,0.097,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Bromomethane,ND,0.258,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Carbon Disulfide,0.49,0.321,1.52,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Carbon Tetrachloride,0.06,0.040,0.377,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Chlorobenzene,ND,0.217,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Chloroethane,ND,0.379,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Chloroform,0.24,0.205,1.17,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Chloromethane,ND,0.484,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Cyclohexane,ND,0.291,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Dibromochloromethane,ND,0.117,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Dichlorodifluoromethane,0.47,0.202,2.32,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Ethanol,16.2,0.531,30.5,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Ethyl acetate,0.39,0.278,1.40,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Ethylbenzene,0.57,0.230,2.47,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Heptane,0.81,0.244,3.32,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Hexane,0.7,0.284,2.46,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Isopropylalcohol,11,0.407,27.0,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Isopropylbenzene,ND,0.204,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"m,p-Xylene",2.07,0.230,8.98,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Methyl Ethyl Ketone,26.2,0.339,77.2,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Methylene Chloride,0.44,0.288,1.53,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,n-Butylbenzene,0.43,0.182,2.36,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,o-Xylene,0.87,0.230,3.78,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Propylene,15.6,0.581,26.8,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,sec-Butylbenzene,ND,0.182,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Styrene,ND,0.235,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Tetrachloroethene,0.39,0.037,2.64,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Tetrahydrofuran,ND,0.339,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Toluene,1.81,0.266,6.82,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Trichloroethene,0.6,0.047,3.22,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Trichlorofluoromethane,1.76,0.178,9.88,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Trichlorotrifluoroethane,0.41,0.130,3.14,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,Vinyl Chloride,ND,0.098,ND,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 11,% Bromofluorobenzene,106,%,106,%,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"1,1,1,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"1,1,1-Trichloroethane",ND,0.183,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"1,1,2,2-Tetrachloroethane",ND,0.146,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"1,1,2-Trichloroethane",ND,0.183,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"1,1-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"1,1-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"1,2,4-Trichlorobenzene",ND,0.135,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"1,2,4-Trimethylbenzene",2.29,0.204,11.2,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"1,2-Dibromoethane(EDB)",ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"1,2-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"1,2-Dichloroethane",ND,0.247,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"1,2-dichloropropane",ND,0.216,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"1,2-Dichlorotetrafluoroethane",ND,0.143,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"1,3,5-Trimethylbenzene",0.74,0.204,3.64,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"1,3-Butadiene",ND,0.452,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"1,3-Dichlorobenzene",0.32,0.166,1.92,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"1,4-Dichlorobenzene",ND,0.166,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"1,4-Dioxane",ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,2-Hexanone(MBK),6.12,0.244,25.0,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,4-Ethyltoluene,0.47,0.204,2.31,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,4-Isopropyltoluene,0.24,0.182,1.32,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,4-Methyl-2-pentanone(MIBK),0.26,0.244,1.06,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Acetone,170,0.421,404,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Acrylonitrile,ND,0.461,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Benzene,0.64,0.313,2.04,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Benzyl chloride,ND,0.193,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Bromodichloromethane,ND,0.149,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Bromoform,ND,0.097,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Bromomethane,ND,0.258,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Carbon Disulfide,2.39,0.321,7.44,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Carbon Tetrachloride,0.05,0.040,0.314,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Chlorobenzene,ND,0.217,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Chloroethane,ND,0.379,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Chloroform,ND,0.205,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Chloromethane,ND,0.484,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"Cis-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"cis-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Cyclohexane,0.45,0.291,1.55,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Dibromochloromethane,ND,0.117,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Dichlorodifluoromethane,1.21,0.202,5.98,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Ethanol,15.4,0.531,29.0,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Ethyl acetate,ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Ethylbenzene,2.35,0.230,10.2,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Heptane,2.07,0.244,8.48,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Hexachlorobutadiene,ND,0.094,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Hexane,2.21,0.284,7.78,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Isopropylalcohol,11,0.407,27.0,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Isopropylbenzene,ND,0.204,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"m,p-Xylene",8.14,0.230,35.3,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Methyl Ethyl Ketone,30.9,0.339,91.1,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Methyl tert-butyl ether(MTBE),ND,0.278,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Methylene Chloride,0.4,0.288,1.39,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,n-Butylbenzene,0.35,0.182,1.92,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,o-Xylene,2.6,0.230,11.3,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Propylene,49.4,0.581,85.0,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,sec-Butylbenzene,ND,0.182,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Styrene,ND,0.235,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Tetrachloroethene,0.25,0.037,1.69,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Tetrahydrofuran,ND,0.339,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Toluene,7.44,0.266,28.0,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"Trans-1,2-Dichloroethene",ND,0.252,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,"trans-1,3-Dichloropropene",ND,0.220,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Trichloroethene,0.18,0.047,0.967,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Trichlorofluoromethane,8.72,0.178,49.0,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Trichlorotrifluoroethane,ND,0.130,ND,1.00,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,Vinyl Chloride,ND,0.098,ND,0.25,2014-04-29T04:00:00Z,KCA,phoenix
+SV 89-141 Melrose Street,SG 10,% Bromofluorobenzene,107,%,107,%,2014-04-29T04:00:00Z,KCA,phoenix
