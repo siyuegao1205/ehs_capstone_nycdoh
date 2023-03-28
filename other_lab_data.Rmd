@@ -31,7 +31,9 @@ als_1 = read_excel("data/data_from_M/als_env/SV 112 Emerson Place.xlsx",
          "Units" = ...10,
          "LOQ" = ...12) %>% 
   select(c(Parameter, Results, Units, LOQ)) %>% 
-  mutate(Matrix = "Air", 
+  mutate(Matrix = "Air",
+         CAS.No = "NA",
+         Dilution = "NA",
          Lab = "ALS Environmental",
          Street = "112 Emerson Place",
          Client_ID = "SG1",
@@ -46,7 +48,9 @@ als_2 = read_excel("data/data_from_M/als_env/SV 112 Emerson Place.xlsx",
          "Units" = ...10,
          "LOQ" = ...12) %>% 
   select(c(Parameter, Results, Units, LOQ)) %>% 
-  mutate(Matrix = "Air", 
+  mutate(Matrix = "Air",
+         CAS.No = "NA",
+         Dilution = "NA", 
          Lab = "ALS Environmental",
          Street = "112 Emerson Place",
          Client_ID = "SG2",
@@ -1612,12 +1616,55 @@ sgs_flatbush_1 = read_excel("data/data_from_M/sgs/SV 2570 Flatbush Avenue.xlsx",
 ### 1860 Eastern Parkway
 
 ```{r}
-
+testam_1 = read_excel("data/data_from_M/testamerica/SV 1860 Eastern Parkway.xlsx", 
+                        range = "A3:Z2978", col_names = FALSE) %>% 
+  rename("CAS.No" = ...1, 
+         "P_1" = ...1,
+         "P_2" = ...2,
+         "Results" = ...4,
+         "LOQ" = ...9, 
+         "Units" = ...13,
+         "Client_ID" = ...26) %>% 
+    filter(!is.na(Results)) %>% 
+  select(c(P_1, P_2, Results, LOQ, Units, Client_ID)) %>% 
+  mutate(Dilution = "NA",
+         CAS.No = "NA",
+         Matrix = "Air",
+         Lab = "testamerica",
+         Street = "1860 Eastern Parkway",
+         Collection_date = "09/14/2017", 
+         Analysis_date = "09/22/2017",
+         Project_ID = "18CVCP020K",
+         P_1 = str_replace_na(P_1, replacement = ""),
+         P_2 = str_replace_na(P_2, replacement = "")) %>% 
+  unite(Parameter, c(P_1, P_2), remove = TRUE) %>% 
+  mutate(Parameter = str_remove(Parameter, "_"), 
+         LOQ = str_replace(LOQ, ",", ".")) %>% 
+  mutate(Units = str_replace(Units, "ppbv/v", "ppbv"))
 ```
 
 ## All Data
 
 ```{r}
-other_data = rbind(als_1, als_2, centek_1, centek_2, centek_3, centek_reports, chem_Front, chem_Front_10, chem_Front_2, chem_Front_3, chem_Front_4, chem_Front_5, chem_Front_6, chem_Front_7, chem_Front_8, chem_Front_9, chem_Water, chem_Water_2, chem_Water_3, chem_Water_4, chem_Water_5, chem_Water_6, chem_Water_7, chem_Myrtle, chem_Myrtle_2, eco_1, eco_2, eco_3, eco_4, emsl_1, emsl_2, emsl_3, emsl_4, NL_jackson, NL_Wall, NL_uion, NL_church, int_1, int_2, int_3, int_4, int_5, int_6, int_7, int_8, int_9, int_10, long_1, long_2, long_3, long_4, long_5, long_6, long_7, long_8, long_9, pace_south_1, pace_south_2, pace_south_3, pace_south_4, pace_south_5, pace_south_6, pace_south_7, pace_south_8, pace_fourth_1, pace_fourth_2, sgs_berry_1, sgs_berry_2, sgs_nevins_1, sgs_nevins_2, sgs_van_1, sgs_van_2, sgs_van_3, sgs_van_4, sgs_van_5, sgs_van_6, sgs_van_7, sgs_van_8, sgs_van_9, sgs_van_10, )
+other_data = rbind(als_1, als_2, centek_1, centek_2, centek_3, centek_reports, chem_Front, chem_Front_10, chem_Front_2, chem_Front_3, chem_Front_4, chem_Front_5, chem_Front_6, chem_Front_7, chem_Front_8, chem_Front_9, chem_Water, chem_Water_2, chem_Water_3, chem_Water_4, chem_Water_5, chem_Water_6, chem_Water_7, chem_Myrtle, chem_Myrtle_2, eco_1, eco_2, eco_3, eco_4, emsl_1, emsl_2, emsl_3, emsl_4, NL_jackson, NL_Wall, NL_uion, NL_church, int_1, int_2, int_3, int_4, int_5, int_6, int_7, int_8, int_9, int_10, long_1, long_2, long_3, long_4, long_5, long_6, long_7, long_8, long_9, pace_south_1, pace_south_2, pace_south_3, pace_south_4, pace_south_5, pace_south_6, pace_south_7, pace_south_8, pace_fourth_1, pace_fourth_2, sgs_berry_1, sgs_berry_2, sgs_nevins_1, sgs_nevins_2, sgs_van_1, sgs_van_2, sgs_van_3, sgs_van_4, sgs_van_5, sgs_van_6, sgs_van_7, sgs_van_8, sgs_van_9, sgs_van_10, testam_1)
+
+write_csv(other_data, "data/data_from_M/other_lab_data.csv")
 ```
+
+## Collect and Clean: York and other 
+
+```{r}
+york_other = rbind(york_data, other_data) %>% 
+  mutate(Results = str_replace_all(Results, "[Ss]", "5"), 
+         Results = str_replace_all(Results, "[I]", "1")) %>% 
+  mutate(Results = as.numeric(Results)) 
+
+
+york_other %>% group_by(Units) %>% 
+  count()
+         
+  
+```
+
+
 
