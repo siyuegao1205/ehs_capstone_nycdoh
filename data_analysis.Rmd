@@ -172,6 +172,24 @@ write_csv(final_df, "results/final_df.csv")
 
 
 ```{r}
+final_df %>% 
+  pivot_longer(
+    Benzene:BTEX,
+    names_to = "parameter", 
+    values_to = "conc"
+  ) %>% 
+  filter(parameter %in% c("BTEX", "Trichloroethene", "Tetrachloroethene")) %>% 
+  mutate(conc = as.numeric(conc)) %>% 
+  group_by(parameter) %>% 
+  summarise(
+    min = min(conc, na.rm = TRUE),
+    median = median(conc, na.rm = TRUE),
+    max = max(conc, na.rm = TRUE)
+  )
+```
+
+
+```{r}
 geo_info = read_csv("data/geo_info.csv")
 
 geo_info %>% 
