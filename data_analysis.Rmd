@@ -1,6 +1,6 @@
 ---
 title: "Data Analysis"
-output: github_document
+output: html_document
 ---
 
 ```{r setup, include = FALSE}
@@ -13,6 +13,7 @@ knitr::opts_chunk$set(echo = FALSE,
 ```{r}
 library(readxl)
 library(tidyverse)
+library(leaflet)
 ```
 
 
@@ -67,7 +68,7 @@ summary_data = read_excel("data/data_from_M/Summary of SV data for Capstone_236 
 
 *   Merge `project_id` with lat/long
 
-```{r}
+```{r, eval = FALSE}
 geocoding = read_excel("Geocoding ALL.xlsx") %>% 
   janitor::clean_names() %>% 
   select(-name, -note) %>% 
@@ -77,6 +78,18 @@ geo_info = left_join(project_id_list,
                      geocoding,
                      by = "name")
 
-write_csv(geo_info, file = "data/geo_info.csv")
+# write_csv(geo_info, file = "data/geo_info.csv")
+```
+
+
+```{r}
+geo_info = read_csv("data/geo_info.csv")
+
+geo_info %>% 
+  leaflet() %>% 
+  addTiles() %>%
+  setView(-73.97968, 40.703312, zoom = 12) %>%
+  addProviderTiles("CartoDB.Positron") %>% 
+  addCircleMarkers(~ longitude, ~ latitude, radius = 1)
 ```
 
