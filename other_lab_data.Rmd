@@ -1665,6 +1665,8 @@ york_other = rbind(york_data, other_data) %>%
          Analysis_date = mdy(Analysis_date)) %>% 
     filter(!is.na(Parameter))
 
+write_csv(york_other, "data/cleandata/york_and_others.csv")
+
 ```
 
 
