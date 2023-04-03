@@ -1,6 +1,6 @@
 ---
 title: "Data Analysis"
-output: github_document
+output: html_document
 ---
 
 ```{r setup, include = FALSE}
@@ -13,6 +13,7 @@ knitr::opts_chunk$set(echo = FALSE,
 ```{r}
 library(readxl)
 library(tidyverse)
+library(leaflet)
 ```
 
 
@@ -22,12 +23,19 @@ library(tidyverse)
 
 ```{r}
 project_id_list = read_csv("data/brooklyn_cvcp_list.csv")
-alpha = read_csv("data/cleandata/alpha.csv")
-mixed = read_csv("data/cleandata/mixed.csv")
+alpha = read_csv("data/cleandata/alpha.csv") %>% distinct()
+mixed = read_csv("data/cleandata/mixed.csv") %>% distinct()
+phoenix = read_csv("data/cleandata/phoenix.csv") %>% distinct()
+york_and_others = read_csv("data/cleandata/york_and_others.csv") %>% janitor::clean_names() %>% distinct()
+
+## Alpha 
 
 alpha_sub = alpha %>% 
-  select(street_address, sample_id, parameter, ug_m3_results) %>% 
-  filter(parameter %in% c("Benzene", "Toluene", "Ethylbenzene", "o-Xylene", "p/m-Xylene", "Trichloroethene", "Tetrachloroethene"))
+  select(street_address, sample_id, parameter, result = ug_m3_results) %>% 
+  filter(parameter %in% c("Benzene", "Toluene", "Ethylbenzene", "o-Xylene", "p/m-Xylene", "Trichloroethene", "Tetrachloroethene")) %>% 
+  mutate(
+    parameter = ifelse(parameter == "p/m-Xylene", "m/p-Xylene", parameter)
+  )
 
 alpha_sub = left_join(alpha_sub, select(project_id_list, project_id, street_address = name), 
                       by = "street_address") %>%
@@ -38,23 +46,87 @@ alpha_sub = left_join(alpha_sub, select(project_id_list, project_id, street_addr
 ifelse(street_address == "820 Glenmore Avenue", "18CVCP009K", project_id)))))) %>%
   select(project_id, street_address, sample_id, everything())
 
+## Mixed
+
 mixed_sub = mixed %>% 
-  select(street_address, sample_id, parameter, ug_m3_results) %>% 
-  filter(parameter %in% c("Benzene", "Toluene", "Ethylbenzene", "o-Xylene", "p/m-Xylene", "Trichloroethene", "Tetrachloroethene"))
+  select(street_address, sample_id, parameter, result = ug_m3_results) %>% 
+  filter(parameter %in% c("Benzene", "Toluene", "Ethylbenzene", "o-Xylene", "m,p-Xylene", "m/p-Xylene", "m&p-Xylene", "p/m-Xylene", "Trichloroethene", "Tetrachloroethene")) %>% 
+  mutate(
+    parameter = ifelse(parameter %in% c("m,p-Xylene", "m/p-Xylene", "m&p-Xylene", "p/m-Xylene"), "m/p-Xylene", parameter)
+  )
 
 mixed_sub = left_join(mixed_sub, select(project_id_list, project_id, street_address = name), 
                       by = "street_address") %>% 
   select(project_id, street_address, sample_id, everything())
 
 mixed_sub = mixed_sub %>% 
-  slice(-(25:30))
+  slice(-(29:35))
 
-bind_wide = bind_rows(alpha_sub, mixed_sub) %>% 
+## Phoenix
+
+phoenix_sub = phoenix %>% 
+  separate(street_address, sep = "SV ", into = c("a", "b")) %>% 
+  select(-a) %>% 
+  select(street_address = b, sample_id, parameter, result = ug_m3_result) %>% 
+  filter(parameter %in% c("Benzene", "Toluene", "Ethylbenzene", "o-Xylene", "m,p-Xylene", "Trichloroethene", "Tetrachloroethene")) %>% 
+  mutate(
+    parameter = ifelse(parameter == "m,p-Xylene", "m/p-Xylene", parameter)
+  ) %>% distinct()
+
+# phoenix_id = phoenix_sub %>% 
+#   select(street_address) %>% 
+#   distinct()
+# 
+# phoenix_id = left_join(phoenix_id, select(project_id_list, project_id, street_address = name), by = "street_address")
+# 
+# write_csv(phoenix_id, "data/cleandata/phoenix_id.csv")
+
+phoenix_id = read_csv("data/cleandata/phoenix_id.csv")
+
+phoenix_sub = left_join(phoenix_sub, phoenix_id, 
+                      by = "street_address") %>% 
+  select(project_id, street_address, sample_id, everything()) %>% distinct()
+
+## York and Others
+
+york_and_others_sub = york_and_others %>% 
+  filter(units != "ppbv") %>% 
+  select(project_id, street_address = street, sample_id = client_id, parameter, result = results) %>% 
+  filter(parameter %in% c("Benzene", "Toluene", "Ethylbenzene", "m + p  Xylene", "m,p-Xylene", "m,p-Xylenes", "m/p-Xylene", "m&p-Xylene", "mp-Xylene", "o Xylene", "o-Xylene", "O-Xylene (1,2-Dimethylbenzene)", "o-Xylene_", "oXylene", "p- & m- Xylenes", "p- & m- Xylenes_", "p-&m-Xylenes", "Xylene (m&p)", "Xylene (o)", "Xylene (Ortho)", "Xylene (p,m)", "Xylene,o-", "Xylenes (m&p)", "Xylenes (o)", "Trichloroethene", "Tetrachloroethene")) %>% 
+  mutate(
+    parameter = ifelse(parameter %in% c("m + p  Xylene", "m,p-Xylene", "m,p-Xylenes", "m/p-Xylene", "m&p-Xylene", "mp-Xylene", "p- & m- Xylenes", "p- & m- Xylenes_", "p-&m-Xylenes", "Xylene (m&p)", "Xylene (p,m)", "Xylenes (m&p)"), "m/p-Xylene",
+                       ifelse(parameter %in% c("o Xylene", "o-Xylene", "O-Xylene (1,2-Dimethylbenzene)", "o-Xylene_", "oXylene", "Xylene (o)", "Xylene (Ortho)", "Xylene,o-", "Xylenes (o)"), "o-Xylene", parameter)),
+    result = as.character(result)
+  )
+
+bind = bind_rows(alpha_sub, mixed_sub, phoenix_sub, york_and_others_sub) %>% 
+  distinct(project_id, street_address, sample_id, parameter, .keep_all = TRUE)
+  
+bind_wide = bind %>% 
   pivot_wider(
     names_from = parameter,
-    values_from = ug_m3_results
+    values_from = result
   ) %>% 
-select(project_id, street_address, sample_id, Benzene, Toluene, Ethylbenzene, `o-Xylene`, `p/m-Xylene`, Trichloroethene, Tetrachloroethene)
+select(project_id, street_address, sample_id, Benzene, Toluene, Ethylbenzene, `o-Xylene`, `m/p-Xylene`, Trichloroethene, Tetrachloroethene)
+
+bind_wide_dup = bind_wide %>% 
+  mutate(
+    Benzene = as.numeric(Benzene),
+    Toluene = as.numeric(Toluene),
+    Ethylbenzene = as.numeric(Ethylbenzene),
+    `o-Xylene` = as.numeric(`o-Xylene`),
+    `m/p-Xylene` = as.numeric(`m/p-Xylene`),
+    Trichloroethene = as.numeric(Trichloroethene),
+    Tetrachloroethene = as.numeric(Tetrachloroethene)
+  ) %>% 
+  rowwise() %>% 
+  mutate(
+    BTEX = sum(across(Benzene:`m/p-Xylene`), na.rm = TRUE)
+  )
+
+BTEX = bind_wide_dup$BTEX
+
+bind_wide$BTEX = BTEX
 ```
 
 *   Fill in missing values for `project_no` and `address` from the summary data  
@@ -62,12 +134,17 @@ select(project_id, street_address, sample_id, Benzene, Toluene, Ethylbenzene, `o
 ```{r}
 summary_data = read_excel("data/data_from_M/Summary of SV data for Capstone_236 sites.xlsx") %>% 
   janitor::clean_names() %>% 
-  fill(c("project_no", "address"))
+  fill(c("project_no", "address")) %>% 
+  mutate(
+    btex = as.numeric(btex)
+  )
+
+names(summary_data) = names(bind_wide)
 ```
 
 *   Merge `project_id` with lat/long
 
-```{r}
+```{r, eval = FALSE}
 geocoding = read_excel("Geocoding ALL.xlsx") %>% 
   janitor::clean_names() %>% 
   select(-name, -note) %>% 
@@ -77,6 +154,49 @@ geo_info = left_join(project_id_list,
                      geocoding,
                      by = "name")
 
-write_csv(geo_info, file = "data/geo_info.csv")
+# write_csv(geo_info, file = "data/geo_info.csv")
+```
+
+*   Get a final (Summary of 236 sites from M + extracted by ourselves) cleaned dataset with only the desired chemicals
+
+```{r}
+final_df = bind_rows(bind_wide, summary_data) %>% 
+  mutate(
+    BTEX = as.character(BTEX),
+    BTEX = ifelse(BTEX == "0", NA_character_, BTEX),
+    BTEX = ifelse(Benzene == "ND" & Toluene == "ND" & Ethylbenzene == "ND" & `o-Xylene` == "ND" & `m/p-Xylene` == "ND", "ND", BTEX)
+  )
+
+write_csv(final_df, "results/final_df.csv")
+```
+
+
+```{r}
+final_df %>% 
+  pivot_longer(
+    Benzene:BTEX,
+    names_to = "parameter", 
+    values_to = "conc"
+  ) %>% 
+  filter(parameter %in% c("BTEX", "Trichloroethene", "Tetrachloroethene")) %>% 
+  mutate(conc = as.numeric(conc)) %>% 
+  group_by(parameter) %>% 
+  summarise(
+    min = min(conc, na.rm = TRUE),
+    median = median(conc, na.rm = TRUE),
+    max = max(conc, na.rm = TRUE)
+  )
+```
+
+
+```{r}
+geo_info = read_csv("data/geo_info.csv")
+
+geo_info %>% 
+  leaflet() %>% 
+  addTiles() %>%
+  setView(-73.97968, 40.703312, zoom = 12) %>%
+  addProviderTiles("CartoDB.Positron") %>% 
+  addCircleMarkers(~ longitude, ~ latitude, radius = 1)
 ```
 
