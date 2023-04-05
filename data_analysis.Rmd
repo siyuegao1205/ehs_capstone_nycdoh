@@ -200,3 +200,53 @@ geo_info %>%
   addCircleMarkers(~ longitude, ~ latitude, radius = 1)
 ```
 
+
+## Extract Maximum for Each Site
+
+```{r}
+final_df = read_csv("results/final_df.csv") %>% 
+  janitor::clean_names() %>% 
+  mutate(
+    trichloroethene = as.numeric(trichloroethene),
+    tetrachloroethene = as.numeric(tetrachloroethene),
+    btex = as.numeric(btex),
+    project_id = ifelse(street_address == "264 North 10th Street", "12CBCP035K", project_id)
+  )
+
+geo_info = read_csv("data/geo_info.csv")
+
+geo_new = read_excel("data/data_from_M/Site Characteristics for Capstone Students.xlsx") %>% 
+  janitor::clean_names()
+
+max_value = final_df %>% 
+  filter(project_id != "11CBCP015K") %>% 
+  group_by(project_id) %>%
+  summarise(
+    trichloroethene_max = max(trichloroethene, na.rm = T),
+    tetrachloroethene_max = max(tetrachloroethene, na.rm = T),
+    btex_max = max(btex, na.rm = T)
+  ) %>% 
+  mutate(
+    trichloroethene_max = str_replace(trichloroethene_max, "\\-Inf", ""),
+    tetrachloroethene_max = str_replace(tetrachloroethene_max, "\\-Inf", ""),
+    btex_max = str_replace(btex_max, "\\-Inf", ""),
+    trichloroethene_max = as.numeric(trichloroethene_max),
+    tetrachloroethene_max = as.numeric(tetrachloroethene_max),
+    btex_max = as.numeric(btex_max)
+  )
+
+gis_csv = left_join(max_value, select(geo_new, project_id, zip, latitude, longitude), by = "project_id")
+
+write_csv(gis_csv, "results/gis_df.csv")
+
+gis_zipcode = gis_csv %>% 
+  group_by(zip) %>% 
+  summarise(
+    trichloroethene_sum = sum(trichloroethene_max, na.rm = T),
+    tetrachloroethene_sum = sum(tetrachloroethene_max, na.rm = T),
+    btex_sum = sum(btex_max, na.rm = T)
+  )
+
+write_csv(gis_zipcode, "results/gis_zipcode_df.csv")
+```
+
