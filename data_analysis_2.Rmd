@@ -1,0 +1,41 @@
+---
+title: "Data Analysis_2"
+output: html_document
+---
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+```
+
+
+```{r}
+library(readxl)
+library(tidyverse)
+library(leaflet)
+```
+
+```{r}
+final_df = read_csv("results/final_df.csv") 
+
+df1 <- final_df%>% 
+    mutate(
+    trichloroethene = as.numeric(Trichloroethene),
+    tetrachloroethene = as.numeric(Tetrachloroethene),
+    btex = as.numeric(BTEX)) %>% 
+  select(project_id, street_address, sample_id, trichloroethene, tetrachloroethene, btex)
+```
+
+
+```{r}
+max_vals <- df1 %>% 
+  group_by(project_id) %>% 
+  summarize(
+    max_trichloroethene = max(trichloroethene, na.rm = TRUE),
+    max_tetrachloroethene = max(tetrachloroethene, na.rm = TRUE),
+    max_btex = max(btex, na.rm = TRUE)
+  ) 
+
+```
+
