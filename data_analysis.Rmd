@@ -301,7 +301,8 @@ ggsave(
   plot = percentage_plot,
   width = 8,
   height = 6,
-  bg = "white"
+  bg = "white",
+  dpi = 500
 )
 ```
 
