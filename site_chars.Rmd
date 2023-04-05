@@ -1,0 +1,18 @@
+---
+title: "site_chars"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(readxl)
+
+site_chars_df <- read_excel("results/Site Characteristics for Capstone Students.xlsx") %>% 
+  janitor::clean_names()
+```
+
+```{r}
+
+```
+
