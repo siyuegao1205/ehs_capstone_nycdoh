@@ -288,18 +288,24 @@ percentage_plot = binary %>%
   mutate(prop = round(100 * prop, 1)) %>%
   ggplot(aes(x = chem, y = prop, fill = indicator)) +
   geom_bar(position = "stack", stat = "identity", alpha = .7) +
-  geom_text(aes(label = (prop)), position = position_stack(vjust = 0.5), size = 3, colour = "black") +
+  geom_text(aes(label = (prop)), position = position_stack(vjust = 0.5), size = 5.5, colour = "black") +
   scale_fill_manual(values = c("#619CFF", "#F8766D")) +
   labs(
-    x = "Chemical", 
+    x = "", 
     y = "Percentage\n(%)",
     fill = ""
+  ) +
+  theme(
+    axis.text.x = element_text(face = "bold", size = 14),
+    axis.text.y = element_text(size = 10),
+    axis.title.y = element_text(face = "bold"),
+    legend.margin = margin(t = -20),
   )
 
 ggsave(
   file = "results/percentage_plot.png",
   plot = percentage_plot,
-  width = 8,
+  width = 6,
   height = 6,
   bg = "white",
   dpi = 500
