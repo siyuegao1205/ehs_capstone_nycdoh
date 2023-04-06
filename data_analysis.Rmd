@@ -235,7 +235,7 @@ max_value = final_df %>%
     btex_max = as.numeric(btex_max)
   )
 
-gis_csv = left_join(max_value, select(geo_new, project_id, zip, latitude, longitude), by = "project_id")
+gis_csv = left_join(max_value, select(geo_new, project_id, zip, latitude, longitude, address = address_4), by = "project_id")
 
 # write_csv(gis_csv, "results/gis_df.csv")
 
