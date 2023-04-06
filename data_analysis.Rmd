@@ -244,10 +244,25 @@ gis_zipcode = gis_csv %>%
   summarise(
     trichloroethene_sum = sum(trichloroethene_max, na.rm = T),
     tetrachloroethene_sum = sum(tetrachloroethene_max, na.rm = T),
-    btex_sum = sum(btex_max, na.rm = T)
+    btex_sum = sum(btex_max, na.rm = T),
+    trichloroethene_median = median(trichloroethene_max, na.rm = T),
+    tetrachloroethene_median = median(tetrachloroethene_max, na.rm = T),
+    btex_median = median(btex_max, na.rm = T)
   )
 
+df = gis_csv %>% 
+  summarise(
+    tce_quantile = quantile(trichloroethene_max, probs = c(.1, .9), na.rm = T),
+    pce_quantile = quantile(tetrachloroethene_max, probs = c(.1, .9), na.rm = T),
+    btex_quantile = quantile(btex_max, probs = c(.1, .9), na.rm = T)
+  ) %>% 
+  mutate(
+    quantile = c("10%", "90%")
+  ) %>% 
+  select(quantile, everything())
+
 # write_csv(gis_zipcode, "results/gis_zipcode_df.csv")
+# write_csv(df, "results/chem_quantile.csv")
 ```
 
 
@@ -282,6 +297,7 @@ percentage_plot = binary %>%
     chem = str_to_upper(chem),
     indicator = ifelse(indicator == 1, ">= Health-based Concentrations", "< Health-based Concentrations")
   ) %>%
+  filter(chem != "BTEX") %>% 
   group_by(chem, indicator) %>% 
   summarise(n = n()) %>%
   mutate(prop = n / sum(n)) %>%
