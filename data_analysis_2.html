@@ -359,7 +359,83 @@ display: none;
 </div>
 
 
+<pre class="r"><code>site_chars_df &lt;- site_chars_df %&gt;%
+  mutate(use_code = as.factor(use_code),
+         cellar = as.factor(cellar),
+         elevator = as.factor(elevator))</code></pre>
+<pre class="r"><code>site_chars_df &lt;- site_chars_df %&gt;%
+  mutate(use_code = factor(use_code, levels = c(&quot;C&quot;, &quot;I&quot;, &quot;M&quot;, &quot;R&quot;, &quot;S&quot;),
+                      labels = c(&quot;Commercial&quot;, &quot;Industrial&quot;, &quot;Mixed Use&quot;,
+                                 &quot;Residential&quot;, &quot;Special Purpose&quot;)),
+         cellar = factor(cellar, levels = c(&quot;0&quot;, &quot;1&quot;),
+                         labels = c(&quot;No&quot;, &quot;Yes&quot;)),
+         elevator = factor(elevator, levels = c(&quot;0&quot;, &quot;1&quot;),
+                           labels = c(&quot;No&quot;, &quot;Yes&quot;))) %&gt;% 
+  na.omit()</code></pre>
+<pre class="r"><code>library(ggplot2)
+# Define color palette
+my_colors &lt;- c(&quot;#619CFF&quot;, &quot;#F8766D&quot;)
 
+plot1 &lt;- site_chars_df %&gt;%
+  group_by(use_code) %&gt;%
+  summarise(count = n()) %&gt;%
+  arrange(desc(count)) %&gt;%
+  ggplot(aes(x = reorder(use_code, -count), y = count, fill = use_code)) +
+  geom_col() +
+  labs(title = &quot;Use code distribution&quot;,
+       x = &quot;Use code&quot;,
+       y = &quot;Count&quot;)
+
+plot2 &lt;- site_chars_df %&gt;%
+  group_by(cellar) %&gt;%
+  summarise(count = n()) %&gt;%
+  arrange(desc(count)) %&gt;%
+  ggplot(aes(x = reorder(cellar, -count), y = count, fill = cellar)) +
+  geom_col() +
+  labs(title = &quot;Cellar distribution&quot;,
+       x = &quot;Cellar&quot;,
+       y = &quot;Count&quot;)+
+  scale_fill_manual(values = my_colors)
+
+plot3 &lt;- site_chars_df %&gt;%
+  group_by(elevator) %&gt;%
+  summarise(count = n()) %&gt;%
+  arrange(desc(count)) %&gt;%
+  ggplot(aes(x = reorder(elevator, -count), y = count, fill = elevator)) +
+  geom_col() +
+  labs(title = &quot;Elevator distribution&quot;,
+       x = &quot;Elevator&quot;,
+       y = &quot;Count&quot;)+
+  scale_fill_manual(values = my_colors)
+
+
+
+ggsave(
+  file = &quot;results/use_code.png&quot;,
+  plot = plot1,
+  width = 6,
+  height = 6,
+  bg = &quot;white&quot;,
+  dpi = 500
+)
+
+ggsave(
+  file = &quot;results/cellar.png&quot;,
+  plot = plot2,
+  width = 6,
+  height = 6,
+  bg = &quot;white&quot;,
+  dpi = 500
+)
+
+ggsave(
+  file = &quot;results/elevator.png&quot;,
+  plot = plot3,
+  width = 6,
+  height = 6,
+  bg = &quot;white&quot;,
+  dpi = 500
+)</code></pre>
 
 
 

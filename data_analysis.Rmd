@@ -200,3 +200,115 @@ geo_info %>%
   addCircleMarkers(~ longitude, ~ latitude, radius = 1)
 ```
 
+
+## Extract Maximum for Each Site
+
+```{r}
+final_df = read_csv("results/final_df.csv") %>% 
+  janitor::clean_names() %>% 
+  mutate(
+    trichloroethene = as.numeric(trichloroethene),
+    tetrachloroethene = as.numeric(tetrachloroethene),
+    btex = as.numeric(btex),
+    project_id = ifelse(street_address == "264 North 10th Street", "12CBCP035K", project_id)
+  )
+
+geo_info = read_csv("data/geo_info.csv")
+
+geo_new = read_excel("data/data_from_M/Site Characteristics for Capstone Students.xlsx") %>% 
+  janitor::clean_names()
+
+max_value = final_df %>% 
+  filter(project_id != "11CBCP015K") %>% 
+  group_by(project_id) %>%
+  summarise(
+    trichloroethene_max = max(trichloroethene, na.rm = T),
+    tetrachloroethene_max = max(tetrachloroethene, na.rm = T),
+    btex_max = max(btex, na.rm = T)
+  ) %>% 
+  mutate(
+    trichloroethene_max = str_replace(trichloroethene_max, "\\-Inf", ""),
+    tetrachloroethene_max = str_replace(tetrachloroethene_max, "\\-Inf", ""),
+    btex_max = str_replace(btex_max, "\\-Inf", ""),
+    trichloroethene_max = as.numeric(trichloroethene_max),
+    tetrachloroethene_max = as.numeric(tetrachloroethene_max),
+    btex_max = as.numeric(btex_max)
+  )
+
+gis_csv = left_join(max_value, select(geo_new, project_id, zip, latitude, longitude), by = "project_id")
+
+# write_csv(gis_csv, "results/gis_df.csv")
+
+gis_zipcode = gis_csv %>% 
+  group_by(zip) %>% 
+  summarise(
+    trichloroethene_sum = sum(trichloroethene_max, na.rm = T),
+    tetrachloroethene_sum = sum(tetrachloroethene_max, na.rm = T),
+    btex_sum = sum(btex_max, na.rm = T)
+  )
+
+# write_csv(gis_zipcode, "results/gis_zipcode_df.csv")
+```
+
+
+## Binary Chem
+
+```{r}
+binary = read_csv("results/gis_df.csv") %>% 
+  mutate(
+    tce_binary = ifelse(trichloroethene_max >= 2, 1, 0),
+    pce_binary = ifelse(tetrachloroethene_max >= 30, 1, 0),
+    btex_binary = ifelse(btex_max >= 6130, 1, 0),
+    tce_binary = ifelse(is.na(trichloroethene_max), 0, tce_binary),
+    pce_binary = ifelse(is.na(tetrachloroethene_max), 0, pce_binary),
+    btex_binary = ifelse(is.na(btex_max), 0, btex_binary)
+  ) 
+
+# %>% 
+#   relocate(tce_binary, .after = trichloroethene_max) %>% 
+#   relocate(pce_binary, .after = tetrachloroethene_max) %>% 
+#   relocate(btex_binary, .after = btex_max)
+
+theme_set(theme_minimal() + theme(legend.position = "bottom"))
+
+percentage_plot = binary %>% 
+  pivot_longer(
+    tce_binary:btex_binary,
+    names_to = "chem",
+    values_to = "indicator"
+  ) %>% 
+  mutate(
+    chem = str_replace(chem, "\\_binary", ""),
+    chem = str_to_upper(chem),
+    indicator = ifelse(indicator == 1, ">= Health-based Concentrations", "< Health-based Concentrations")
+  ) %>%
+  group_by(chem, indicator) %>% 
+  summarise(n = n()) %>%
+  mutate(prop = n / sum(n)) %>%
+  mutate(prop = round(100 * prop, 1)) %>%
+  ggplot(aes(x = chem, y = prop, fill = indicator)) +
+  geom_bar(position = "stack", stat = "identity", alpha = .7) +
+  geom_text(aes(label = (prop)), position = position_stack(vjust = 0.5), size = 5.5, colour = "black") +
+  scale_fill_manual(values = c("#619CFF", "#F8766D")) +
+  labs(
+    x = "", 
+    y = "Percentage\n(%)",
+    fill = ""
+  ) +
+  theme(
+    axis.text.x = element_text(face = "bold", size = 14),
+    axis.text.y = element_text(size = 10),
+    axis.title.y = element_text(face = "bold"),
+    legend.margin = margin(t = -20),
+  )
+
+ggsave(
+  file = "results/percentage_plot.png",
+  plot = percentage_plot,
+  width = 6,
+  height = 6,
+  bg = "white",
+  dpi = 500
+)
+```
+
