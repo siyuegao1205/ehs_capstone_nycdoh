@@ -4,15 +4,77 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
 library(tidyverse)
 library(readxl)
+library(Hmisc)
+library(labelled)
 
-site_chars_df <- read_excel("results/Site Characteristics for Capstone Students.xlsx") %>% 
+knitr::opts_chunk$set(
+	echo = TRUE,
+	warning = FALSE,
+	fig.width = 8, 
+  fig.height = 6,
+  out.width = "90%"
+)
+
+theme_set(theme_minimal() + theme(legend.position = "bottom"))
+
+options(
+  ggplot2.continuous.colour = "viridis",
+  ggplot2.continuous.fill = "viridis"
+)
+
+scale_colour_discrete = scale_colour_viridis_d
+scale_fill_discrete = scale_fill_viridis_d
+
+site_chars_df <- read_excel("data/data_from_M/Site Characteristics for Capstone Students.xlsx") %>% 
   janitor::clean_names()
 ```
 
-```{r}
+# Clean Factor Vars 
 
+```{r}
+site_chars_df$use_code <- factor(site_chars_df$use_code, levels = c("C", "I", "M", "R", "S", "S/C", "S/M"), 
+        labels = c("commercial/community", "industrial/manufacturing", 
+                  "mixed use", "residential", "school", 
+                  "school/comercial", "school/mixed"))
+
+site_chars_df$cellar <- factor(site_chars_df$cellar, levels = c(0, 1), 
+        labels = c("no", "yes"))
+
+site_chars_df$elevator <- factor(site_chars_df$elevator, levels = c(0, 1), 
+        labels = c("no", "yes"))
+
+site_chars_df = site_chars_df %>% 
+  mutate(ssds = as.factor(ssds), 
+         vb = as.factor(vb), 
+         proposed_use = as.factor(proposed_use))
+```
+
+Graphs 
+
+```{r}
+site_chars_df %>% 
+  ggplot(aes(x = use_code)) + 
+  geom_bar() 
+
+site_chars_df %>% 
+  pivot_longer(cellar:elevator,
+    names_to = "parameter", 
+    values_to = "Available") %>% 
+  filter(!is.na(Available)) %>% 
+  ggplot(aes(x = parameter, color = Available, fill = Available)) + 
+  geom_bar() 
+
+site_chars_df %>%
+  filter(lot_area_square_feet < 600000) %>% 
+  ggplot(aes(x = lot_area_square_feet )) + 
+  geom_histogram()
+
+site_chars_df %>% 
+  select(lot_area_square_feet) %>% 
+  summary() %>% 
+  knitr::kable()
+  
 ```
 
