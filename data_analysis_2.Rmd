@@ -14,6 +14,7 @@ knitr::opts_chunk$set(echo = FALSE,
 library(readxl)
 library(tidyverse)
 library(leaflet)
+library(dplyr)
 ```
 
 ```{r}
@@ -36,6 +37,120 @@ max_vals <- df1 %>%
     max_tetrachloroethene = max(tetrachloroethene, na.rm = TRUE),
     max_btex = max(btex, na.rm = TRUE)
   ) 
+
+```
+
+```{r}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(readxl)
+
+site_chars_df <- read_excel("data/data_from_M/Site Characteristics for Capstone Students.xlsx") %>% 
+  janitor::clean_names()
+
+binary = read_csv("results/gis_df.csv") 
+
+merged_df <- left_join(site_chars_df, binary, by = "project_id") %>% 
+  mutate(
+    tce_binary = ifelse(trichloroethene_max >= 2, 1, 0),
+    pce_binary = ifelse(tetrachloroethene_max >= 30, 1, 0),
+    btex_binary = ifelse(btex_max >= 6130, 1, 0),
+    tce_binary = ifelse(is.na(trichloroethene_max), 0, tce_binary),
+    pce_binary = ifelse(is.na(tetrachloroethene_max), 0, pce_binary),
+    btex_binary = ifelse(is.na(btex_max), 0, btex_binary)
+  ) 
+```
+
+```{r}
+
+
+site_chars_df <- site_chars_df %>%
+  mutate(use_code = as.factor(use_code),
+         cellar = as.factor(cellar),
+         elevator = as.factor(elevator))
+
+```
+
+```{r}
+
+site_chars_df <- site_chars_df %>%
+  mutate(use_code = factor(use_code, levels = c("C", "I", "M", "R", "S"),
+                      labels = c("Commercial", "Industrial", "Mixed Use",
+                                 "Residential", "Special Purpose")),
+         cellar = factor(cellar, levels = c("0", "1"),
+                         labels = c("No", "Yes")),
+         elevator = factor(elevator, levels = c("0", "1"),
+                           labels = c("No", "Yes"))) %>% 
+  na.omit()
+  
+
+```
+
+```{r}
+library(ggplot2)
+# Define color palette
+my_colors <- c("#619CFF", "#F8766D")
+
+plot1 <- site_chars_df %>%
+  group_by(use_code) %>%
+  summarise(count = n()) %>%
+  arrange(desc(count)) %>%
+  ggplot(aes(x = reorder(use_code, -count), y = count, fill = use_code)) +
+  geom_col() +
+  labs(title = "Use code distribution",
+       x = "Use code",
+       y = "Count")
+
+plot2 <- site_chars_df %>%
+  group_by(cellar) %>%
+  summarise(count = n()) %>%
+  arrange(desc(count)) %>%
+  ggplot(aes(x = reorder(cellar, -count), y = count, fill = cellar)) +
+  geom_col() +
+  labs(title = "Cellar distribution",
+       x = "Cellar",
+       y = "Count")+
+  scale_fill_manual(values = my_colors)
+
+plot3 <- site_chars_df %>%
+  group_by(elevator) %>%
+  summarise(count = n()) %>%
+  arrange(desc(count)) %>%
+  ggplot(aes(x = reorder(elevator, -count), y = count, fill = elevator)) +
+  geom_col() +
+  labs(title = "Elevator distribution",
+       x = "Elevator",
+       y = "Count")+
+  scale_fill_manual(values = my_colors)
+
+
+
+ggsave(
+  file = "results/use_code.png",
+  plot = plot1,
+  width = 6,
+  height = 6,
+  bg = "white",
+  dpi = 500
+)
+
+ggsave(
+  file = "results/cellar.png",
+  plot = plot2,
+  width = 6,
+  height = 6,
+  bg = "white",
+  dpi = 500
+)
+
+ggsave(
+  file = "results/elevator.png",
+  plot = plot3,
+  width = 6,
+  height = 6,
+  bg = "white",
+  dpi = 500
+)
 
 ```
 
