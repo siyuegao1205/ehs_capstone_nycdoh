@@ -309,7 +309,8 @@ percentage_plot = binary %>%
   mutate(
     chem = str_replace(chem, "\\_binary", ""),
     chem = str_to_upper(chem),
-    indicator = ifelse(indicator == 1, ">= Health-based Concentrations", "< Health-based Concentrations")
+    indicator = ifelse(indicator == 1, ">= Health-based Concentrations", "< Health-based Concentrations"),
+    indicator = fct_relevel(indicator, ">= Health-based Concentrations", "< Health-based Concentrations")
   ) %>%
   filter(chem != "BTEX") %>% 
   group_by(chem, indicator) %>% 
@@ -319,7 +320,7 @@ percentage_plot = binary %>%
   ggplot(aes(x = chem, y = prop, fill = indicator)) +
   geom_bar(position = "stack", stat = "identity", alpha = .7) +
   geom_text(aes(label = (prop)), position = position_stack(vjust = 0.5), size = 5.5, colour = "black") +
-  scale_fill_manual(values = c("#619CFF", "#F8766D")) +
+  scale_fill_manual(values = c("#F8766D", "#619CFF")) +
   labs(
     x = "", 
     y = "Percentage\n(%)",
