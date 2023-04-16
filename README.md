@@ -42,21 +42,35 @@ Note that RfCs are for non-cancer effects. The health-based guidance for TCE (tr
 
 #### Site Characteristics Information
 
-| _Variable_ | _Definition_ | _Data type_ | _Source_ |
-|--------------|-----------------------|---------------------------------------------|---------------------------------------------|
-| Project ID | Unique indicator containing strings of “CVCP” (or “CBCP) | Text | EPIC |
-| Street Address | Physical address | Text | EPIC |
-| Borough | K = Brooklyn | Text | EPIC |
-| Zip Code | 5-digit zip code | Text | Geocoding |
-| X Coordinate |  | Number | Geocoding |
-| Y Coordinate |  | Number | Geocoding |
-| Latitude |  | Number | Geocoding |
-| Longitude |  | Number | Geocoding |
-| Elevation | Range of height above mean sea level in feet | Text | RIR/RAWP text |
-| GW Flow | Direction of groundwater flow | Text | RIR/RAWP text |
-| GW Depth | Range of depth to GW from surface or cellar in feet | Text | RIR/RAWP text |
-| Bedrock | Depth to bedrock in feet if encountered | Number | RIR/RAWP text |
-| Lot Area | Area of site in square feet | Number | RIR/RAWP text |
-| Proposed Use | Description of proposed use of site | Text | RIR/RAWP text |
-| Use Code | C = commercial / community <br> I = industrial / manufacturing \n M = mixed use \n R = residential \n S = school \n S/C = school / commercial \n S/M = school / mixed | Text | RIR/RAWP text |
+| _Variable_         | _Definition_ | _Data type_ | _Source_ |
+|--------------------|-----------------------|---------------------------------------------|---------------------------------------------|
+| Project ID         | Unique indicator containing strings of “CVCP” (or “CBCP) | Text | EPIC |
+| Street Address     | Physical address | Text | EPIC |
+| Borough            | K = Brooklyn | Text | EPIC |
+| Zip Code           | 5-digit zip code | Text | Geocoding |
+| X Coordinate       |  | Number | Geocoding |
+| Y Coordinate       |  | Number | Geocoding |
+| Latitude           |  | Number | Geocoding |
+| Longitude          |  | Number | Geocoding |
+| Elevation          | Range of height above mean sea level in feet | Text | RIR/RAWP text |
+| GW Flow            | Direction of groundwater flow | Text | RIR/RAWP text |
+| GW Depth           | Range of depth to GW from surface or cellar in feet | Text | RIR/RAWP text |
+| Bedrock            | Depth to bedrock in feet if encountered | Number | RIR/RAWP text |
+| Lot Area           | Area of site in square feet | Number | RIR/RAWP text |
+| Proposed Use       | Description of proposed use of site | Text | RIR/RAWP text |
+| Use Code           | C = commercial / community <br> I = industrial / manufacturing <br> M = mixed use <br> R = residential <br> S = school <br> S/C = school / commercial <br> S/M = school     / mixed | Text | RIR/RAWP text |
+| Cellar             | 1 = Yes <br> 0 = No | Number | RIR/RAWP text |
+| Elevator           | 1 = Yes <br> 0 = No | Number | RIR/RAWP text |
+| Current Conditions | Vacant, occupied, with supplemental descriptions | Text | RIR/RAWP text |
+| History            | Past uses where available | Text | RIR/RAWP text |
+| VB                 | Brand and thickness in mil | Text | RIR/RAWP text |
+| SSDS               | None (denoted by 0), passive, active, ventilated parking, or soil vapor extraction | Text | RIR/RAWP text |
+
+
+### Poster
+
+[Download the Poster.](./results/poster_2.0.pdf)
+
+
+### Link to Final Report
 
