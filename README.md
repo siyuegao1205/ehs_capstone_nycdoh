@@ -58,5 +58,5 @@ Note that RfCs are for non-cancer effects. The health-based guidance for TCE (tr
 | Bedrock | Depth to bedrock in feet if encountered | Number | RIR/RAWP text |
 | Lot Area | Area of site in square feet | Number | RIR/RAWP text |
 | Proposed Use | Description of proposed use of site | Text | RIR/RAWP text |
-| Use Code | C = commercial / community \n I = industrial / manufacturing \n M = mixed use \n R = residential \n S = school \n S/C = school / commercial \n S/M = school / mixed | Text | RIR/RAWP text |
+| Use Code | C = commercial / community <br> I = industrial / manufacturing \n M = mixed use \n R = residential \n S = school \n S/C = school / commercial \n S/M = school / mixed | Text | RIR/RAWP text |
 
