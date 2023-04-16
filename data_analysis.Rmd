@@ -145,7 +145,7 @@ names(summary_data) = names(bind_wide)
 *   Merge `project_id` with lat/long
 
 ```{r, eval = FALSE}
-geocoding = read_excel("Geocoding ALL.xlsx") %>% 
+geocoding = read_excel("results/Geocoding ALL.xlsx") %>% 
   janitor::clean_names() %>% 
   select(-name, -note) %>% 
   select(name = address, everything())
