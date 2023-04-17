@@ -63,8 +63,8 @@ Note that RfCs are for non-cancer effects. The health-based guidance for TCE (tr
 | Elevator           | 1 = Yes <br> 0 = No | Number | RIR/RAWP text |
 | Current Conditions | Vacant, occupied, with supplemental descriptions | Text | RIR/RAWP text |
 | History            | Past uses where available | Text | RIR/RAWP text |
-| VB                 | Brand and thickness in mil | Text | RIR/RAWP text |
-| SSDS               | None (denoted by 0), passive, active, ventilated parking, or soil vapor extraction | Text | RIR/RAWP text |
+| VB                 | Vapor barrier: brand and thickness in mil | Text | RIR/RAWP text |
+| SSDS               | Sub-slab depressurization system: none (denoted by 0), passive, active, ventilated parking, or soil vapor extraction | Text | RIR/RAWP text |
 
 
 ### Poster
