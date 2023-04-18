@@ -69,7 +69,7 @@ Note that RfCs are for non-cancer effects. The health-based guidance for TCE (tr
 
 ### Poster
 
-[Download the Poster.](./results/poster_2.0.pdf)
+[Download the Poster.](./results/Poster_NYC_DOHMH.pdf)
 
 
 ### Link to Final Report
