@@ -74,3 +74,6 @@ Note that RfCs are for non-cancer effects. The health-based guidance for TCE (tr
 
 ### Link to Final Report
 
+For more detailed information on this project, please refer to [Inventorying and Mapping Hazardous Soil Vapor in Brooklyn Brownfield Sites](https://docs.google.com/document/d/1mS0WCSIR38H_x4FoMLnNvR55U2ehn_wTAkNqwokdA9c/edit?usp=sharing).
+
+
